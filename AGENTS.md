@@ -7,7 +7,10 @@
 - [x] **Glyph Naming:** Migration from iFontMaker hex names to Glyphs 3 human-readable names (`-kannada` suffix).
 - [x] **Class Definition:** Created `@Consonants`, `@Vattus`, and 15 `@[vowel]Ligatures` classes.
 - [x] **Feature blwf:** Implemented vattu substitutions and fallback logic for half-letters (standalone ಸ್).
-- [x] **Feature akhn:** Expanded to 341 individual substitution rules (34 consonants × 10 vowels + 1 aiMatra) — fixes "Cannot substitute by multiple ligature glyphs".
+- [x] **Feature akhn:** Now empty (just a shell lookup). Matra rules moved to `pres`.
+- [x] **Feature pres:** 341 individual substitution rules (34 consonants × 10 vowels + 1 aiMatra), `lookupflag UseMarkFilteringSet @Matras`. Fires after `blwf` so vattus are already formed and skipped correctly.
+- [x] **Archaic Support:** Added naming and class logic for Vocalic L (ೢ) and Vocalic LL (ೣ) matras.
+- [ ] **Symmetry Check:** Ensuring `vocLMatraClass` and `vocLLMatraClass` contain exactly 36 entries to match `@Consonants`.
 
 ## Known Configuration
 
@@ -16,9 +19,12 @@
 - **Vowels with full ligature sets (34 each):** aaMatra, iMatra, iiMatra, uMatra, uuMatra, eMatra, eeMatra, oMatra, ooMatra, auMatra.
 - **Vowels with partial ligatures:** aiMatra (ka only), vocalicR/RR/L/LL (none — pending).
 
-## Why Individual Rules (not class-based)
+## Shaping Pipeline Notes
 
-Glyphs 3 / AFDKO throws "Cannot substitute by multiple ligature glyphs" when the `by` clause of a GSUB type-4 rule is a glyph class. Each rule must output a single glyph. `lookupflag IgnoreMarks` was also removed because Glyphs 3 assigns matras `category = Mark` (GDEF class 3), which IgnoreMarks would silently skip, preventing the rules from ever firing.
+- `akhn` fires BEFORE `blwf`. Matra rules in `akhn` would consume the 2nd consonant before `blwf` can form its vattu — breaking clusters like ಕ್ಕೂ.
+- `pres` fires AFTER `blwf`. Vattus are already formed as marks. `lookupflag UseMarkFilteringSet @Matras` skips vattu marks while keeping matras visible (even if matras are GDEF marks).
+- Individual rules (not class-based) because Glyphs 3 / AFDKO throws "Cannot substitute by multiple ligature glyphs" when `by` clause is a class.
+- `@Matras` class in sidebar = all 15 standalone matra glyphs (used only for the UseMarkFilteringSet filter).
 
 ## Next Steps
 
