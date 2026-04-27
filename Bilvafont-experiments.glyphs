@@ -3,7 +3,7 @@
 .formatVersion = 3;
 DisplayStrings = (
 "",
-"/sa_uuMatra-kannada"
+"/ka_uuMatra-kannada"
 );
 classes = (
 {
@@ -643,21 +643,23 @@ features = (
 {
 automatic = 1;
 code = "feature blwf;
+feature half;
 feature psts;
 feature rphf;
 ";
 tag = aalt;
 },
 {
-code = "# 1. ಮೊದಲು ಎಲ್ಲ ವತ್ತುಗಳ ನಿಯಮಗಳನ್ನು ಹಾಕಿ (Priority 1)
-sub halant-kannada ka-kannada by kavattu-kannada;
+code = "sub halant-kannada ka-kannada by kavattu-kannada;
 sub halant-kannada la-kannada by lavattu-kannada;
-# ... ಉಳಿದ ವತ್ತುಗಳನ್ನು ಇಲ್ಲಿ ಸೇರಿಸಿ ...
-
-# 2. ಕೊನೆಯಲ್ಲಿ ಮಾತ್ರ 'ಸ್' ನಿಯಮ ಇರಲಿ (Priority 2 / Fallback)
-# ವತ್ತು ಮಾಡಲು ಸಾಧ್ಯವಾಗದಿದ್ದಾಗ ಮಾತ್ರ ಇದು ಕೆಲಸ ಮಾಡುತ್ತದೆ.
-sub sa-kannada halant-kannada by sa_halant-kannada;";
+# ... ಉಳಿದ ವತ್ತುಗಳನ್ನು ಇಲ್ಲಿ ಸೇರಿಸಿ ...";
 tag = blwf;
+},
+{
+code = "# ಸ + ್ → ಸ್ (half-form), only when not followed by a consonant.
+# Fires after blwf, so halant+consonant vattus are already consumed.
+sub sa-kannada halant-kannada by sa_halant-kannada;";
+tag = half;
 },
 {
 code = "lookup akhn_matras {
@@ -15852,6 +15854,12 @@ glyphname = "ka_aiMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -16176,6 +16184,12 @@ glyphname = "ka_aaMatra-kannada";
 lastChange = "2026-04-27 01:06:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -16410,6 +16424,12 @@ glyphname = "ka_iMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -16550,6 +16570,12 @@ glyphname = "ka_iiMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -16745,6 +16771,12 @@ glyphname = "ka_uMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -16958,9 +16990,15 @@ unicode = 58907;
 category = Letter;
 direction = LTR;
 glyphname = "ka_uuMatra-kannada";
-lastChange = "2026-04-27 00:20:20 +0000";
+lastChange = "2026-04-27 03:38:56 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (531,-16);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17235,6 +17273,12 @@ glyphname = "ka_eMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17420,6 +17464,12 @@ glyphname = "ka_eeMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17657,6 +17707,12 @@ glyphname = "ka_oMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -17913,6 +17969,12 @@ glyphname = "ka_ooMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -18228,6 +18290,12 @@ glyphname = "ka_auMatra-kannada";
 lastChange = "2026-04-27 00:20:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
