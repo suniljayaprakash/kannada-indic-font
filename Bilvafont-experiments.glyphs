@@ -1,6 +1,10 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+"",
+"/just-aiMatra-kannada"
+);
 classes = (
 {
 code = "ka_auMatra-kannada kha_auMatra-kannada ga_auMatra-kannada gha_auMatra-kannada nga_auMatra-kannada ca_auMatra-kannada cha_auMatra-kannada ja_auMatra-kannada jha_auMatra-kannada nya_auMatra-kannada tta_auMatra-kannada ttha_auMatra-kannada dda_auMatra-kannada ddha_auMatra-kannada nna_auMatra-kannada ta_auMatra-kannada tha_auMatra-kannada da_auMatra-kannada dha_auMatra-kannada na_auMatra-kannada pa_auMatra-kannada pha_auMatra-kannada ba_auMatra-kannada bha_auMatra-kannada ma_auMatra-kannada ya_auMatra-kannada ra_auMatra-kannada la_auMatra-kannada va_auMatra-kannada sha_auMatra-kannada ssa_auMatra-kannada sa_auMatra-kannada ha_auMatra-kannada lla_auMatra-kannada 
@@ -1056,9 +1060,45 @@ code = "lookup psts_matras {
   sub sa-kannada auMatra-kannada by sa_auMatra-kannada;
   sub ha-kannada auMatra-kannada by ha_auMatra-kannada;
   sub lla-kannada auMatra-kannada by lla_auMatra-kannada;
-  # --- aiMatra ---
-  sub ka-kannada aiMatra-kannada by ka_aiMatra-kannada;
-} psts_matras;";
+} psts_matras;
+
+lookup psts_aiMatra {
+  lookupflag UseMarkFilteringSet @Matras;
+  sub ba-kannada' aiMatra-kannada by ba_eMatra-kannada;
+  sub bha-kannada' aiMatra-kannada by bha_eMatra-kannada;
+  sub ca-kannada' aiMatra-kannada by ca_eMatra-kannada;
+  sub cha-kannada' aiMatra-kannada by cha_eMatra-kannada;
+  sub da-kannada' aiMatra-kannada by da_eMatra-kannada;
+  sub dda-kannada' aiMatra-kannada by dda_eMatra-kannada;
+  sub ddha-kannada' aiMatra-kannada by ddha_eMatra-kannada;
+  sub dha-kannada' aiMatra-kannada by dha_eMatra-kannada;
+  sub ga-kannada' aiMatra-kannada by ga_eMatra-kannada;
+  sub gha-kannada' aiMatra-kannada by gha_eMatra-kannada;
+  sub ha-kannada' aiMatra-kannada by ha_eMatra-kannada;
+  sub ja-kannada' aiMatra-kannada by ja_eMatra-kannada;
+  sub jha-kannada' aiMatra-kannada by jha_eMatra-kannada;
+  sub ka-kannada' aiMatra-kannada by ka_eMatra-kannada;
+  sub kha-kannada' aiMatra-kannada by kha_eMatra-kannada;
+  sub la-kannada' aiMatra-kannada by la_eMatra-kannada;
+  sub lla-kannada' aiMatra-kannada by lla_eMatra-kannada;
+  sub ma-kannada' aiMatra-kannada by ma_eMatra-kannada;
+  sub na-kannada' aiMatra-kannada by na_eMatra-kannada;
+  sub nga-kannada' aiMatra-kannada by nga_eMatra-kannada;
+  sub nna-kannada' aiMatra-kannada by nna_eMatra-kannada;
+  sub nya-kannada' aiMatra-kannada by nya_eMatra-kannada;
+  sub pa-kannada' aiMatra-kannada by pa_eMatra-kannada;
+  sub pha-kannada' aiMatra-kannada by pha_eMatra-kannada;
+  sub ra-kannada' aiMatra-kannada by ra_eMatra-kannada;
+  sub sa-kannada' aiMatra-kannada by sa_eMatra-kannada;
+  sub sha-kannada' aiMatra-kannada by sha_eMatra-kannada;
+  sub ssa-kannada' aiMatra-kannada by ssa_eMatra-kannada;
+  sub ta-kannada' aiMatra-kannada by ta_eMatra-kannada;
+  sub tha-kannada' aiMatra-kannada by tha_eMatra-kannada;
+  sub tta-kannada' aiMatra-kannada by tta_eMatra-kannada;
+  sub ttha-kannada' aiMatra-kannada by ttha_eMatra-kannada;
+  sub va-kannada' aiMatra-kannada by va_eMatra-kannada;
+  sub ya-kannada' aiMatra-kannada by ya_eMatra-kannada;
+} psts_aiMatra;";
 tag = psts;
 },
 {
@@ -109919,6 +109959,140 @@ unicode = 59274;
 {
 category = Mark;
 direction = LTR;
+glyphname = "just-aiMatra-kannada";
+lastChange = "2026-04-27 04:45:54 +0000";
+layers = (
+{
+anchors = (
+{
+name = _bottom;
+pos = (-307,137);
+}
+);
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-224,-173,qs),
+(-218,-138,o),
+(-185,-125,qs),
+(-174,-121,o),
+(-159,-131,q),
+(-141,-146,o),
+(-138,-166,qs),
+(-135,-178,o),
+(-144,-185,q),
+(-155,-190,o),
+(-170,-193,qs),
+(-191,-196,o),
+(-226,-191,q),
+(-226,-185,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(131,7,qs),
+(138,38,o),
+(131,79,qs),
+(128,103,o),
+(119,127,qs),
+(117,133,o),
+(116,135,q),
+(116,136,o),
+(114,138,o),
+(114,140,o),
+(112,143,o),
+(111,144,qs),
+(108,147,o),
+(107,149,q),
+(99,155,o),
+(93,158,q),
+(69,166,o),
+(50,150,qs),
+(43,143,l),
+(41,139,o),
+(39,136,q),
+(37,130,o),
+(36,126,q),
+(36,113,ls),
+(36,112,o),
+(37,107,o),
+(38,106,q),
+(38,104,o),
+(40,98,qs),
+(43,92,o),
+(44,91,q),
+(48,78,o),
+(49,66,q),
+(58,17,o),
+(36,-5,q),
+(36,-6,o),
+(34,-6,q),
+(33,-7,ls),
+(32,-8,o),
+(25,-10,o),
+(23,-10,qs),
+(22,-10,o),
+(15,-9,o),
+(13,-9,qs),
+(-17,-7,o),
+(-31,-35,qs),
+(-38,-48,o),
+(-35,-63,qs),
+(-32,-83,o),
+(-13,-93,qs),
+(-3,-98,o),
+(5,-98,qs),
+(15,-98,l),
+(50,-120,o),
+(66,-182,o),
+(48,-222,qs),
+(31,-261,o),
+(-40,-330,o),
+(-77,-344,qs),
+(-110,-357,o),
+(-147,-334,qs),
+(-179,-313,o),
+(-200,-277,q),
+(-134,-279,o),
+(-97,-253,qs),
+(-45,-216,o),
+(-56,-152,qs),
+(-64,-100,o),
+(-108,-66,qs),
+(-160,-25,o),
+(-216,-48,qs),
+(-292,-78,o),
+(-306,-159,qs),
+(-318,-224,o),
+(-283,-296,qs),
+(-251,-365,o),
+(-192,-404,qs),
+(-120,-449,o),
+(-49,-422,qs),
+(4,-403,o),
+(100,-310,o),
+(124,-255,qs),
+(153,-190,o),
+(138,-131,qs),
+(129,-92,o),
+(99,-60,q),
+(123,-33,o)
+);
+}
+);
+width = 213;
+}
+);
+note = uni0CD6;
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
 glyphname = "anusvara-kannada";
 lastChange = "2026-04-27 04:12:52 +0000";
 layers = (
@@ -111740,133 +111914,6 @@ note = uni0CCD;
 script = Kannada;
 subCategory = Nonspacing;
 unicode = 3277;
-},
-{
-direction = LTR;
-glyphname = "just-aiMatra-kannada";
-lastChange = "2026-04-27 04:29:28 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-224,-173,qs),
-(-218,-138,o),
-(-185,-125,qs),
-(-174,-121,o),
-(-159,-131,q),
-(-141,-146,o),
-(-138,-166,qs),
-(-135,-178,o),
-(-144,-185,q),
-(-155,-190,o),
-(-170,-193,qs),
-(-191,-196,o),
-(-226,-191,q),
-(-226,-185,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(131,7,qs),
-(138,38,o),
-(131,79,qs),
-(128,103,o),
-(119,127,qs),
-(117,133,o),
-(116,135,q),
-(116,136,o),
-(114,138,o),
-(114,140,o),
-(112,143,o),
-(111,144,qs),
-(108,147,o),
-(107,149,q),
-(99,155,o),
-(93,158,q),
-(69,166,o),
-(50,150,qs),
-(43,143,l),
-(41,139,o),
-(39,136,q),
-(37,130,o),
-(36,126,q),
-(36,113,ls),
-(36,112,o),
-(37,107,o),
-(38,106,q),
-(38,104,o),
-(40,98,qs),
-(43,92,o),
-(44,91,q),
-(48,78,o),
-(49,66,q),
-(58,17,o),
-(36,-5,q),
-(36,-6,o),
-(34,-6,q),
-(33,-7,ls),
-(32,-8,o),
-(25,-10,o),
-(23,-10,qs),
-(22,-10,o),
-(15,-9,o),
-(13,-9,qs),
-(-17,-7,o),
-(-31,-35,qs),
-(-38,-48,o),
-(-35,-63,qs),
-(-32,-83,o),
-(-13,-93,qs),
-(-3,-98,o),
-(5,-98,qs),
-(15,-98,l),
-(50,-120,o),
-(66,-182,o),
-(48,-222,qs),
-(31,-261,o),
-(-40,-330,o),
-(-77,-344,qs),
-(-110,-357,o),
-(-147,-334,qs),
-(-179,-313,o),
-(-200,-277,q),
-(-134,-279,o),
-(-97,-253,qs),
-(-45,-216,o),
-(-56,-152,qs),
-(-64,-100,o),
-(-108,-66,qs),
-(-160,-25,o),
-(-216,-48,qs),
-(-292,-78,o),
-(-306,-159,qs),
-(-318,-224,o),
-(-283,-296,qs),
-(-251,-365,o),
-(-192,-404,qs),
-(-120,-449,o),
-(-49,-422,qs),
-(4,-403,o),
-(100,-310,o),
-(124,-255,qs),
-(153,-190,o),
-(138,-131,qs),
-(129,-92,o),
-(99,-60,q),
-(123,-33,o)
-);
-}
-);
-width = 213;
-}
-);
-note = uni0CD6;
-script = Kannada;
-subCategory = Nonspacing;
 },
 {
 category = Mark;

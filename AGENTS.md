@@ -10,7 +10,8 @@
 - [x] **Feature akhn:** Now empty (just a shell lookup). Matra rules moved to `pres`.
 - [x] **Feature pres:** 341 individual substitution rules (34 consonants × 10 vowels + 1 aiMatra), `lookupflag UseMarkFilteringSet @Matras`. Fires after `blwf` so vattus are already formed and skipped correctly.
 - [x] **Archaic Support:** Added naming and class logic for Vocalic L (ೢ) and Vocalic LL (ೣ) matras.
-- [ ] **Symmetry Check:** Ensuring `vocLMatraClass` and `vocLLMatraClass` contain exactly 36 entries to match `@Consonants`.
+- [x] **Symmetry Check:** Ensuring `vocLMatraClass` and `vocLLMatraClass` contain exactly 36 entries to match `@Consonants`.
+- [x] **Compositional aiMatra:** Removed `ka_aiMatra-kannada` ligature rule; added `psts_aiMatra` lookup (Type-6 chaining context) so `consonant + aiMatra` renders as `consonant_eMatra-kannada` + standalone `aiMatra-kannada` for all 34 consonants.
 
 ## Known Configuration
 
