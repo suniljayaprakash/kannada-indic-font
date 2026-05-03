@@ -1,9 +1,6 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
-DisplayStrings = (
-""
-);
 classes = (
 {
 code = "ka_auMatra-kannada kha_auMatra-kannada ga_auMatra-kannada gha_auMatra-kannada nga_auMatra-kannada ca_auMatra-kannada cha_auMatra-kannada ja_auMatra-kannada jha_auMatra-kannada nya_auMatra-kannada tta_auMatra-kannada ttha_auMatra-kannada dda_auMatra-kannada ddha_auMatra-kannada nna_auMatra-kannada ta_auMatra-kannada tha_auMatra-kannada da_auMatra-kannada dha_auMatra-kannada na_auMatra-kannada pa_auMatra-kannada pha_auMatra-kannada ba_auMatra-kannada bha_auMatra-kannada ma_auMatra-kannada ya_auMatra-kannada ra_auMatra-kannada la_auMatra-kannada va_auMatra-kannada sha_auMatra-kannada ssa_auMatra-kannada sa_auMatra-kannada ha_auMatra-kannada lla_auMatra-kannada 
@@ -639,27 +636,17 @@ uniE78D
 }
 );
 date = "2026-04-18 23:18:53 +0000";
-familyName = Bilvatestfont;
+familyName = "Bilvatestfont v4";
 featurePrefixes = (
 {
-code = "languagesystem knda dflt;
+code = "languagesystem DFLT dflt;
+languagesystem knda dflt;
 languagesystem knd2 dflt;
-languagesystem DFLT dflt;";
+";
 name = Languagesystems;
 }
 );
 features = (
-{
-code = "feature blwf;
-feature haln;
-feature akhn;
-feature psts;
-feature calt;
-feature ccmp;
-feature rphf;
-";
-tag = aalt;
-},
 {
 code = "sub halant-kannada ka-kannada by kavattu-kannada;
 sub zerowidthjoiner halant-kannada ka-kannada by kavattu-kannada;
@@ -825,12 +812,15 @@ code = "lookup haln_explicit {
   sub ka-kannada halant-kannada by ka_halant-kannada;
   sub kha-kannada halant-kannada by kha_halant-kannada;
   sub ra-kannada halant-kannada by ra_halant-kannada;
+  sub ra-kannada zerowidthjoiner halant-kannada by ra_halant_2-kannada;
+  sub ra_halant-kannada zerowidthjoiner by ra_halant_2-kannada;
   sub rra-kannada halant-kannada by rra_halant-kannada;
   sub la-kannada halant-kannada by la_halant-kannada;
   sub lla-kannada halant-kannada by lla_halant-kannada;
   sub llla-kannada halant-kannada by llla_halant-kannada;
   sub ma-kannada halant-kannada by ma_halant-kannada;
   sub na-kannada halant-kannada by na_halant-kannada;
+  sub na-kannada zerowidthjoiner halant-kannada by nakaara_pollu-kannada;
   sub nga-kannada halant-kannada by nga_halant-kannada;
   sub nna-kannada halant-kannada by nna_halant-kannada;
   sub nya-kannada halant-kannada by nya_halant-kannada;
@@ -1336,11 +1326,6 @@ code = "lookup psts_matras {
 lookup psts_matras;
 ";
 tag = psts;
-},
-{
-code = "sub na_halant-kannada zerowidthnonjoiner by nakaara_pollu-kannada;
-";
-tag = calt;
 },
 {
 code = "lookup ccmp_knda_1 {
@@ -25302,6 +25287,128 @@ note = uni0CB0;
 script = kannada;
 subCategory = Other;
 unicode = 3248;
+},
+{
+category = Letter;
+glyphname = "ra_halant_2-kannada";
+lastChange = "2026-05-03 16:05:51 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(697,494,qs),
+(737,494,l),
+(763,491,o),
+(779,480,qs),
+(798,466,o),
+(795,447,qs),
+(793,429,o),
+(778,420,qs),
+(759,409,o),
+(726,428,qs),
+(691,448,o),
+(685,493,q),
+(689,494,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(343,465,q),
+(424,477,o),
+(471,431,qs),
+(520,385,o),
+(526,301,qs),
+(532,218,o),
+(493,155,qs),
+(452,90,o),
+(382,86,qs),
+(247,76,o),
+(183,138,qs),
+(130,188,o),
+(136,273,qs),
+(141,357,o),
+(193,412,qs),
+(245,468,o),
+(309,456,qs),
+(328,453,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(6,527,o),
+(10,510,qs),
+(14,494,o),
+(43,476,o),
+(59,480,qs),
+(101,491,o),
+(167,496,q),
+(155,488,o),
+(134,467,qs),
+(62,387,o),
+(56,278,qs),
+(48,157,o),
+(127,80,qs),
+(218,-6,o),
+(387,6,qs),
+(499,14,o),
+(561,113,qs),
+(614,196,o),
+(606,307,qs),
+(598,422,o),
+(526,489,qs),
+(519,496,o),
+(515,499,q),
+(537,499,o),
+(550,498,qs),
+(560,498,o),
+(596,497,o),
+(604,497,q),
+(612,404,o),
+(685,359,qs),
+(755,319,o),
+(814,348,qs),
+(870,377,o),
+(875,440,qs),
+(882,507,o),
+(824,546,qs),
+(780,577,o),
+(707,575,q),
+(736,612,o),
+(799,642,qs),
+(813,650,o),
+(823,681,o),
+(816,696,qs),
+(809,710,o),
+(778,721,o),
+(763,714,qs),
+(697,680,o),
+(660,642,qs),
+(629,611,o),
+(616,576,q),
+(606,577,o),
+(563,578,o),
+(552,578,qs),
+(484,580,o),
+(415,582,qs),
+(299,583,o),
+(213,579,qs),
+(109,574,o),
+(40,558,qs),
+(24,554,o)
+);
+}
+);
+width = 945;
+}
+);
+note = uniE7B2;
+script = kannada;
+subCategory = Other;
 },
 {
 category = Letter;
@@ -144909,7 +145016,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = Bilvatestfont;
+value = "Bilvatestfont v4";
 }
 );
 }
@@ -144920,5 +145027,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 18;
+versionMinor = 0;
 }
