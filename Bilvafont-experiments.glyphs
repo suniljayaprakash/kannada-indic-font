@@ -641,7 +641,7 @@ uniE78D
 }
 );
 date = "2026-04-18 23:18:53 +0000";
-familyName = "Bilvatestfont v4";
+familyName = Nanni;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -982,9 +982,7 @@ tag = akhn;
 {
 code = "lookup psts_matras {
   lookupflag UseMarkFilteringSet @Matras;
-#  lookupflag 0; # Ensure it's not skipping marks!
-#sub sha-kannada halant-kannada ra-kannada zerowidthjoiner iiMatra-kannada by shrii-kannada;
-#        sub sha-kannada halant-kannada ra-kannada zerowidthnonjoiner iiMatra-kannada by shrii_2-kannada;
+
   # --- aaMatra ---
   sub ka-kannada aaMatra-kannada by ka_aaMatra-kannada;
   sub kha-kannada aaMatra-kannada by kha_aaMatra-kannada;
@@ -1338,14 +1336,9 @@ code = "lookup ccmp_knda_1 {
 	sub oMatra-kannada by eMatra-kannada uuMatra-kannada;
 } ccmp_knda_1;
 
-#lookup shrii_fixes {
-#    sub sha-kannada halant-kannada ra-kannada zerowidthjoiner iiMatra-kannada by shrii-kannada;
-#    sub sha-kannada halant-kannada ra-kannada zerowidthnonjoiner iiMatra-kannada by shrii_2-kannada;
-#} shrii_fixes;
-
 script knda;
 lookup ccmp_knda_1;
-#lookup shrii_fixes;
+
 ";
 tag = ccmp;
 },
@@ -29300,7 +29293,7 @@ subCategory = Other;
 {
 category = Letter;
 glyphname = "shrii-kannada";
-lastChange = "2026-05-03 04:52:42 +0000";
+lastChange = "2026-05-03 23:46:00 +0000";
 layers = (
 {
 layerId = m01;
@@ -29458,6 +29451,7 @@ width = 1020;
 note = uniE7B0;
 script = kannada;
 subCategory = Other;
+unicode = 3292;
 },
 {
 category = Letter;
@@ -130829,6 +130823,169 @@ subCategory = Other;
 unicode = 59314;
 },
 {
+category = Letter;
+glyphname = "shrii_3-kannada.001";
+lastChange = "2026-05-03 23:46:16 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(782,346,qs),
+(779,212,o),
+(720,120,qs),
+(696,81,o),
+(670,68,qs),
+(650,58,o),
+(632,68,qs),
+(587,92,o),
+(577,138,qs),
+(568,185,o),
+(587,247,qs),
+(605,305,o),
+(644,364,qs),
+(678,417,o),
+(713,445,qs),
+(739,467,o),
+(765,479,q),
+(783,417,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(166,479,o),
+(174,447,o),
+(202,431,o),
+(219,436,qs),
+(250,444,o),
+(273,442,qs),
+(290,440,o),
+(299,433,qs),
+(317,420,o),
+(315,390,qs),
+(313,354,o),
+(290,328,qs),
+(267,300,o),
+(235,302,qs),
+(234,302,ls),
+(218,302,o),
+(195,279,o),
+(194,263,qs),
+(194,262,ls),
+(194,246,o),
+(217,222,o),
+(233,222,qs),
+(266,221,o),
+(308,221,qs),
+(312,221,o),
+(324,222,o),
+(326,222,qs),
+(327,222,l),
+(329,221,o),
+(338,218,o),
+(340,217,qs),
+(367,208,o),
+(380,195,qs),
+(390,186,o),
+(392,175,qs),
+(397,151,o),
+(373,121,qs),
+(345,88,o),
+(300,76,qs),
+(253,65,o),
+(211,89,qs),
+(128,139,o),
+(107,234,qs),
+(87,326,o),
+(126,432,qs),
+(166,539,o),
+(247,609,qs),
+(332,682,o),
+(434,685,qs),
+(621,691,o),
+(710,583,qs),
+(723,568,o),
+(732,552,q),
+(701,538,o),
+(662,507,qs),
+(617,470,o),
+(532,337,o),
+(511,270,qs),
+(484,187,o),
+(499,121,qs),
+(517,39,o),
+(595,-3,qs),
+(648,-31,o),
+(706,-3,qs),
+(751,20,o),
+(787,77,qs),
+(859,187,o),
+(862,344,qs),
+(864,429,o),
+(841,504,q),
+(848,505,o),
+(869,509,q),
+(873,509,o),
+(893,513,qs),
+(912,517,o),
+(918,518,qs),
+(934,521,o),
+(953,549,o),
+(949,565,qs),
+(946,581,o),
+(919,600,o),
+(902,597,qs),
+(898,596,o),
+(881,593,o),
+(878,592,qs),
+(858,588,o),
+(854,588,q),
+(845,586,o),
+(816,580,o),
+(810,579,q),
+(797,603,o),
+(772,635,qs),
+(658,771,o),
+(432,765,qs),
+(302,761,o),
+(195,669,qs),
+(97,585,o),
+(51,460,qs),
+(5,333,o),
+(29,217,qs),
+(59,85,o),
+(170,20,qs),
+(242,-21,o),
+(319,-1,qs),
+(388,16,o),
+(434,70,qs),
+(483,129,o),
+(471,192,qs),
+(455,264,o),
+(365,293,q),
+(364,293,l),
+(393,336,o),
+(395,387,qs),
+(398,461,o),
+(346,498,qs),
+(291,539,o),
+(197,513,qs),
+(181,508,o)
+);
+}
+);
+width = 1020;
+}
+);
+note = uniE7B0;
+script = kannada;
+subCategory = Other;
+unicode = 59315;
+},
+{
 glyphname = zero;
 layers = (
 {
@@ -144651,14 +144808,14 @@ name = Medium;
 properties = (
 {
 key = postscriptFontName;
-value = Bilvatestfont;
+value = Nanni;
 },
 {
 key = postscriptFullNames;
 values = (
 {
 language = ENG;
-value = Bilvatestfont;
+value = Nanni;
 }
 );
 },
@@ -144704,7 +144861,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = "Bilvatestfont v4";
+value = Nanni;
 }
 );
 }
@@ -144715,5 +144872,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 1;
 }
