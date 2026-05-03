@@ -1,6 +1,9 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+""
+);
 classes = (
 {
 code = "ka_auMatra-kannada kha_auMatra-kannada ga_auMatra-kannada gha_auMatra-kannada nga_auMatra-kannada ca_auMatra-kannada cha_auMatra-kannada ja_auMatra-kannada jha_auMatra-kannada nya_auMatra-kannada tta_auMatra-kannada ttha_auMatra-kannada dda_auMatra-kannada ddha_auMatra-kannada nna_auMatra-kannada ta_auMatra-kannada tha_auMatra-kannada da_auMatra-kannada dha_auMatra-kannada na_auMatra-kannada pa_auMatra-kannada pha_auMatra-kannada ba_auMatra-kannada bha_auMatra-kannada ma_auMatra-kannada ya_auMatra-kannada ra_auMatra-kannada la_auMatra-kannada va_auMatra-kannada sha_auMatra-kannada ssa_auMatra-kannada sa_auMatra-kannada ha_auMatra-kannada lla_auMatra-kannada 
@@ -70,6 +73,11 @@ name = auMatraClass;
 {
 code = "aaMatra-kannada aiMatra-kannada auMatra-kannada eMatra-kannada eeMatra-kannada iMatra-kannada iiMatra-kannada oMatra-kannada ooMatra-kannada uMatra-kannada uuMatra-kannada vocalicLLMatra-kannada vocalicLMatra-kannada vocalicRMatra-kannada vocalicRRMatra-kannada";
 name = Matras;
+},
+{
+code = "ka-kannada kha-kannada ga-kannada gha-kannada nga-kannada ca-kannada cha-kannada ja-kannada jha-kannada nya-kannada tta-kannada ttha-kannada dda-kannada ddha-kannada nna-kannada ta-kannada tha-kannada da-kannada dha-kannada na-kannada pa-kannada pha-kannada ba-kannada bha-kannada ma-kannada ya-kannada ra-kannada la-kannada va-kannada sha-kannada ssa-kannada sa-kannada ha-kannada lla-kannada llla-kannada rra-kannada kavattu-kannada khavattu-kannada gavattu-kannada ghavattu-kannada ngavattu-kannada cavattu-kannada chavattu-kannada javattu-kannada jhavattu-kannada nyavattu-kannada ttavattu-kannada tthavattu-kannada ddavattu-kannada ddhavattu-kannada nnavattu-kannada tavattu-kannada thavattu-kannada davattu-kannada dhavattu-kannada navattu-kannada pavattu-kannada phavattu-kannada bavattu-kannada bhavattu-kannada mavattu-kannada yavattu-kannada rravattu-kannada lavattu-kannada vavattu-kannada shavattu-kannada ssavattu-kannada savattu-kannada havattu-kannada llavattu-kannada lllavattu-kannada aaMatra-kannada iMatra-kannada iiMatra-kannada uMatra-kannada uuMatra-kannada eMatra-kannada eeMatra-kannada aiMatra-kannada oMatra-kannada ooMatra-kannada auMatra-kannada vocalicRMatra-kannada vocalicRRMatra-kannada vocalicLMatra-kannada vocalicLLMatra-kannada
+";
+name = KannadaAll;
 }
 );
 customParameters = (
@@ -634,107 +642,170 @@ date = "2026-04-18 23:18:53 +0000";
 familyName = Bilvatestfont;
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;
-languagesystem knda dflt;
-languagesystem knd2 dflt;";
+code = "languagesystem knda dflt;
+languagesystem knd2 dflt;
+languagesystem DFLT dflt;";
 name = Languagesystems;
 }
 );
 features = (
 {
-automatic = 1;
 code = "feature blwf;
-feature vatu;
 feature haln;
 feature akhn;
 feature psts;
+feature calt;
+feature ccmp;
 feature rphf;
 ";
 tag = aalt;
 },
 {
 code = "sub halant-kannada ka-kannada by kavattu-kannada;
-sub halant-kannada kha-kannada by khavattu-kannada;
-sub halant-kannada ga-kannada by gavattu-kannada;
-sub halant-kannada gha-kannada by ghavattu-kannada;
-sub halant-kannada nga-kannada by ngavattu-kannada;
-sub halant-kannada ca-kannada by cavattu-kannada;
-sub halant-kannada cha-kannada by chavattu-kannada;
-sub halant-kannada ja-kannada by javattu-kannada;
-sub halant-kannada jha-kannada by jhavattu-kannada;
-sub halant-kannada nya-kannada by nyavattu-kannada;
-sub halant-kannada tta-kannada by ttavattu-kannada;
-sub halant-kannada ttha-kannada by tthavattu-kannada;
-sub halant-kannada dda-kannada by ddavattu-kannada;
-sub halant-kannada ddha-kannada by ddhavattu-kannada;
-sub halant-kannada nna-kannada by nnavattu-kannada;
-sub halant-kannada ta-kannada by tavattu-kannada;
-sub halant-kannada tha-kannada by thavattu-kannada;
-sub halant-kannada da-kannada by davattu-kannada;
-sub halant-kannada dha-kannada by dhavattu-kannada;
-sub halant-kannada na-kannada by navattu-kannada;
-sub halant-kannada pa-kannada by pavattu-kannada;
-sub halant-kannada pha-kannada by phavattu-kannada;
-sub halant-kannada ba-kannada by bavattu-kannada;
-sub halant-kannada bha-kannada by bhavattu-kannada;
-sub halant-kannada ma-kannada by mavattu-kannada;
-sub halant-kannada ya-kannada by yavattu-kannada;
-sub halant-kannada ra-kannada by ravattu-kannada;
-sub halant-kannada rra-kannada by rravattu-kannada;
-sub halant-kannada la-kannada by lavattu-kannada;
-sub halant-kannada va-kannada by vavattu-kannada;
-sub halant-kannada sha-kannada by shavattu-kannada;
-sub halant-kannada ssa-kannada by ssavattu-kannada;
-sub halant-kannada sa-kannada by savattu-kannada;
-sub halant-kannada ha-kannada by havattu-kannada;
-sub halant-kannada lla-kannada by llavattu-kannada;
-sub halant-kannada llla-kannada by lllavattu-kannada;";
-tag = blwf;
-},
-{
-code = "lookup vatu_right_sub {
-  sub kavattu-kannada by kavattu_r-kannada;
-  sub khavattu-kannada by khavattu_r-kannada;
-  sub gavattu-kannada by gavattu_r-kannada;
-  sub ghavattu-kannada by ghavattu_r-kannada;
-  sub ngavattu-kannada by ngavattu_r-kannada;
-  sub cavattu-kannada by cavattu_r-kannada;
-  sub chavattu-kannada by chavattu_r-kannada;
-  sub javattu-kannada by javattu_r-kannada;
-  sub jhavattu-kannada by jhavattu_r-kannada;
-  sub nyavattu-kannada by nyavattu_r-kannada;
-  sub ttavattu-kannada by ttavattu_r-kannada;
-  sub tthavattu-kannada by tthavattu_r-kannada;
-  sub ddavattu-kannada by ddavattu_r-kannada;
-  sub ddhavattu-kannada by ddhavattu_r-kannada;
-  sub nnavattu-kannada by nnavattu_r-kannada;
-  sub tavattu-kannada by tavattu_r-kannada;
-  sub thavattu-kannada by thavattu_r-kannada;
-  sub davattu-kannada by davattu_r-kannada;
-  sub dhavattu-kannada by dhavattu_r-kannada;
-  sub navattu-kannada by navattu_r-kannada;
-  sub pavattu-kannada by pavattu_r-kannada;
-  sub phavattu-kannada by phavattu_r-kannada;
-  sub bavattu-kannada by bavattu_r-kannada;
-  sub bhavattu-kannada by bhavattu_r-kannada;
-  sub mavattu-kannada by mavattu_r-kannada;
-  sub yavattu-kannada by yavattu_r-kannada;
-  sub ravattu-kannada by ravattu_r-kannada;
-  sub rravattu-kannada by rravattu_r-kannada;
-  sub lavattu-kannada by lavattu_r-kannada;
-  sub vavattu-kannada by vavattu_r-kannada;
-  sub shavattu-kannada by shavattu_r-kannada;
-  sub ssavattu-kannada by ssavattu_r-kannada;
-  sub savattu-kannada by savattu_r-kannada;
-  sub havattu-kannada by havattu_r-kannada;
-  sub llavattu-kannada by llavattu_r-kannada;
-  sub lllavattu-kannada by lllavattu_r-kannada;
-} vatu_right_sub;
+sub zerowidthjoiner halant-kannada ka-kannada by kavattu-kannada;
+sub halant-kannada zerowidthjoiner ka-kannada by kavattu-kannada;
 
-lookup vatu_right_ctx {
-  sub [kavattu-kannada khavattu-kannada gavattu-kannada ghavattu-kannada ngavattu-kannada cavattu-kannada chavattu-kannada javattu-kannada jhavattu-kannada nyavattu-kannada ttavattu-kannada tthavattu-kannada ddavattu-kannada ddhavattu-kannada nnavattu-kannada tavattu-kannada thavattu-kannada davattu-kannada dhavattu-kannada navattu-kannada pavattu-kannada phavattu-kannada bavattu-kannada bhavattu-kannada mavattu-kannada yavattu-kannada ravattu-kannada rravattu-kannada lavattu-kannada vavattu-kannada shavattu-kannada ssavattu-kannada savattu-kannada havattu-kannada llavattu-kannada lllavattu-kannada kavattu_r-kannada khavattu_r-kannada gavattu_r-kannada ghavattu_r-kannada ngavattu_r-kannada cavattu_r-kannada chavattu_r-kannada javattu_r-kannada jhavattu_r-kannada nyavattu_r-kannada ttavattu_r-kannada tthavattu_r-kannada ddavattu_r-kannada ddhavattu_r-kannada nnavattu_r-kannada tavattu_r-kannada thavattu_r-kannada davattu_r-kannada dhavattu_r-kannada navattu_r-kannada pavattu_r-kannada phavattu_r-kannada bavattu_r-kannada bhavattu_r-kannada mavattu_r-kannada yavattu_r-kannada ravattu_r-kannada rravattu_r-kannada lavattu_r-kannada vavattu_r-kannada shavattu_r-kannada ssavattu_r-kannada savattu_r-kannada havattu_r-kannada llavattu_r-kannada lllavattu_r-kannada] [kavattu-kannada khavattu-kannada gavattu-kannada ghavattu-kannada ngavattu-kannada cavattu-kannada chavattu-kannada javattu-kannada jhavattu-kannada nyavattu-kannada ttavattu-kannada tthavattu-kannada ddavattu-kannada ddhavattu-kannada nnavattu-kannada tavattu-kannada thavattu-kannada davattu-kannada dhavattu-kannada navattu-kannada pavattu-kannada phavattu-kannada bavattu-kannada bhavattu-kannada mavattu-kannada yavattu-kannada ravattu-kannada rravattu-kannada lavattu-kannada vavattu-kannada shavattu-kannada ssavattu-kannada savattu-kannada havattu-kannada llavattu-kannada lllavattu-kannada]' lookup vatu_right_sub;
-} vatu_right_ctx;";
-tag = vatu;
+sub halant-kannada kha-kannada by khavattu-kannada;
+sub zerowidthjoiner halant-kannada kha-kannada by khavattu-kannada;
+sub halant-kannada zerowidthjoiner kha-kannada by khavattu-kannada;
+
+sub halant-kannada ga-kannada by gavattu-kannada;
+sub zerowidthjoiner halant-kannada ga-kannada by gavattu-kannada;
+sub halant-kannada zerowidthjoiner ga-kannada by gavattu-kannada;
+
+sub halant-kannada gha-kannada by ghavattu-kannada;
+sub zerowidthjoiner halant-kannada gha-kannada by ghavattu-kannada;
+sub halant-kannada zerowidthjoiner gha-kannada by ghavattu-kannada;
+
+sub halant-kannada nga-kannada by ngavattu-kannada;
+sub zerowidthjoiner halant-kannada nga-kannada by ngavattu-kannada;
+sub halant-kannada zerowidthjoiner nga-kannada by ngavattu-kannada;
+
+sub halant-kannada ca-kannada by cavattu-kannada;
+sub zerowidthjoiner halant-kannada ca-kannada by cavattu-kannada;
+sub halant-kannada zerowidthjoiner ca-kannada by cavattu-kannada;
+
+sub halant-kannada cha-kannada by chavattu-kannada;
+sub zerowidthjoiner halant-kannada cha-kannada by chavattu-kannada;
+sub halant-kannada zerowidthjoiner cha-kannada by chavattu-kannada;
+
+sub halant-kannada ja-kannada by javattu-kannada;
+sub zerowidthjoiner halant-kannada ja-kannada by javattu-kannada;
+sub halant-kannada zerowidthjoiner ja-kannada by javattu-kannada;
+
+sub halant-kannada jha-kannada by jhavattu-kannada;
+sub zerowidthjoiner halant-kannada jha-kannada by jhavattu-kannada;
+sub halant-kannada zerowidthjoiner jha-kannada by jhavattu-kannada;
+
+sub halant-kannada nya-kannada by nyavattu-kannada;
+sub zerowidthjoiner halant-kannada nya-kannada by nyavattu-kannada;
+sub halant-kannada zerowidthjoiner nya-kannada by nyavattu-kannada;
+
+sub halant-kannada tta-kannada by ttavattu-kannada;
+sub zerowidthjoiner halant-kannada tta-kannada by ttavattu-kannada;
+sub halant-kannada zerowidthjoiner tta-kannada by ttavattu-kannada;
+
+sub halant-kannada ttha-kannada by tthavattu-kannada;
+sub zerowidthjoiner halant-kannada ttha-kannada by tthavattu-kannada;
+sub halant-kannada zerowidthjoiner ttha-kannada by tthavattu-kannada;
+
+sub halant-kannada dda-kannada by ddavattu-kannada;
+sub zerowidthjoiner halant-kannada dda-kannada by ddavattu-kannada;
+sub halant-kannada zerowidthjoiner dda-kannada by ddavattu-kannada;
+
+sub halant-kannada ddha-kannada by ddhavattu-kannada;
+sub zerowidthjoiner halant-kannada ddha-kannada by ddhavattu-kannada;
+sub halant-kannada zerowidthjoiner ddha-kannada by ddhavattu-kannada;
+
+sub halant-kannada nna-kannada by nnavattu-kannada;
+sub zerowidthjoiner halant-kannada nna-kannada by nnavattu-kannada;
+sub halant-kannada zerowidthjoiner nna-kannada by nnavattu-kannada;
+
+sub halant-kannada ta-kannada by tavattu-kannada;
+sub zerowidthjoiner halant-kannada ta-kannada by tavattu-kannada;
+sub halant-kannada zerowidthjoiner ta-kannada by tavattu-kannada;
+
+sub halant-kannada tha-kannada by thavattu-kannada;
+sub zerowidthjoiner halant-kannada tha-kannada by thavattu-kannada;
+sub halant-kannada zerowidthjoiner tha-kannada by thavattu-kannada;
+
+sub halant-kannada da-kannada by davattu-kannada;
+sub zerowidthjoiner halant-kannada da-kannada by davattu-kannada;
+sub halant-kannada zerowidthjoiner da-kannada by davattu-kannada;
+
+sub halant-kannada dha-kannada by dhavattu-kannada;
+sub zerowidthjoiner halant-kannada dha-kannada by dhavattu-kannada;
+sub halant-kannada zerowidthjoiner dha-kannada by dhavattu-kannada;
+
+sub halant-kannada na-kannada by navattu-kannada;
+sub zerowidthjoiner halant-kannada na-kannada by navattu-kannada;
+sub halant-kannada zerowidthjoiner na-kannada by navattu-kannada;
+
+sub halant-kannada pa-kannada by pavattu-kannada;
+sub zerowidthjoiner halant-kannada pa-kannada by pavattu-kannada;
+sub halant-kannada zerowidthjoiner pa-kannada by pavattu-kannada;
+
+sub halant-kannada pha-kannada by phavattu-kannada;
+sub zerowidthjoiner halant-kannada pha-kannada by phavattu-kannada;
+sub halant-kannada zerowidthjoiner pha-kannada by phavattu-kannada;
+
+sub halant-kannada ba-kannada by bavattu-kannada;
+sub zerowidthjoiner halant-kannada ba-kannada by bavattu-kannada;
+sub halant-kannada zerowidthjoiner ba-kannada by bavattu-kannada;
+
+sub halant-kannada bha-kannada by bhavattu-kannada;
+sub zerowidthjoiner halant-kannada bha-kannada by bhavattu-kannada;
+sub halant-kannada zerowidthjoiner bha-kannada by bhavattu-kannada;
+
+sub halant-kannada ma-kannada by mavattu-kannada;
+sub zerowidthjoiner halant-kannada ma-kannada by mavattu-kannada;
+sub halant-kannada zerowidthjoiner ma-kannada by mavattu-kannada;
+
+sub halant-kannada ya-kannada by yavattu-kannada;
+sub zerowidthjoiner halant-kannada ya-kannada by yavattu-kannada;
+sub halant-kannada zerowidthjoiner ya-kannada by yavattu-kannada;
+
+sub halant-kannada ra-kannada by ravattu-kannada;
+sub zerowidthjoiner halant-kannada ra-kannada by ravattu-kannada;
+sub halant-kannada zerowidthjoiner ra-kannada by ravattu-kannada;
+
+sub halant-kannada rra-kannada by rravattu-kannada;
+sub zerowidthjoiner halant-kannada rra-kannada by rravattu-kannada;
+sub halant-kannada zerowidthjoiner rra-kannada by rravattu-kannada;
+
+sub halant-kannada la-kannada by lavattu-kannada;
+sub zerowidthjoiner halant-kannada la-kannada by lavattu-kannada;
+sub halant-kannada zerowidthjoiner la-kannada by lavattu-kannada;
+
+sub halant-kannada va-kannada by vavattu-kannada;
+sub zerowidthjoiner halant-kannada va-kannada by vavattu-kannada;
+sub halant-kannada zerowidthjoiner va-kannada by vavattu-kannada;
+
+sub halant-kannada sha-kannada by shavattu-kannada;
+sub zerowidthjoiner halant-kannada sha-kannada by shavattu-kannada;
+sub halant-kannada zerowidthjoiner sha-kannada by shavattu-kannada;
+
+sub halant-kannada ssa-kannada by ssavattu-kannada;
+sub zerowidthjoiner halant-kannada ssa-kannada by ssavattu-kannada;
+sub halant-kannada zerowidthjoiner ssa-kannada by ssavattu-kannada;
+
+sub halant-kannada sa-kannada by savattu-kannada;
+sub zerowidthjoiner halant-kannada sa-kannada by savattu-kannada;
+sub halant-kannada zerowidthjoiner sa-kannada by savattu-kannada;
+
+sub halant-kannada ha-kannada by havattu-kannada;
+sub zerowidthjoiner halant-kannada ha-kannada by havattu-kannada;
+sub halant-kannada zerowidthjoiner ha-kannada by havattu-kannada;
+
+sub halant-kannada lla-kannada by llavattu-kannada;
+sub zerowidthjoiner halant-kannada lla-kannada by llavattu-kannada;
+sub halant-kannada zerowidthjoiner lla-kannada by llavattu-kannada;
+
+sub halant-kannada llla-kannada by lllavattu-kannada;
+sub zerowidthjoiner halant-kannada llla-kannada by lllavattu-kannada;
+sub halant-kannada zerowidthjoiner llla-kannada by lllavattu-kannada;
+";
+tag = blwf;
 },
 {
 code = "lookup haln_explicit {
@@ -753,6 +824,7 @@ code = "lookup haln_explicit {
   sub jha-kannada halant-kannada by jha_halant-kannada;
   sub ka-kannada halant-kannada by ka_halant-kannada;
   sub kha-kannada halant-kannada by kha_halant-kannada;
+  sub ra-kannada halant-kannada by ra_halant-kannada;
   sub rra-kannada halant-kannada by rra_halant-kannada;
   sub la-kannada halant-kannada by la_halant-kannada;
   sub lla-kannada halant-kannada by lla_halant-kannada;
@@ -773,12 +845,18 @@ code = "lookup haln_explicit {
   sub ttha-kannada halant-kannada by ttha_halant-kannada;
   sub va-kannada halant-kannada by va_halant-kannada;
   sub ya-kannada halant-kannada by ya_halant-kannada;
+
 } haln_explicit;
 ";
 tag = haln;
 },
 {
 code = "lookup akhn_matras {
+  # shrii ligature variants (simple rules that work)
+#  sub sha-kannada zerowidthjoiner by shrii_2-kannada;
+#  sub sha-kannada zerowidthnonjoiner by shrii-kannada;
+
+
   # HarfBuzz decomposes split vowels before any feature fires:
   #   U+0CCA (oMatra)  -> U+0CC6 (eMatra) + U+0CC2 (uuMatra)
   #   U+0CCB (ooMatra) -> U+0CC6 (eMatra) + U+0CC2 (uuMatra) + U+0CD5 (uni0CD5)
@@ -901,13 +979,17 @@ code = "lookup akhn_matras {
   sub llla-kannada eMatra-kannada just-aiMatra-kannada by llla_aiMatra-kannada;
   sub rra-kannada eMatra-kannada just-aiMatra-kannada by rra_aiMatra-kannada;
 } akhn_matras;
+
+lookup akhn_matras;
 ";
 tag = akhn;
 },
 {
 code = "lookup psts_matras {
   lookupflag UseMarkFilteringSet @Matras;
-
+#  lookupflag 0; # Ensure it's not skipping marks!
+#sub sha-kannada halant-kannada ra-kannada zerowidthjoiner iiMatra-kannada by shrii-kannada;
+#        sub sha-kannada halant-kannada ra-kannada zerowidthnonjoiner iiMatra-kannada by shrii_2-kannada;
   # --- aaMatra ---
   sub ka-kannada aaMatra-kannada by ka_aaMatra-kannada;
   sub kha-kannada aaMatra-kannada by kha_aaMatra-kannada;
@@ -1249,28 +1331,44 @@ code = "lookup psts_matras {
   sub llla-kannada aiMatra-kannada by llla_aiMatra-kannada;
   sub rra-kannada aiMatra-kannada by rra_aiMatra-kannada;
 
-} psts_matras;";
+} psts_matras;
+
+lookup psts_matras;
+";
 tag = psts;
 },
 {
-automatic = 1;
-code = "script knda;
-sub ra-kannada halant-kannada by reph-kannada;
+code = "sub na_halant-kannada zerowidthnonjoiner by nakaara_pollu-kannada;
 ";
-tag = rphf;
+tag = calt;
 },
 {
-code = "";
+code = "lookup ccmp_knda_1 {
+	lookupflag 0;
+	sub oMatra-kannada by eMatra-kannada uuMatra-kannada;
+} ccmp_knda_1;
+
+#lookup shrii_fixes {
+#    sub sha-kannada halant-kannada ra-kannada zerowidthjoiner iiMatra-kannada by shrii-kannada;
+#    sub sha-kannada halant-kannada ra-kannada zerowidthnonjoiner iiMatra-kannada by shrii_2-kannada;
+#} shrii_fixes;
+
+script knda;
+lookup ccmp_knda_1;
+#lookup shrii_fixes;
+";
 tag = ccmp;
 },
 {
-code = "";
-tag = mark;
-},
-{
-code = "pos [ka_oMatra-kannada ka_ooMatra-kannada] anusvara-kannada <300 0 0 0>;
+code = "lookup reph_form {
+  sub ra-kannada halant-kannada by uni0CEF;
+} reph_form;
+
+script knda;
+# Apply rephf, but exceptions can suppress it via ZWJ in shaping context
+sub @KannadaAll ra-kannada' lookup reph_form halant-kannada';
 ";
-tag = kern;
+tag = rphf;
 }
 );
 fontMaster = (
@@ -1414,7 +1512,7 @@ unicode = 32;
 {
 direction = LTR;
 glyphname = A;
-lastChange = "2026-04-26 17:58:03 +0000";
+lastChange = "2026-05-02 23:27:18 +0000";
 layers = (
 {
 layerId = m01;
@@ -1560,62 +1658,6 @@ nodes = (
 (67,93,qs),
 (47,43,ls),
 (41,27,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(65,677,o),
-(48,681,qs),
-(31,684,o),
-(2,665,o),
-(-1,649,qs),
-(-13,595,o),
-(-13,524,qs),
-(-14,502,o),
-(-13,461,qs),
-(-13,423,ls),
-(-13,406,o),
-(12,382,o),
-(46,382,o),
-(70,406,o),
-(70,423,qs),
-(70,462,ls),
-(69,501,o),
-(70,523,qs),
-(70,590,o),
-(80,631,qs),
-(84,648,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(677,637,o),
-(643,637,o),
-(618,612,o),
-(618,595,qs),
-(618,564,o),
-(616,527,qs),
-(614,489,o),
-(614,486,qs),
-(610,401,o),
-(625,348,qs),
-(629,331,o),
-(659,314,o),
-(676,319,qs),
-(692,323,o),
-(710,353,o),
-(705,370,qs),
-(694,407,o),
-(696,483,qs),
-(696,488,o),
-(697,499,o),
-(698,516,o),
-(698,523,qs),
-(701,561,o),
-(701,595,qs),
-(701,612,o)
 );
 },
 {
@@ -11319,6 +11361,860 @@ note = uni0C8A;
 script = kannada;
 subCategory = Other;
 unicode = 3210;
+},
+{
+category = Letter;
+direction = LTR;
+glyphname = "vocalicR-kannada";
+lastChange = "2026-05-02 04:30:22 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(345,141,qs),
+(301,94,o),
+(224,101,qs),
+(175,105,o),
+(156,124,qs),
+(145,134,o),
+(139,146,q),
+(137,156,o),
+(138,160,qs),
+(141,178,o),
+(167,196,qs),
+(195,217,o),
+(271,236,o),
+(294,228,qs),
+(318,220,o),
+(342,199,qs),
+(358,185,o),
+(368,174,q),
+(356,153,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(227,464,qs),
+(205,412,o),
+(181,389,qs),
+(168,376,o),
+(158,376,qs),
+(151,376,o),
+(142,385,qs),
+(130,400,o),
+(123,420,qs),
+(108,469,o),
+(132,496,qs),
+(143,508,o),
+(165,511,qs),
+(196,516,o),
+(247,499,qs),
+(252,497,o),
+(273,488,q),
+(240,493,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(299,471,q),
+(331,446,o),
+(354,407,qs),
+(391,342,o),
+(389,268,q),
+(353,296,o),
+(319,307,qs),
+(271,323,o),
+(205,305,q),
+(223,314,o),
+(238,329,qs),
+(274,364,o),
+(303,430,qs),
+(313,452,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(751,206,q),
+(762,279,o),
+(739,358,qs),
+(715,438,o),
+(671,496,q),
+(690,497,o),
+(708,502,qs),
+(787,525,o),
+(806,626,qs),
+(808,641,o),
+(805,663,qs),
+(804,682,o),
+(798,709,qs),
+(794,734,o),
+(785,754,qs),
+(777,772,o),
+(764,781,qs),
+(733,800,o),
+(705,774,qs),
+(703,772,o),
+(699,766,qs),
+(697,762,l),
+(695,758,l),
+(695,757,o),
+(693,753,qs),
+(692,751,o),
+(690,743,qs),
+(690,742,l),
+(688,736,o),
+(687,732,qs),
+(687,731,o),
+(686,727,qs),
+(681,711,o),
+(697,681,o),
+(714,676,qs),
+(716,675,o),
+(720,675,q),
+(722,661,o),
+(723,655,q),
+(723,645,o),
+(724,641,qs),
+(724,638,l),
+(718,609,o),
+(708,597,qs),
+(700,586,o),
+(685,582,qs),
+(650,572,o),
+(529,588,q),
+(527,589,o),
+(523,589,qs),
+(508,589,o),
+(484,569,o),
+(482,553,qs),
+(482,547,ls),
+(482,532,o),
+(502,508,o),
+(517,506,qs),
+(559,501,o),
+(639,404,o),
+(679,266,o),
+(668,209,qs),
+(655,154,o),
+(618,134,qs),
+(606,128,o),
+(599,126,qs),
+(564,112,o),
+(533,128,qs),
+(508,143,o),
+(466,190,qs),
+(464,192,o),
+(462,193,q),
+(470,222,o),
+(472,259,qs),
+(475,362,o),
+(426,448,qs),
+(371,545,o),
+(273,578,qs),
+(205,601,o),
+(154,593,qs),
+(101,587,o),
+(70,551,qs),
+(44,522,o),
+(31,436,o),
+(44,395,qs),
+(57,355,o),
+(82,328,qs),
+(114,294,o),
+(154,293,qs),
+(168,293,o),
+(174,295,q),
+(140,280,o),
+(118,263,qs),
+(67,227,o),
+(57,176,qs),
+(45,116,o),
+(98,64,qs),
+(123,41,o),
+(158,30,qs),
+(182,22,o),
+(216,19,qs),
+(334,7,o),
+(406,85,qs),
+(420,101,o),
+(426,110,q),
+(438,98,o),
+(445,92,qs),
+(470,69,o),
+(494,56,qs),
+(559,20,o),
+(629,48,qs),
+(649,56,o),
+(658,61,qs),
+(686,77,o),
+(705,100,q),
+(731,49,o),
+(776,17,qs),
+(846,-32,o),
+(929,-23,qs),
+(1016,-14,o),
+(1070,54,qs),
+(1128,126,o),
+(1122,240,qs),
+(1119,284,o),
+(1101,334,qs),
+(1089,367,o),
+(1065,418,qs),
+(1044,466,o),
+(1036,484,qs),
+(1030,500,o),
+(998,514,o),
+(982,507,qs),
+(966,501,o),
+(953,469,o),
+(959,453,qs),
+(973,420,o),
+(990,384,qs),
+(1009,344,o),
+(1023,307,qs),
+(1036,268,o),
+(1039,235,qs),
+(1044,152,o),
+(1005,106,qs),
+(973,65,o),
+(920,59,qs),
+(866,54,o),
+(824,84,qs),
+(777,118,o),
+(764,182,q),
+(763,196,o)
+);
+}
+);
+width = 1192;
+}
+);
+note = uni0C8B;
+script = kannada;
+subCategory = Other;
+unicode = 3211;
+},
+{
+category = Letter;
+direction = LTR;
+glyphname = "vocalicRR-kannada";
+lastChange = "2026-05-02 04:30:31 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(316,98,qs),
+(263,45,o),
+(210,47,qs),
+(190,49,o),
+(177,60,qs),
+(160,76,o),
+(151,109,q),
+(150,119,o),
+(155,127,qs),
+(161,139,o),
+(180,150,qs),
+(226,176,o),
+(276,158,qs),
+(302,150,o),
+(340,126,q),
+(331,113,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(741,229,q),
+(742,242,o),
+(742,269,qs),
+(739,338,o),
+(677,451,o),
+(623,484,q),
+(621,486,l),
+(652,486,o),
+(672,490,qs),
+(713,498,o),
+(733,527,qs),
+(769,579,o),
+(722,723,qs),
+(717,739,o),
+(686,755,o),
+(669,750,qs),
+(653,744,o),
+(638,713,o),
+(643,697,qs),
+(663,640,o),
+(666,602,qs),
+(667,587,o),
+(666,580,qs),
+(666,579,o),
+(666,578,q),
+(665,576,l),
+(665,575,o),
+(664,574,qs),
+(661,572,o),
+(655,571,qs),
+(646,569,o),
+(611,569,qs),
+(561,567,o),
+(549,566,qs),
+(498,558,o),
+(464,535,qs),
+(455,529,o),
+(449,519,qs),
+(440,502,o),
+(446,483,qs),
+(449,473,o),
+(459,464,qs),
+(463,460,o),
+(469,456,qs),
+(476,452,o),
+(497,446,qs),
+(502,445,ls),
+(506,444,o),
+(507,444,q),
+(508,443,o),
+(511,443,q),
+(511,442,o),
+(512,442,q),
+(514,441,o),
+(520,439,qs),
+(529,436,ls),
+(531,435,o),
+(546,429,qs),
+(572,418,o),
+(580,413,qs),
+(654,370,o),
+(659,266,qs),
+(662,164,o),
+(595,106,qs),
+(570,85,o),
+(534,98,qs),
+(511,108,o),
+(488,124,qs),
+(476,132,o),
+(461,142,qs),
+(453,148,o),
+(448,151,q),
+(464,192,o),
+(468,231,qs),
+(484,362,o),
+(393,479,qs),
+(301,601,o),
+(200,589,qs),
+(159,585,o),
+(91,532,o),
+(72,492,qs),
+(54,452,o),
+(55,419,qs),
+(55,374,o),
+(84,348,qs),
+(115,318,o),
+(168,328,qs),
+(215,337,o),
+(270,375,qs),
+(284,385,o),
+(291,418,o),
+(282,432,qs),
+(272,446,o),
+(238,454,o),
+(224,444,qs),
+(180,415,o),
+(153,410,qs),
+(147,409,o),
+(140,409,qs),
+(139,409,l),
+(139,411,l),
+(138,413,o),
+(138,420,qs),
+(137,434,o),
+(147,456,qs),
+(168,502,o),
+(209,507,qs),
+(232,509,o),
+(257,495,qs),
+(289,477,o),
+(327,429,qs),
+(397,339,o),
+(386,240,qs),
+(382,212,o),
+(378,200,q),
+(377,200,o),
+(373,204,o),
+(372,204,q),
+(336,225,o),
+(303,237,qs),
+(215,266,o),
+(138,221,qs),
+(104,201,o),
+(85,172,qs),
+(59,133,o),
+(71,90,qs),
+(84,32,o),
+(156,-34,o),
+(206,-36,qs),
+(294,-41,o),
+(374,39,qs),
+(392,56,o),
+(408,78,q),
+(409,78,o),
+(412,76,o),
+(413,75,qs),
+(440,55,o),
+(442,54,qs),
+(481,30,o),
+(504,21,qs),
+(586,-10,o),
+(648,43,qs),
+(678,67,o),
+(702,106,q),
+(718,79,o),
+(732,64,qs),
+(780,10,o),
+(860,-11,qs),
+(940,-31,o),
+(991,-16,qs),
+(1046,0,o),
+(1069,53,qs),
+(1087,89,o),
+(1087,149,qs),
+(1088,182,o),
+(1081,250,qs),
+(1081,255,o),
+(1080,258,q),
+(1074,324,o),
+(1074,360,qs),
+(1076,403,o),
+(1086,419,qs),
+(1102,444,o),
+(1177,469,o),
+(1214,463,qs),
+(1283,453,o),
+(1326,403,qs),
+(1367,356,o),
+(1383,220,o),
+(1356,160,qs),
+(1327,97,o),
+(1268,64,q),
+(1267,64,o),
+(1267,63,q),
+(1266,63,l),
+(1265,64,l),
+(1262,64,o),
+(1261,67,q),
+(1246,78,o),
+(1240,103,qs),
+(1232,128,o),
+(1239,146,qs),
+(1245,161,o),
+(1263,165,qs),
+(1264,165,o),
+(1273,166,o),
+(1276,166,q),
+(1286,142,o),
+(1313,142,qs),
+(1330,142,o),
+(1355,167,o),
+(1355,184,qs),
+(1355,211,o),
+(1334,230,qs),
+(1320,241,o),
+(1299,246,qs),
+(1276,251,o),
+(1245,246,qs),
+(1183,232,o),
+(1161,176,qs),
+(1144,131,o),
+(1160,80,qs),
+(1175,29,o),
+(1209,2,qs),
+(1256,-37,o),
+(1308,-9,qs),
+(1393,39,o),
+(1431,126,qs),
+(1468,208,o),
+(1457,298,qs),
+(1446,393,o),
+(1389,457,qs),
+(1325,530,o),
+(1226,545,qs),
+(1172,554,o),
+(1113,535,qs),
+(1050,513,o),
+(1017,465,qs),
+(993,428,o),
+(991,362,qs),
+(990,328,o),
+(998,250,qs),
+(998,245,o),
+(999,242,q),
+(1004,187,o),
+(1004,150,qs),
+(1004,110,o),
+(994,87,qs),
+(985,70,o),
+(968,64,qs),
+(940,55,o),
+(881,70,qs),
+(826,84,o),
+(765,150,o),
+(748,214,qs),
+(746,222,o)
+);
+}
+);
+width = 1529;
+}
+);
+note = uni0CE0;
+script = kannada;
+subCategory = Other;
+unicode = 3296;
+},
+{
+category = Letter;
+direction = LTR;
+glyphname = "vocalicL-kannada";
+lastChange = "2026-05-02 04:29:38 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(77,324,o),
+(93,329,qs),
+(110,334,o),
+(125,365,o),
+(120,381,qs),
+(107,420,o),
+(125,441,qs),
+(141,462,o),
+(209,468,o),
+(232,450,qs),
+(254,431,o),
+(251,397,q),
+(250,396,o),
+(250,393,qs),
+(250,377,o),
+(272,354,o),
+(288,352,qs),
+(292,352,ls),
+(308,352,o),
+(332,374,o),
+(333,390,qs),
+(338,438,o),
+(359,467,qs),
+(376,490,o),
+(397,496,qs),
+(414,501,o),
+(429,490,qs),
+(449,478,o),
+(458,445,q),
+(458,442,ls),
+(458,438,o),
+(455,433,qs),
+(449,419,o),
+(433,398,qs),
+(416,378,o),
+(391,353,qs),
+(371,333,o),
+(338,303,qs),
+(324,289,o),
+(318,284,qs),
+(269,237,o),
+(243,205,qs),
+(203,155,o),
+(195,118,qs),
+(183,60,o),
+(227,19,qs),
+(264,-16,o),
+(349,-36,qs),
+(437,-57,o),
+(618,-7,o),
+(684,54,qs),
+(751,117,o),
+(771,203,qs),
+(791,296,o),
+(745,390,qs),
+(728,421,o),
+(714,439,qs),
+(696,461,o),
+(680,469,qs),
+(660,479,o),
+(620,465,o),
+(610,444,qs),
+(602,429,o),
+(613,396,o),
+(628,388,q),
+(642,383,o),
+(652,384,q),
+(655,379,o),
+(663,367,qs),
+(664,366,o),
+(667,360,o),
+(668,358,qs),
+(670,354,o),
+(670,353,q),
+(704,285,o),
+(690,220,qs),
+(677,162,o),
+(627,114,qs),
+(576,67,o),
+(436,29,o),
+(368,45,qs),
+(305,59,o),
+(283,80,qs),
+(273,90,o),
+(276,100,qs),
+(281,121,o),
+(307,153,qs),
+(332,183,o),
+(375,223,qs),
+(387,235,o),
+(395,242,qs),
+(428,273,o),
+(449,294,qs),
+(471,314,o),
+(497,345,qs),
+(519,373,o),
+(532,400,qs),
+(547,437,o),
+(538,467,qs),
+(520,529,o),
+(475,560,qs),
+(428,590,o),
+(324,562,o),
+(291,515,qs),
+(290,513,o),
+(288,511,q),
+(286,512,l),
+(284,514,o),
+(283,515,qs),
+(235,553,o),
+(168,547,qs),
+(98,542,o),
+(60,493,qs),
+(15,437,o),
+(41,355,qs),
+(46,339,o)
+);
+}
+);
+width = 846;
+}
+);
+note = uni0C8C;
+script = kannada;
+subCategory = Other;
+unicode = 3212;
+},
+{
+category = Letter;
+direction = LTR;
+glyphname = "vocalicLL-kannada";
+lastChange = "2026-05-02 04:30:03 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(104,292,o),
+(132,312,o),
+(139,345,o),
+(129,359,qs),
+(112,384,o),
+(111,404,qs),
+(111,421,o),
+(119,433,qs),
+(138,464,o),
+(190,479,qs),
+(242,492,o),
+(272,475,qs),
+(278,471,o),
+(279,470,q),
+(275,456,o),
+(274,449,qs),
+(273,437,o),
+(279,408,qs),
+(281,400,o),
+(283,397,q),
+(288,385,o),
+(296,377,qs),
+(310,365,o),
+(347,369,o),
+(358,383,qs),
+(364,390,o),
+(368,405,qs),
+(376,441,o),
+(370,468,q),
+(372,470,o),
+(377,474,qs),
+(394,488,o),
+(423,488,qs),
+(461,488,o),
+(489,468,qs),
+(513,449,o),
+(515,438,qs),
+(516,434,o),
+(509,423,qs),
+(498,408,o),
+(467,386,qs),
+(440,369,o),
+(400,345,qs),
+(393,341,o),
+(383,334,o),
+(382,334,q),
+(337,308,o),
+(304,283,qs),
+(260,249,o),
+(248,213,qs),
+(231,163,o),
+(272,117,qs),
+(304,82,o),
+(384,45,qs),
+(426,27,o),
+(477,23,qs),
+(519,20,o),
+(566,24,qs),
+(698,34,o),
+(739,128,qs),
+(754,163,o),
+(756,214,qs),
+(757,239,o),
+(752,299,q),
+(750,309,o),
+(750,318,q),
+(742,394,o),
+(745,420,qs),
+(748,455,o),
+(766,469,qs),
+(817,507,o),
+(878,496,qs),
+(939,487,o),
+(988,438,qs),
+(1040,389,o),
+(1057,319,qs),
+(1076,244,o),
+(1045,173,q),
+(1045,171,o),
+(1041,168,qs),
+(1039,166,o),
+(1027,160,qs),
+(1006,152,o),
+(975,154,qs),
+(948,154,o),
+(930,164,qs),
+(925,167,o),
+(923,170,q),
+(923,173,o),
+(924,175,qs),
+(925,178,o),
+(931,186,qs),
+(943,199,o),
+(958,207,q),
+(958,208,l),
+(968,180,o),
+(998,180,qs),
+(1015,180,o),
+(1039,204,o),
+(1039,221,qs),
+(1039,278,o),
+(990,292,qs),
+(959,300,o),
+(920,281,qs),
+(888,265,o),
+(866,238,qs),
+(839,202,o),
+(840,166,qs),
+(841,119,o),
+(890,91,qs),
+(925,73,o),
+(972,71,qs),
+(1017,68,o),
+(1056,83,qs),
+(1106,101,o),
+(1122,141,qs),
+(1163,239,o),
+(1138,339,qs),
+(1115,430,o),
+(1046,498,qs),
+(978,564,o),
+(891,578,qs),
+(796,594,o),
+(717,536,qs),
+(668,500,o),
+(662,427,qs),
+(659,401,o),
+(662,368,qs),
+(664,344,o),
+(667,309,qs),
+(669,291,ls),
+(673,247,o),
+(673,216,qs),
+(671,181,o),
+(663,161,qs),
+(652,138,o),
+(633,127,qs),
+(607,110,o),
+(559,107,qs),
+(466,100,o),
+(418,121,qs),
+(356,148,o),
+(333,173,qs),
+(327,181,o),
+(327,183,q),
+(326,184,o),
+(327,186,qs),
+(330,197,o),
+(355,218,qs),
+(377,235,o),
+(424,263,qs),
+(426,264,o),
+(435,269,o),
+(442,273,qs),
+(484,298,o),
+(514,318,qs),
+(554,346,o),
+(575,373,qs),
+(605,412,o),
+(587,498,o),
+(539,534,qs),
+(490,571,o),
+(423,571,qs),
+(365,571,o),
+(325,539,q),
+(317,545,o),
+(312,547,q),
+(253,580,o),
+(170,559,qs),
+(86,538,o),
+(48,477,qs),
+(1,400,o),
+(61,313,qs),
+(70,299,o)
+);
+}
+);
+width = 1216;
+}
+);
+note = uni0CE1;
+script = kannada;
+subCategory = Other;
+unicode = 3297;
 },
 {
 direction = LTR;
@@ -28608,8 +29504,8 @@ subCategory = Other;
 },
 {
 category = Letter;
-glyphname = "nakaara-pollu-kannada";
-lastChange = "2026-05-02 01:36:32 +0000";
+glyphname = "shrii-kannada";
+lastChange = "2026-05-03 04:52:42 +0000";
 layers = (
 {
 layerId = m01;
@@ -28767,7 +29663,6 @@ width = 1020;
 note = uniE7B0;
 script = kannada;
 subCategory = Other;
-unicode = 59312;
 },
 {
 category = Letter;
@@ -118209,7 +119104,7 @@ unicode = 59230;
 category = Letter;
 direction = LTR;
 glyphname = "sha_halant-kannada";
-lastChange = "2026-05-01 04:23:44 +0000";
+lastChange = "2026-05-03 03:00:34 +0000";
 layers = (
 {
 anchors = (
@@ -118383,7 +119278,7 @@ nodes = (
 );
 }
 );
-width = 903;
+width = 904;
 }
 );
 note = uniE75F;
@@ -129806,9 +130701,8 @@ unicode = 59276;
 },
 {
 category = Letter;
-direction = LTR;
-glyphname = "vocalicL-kannada";
-lastChange = "2026-05-01 04:23:44 +0000";
+glyphname = "shrii_2-kannada";
+lastChange = "2026-05-02 03:50:20 +0000";
 layers = (
 {
 layerId = m01;
@@ -129816,137 +130710,210 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(77,324,o),
-(93,329,qs),
-(110,334,o),
-(125,365,o),
-(120,381,qs),
-(107,420,o),
-(125,441,qs),
-(141,462,o),
-(209,468,o),
-(232,450,qs),
-(254,431,o),
-(251,397,q),
-(250,396,o),
-(250,393,qs),
-(250,377,o),
-(272,354,o),
-(288,352,qs),
-(292,352,ls),
-(308,352,o),
-(332,374,o),
-(333,390,qs),
-(338,438,o),
-(359,467,qs),
-(376,490,o),
-(397,496,qs),
-(414,501,o),
-(429,490,qs),
-(449,478,o),
-(458,445,q),
-(458,442,ls),
-(458,438,o),
-(455,433,qs),
-(449,419,o),
-(433,398,qs),
-(416,378,o),
-(391,353,qs),
-(371,333,o),
-(338,303,qs),
-(324,289,o),
-(318,284,qs),
-(269,237,o),
-(243,205,qs),
-(203,155,o),
-(195,118,qs),
-(183,60,o),
-(227,19,qs),
-(264,-16,o),
-(349,-36,qs),
-(437,-57,o),
-(618,-7,o),
-(684,54,qs),
-(751,117,o),
-(771,203,qs),
-(791,296,o),
-(745,390,qs),
-(728,421,o),
-(714,439,qs),
-(696,461,o),
-(680,469,qs),
-(660,479,o),
-(620,465,o),
-(610,444,qs),
-(602,429,o),
-(613,396,o),
-(628,388,q),
-(642,383,o),
-(652,384,q),
-(655,379,o),
-(663,367,qs),
-(664,366,o),
-(667,360,o),
-(668,358,qs),
-(670,354,o),
-(670,353,q),
-(704,285,o),
-(690,220,qs),
-(677,162,o),
-(627,114,qs),
-(576,67,o),
-(436,29,o),
-(368,45,qs),
-(305,59,o),
-(283,80,qs),
-(273,90,o),
-(276,100,qs),
-(281,121,o),
-(307,153,qs),
-(332,183,o),
-(375,223,qs),
-(387,235,o),
-(395,242,qs),
-(428,273,o),
-(449,294,qs),
-(471,314,o),
-(497,345,qs),
-(519,373,o),
-(532,400,qs),
-(547,437,o),
-(538,467,qs),
-(520,529,o),
-(475,560,qs),
-(428,590,o),
-(324,562,o),
-(291,515,qs),
-(290,513,o),
-(288,511,q),
-(286,512,l),
-(284,514,o),
-(283,515,qs),
-(235,553,o),
-(168,547,qs),
-(98,542,o),
-(60,493,qs),
-(15,437,o),
-(41,355,qs),
-(46,339,o)
+(724,502,o),
+(721,505,qs),
+(697,533,o),
+(686,553,qs),
+(660,594,o),
+(667,618,qs),
+(673,640,o),
+(682,649,qs),
+(689,655,o),
+(697,656,qs),
+(720,659,o),
+(747,632,qs),
+(779,597,o),
+(780,550,qs),
+(782,505,o),
+(757,462,q),
+(751,469,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(605,162,qs),
+(602,121,o),
+(566,95,qs),
+(532,70,o),
+(472,65,qs),
+(417,61,o),
+(328,95,o),
+(320,122,q),
+(320,123,ls),
+(320,124,o),
+(324,132,q),
+(336,147,o),
+(368,167,qs),
+(422,200,o),
+(542,248,qs),
+(598,271,l),
+(608,220,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(359,387,q),
+(349,397,o),
+(349,413,o),
+(357,421,q),
+(357,422,o),
+(358,423,q),
+(355,410,o),
+(361,396,qs),
+(364,389,o),
+(363,384,q),
+(361,386,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(412,451,q),
+(414,452,l),
+(416,452,ls),
+(517,459,o),
+(566,368,q),
+(567,364,o),
+(574,352,o),
+(576,348,q),
+(552,338,o),
+(512,322,qs),
+(383,270,o),
+(326,235,qs),
+(281,207,o),
+(261,180,qs),
+(229,140,o),
+(244,97,qs),
+(263,37,o),
+(339,6,qs),
+(400,-20,o),
+(477,-15,qs),
+(558,-9,o),
+(613,30,qs),
+(681,77,o),
+(685,158,qs),
+(688,237,o),
+(674,302,q),
+(677,304,o),
+(690,310,o),
+(693,311,qs),
+(721,324,o),
+(750,340,q),
+(778,302,o),
+(791,265,qs),
+(820,191,o),
+(788,114,qs),
+(725,-38,o),
+(594,-82,qs),
+(473,-121,o),
+(341,-62,qs),
+(205,1,o),
+(137,127,qs),
+(59,266,o),
+(97,433,qs),
+(133,594,o),
+(283,691,qs),
+(422,782,o),
+(603,787,qs),
+(785,790,o),
+(908,705,qs),
+(1041,614,o),
+(1056,445,qs),
+(1061,380,o),
+(1045,309,qs),
+(1038,270,o),
+(1008,168,qs),
+(989,107,o),
+(976,58,qs),
+(972,42,o),
+(989,14,o),
+(1005,9,qs),
+(1021,5,o),
+(1049,22,o),
+(1054,39,qs),
+(1062,72,o),
+(1084,145,qs),
+(1111,231,o),
+(1124,293,qs),
+(1142,384,o),
+(1135,452,qs),
+(1119,657,o),
+(953,771,qs),
+(808,872,o),
+(601,867,qs),
+(397,861,o),
+(239,758,qs),
+(62,642,o),
+(19,451,qs),
+(-26,256,o),
+(66,88,qs),
+(150,-63,o),
+(308,-135,qs),
+(470,-207,o),
+(619,-157,qs),
+(785,-103,o),
+(862,84,qs),
+(906,189,o),
+(866,294,qs),
+(850,336,o),
+(821,378,qs),
+(819,381,o),
+(811,392,o),
+(809,395,q),
+(863,472,o),
+(860,553,qs),
+(857,630,o),
+(805,687,qs),
+(751,743,o),
+(688,735,qs),
+(614,727,o),
+(590,640,qs),
+(580,608,o),
+(590,571,qs),
+(597,545,o),
+(618,510,qs),
+(637,481,o),
+(659,455,qs),
+(662,451,o),
+(701,404,q),
+(659,383,l),
+(658,383,o),
+(651,380,o),
+(649,379,q),
+(641,397,o),
+(636,406,qs),
+(563,542,o),
+(410,532,qs),
+(340,525,o),
+(296,473,qs),
+(268,441,o),
+(270,363,o),
+(303,330,qs),
+(330,303,o),
+(362,302,qs),
+(394,299,o),
+(418,323,qs),
+(438,343,o),
+(447,404,o),
+(433,432,qs),
+(425,446,o)
 );
 }
 );
-width = 846;
+width = 1206;
 }
 );
-note = uni0C8C;
+note = uniE7B1;
 script = kannada;
 subCategory = Other;
+unicode = 59313;
 },
 {
 category = Letter;
-direction = LTR;
-glyphname = "vocalicLL-kannada";
-lastChange = "2026-05-01 04:23:44 +0000";
+glyphname = "ra_halant-kannada";
+lastChange = "2026-05-02 04:28:26 +0000";
 layers = (
 {
 layerId = m01;
@@ -129954,705 +130921,117 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(104,292,o),
-(132,312,o),
-(139,345,o),
-(129,359,qs),
-(112,384,o),
-(111,404,qs),
-(111,421,o),
-(119,433,qs),
-(138,464,o),
-(190,479,qs),
-(242,492,o),
-(272,475,qs),
-(278,471,o),
-(279,470,q),
-(275,456,o),
-(274,449,qs),
-(273,437,o),
-(279,408,qs),
-(281,400,o),
-(283,397,q),
-(288,385,o),
-(296,377,qs),
-(310,365,o),
-(347,369,o),
-(358,383,qs),
-(364,390,o),
-(368,405,qs),
-(376,441,o),
-(370,468,q),
-(372,470,o),
-(377,474,qs),
-(394,488,o),
-(423,488,qs),
-(461,488,o),
-(489,468,qs),
-(513,449,o),
-(515,438,qs),
-(516,434,o),
-(509,423,qs),
-(498,408,o),
-(467,386,qs),
-(440,369,o),
-(400,345,qs),
-(393,341,o),
-(383,334,o),
-(382,334,q),
-(337,308,o),
-(304,283,qs),
-(260,249,o),
-(248,213,qs),
-(231,163,o),
-(272,117,qs),
-(304,82,o),
-(384,45,qs),
-(426,27,o),
-(477,23,qs),
-(519,20,o),
-(566,24,qs),
-(698,34,o),
-(739,128,qs),
-(754,163,o),
-(756,214,qs),
-(757,239,o),
-(752,299,q),
-(750,309,o),
-(750,318,q),
-(742,394,o),
-(745,420,qs),
-(748,455,o),
-(766,469,qs),
-(817,507,o),
-(878,496,qs),
-(939,487,o),
-(988,438,qs),
-(1040,389,o),
-(1057,319,qs),
-(1076,244,o),
-(1045,173,q),
-(1045,171,o),
-(1041,168,qs),
-(1039,166,o),
-(1027,160,qs),
-(1006,152,o),
-(975,154,qs),
-(948,154,o),
-(930,164,qs),
-(925,167,o),
-(923,170,q),
-(923,173,o),
-(924,175,qs),
-(925,178,o),
-(931,186,qs),
-(943,199,o),
-(958,207,q),
-(958,208,l),
-(968,180,o),
-(998,180,qs),
-(1015,180,o),
-(1039,204,o),
-(1039,221,qs),
-(1039,278,o),
-(990,292,qs),
-(959,300,o),
-(920,281,qs),
-(888,265,o),
-(866,238,qs),
-(839,202,o),
-(840,166,qs),
-(841,119,o),
-(890,91,qs),
-(925,73,o),
-(972,71,qs),
-(1017,68,o),
-(1056,83,qs),
-(1106,101,o),
-(1122,141,qs),
-(1163,239,o),
-(1138,339,qs),
-(1115,430,o),
-(1046,498,qs),
-(978,564,o),
-(891,578,qs),
-(796,594,o),
-(717,536,qs),
-(668,500,o),
-(662,427,qs),
-(659,401,o),
-(662,368,qs),
-(664,344,o),
-(667,309,qs),
-(669,291,ls),
-(673,247,o),
-(673,216,qs),
-(671,181,o),
-(663,161,qs),
-(652,138,o),
-(633,127,qs),
-(607,110,o),
-(559,107,qs),
-(466,100,o),
-(418,121,qs),
-(356,148,o),
-(333,173,qs),
-(327,181,o),
-(327,183,q),
-(326,184,o),
-(327,186,qs),
-(330,197,o),
-(355,218,qs),
-(377,235,o),
-(424,263,qs),
-(426,264,o),
-(435,269,o),
-(442,273,qs),
-(484,298,o),
-(514,318,qs),
-(554,346,o),
-(575,373,qs),
-(605,412,o),
-(587,498,o),
-(539,534,qs),
-(490,571,o),
-(423,571,qs),
-(365,571,o),
-(325,539,q),
-(317,545,o),
-(312,547,q),
-(253,580,o),
-(170,559,qs),
-(86,538,o),
-(48,477,qs),
-(1,400,o),
-(61,313,qs),
-(70,299,o)
+(697,494,qs),
+(737,494,l),
+(763,491,o),
+(779,480,qs),
+(798,466,o),
+(795,447,qs),
+(793,429,o),
+(778,420,qs),
+(759,409,o),
+(726,428,qs),
+(691,448,o),
+(685,493,q),
+(689,494,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(343,465,q),
+(424,477,o),
+(471,431,qs),
+(520,385,o),
+(526,301,qs),
+(532,218,o),
+(493,155,qs),
+(452,90,o),
+(382,86,qs),
+(247,76,o),
+(183,138,qs),
+(130,188,o),
+(136,273,qs),
+(141,357,o),
+(193,412,qs),
+(245,468,o),
+(309,456,qs),
+(328,453,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(6,527,o),
+(10,510,qs),
+(14,494,o),
+(43,476,o),
+(59,480,qs),
+(101,491,o),
+(167,496,q),
+(155,488,o),
+(134,467,qs),
+(62,387,o),
+(56,278,qs),
+(48,157,o),
+(127,80,qs),
+(218,-6,o),
+(387,6,qs),
+(499,14,o),
+(561,113,qs),
+(614,196,o),
+(606,307,qs),
+(598,422,o),
+(526,489,qs),
+(519,496,o),
+(515,499,q),
+(537,499,o),
+(550,498,qs),
+(560,498,o),
+(596,497,o),
+(604,497,q),
+(612,404,o),
+(685,359,qs),
+(755,319,o),
+(814,348,qs),
+(870,377,o),
+(875,440,qs),
+(882,507,o),
+(824,546,qs),
+(780,577,o),
+(707,575,q),
+(736,612,o),
+(799,642,qs),
+(813,650,o),
+(823,681,o),
+(816,696,qs),
+(809,710,o),
+(778,721,o),
+(763,714,qs),
+(697,680,o),
+(660,642,qs),
+(629,611,o),
+(616,576,q),
+(606,577,o),
+(563,578,o),
+(552,578,qs),
+(484,580,o),
+(415,582,qs),
+(299,583,o),
+(213,579,qs),
+(109,574,o),
+(40,558,qs),
+(24,554,o)
 );
 }
 );
-width = 1216;
+width = 945;
 }
 );
-note = uni0CE1;
+note = uniE7B2;
 script = kannada;
 subCategory = Other;
-},
-{
-category = Letter;
-direction = LTR;
-glyphname = "vocalicR-kannada";
-lastChange = "2026-05-01 04:23:44 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(345,141,qs),
-(301,94,o),
-(224,101,qs),
-(175,105,o),
-(156,124,qs),
-(145,134,o),
-(139,146,q),
-(137,156,o),
-(138,160,qs),
-(141,178,o),
-(167,196,qs),
-(195,217,o),
-(271,236,o),
-(294,228,qs),
-(318,220,o),
-(342,199,qs),
-(358,185,o),
-(368,174,q),
-(356,153,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(227,464,qs),
-(205,412,o),
-(181,389,qs),
-(168,376,o),
-(158,376,qs),
-(151,376,o),
-(142,385,qs),
-(130,400,o),
-(123,420,qs),
-(108,469,o),
-(132,496,qs),
-(143,508,o),
-(165,511,qs),
-(196,516,o),
-(247,499,qs),
-(252,497,o),
-(273,488,q),
-(240,493,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(299,471,q),
-(331,446,o),
-(354,407,qs),
-(391,342,o),
-(389,268,q),
-(353,296,o),
-(319,307,qs),
-(271,323,o),
-(205,305,q),
-(223,314,o),
-(238,329,qs),
-(274,364,o),
-(303,430,qs),
-(313,452,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(751,206,q),
-(762,279,o),
-(739,358,qs),
-(715,438,o),
-(671,496,q),
-(690,497,o),
-(708,502,qs),
-(787,525,o),
-(806,626,qs),
-(808,641,o),
-(805,663,qs),
-(804,682,o),
-(798,709,qs),
-(794,734,o),
-(785,754,qs),
-(777,772,o),
-(764,781,qs),
-(733,800,o),
-(705,774,qs),
-(703,772,o),
-(699,766,qs),
-(697,762,l),
-(695,758,l),
-(695,757,o),
-(693,753,qs),
-(692,751,o),
-(690,743,qs),
-(690,742,l),
-(688,736,o),
-(687,732,qs),
-(687,731,o),
-(686,727,qs),
-(681,711,o),
-(697,681,o),
-(714,676,qs),
-(716,675,o),
-(720,675,q),
-(722,661,o),
-(723,655,q),
-(723,645,o),
-(724,641,qs),
-(724,638,l),
-(718,609,o),
-(708,597,qs),
-(700,586,o),
-(685,582,qs),
-(650,572,o),
-(529,588,q),
-(527,589,o),
-(523,589,qs),
-(508,589,o),
-(484,569,o),
-(482,553,qs),
-(482,547,ls),
-(482,532,o),
-(502,508,o),
-(517,506,qs),
-(559,501,o),
-(639,404,o),
-(679,266,o),
-(668,209,qs),
-(655,154,o),
-(618,134,qs),
-(606,128,o),
-(599,126,qs),
-(564,112,o),
-(533,128,qs),
-(508,143,o),
-(466,190,qs),
-(464,192,o),
-(462,193,q),
-(470,222,o),
-(472,259,qs),
-(475,362,o),
-(426,448,qs),
-(371,545,o),
-(273,578,qs),
-(205,601,o),
-(154,593,qs),
-(101,587,o),
-(70,551,qs),
-(44,522,o),
-(31,436,o),
-(44,395,qs),
-(57,355,o),
-(82,328,qs),
-(114,294,o),
-(154,293,qs),
-(168,293,o),
-(174,295,q),
-(140,280,o),
-(118,263,qs),
-(67,227,o),
-(57,176,qs),
-(45,116,o),
-(98,64,qs),
-(123,41,o),
-(158,30,qs),
-(182,22,o),
-(216,19,qs),
-(334,7,o),
-(406,85,qs),
-(420,101,o),
-(426,110,q),
-(438,98,o),
-(445,92,qs),
-(470,69,o),
-(494,56,qs),
-(559,20,o),
-(629,48,qs),
-(649,56,o),
-(658,61,qs),
-(686,77,o),
-(705,100,q),
-(731,49,o),
-(776,17,qs),
-(846,-32,o),
-(929,-23,qs),
-(1016,-14,o),
-(1070,54,qs),
-(1128,126,o),
-(1122,240,qs),
-(1119,284,o),
-(1101,334,qs),
-(1089,367,o),
-(1065,418,qs),
-(1044,466,o),
-(1036,484,qs),
-(1030,500,o),
-(998,514,o),
-(982,507,qs),
-(966,501,o),
-(953,469,o),
-(959,453,qs),
-(973,420,o),
-(990,384,qs),
-(1009,344,o),
-(1023,307,qs),
-(1036,268,o),
-(1039,235,qs),
-(1044,152,o),
-(1005,106,qs),
-(973,65,o),
-(920,59,qs),
-(866,54,o),
-(824,84,qs),
-(777,118,o),
-(764,182,q),
-(763,196,o)
-);
-}
-);
-width = 1192;
-}
-);
-note = uni0C8B;
-script = kannada;
-subCategory = Other;
-},
-{
-category = Letter;
-direction = LTR;
-glyphname = "vocalicRR-kannada";
-lastChange = "2026-05-01 04:23:44 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(316,98,qs),
-(263,45,o),
-(210,47,qs),
-(190,49,o),
-(177,60,qs),
-(160,76,o),
-(151,109,q),
-(150,119,o),
-(155,127,qs),
-(161,139,o),
-(180,150,qs),
-(226,176,o),
-(276,158,qs),
-(302,150,o),
-(340,126,q),
-(331,113,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(741,229,q),
-(742,242,o),
-(742,269,qs),
-(739,338,o),
-(677,451,o),
-(623,484,q),
-(621,486,l),
-(652,486,o),
-(672,490,qs),
-(713,498,o),
-(733,527,qs),
-(769,579,o),
-(722,723,qs),
-(717,739,o),
-(686,755,o),
-(669,750,qs),
-(653,744,o),
-(638,713,o),
-(643,697,qs),
-(663,640,o),
-(666,602,qs),
-(667,587,o),
-(666,580,qs),
-(666,579,o),
-(666,578,q),
-(665,576,l),
-(665,575,o),
-(664,574,qs),
-(661,572,o),
-(655,571,qs),
-(646,569,o),
-(611,569,qs),
-(561,567,o),
-(549,566,qs),
-(498,558,o),
-(464,535,qs),
-(455,529,o),
-(449,519,qs),
-(440,502,o),
-(446,483,qs),
-(449,473,o),
-(459,464,qs),
-(463,460,o),
-(469,456,qs),
-(476,452,o),
-(497,446,qs),
-(502,445,ls),
-(506,444,o),
-(507,444,q),
-(508,443,o),
-(511,443,q),
-(511,442,o),
-(512,442,q),
-(514,441,o),
-(520,439,qs),
-(529,436,ls),
-(531,435,o),
-(546,429,qs),
-(572,418,o),
-(580,413,qs),
-(654,370,o),
-(659,266,qs),
-(662,164,o),
-(595,106,qs),
-(570,85,o),
-(534,98,qs),
-(511,108,o),
-(488,124,qs),
-(476,132,o),
-(461,142,qs),
-(453,148,o),
-(448,151,q),
-(464,192,o),
-(468,231,qs),
-(484,362,o),
-(393,479,qs),
-(301,601,o),
-(200,589,qs),
-(159,585,o),
-(91,532,o),
-(72,492,qs),
-(54,452,o),
-(55,419,qs),
-(55,374,o),
-(84,348,qs),
-(115,318,o),
-(168,328,qs),
-(215,337,o),
-(270,375,qs),
-(284,385,o),
-(291,418,o),
-(282,432,qs),
-(272,446,o),
-(238,454,o),
-(224,444,qs),
-(180,415,o),
-(153,410,qs),
-(147,409,o),
-(140,409,qs),
-(139,409,l),
-(139,411,l),
-(138,413,o),
-(138,420,qs),
-(137,434,o),
-(147,456,qs),
-(168,502,o),
-(209,507,qs),
-(232,509,o),
-(257,495,qs),
-(289,477,o),
-(327,429,qs),
-(397,339,o),
-(386,240,qs),
-(382,212,o),
-(378,200,q),
-(377,200,o),
-(373,204,o),
-(372,204,q),
-(336,225,o),
-(303,237,qs),
-(215,266,o),
-(138,221,qs),
-(104,201,o),
-(85,172,qs),
-(59,133,o),
-(71,90,qs),
-(84,32,o),
-(156,-34,o),
-(206,-36,qs),
-(294,-41,o),
-(374,39,qs),
-(392,56,o),
-(408,78,q),
-(409,78,o),
-(412,76,o),
-(413,75,qs),
-(440,55,o),
-(442,54,qs),
-(481,30,o),
-(504,21,qs),
-(586,-10,o),
-(648,43,qs),
-(678,67,o),
-(702,106,q),
-(718,79,o),
-(732,64,qs),
-(780,10,o),
-(860,-11,qs),
-(940,-31,o),
-(991,-16,qs),
-(1046,0,o),
-(1069,53,qs),
-(1087,89,o),
-(1087,149,qs),
-(1088,182,o),
-(1081,250,qs),
-(1081,255,o),
-(1080,258,q),
-(1074,324,o),
-(1074,360,qs),
-(1076,403,o),
-(1086,419,qs),
-(1102,444,o),
-(1177,469,o),
-(1214,463,qs),
-(1283,453,o),
-(1326,403,qs),
-(1367,356,o),
-(1383,220,o),
-(1356,160,qs),
-(1327,97,o),
-(1268,64,q),
-(1267,64,o),
-(1267,63,q),
-(1266,63,l),
-(1265,64,l),
-(1262,64,o),
-(1261,67,q),
-(1246,78,o),
-(1240,103,qs),
-(1232,128,o),
-(1239,146,qs),
-(1245,161,o),
-(1263,165,qs),
-(1264,165,o),
-(1273,166,o),
-(1276,166,q),
-(1286,142,o),
-(1313,142,qs),
-(1330,142,o),
-(1355,167,o),
-(1355,184,qs),
-(1355,211,o),
-(1334,230,qs),
-(1320,241,o),
-(1299,246,qs),
-(1276,251,o),
-(1245,246,qs),
-(1183,232,o),
-(1161,176,qs),
-(1144,131,o),
-(1160,80,qs),
-(1175,29,o),
-(1209,2,qs),
-(1256,-37,o),
-(1308,-9,qs),
-(1393,39,o),
-(1431,126,qs),
-(1468,208,o),
-(1457,298,qs),
-(1446,393,o),
-(1389,457,qs),
-(1325,530,o),
-(1226,545,qs),
-(1172,554,o),
-(1113,535,qs),
-(1050,513,o),
-(1017,465,qs),
-(993,428,o),
-(991,362,qs),
-(990,328,o),
-(998,250,qs),
-(998,245,o),
-(999,242,q),
-(1004,187,o),
-(1004,150,qs),
-(1004,110,o),
-(994,87,qs),
-(985,70,o),
-(968,64,qs),
-(940,55,o),
-(881,70,qs),
-(826,84,o),
-(765,150,o),
-(748,214,qs),
-(746,222,o)
-);
-}
-);
-width = 1529;
-}
-);
-note = uni0CE0;
-script = kannada;
-subCategory = Other;
+unicode = 59314;
 },
 {
 glyphname = zero;
@@ -131639,6 +132018,30 @@ width = 510;
 );
 note = nine;
 unicode = 57;
+},
+{
+direction = LTR;
+glyphname = zerowidthnonjoiner;
+lastChange = "2026-05-01 00:00:00 +0000";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 8204;
+},
+{
+direction = LTR;
+glyphname = zerowidthjoiner;
+lastChange = "2026-05-01 00:00:00 +0000";
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 8205;
 },
 {
 glyphname = period;
@@ -138047,6 +138450,135 @@ subCategory = Nonspacing;
 unicode = 3267;
 },
 {
+category = Mark;
+direction = LTR;
+glyphname = "vocalicRRMatra-kannada";
+lastChange = "2026-05-01 14:58:08 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-147,-164,q),
+(-158,-172,o),
+(-178,-183,q),
+(-178,-181,l),
+(-175,-173,o),
+(-171,-169,qs),
+(-162,-161,o),
+(-146,-163,q),
+(-147,-163,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(308,-65,o),
+(284,-95,qs),
+(252,-139,o),
+(265,-212,qs),
+(271,-242,o),
+(285,-267,qs),
+(302,-298,o),
+(329,-310,qs),
+(365,-327,o),
+(401,-305,qs),
+(431,-289,o),
+(455,-246,qs),
+(498,-172,o),
+(474,-99,qs),
+(454,-35,o),
+(391,8,qs),
+(333,49,o),
+(261,54,qs),
+(180,59,o),
+(123,16,qs),
+(76,-17,o),
+(63,-89,q),
+(59,-125,o),
+(60,-147,qs),
+(60,-176,o),
+(62,-203,qs),
+(62,-205,ls),
+(64,-238,o),
+(64,-298,o),
+(58,-317,qs),
+(48,-354,o),
+(9,-363,qs),
+(-23,-371,o),
+(-71,-344,qs),
+(-122,-316,o),
+(-155,-264,q),
+(-68,-224,o),
+(-57,-173,qs),
+(-48,-139,o),
+(-73,-111,qs),
+(-89,-92,o),
+(-119,-84,qs),
+(-180,-67,o),
+(-225,-106,qs),
+(-278,-151,o),
+(-255,-240,qs),
+(-242,-292,o),
+(-163,-387,o),
+(-111,-416,qs),
+(-79,-433,o),
+(-48,-442,qs),
+(-8,-453,o),
+(29,-444,qs),
+(115,-422,o),
+(138,-339,qs),
+(147,-308,o),
+(147,-269,qs),
+(147,-235,o),
+(145,-201,qs),
+(145,-198,ls),
+(141,-132,o),
+(145,-102,qs),
+(151,-66,o),
+(172,-51,qs),
+(206,-26,o),
+(304,-32,o),
+(344,-60,qs),
+(346,-61,ls),
+(348,-62,o),
+(348,-63,q),
+(347,-63,ls)
+);
+},
+{
+closed = 1;
+nodes = (
+(357,-226,qs),
+(350,-211,o),
+(347,-196,qs),
+(339,-161,o),
+(350,-146,q),
+(355,-146,o),
+(359,-148,qs),
+(370,-152,o),
+(378,-157,qs),
+(387,-162,o),
+(399,-164,q),
+(396,-183,o),
+(384,-204,qs),
+(370,-226,o),
+(361,-232,q),
+(358,-229,o)
+);
+}
+);
+width = 552;
+}
+);
+note = uni0CC4;
+script = Kannada;
+subCategory = Nonspacing;
+unicode = 3268;
+},
+{
 direction = LTR;
 glyphname = "eMatra-kannada";
 lastChange = "2026-04-27 04:12:52 +0000";
@@ -139238,14 +139770,288 @@ unicode = 3286;
 {
 category = Mark;
 direction = LTR;
+glyphname = "vocalicLMatra-kannada";
+lastChange = "2026-05-01 14:59:47 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-338,-268,o),
+(-322,-268,qs),
+(-305,-268,o),
+(-280,-244,o),
+(-280,-227,qs),
+(-280,-174,o),
+(-261,-150,qs),
+(-248,-134,o),
+(-229,-133,qs),
+(-209,-132,o),
+(-175,-160,o),
+(-173,-179,qs),
+(-172,-195,o),
+(-148,-216,o),
+(-132,-216,qs),
+(-127,-216,ls),
+(-111,-214,o),
+(-90,-190,o),
+(-90,-174,qs),
+(-90,-171,o),
+(-91,-170,q),
+(-93,-155,o),
+(-81,-146,q),
+(-69,-134,o),
+(-45,-132,qs),
+(-20,-130,o),
+(0,-143,qs),
+(21,-156,o),
+(30,-187,q),
+(29,-189,ls),
+(26,-200,o),
+(24,-202,q),
+(19,-211,o),
+(-8,-246,qs),
+(-16,-256,o),
+(-24,-264,q),
+(-25,-266,o),
+(-28,-269,qs),
+(-32,-274,ls),
+(-38,-280,o),
+(-40,-283,q),
+(-50,-293,o),
+(-56,-302,qs),
+(-75,-326,o),
+(-84,-341,qs),
+(-99,-367,o),
+(-98,-392,qs),
+(-95,-426,o),
+(-61,-446,qs),
+(-23,-466,o),
+(36,-455,qs),
+(65,-448,o),
+(87,-440,q),
+(101,-433,o),
+(116,-430,q),
+(133,-424,o),
+(148,-393,o),
+(142,-377,qs),
+(137,-361,o),
+(107,-346,o),
+(90,-351,qs),
+(63,-360,o),
+(59,-362,q),
+(29,-371,o),
+(19,-373,qs),
+(2,-378,o),
+(-8,-376,q),
+(0,-365,o),
+(8,-355,qs),
+(19,-342,o),
+(22,-337,q),
+(24,-335,o),
+(30,-328,qs),
+(34,-324,l),
+(39,-319,ls),
+(46,-311,o),
+(56,-299,qs),
+(83,-266,o),
+(97,-241,qs),
+(119,-202,o),
+(110,-166,qs),
+(95,-107,o),
+(46,-74,qs),
+(3,-46,o),
+(-50,-49,qs),
+(-102,-52,o),
+(-137,-84,q),
+(-179,-48,o),
+(-232,-50,qs),
+(-289,-52,o),
+(-326,-98,qs),
+(-363,-146,o),
+(-363,-227,qs),
+(-363,-244,o)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0CE2;
+script = Kannada;
+subCategory = Nonspacing;
+unicode = 3298;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "vocalicLLMatra-kannada";
+lastChange = "2026-05-01 15:00:01 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-309,-302,o),
+(-277,-290,o),
+(-262,-259,o),
+(-268,-243,qs),
+(-279,-216,o),
+(-277,-199,qs),
+(-277,-187,o),
+(-272,-177,q),
+(-262,-162,o),
+(-234,-159,qs),
+(-202,-156,o),
+(-178,-170,qs),
+(-159,-182,o),
+(-159,-196,qs),
+(-159,-213,o),
+(-135,-237,o),
+(-101,-237,o),
+(-76,-213,o),
+(-76,-196,qs),
+(-76,-169,o),
+(-73,-154,q),
+(-72,-152,o),
+(-71,-148,qs),
+(-70,-145,l),
+(-69,-144,o),
+(-69,-143,q),
+(-68,-143,ls),
+(-64,-142,o),
+(-51,-139,qs),
+(-36,-137,o),
+(-22,-134,q),
+(-17,-132,o),
+(-5,-136,qs),
+(11,-141,o),
+(22,-149,qs),
+(34,-158,o),
+(37,-166,qs),
+(39,-170,o),
+(38,-174,q),
+(34,-181,o),
+(24,-189,qs),
+(15,-195,o),
+(-16,-209,q),
+(-17,-209,l),
+(-36,-218,o),
+(-47,-224,qs),
+(-65,-233,o),
+(-78,-243,qs),
+(-117,-274,o),
+(-121,-317,qs),
+(-124,-351,o),
+(-98,-375,q),
+(-97,-375,o),
+(-90,-381,o),
+(-88,-382,q),
+(-98,-397,o),
+(-103,-415,qs),
+(-120,-481,o),
+(-68,-518,qs),
+(-34,-542,o),
+(25,-544,qs),
+(77,-544,o),
+(116,-529,qs),
+(137,-520,o),
+(155,-506,qs),
+(178,-485,o),
+(178,-457,qs),
+(178,-440,o),
+(153,-415,o),
+(136,-415,qs),
+(122,-415,o),
+(99,-433,o),
+(96,-447,q),
+(95,-447,l),
+(94,-448,o),
+(88,-451,o),
+(86,-452,qs),
+(62,-461,o),
+(27,-461,qs),
+(-6,-459,o),
+(-20,-450,q),
+(-24,-446,l),
+(-24,-444,ls),
+(-24,-439,o),
+(-23,-436,qs),
+(-20,-424,o),
+(10,-399,o),
+(31,-391,qs),
+(57,-380,o),
+(57,-352,qs),
+(57,-344,o),
+(54,-337,qs),
+(43,-311,o),
+(15,-311,qs),
+(8,-311,o),
+(0,-314,qs),
+(-15,-318,o),
+(-34,-315,q),
+(-30,-311,o),
+(-27,-309,qs),
+(-13,-298,o),
+(17,-285,q),
+(18,-285,l),
+(53,-269,o),
+(70,-258,qs),
+(104,-234,o),
+(116,-203,qs),
+(129,-169,o),
+(113,-132,qs),
+(100,-105,o),
+(72,-83,qs),
+(14,-41,o),
+(-42,-53,qs),
+(-45,-54,o),
+(-50,-55,o),
+(-59,-57,o),
+(-64,-58,qs),
+(-87,-61,o),
+(-96,-65,qs),
+(-119,-73,o),
+(-133,-91,qs),
+(-134,-92,o),
+(-138,-98,q),
+(-183,-71,o),
+(-242,-76,qs),
+(-309,-82,o),
+(-341,-132,qs),
+(-377,-187,o),
+(-346,-272,qs),
+(-340,-288,o)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0CE3;
+script = Kannada;
+subCategory = Nonspacing;
+unicode = 3299;
+},
+{
+category = Mark;
+direction = LTR;
 glyphname = "kavattu_r-kannada";
-lastChange = "2026-04-30 10:00:00 +0000";
+lastChange = "2026-05-02 02:17:41 +0000";
 layers = (
 {
 anchors = (
 {
+name = _bottom;
+pos = (-292,-28);
+},
+{
 name = _right;
-pos = (-243,-181);
+pos = (-290,-181);
 },
 {
 name = right;
@@ -141581,7 +142387,7 @@ subCategory = Nonspacing;
 category = Mark;
 direction = LTR;
 glyphname = "ravattu-kannada";
-lastChange = "2026-04-30 04:19:37 +0000";
+lastChange = "2026-05-03 03:36:46 +0000";
 layers = (
 {
 anchors = (
@@ -141622,7 +142428,7 @@ nodes = (
 );
 }
 );
-width = 81;
+width = 83;
 }
 );
 note = uni2460;
@@ -143324,13 +144130,13 @@ subCategory = Nonspacing;
 category = Mark;
 direction = LTR;
 glyphname = "kavattu-kannada";
-lastChange = "2026-04-27 04:12:52 +0000";
+lastChange = "2026-05-02 02:18:10 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (-306,33);
+pos = (-374,-41);
 },
 {
 name = bottom;
@@ -143346,78 +144152,78 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-142,-268,q),
-(-134,-268,l),
-(-105,-282,o),
-(-107,-313,qs),
-(-109,-345,o),
-(-137,-358,qs),
-(-161,-370,o),
-(-176,-362,qs),
-(-189,-356,o),
-(-195,-338,qs),
-(-200,-316,o),
-(-193,-302,qs),
-(-185,-287,o),
-(-167,-283,qs),
-(-153,-280,o)
+(-128,-293,q),
+(-117,-293,l),
+(-78,-310,o),
+(-82,-349,qs),
+(-84,-390,o),
+(-121,-407,qs),
+(-153,-422,o),
+(-172,-411,qs),
+(-190,-404,o),
+(-198,-381,qs),
+(-205,-354,o),
+(-195,-336,qs),
+(-185,-316,o),
+(-161,-312,qs),
+(-142,-308,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(-159,-56,o),
-(-193,-54,o),
-(-218,-78,o),
-(-220,-95,qs),
-(-220,-98,ls),
-(-221,-120,o),
-(-221,-138,qs),
-(-219,-163,o),
-(-216,-176,q),
-(-222,-177,o),
-(-266,-183,qs),
-(-305,-189,o),
-(-310,-189,qs),
-(-326,-191,o),
-(-347,-215,o),
-(-347,-231,qs),
-(-347,-235,ls),
-(-346,-251,o),
-(-322,-272,o),
-(-306,-272,qs),
-(-302,-272,ls),
-(-282,-270,o),
-(-269,-270,q),
-(-289,-312,o),
-(-274,-361,qs),
-(-260,-414,o),
-(-214,-436,qs),
-(-163,-462,o),
-(-102,-434,qs),
-(-67,-418,o),
-(-26,-354,o),
-(-24,-316,qs),
-(-23,-287,o),
-(-35,-257,q),
-(-4,-245,o),
-(-9,-212,qs),
-(-12,-195,o),
-(-40,-175,o),
-(-57,-178,qs),
-(-84,-183,o),
-(-119,-184,q),
-(-122,-183,o),
-(-132,-180,o),
-(-135,-179,q),
-(-132,-170,o),
-(-135,-160,q),
-(-137,-144,o),
-(-138,-135,qs),
-(-138,-121,o),
-(-137,-102,qs),
-(-137,-99,ls),
-(-136,-82,o)
+(-150,-24,o),
+(-195,-22,o),
+(-229,-52,o),
+(-231,-74,qs),
+(-231,-78,ls),
+(-232,-105,o),
+(-232,-129,qs),
+(-230,-160,o),
+(-225,-177,q),
+(-233,-178,o),
+(-292,-185,qs),
+(-344,-193,o),
+(-351,-193,qs),
+(-371,-196,o),
+(-400,-226,o),
+(-400,-246,qs),
+(-400,-251,ls),
+(-398,-272,o),
+(-367,-298,o),
+(-345,-298,qs),
+(-340,-298,ls),
+(-314,-295,o),
+(-297,-295,q),
+(-323,-348,o),
+(-302,-410,qs),
+(-284,-477,o),
+(-223,-505,qs),
+(-155,-538,o),
+(-75,-503,qs),
+(-29,-483,o),
+(27,-402,o),
+(29,-354,qs),
+(30,-316,o),
+(14,-279,q),
+(55,-264,o),
+(48,-223,qs),
+(45,-200,o),
+(8,-176,o),
+(-15,-179,qs),
+(-51,-185,o),
+(-98,-186,q),
+(-101,-185,o),
+(-115,-181,o),
+(-118,-180,q),
+(-115,-169,o),
+(-118,-157,q),
+(-121,-136,o),
+(-123,-125,qs),
+(-123,-106,o),
+(-121,-83,qs),
+(-121,-79,ls),
+(-120,-57,o)
 );
 }
 );
@@ -143675,413 +144481,14 @@ subCategory = Nonspacing;
 {
 category = Mark;
 direction = LTR;
-glyphname = "vocalicLLMatra-kannada";
-lastChange = "2026-05-01 15:00:01 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-309,-302,o),
-(-277,-290,o),
-(-262,-259,o),
-(-268,-243,qs),
-(-279,-216,o),
-(-277,-199,qs),
-(-277,-187,o),
-(-272,-177,q),
-(-262,-162,o),
-(-234,-159,qs),
-(-202,-156,o),
-(-178,-170,qs),
-(-159,-182,o),
-(-159,-196,qs),
-(-159,-213,o),
-(-135,-237,o),
-(-101,-237,o),
-(-76,-213,o),
-(-76,-196,qs),
-(-76,-169,o),
-(-73,-154,q),
-(-72,-152,o),
-(-71,-148,qs),
-(-70,-145,l),
-(-69,-144,o),
-(-69,-143,q),
-(-68,-143,ls),
-(-64,-142,o),
-(-51,-139,qs),
-(-36,-137,o),
-(-22,-134,q),
-(-17,-132,o),
-(-5,-136,qs),
-(11,-141,o),
-(22,-149,qs),
-(34,-158,o),
-(37,-166,qs),
-(39,-170,o),
-(38,-174,q),
-(34,-181,o),
-(24,-189,qs),
-(15,-195,o),
-(-16,-209,q),
-(-17,-209,l),
-(-36,-218,o),
-(-47,-224,qs),
-(-65,-233,o),
-(-78,-243,qs),
-(-117,-274,o),
-(-121,-317,qs),
-(-124,-351,o),
-(-98,-375,q),
-(-97,-375,o),
-(-90,-381,o),
-(-88,-382,q),
-(-98,-397,o),
-(-103,-415,qs),
-(-120,-481,o),
-(-68,-518,qs),
-(-34,-542,o),
-(25,-544,qs),
-(77,-544,o),
-(116,-529,qs),
-(137,-520,o),
-(155,-506,qs),
-(178,-485,o),
-(178,-457,qs),
-(178,-440,o),
-(153,-415,o),
-(136,-415,qs),
-(122,-415,o),
-(99,-433,o),
-(96,-447,q),
-(95,-447,l),
-(94,-448,o),
-(88,-451,o),
-(86,-452,qs),
-(62,-461,o),
-(27,-461,qs),
-(-6,-459,o),
-(-20,-450,q),
-(-24,-446,l),
-(-24,-444,ls),
-(-24,-439,o),
-(-23,-436,qs),
-(-20,-424,o),
-(10,-399,o),
-(31,-391,qs),
-(57,-380,o),
-(57,-352,qs),
-(57,-344,o),
-(54,-337,qs),
-(43,-311,o),
-(15,-311,qs),
-(8,-311,o),
-(0,-314,qs),
-(-15,-318,o),
-(-34,-315,q),
-(-30,-311,o),
-(-27,-309,qs),
-(-13,-298,o),
-(17,-285,q),
-(18,-285,l),
-(53,-269,o),
-(70,-258,qs),
-(104,-234,o),
-(116,-203,qs),
-(129,-169,o),
-(113,-132,qs),
-(100,-105,o),
-(72,-83,qs),
-(14,-41,o),
-(-42,-53,qs),
-(-45,-54,o),
-(-50,-55,o),
-(-59,-57,o),
-(-64,-58,qs),
-(-87,-61,o),
-(-96,-65,qs),
-(-119,-73,o),
-(-133,-91,qs),
-(-134,-92,o),
-(-138,-98,q),
-(-183,-71,o),
-(-242,-76,qs),
-(-309,-82,o),
-(-341,-132,qs),
-(-377,-187,o),
-(-346,-272,qs),
-(-340,-288,o)
-);
-}
-);
-width = 0;
-}
-);
-note = uni0CE3;
-script = Kannada;
-subCategory = Nonspacing;
-unicode = 3299;
-},
-{
-category = Mark;
-direction = LTR;
-glyphname = "vocalicLMatra-kannada";
-lastChange = "2026-05-01 14:59:47 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-338,-268,o),
-(-322,-268,qs),
-(-305,-268,o),
-(-280,-244,o),
-(-280,-227,qs),
-(-280,-174,o),
-(-261,-150,qs),
-(-248,-134,o),
-(-229,-133,qs),
-(-209,-132,o),
-(-175,-160,o),
-(-173,-179,qs),
-(-172,-195,o),
-(-148,-216,o),
-(-132,-216,qs),
-(-127,-216,ls),
-(-111,-214,o),
-(-90,-190,o),
-(-90,-174,qs),
-(-90,-171,o),
-(-91,-170,q),
-(-93,-155,o),
-(-81,-146,q),
-(-69,-134,o),
-(-45,-132,qs),
-(-20,-130,o),
-(0,-143,qs),
-(21,-156,o),
-(30,-187,q),
-(29,-189,ls),
-(26,-200,o),
-(24,-202,q),
-(19,-211,o),
-(-8,-246,qs),
-(-16,-256,o),
-(-24,-264,q),
-(-25,-266,o),
-(-28,-269,qs),
-(-32,-274,ls),
-(-38,-280,o),
-(-40,-283,q),
-(-50,-293,o),
-(-56,-302,qs),
-(-75,-326,o),
-(-84,-341,qs),
-(-99,-367,o),
-(-98,-392,qs),
-(-95,-426,o),
-(-61,-446,qs),
-(-23,-466,o),
-(36,-455,qs),
-(65,-448,o),
-(87,-440,q),
-(101,-433,o),
-(116,-430,q),
-(133,-424,o),
-(148,-393,o),
-(142,-377,qs),
-(137,-361,o),
-(107,-346,o),
-(90,-351,qs),
-(63,-360,o),
-(59,-362,q),
-(29,-371,o),
-(19,-373,qs),
-(2,-378,o),
-(-8,-376,q),
-(0,-365,o),
-(8,-355,qs),
-(19,-342,o),
-(22,-337,q),
-(24,-335,o),
-(30,-328,qs),
-(34,-324,l),
-(39,-319,ls),
-(46,-311,o),
-(56,-299,qs),
-(83,-266,o),
-(97,-241,qs),
-(119,-202,o),
-(110,-166,qs),
-(95,-107,o),
-(46,-74,qs),
-(3,-46,o),
-(-50,-49,qs),
-(-102,-52,o),
-(-137,-84,q),
-(-179,-48,o),
-(-232,-50,qs),
-(-289,-52,o),
-(-326,-98,qs),
-(-363,-146,o),
-(-363,-227,qs),
-(-363,-244,o)
-);
-}
-);
-width = 0;
-}
-);
-note = uni0CE2;
-script = Kannada;
-subCategory = Nonspacing;
-unicode = 3298;
-},
-{
-category = Mark;
-direction = LTR;
-glyphname = "vocalicRRMatra-kannada";
-lastChange = "2026-05-01 14:58:08 +0000";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(-147,-164,q),
-(-158,-172,o),
-(-178,-183,q),
-(-178,-181,l),
-(-175,-173,o),
-(-171,-169,qs),
-(-162,-161,o),
-(-146,-163,q),
-(-147,-163,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(308,-65,o),
-(284,-95,qs),
-(252,-139,o),
-(265,-212,qs),
-(271,-242,o),
-(285,-267,qs),
-(302,-298,o),
-(329,-310,qs),
-(365,-327,o),
-(401,-305,qs),
-(431,-289,o),
-(455,-246,qs),
-(498,-172,o),
-(474,-99,qs),
-(454,-35,o),
-(391,8,qs),
-(333,49,o),
-(261,54,qs),
-(180,59,o),
-(123,16,qs),
-(76,-17,o),
-(63,-89,q),
-(59,-125,o),
-(60,-147,qs),
-(60,-176,o),
-(62,-203,qs),
-(62,-205,ls),
-(64,-238,o),
-(64,-298,o),
-(58,-317,qs),
-(48,-354,o),
-(9,-363,qs),
-(-23,-371,o),
-(-71,-344,qs),
-(-122,-316,o),
-(-155,-264,q),
-(-68,-224,o),
-(-57,-173,qs),
-(-48,-139,o),
-(-73,-111,qs),
-(-89,-92,o),
-(-119,-84,qs),
-(-180,-67,o),
-(-225,-106,qs),
-(-278,-151,o),
-(-255,-240,qs),
-(-242,-292,o),
-(-163,-387,o),
-(-111,-416,qs),
-(-79,-433,o),
-(-48,-442,qs),
-(-8,-453,o),
-(29,-444,qs),
-(115,-422,o),
-(138,-339,qs),
-(147,-308,o),
-(147,-269,qs),
-(147,-235,o),
-(145,-201,qs),
-(145,-198,ls),
-(141,-132,o),
-(145,-102,qs),
-(151,-66,o),
-(172,-51,qs),
-(206,-26,o),
-(304,-32,o),
-(344,-60,qs),
-(346,-61,ls),
-(348,-62,o),
-(348,-63,q),
-(347,-63,ls)
-);
-},
-{
-closed = 1;
-nodes = (
-(357,-226,qs),
-(350,-211,o),
-(347,-196,qs),
-(339,-161,o),
-(350,-146,q),
-(355,-146,o),
-(359,-148,qs),
-(370,-152,o),
-(378,-157,qs),
-(387,-162,o),
-(399,-164,q),
-(396,-183,o),
-(384,-204,qs),
-(370,-226,o),
-(361,-232,q),
-(358,-229,o)
-);
-}
-);
-width = 552;
-}
-);
-note = uni0CC4;
-script = Kannada;
-subCategory = Nonspacing;
-unicode = 3268;
-},
-{
-category = Mark;
-direction = LTR;
 glyphname = "yavattu-kannada";
-lastChange = "2026-04-29 06:03:42 +0000";
+lastChange = "2026-05-02 04:34:05 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (-183,0);
+pos = (-232,63);
 },
 {
 name = bottom;
@@ -144097,52 +144504,52 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(78,30,qs),
-(96,72,o),
-(51,103,qs),
-(19,130,o),
-(-26,113,qs),
-(-68,93,o),
-(-68,27,qs),
-(-68,-35,ls),
-(-64,-70,o),
-(-64,-115,qs),
-(-64,-187,o),
-(-78,-215,qs),
-(-93,-239,o),
-(-124,-236,q),
-(-135,-229,l),
-(-135,-204,o),
-(-131,-187,q),
-(-127,-180,o),
-(-120,-160,q),
-(-120,-156,o),
-(-117,-146,qs),
-(-114,-135,ls),
-(-106,-122,o),
-(-106,-118,q),
-(-89,-63,o),
-(-124,-35,qs),
-(-148,-11,o),
-(-190,-25,qs),
-(-232,-35,o),
-(-232,-77,qs),
-(-232,-111,o),
-(-187,-135,q),
-(-190,-149,o),
-(-197,-170,qs),
-(-207,-219,o),
-(-201,-243,qs),
-(-190,-291,o),
-(-138,-301,qs),
-(-54,-322,o),
-(-15,-246,qs),
-(6,-201,o),
-(6,-115,qs),
-(6,-67,o),
-(2,-32,qs),
-(2,-11,l),
-(65,-4,o)
+(155,15,qs),
+(177,63,o),
+(121,99,qs),
+(81,130,o),
+(25,110,qs),
+(-27,87,o),
+(-27,11,qs),
+(-27,-60,ls),
+(-22,-100,o),
+(-22,-152,qs),
+(-22,-235,o),
+(-40,-267,qs),
+(-58,-295,o),
+(-97,-292,q),
+(-111,-284,l),
+(-111,-255,o),
+(-106,-235,q),
+(-101,-227,o),
+(-92,-204,q),
+(-92,-199,o),
+(-88,-188,qs),
+(-85,-175,ls),
+(-75,-160,o),
+(-75,-156,q),
+(-53,-92,o),
+(-97,-60,qs),
+(-127,-32,o),
+(-180,-49,qs),
+(-232,-60,o),
+(-232,-108,qs),
+(-232,-148,o),
+(-176,-175,q),
+(-180,-191,o),
+(-188,-216,qs),
+(-201,-272,o),
+(-193,-300,qs),
+(-180,-355,o),
+(-115,-367,qs),
+(-10,-391,o),
+(39,-303,qs),
+(65,-251,o),
+(65,-152,qs),
+(65,-97,o),
+(60,-57,qs),
+(60,-32,l),
+(139,-24,o)
 );
 }
 );
@@ -144513,5 +144920,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 0;
+versionMinor = 18;
 }
