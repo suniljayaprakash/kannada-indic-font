@@ -2,12 +2,21 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-A,
-B,
-D,
-C
+"/ngavattu-kannada"
 );
 classes = (
+{
+code = "bavattu-kannada bhavattu-kannada cavattu-kannada chavattu-kannada davattu-kannada ddavattu-kannada ddhavattu-kannada dhavattu-kannada gavattu-kannada ghavattu-kannada havattu-kannada javattu-kannada jhavattu-kannada kavattu-kannada khavattu-kannada lavattu-kannada llavattu-kannada lllavattu-kannada mavattu-kannada navattu-kannada ngavattu-kannada nnavattu-kannada nyavattu-kannada pavattu-kannada phavattu-kannada ravattu-kannada rravattu-kannada savattu-kannada shavattu-kannada ssavattu-kannada tavattu-kannada thavattu-kannada ttavattu-kannada tthavattu-kannada vavattu-kannada yavattu-kannada";
+name = VattuAll;
+},
+{
+code = "bavattu_r-kannada bhavattu_r-kannada cavattu_r-kannada chavattu_r-kannada davattu_r-kannada ddavattu_r-kannada ddhavattu_r-kannada dhavattu_r-kannada gavattu_r-kannada ghavattu_r-kannada havattu_r-kannada javattu_r-kannada jhavattu_r-kannada kavattu_r-kannada khavattu_r-kannada lavattu_r-kannada llavattu_r-kannada lllavattu_r-kannada mavattu_r-kannada navattu_r-kannada ngavattu_r-kannada nnavattu_r-kannada nyavattu_r-kannada pavattu_r-kannada phavattu_r-kannada ravattu_r-kannada rravattu_r-kannada savattu_r-kannada shavattu_r-kannada ssavattu_r-kannada tavattu_r-kannada thavattu_r-kannada ttavattu_r-kannada tthavattu_r-kannada vavattu_r-kannada yavattu_r-kannada";
+name = VattuRight;
+},
+{
+code = "bavattu-kannada bhavattu-kannada cavattu-kannada chavattu-kannada davattu-kannada ddavattu-kannada ddhavattu-kannada dhavattu-kannada gavattu-kannada ghavattu-kannada havattu-kannada javattu-kannada jhavattu-kannada kavattu-kannada khavattu-kannada lavattu-kannada llavattu-kannada lllavattu-kannada mavattu-kannada navattu-kannada ngavattu-kannada nnavattu-kannada nyavattu-kannada pavattu-kannada phavattu-kannada ravattu-kannada rravattu-kannada savattu-kannada shavattu-kannada ssavattu-kannada tavattu-kannada thavattu-kannada ttavattu-kannada tthavattu-kannada vavattu-kannada yavattu-kannada bavattu_r-kannada bhavattu_r-kannada cavattu_r-kannada chavattu_r-kannada davattu_r-kannada ddavattu_r-kannada ddhavattu_r-kannada dhavattu_r-kannada gavattu_r-kannada ghavattu_r-kannada havattu_r-kannada javattu_r-kannada jhavattu_r-kannada kavattu_r-kannada khavattu_r-kannada lavattu_r-kannada llavattu_r-kannada lllavattu_r-kannada mavattu_r-kannada navattu_r-kannada ngavattu_r-kannada nnavattu_r-kannada nyavattu_r-kannada pavattu_r-kannada phavattu_r-kannada ravattu_r-kannada rravattu_r-kannada savattu_r-kannada shavattu_r-kannada ssavattu_r-kannada tavattu_r-kannada thavattu_r-kannada ttavattu_r-kannada tthavattu_r-kannada vavattu_r-kannada yavattu_r-kannada";
+name = VattuAny;
+},
 {
 code = "ka_auMatra-kannada kha_auMatra-kannada ga_auMatra-kannada gha_auMatra-kannada nga_auMatra-kannada ca_auMatra-kannada cha_auMatra-kannada ja_auMatra-kannada jha_auMatra-kannada nya_auMatra-kannada tta_auMatra-kannada ttha_auMatra-kannada dda_auMatra-kannada ddha_auMatra-kannada nna_auMatra-kannada ta_auMatra-kannada tha_auMatra-kannada da_auMatra-kannada dha_auMatra-kannada na_auMatra-kannada pa_auMatra-kannada pha_auMatra-kannada ba_auMatra-kannada bha_auMatra-kannada ma_auMatra-kannada ya_auMatra-kannada ra_auMatra-kannada la_auMatra-kannada va_auMatra-kannada sha_auMatra-kannada ssa_auMatra-kannada sa_auMatra-kannada ha_auMatra-kannada lla_auMatra-kannada 
 ";
@@ -1341,6 +1350,50 @@ lookup ccmp_knda_1;
 
 ";
 tag = ccmp;
+},
+{
+code = "lookup vattu_to_right {
+  sub bavattu-kannada by bavattu_r-kannada;
+  sub bhavattu-kannada by bhavattu_r-kannada;
+  sub cavattu-kannada by cavattu_r-kannada;
+  sub chavattu-kannada by chavattu_r-kannada;
+  sub davattu-kannada by davattu_r-kannada;
+  sub ddavattu-kannada by ddavattu_r-kannada;
+  sub ddhavattu-kannada by ddhavattu_r-kannada;
+  sub dhavattu-kannada by dhavattu_r-kannada;
+  sub gavattu-kannada by gavattu_r-kannada;
+  sub ghavattu-kannada by ghavattu_r-kannada;
+  sub havattu-kannada by havattu_r-kannada;
+  sub javattu-kannada by javattu_r-kannada;
+  sub jhavattu-kannada by jhavattu_r-kannada;
+  sub kavattu-kannada by kavattu_r-kannada;
+  sub khavattu-kannada by khavattu_r-kannada;
+  sub lavattu-kannada by lavattu_r-kannada;
+  sub llavattu-kannada by llavattu_r-kannada;
+  sub lllavattu-kannada by lllavattu_r-kannada;
+  sub mavattu-kannada by mavattu_r-kannada;
+  sub navattu-kannada by navattu_r-kannada;
+  sub ngavattu-kannada by ngavattu_r-kannada;
+  sub nnavattu-kannada by nnavattu_r-kannada;
+  sub nyavattu-kannada by nyavattu_r-kannada;
+  sub pavattu-kannada by pavattu_r-kannada;
+  sub phavattu-kannada by phavattu_r-kannada;
+  sub ravattu-kannada by ravattu_r-kannada;
+  sub rravattu-kannada by rravattu_r-kannada;
+  sub savattu-kannada by savattu_r-kannada;
+  sub shavattu-kannada by shavattu_r-kannada;
+  sub ssavattu-kannada by ssavattu_r-kannada;
+  sub tavattu-kannada by tavattu_r-kannada;
+  sub thavattu-kannada by thavattu_r-kannada;
+  sub ttavattu-kannada by ttavattu_r-kannada;
+  sub tthavattu-kannada by tthavattu_r-kannada;
+  sub vavattu-kannada by vavattu_r-kannada;
+  sub yavattu-kannada by yavattu_r-kannada;
+} vattu_to_right;
+
+sub @VattuAny @VattuAll' lookup vattu_to_right;
+";
+tag = calt;
 },
 {
 code = "lookup reph_form {
@@ -136021,21 +136074,21 @@ subCategory = Nonspacing;
 category = Mark;
 direction = LTR;
 glyphname = "javattu-kannada";
-lastChange = "2026-04-29 06:00:58 +0000";
+lastChange = "2026-05-04 01:10:23 +0000";
 layers = (
 {
 anchors = (
 {
 name = _bottom;
-pos = (-183,0);
+pos = (-201,9);
 },
 {
 name = bottom;
-pos = (-637,-349);
+pos = (316,-475);
 },
 {
 name = right;
-pos = (-396,-117);
+pos = (343,-117);
 }
 );
 layerId = m01;
@@ -136043,109 +136096,109 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-777,20,o),
-(-777,17,o),
-(-773,17,q),
-(-773,13,ls),
-(-773,-7,o),
-(-780,-22,q),
-(-780,-1,l),
-(-788,20,o),
-(-788,23,q),
-(-780,20,l)
+(-77,-130,o),
+(-77,-133,o),
+(-73,-133,q),
+(-73,-137,ls),
+(-73,-157,o),
+(-80,-172,q),
+(-80,-151,l),
+(-88,-130,o),
+(-88,-127,q),
+(-80,-130,l)
 );
 },
 {
 closed = 1;
 nodes = (
-(-801,-46,q),
-(-798,-46,o),
-(-794,-42,q),
-(-801,-52,o),
-(-812,-70,qs),
-(-818,-80,ls),
-(-850,-125,o),
-(-857,-149,qs),
-(-878,-225,o),
-(-843,-270,q),
-(-815,-322,o),
-(-752,-322,q),
-(-696,-329,o),
-(-651,-284,qs),
-(-641,-273,l),
-(-637,-273,o),
-(-637,-277,o),
-(-634,-277,q),
-(-599,-322,o),
-(-536,-312,qs),
-(-480,-305,o),
-(-403,-204,o),
-(-400,-139,q),
-(-396,-132,o),
-(-407,-87,q),
-(-414,-73,l),
-(-414,-70,o),
-(-417,-67,qs),
-(-421,-63,ls),
-(-431,-52,o),
-(-449,-52,qs),
-(-462,-52,o),
-(-477,-67,q),
-(-483,-80,l),
-(-483,-87,l),
-(-487,-94,o),
-(-487,-101,qs),
-(-491,-122,o),
-(-470,-135,q),
-(-477,-236,o),
-(-546,-243,q),
-(-571,-249,o),
-(-581,-232,q),
-(-602,-212,o),
-(-599,-156,qs),
-(-599,-122,o),
-(-668,-122,o),
-(-668,-152,qs),
-(-672,-204,o),
-(-717,-256,o),
-(-749,-253,qs),
-(-812,-253,o),
-(-791,-170,q),
-(-777,-143,o),
-(-763,-122,qs),
-(-759,-118,o),
-(-756,-111,qs),
-(-728,-73,o),
-(-721,-56,q),
-(-714,-59,o),
-(-704,-59,qs),
-(-693,-59,l),
-(-647,-59,ls),
-(-592,-52,o),
-(-571,-32,qs),
-(-525,6,o),
-(-564,65,q),
-(-574,93,o),
-(-609,78,qs),
-(-641,62,o),
-(-623,30,q),
-(-620,27,o),
-(-620,20,q),
-(-616,20,l),
-(-620,17,o),
-(-655,10,q),
-(-693,10,l),
-(-704,10,l),
-(-704,23,o),
-(-707,30,q),
-(-710,54,o),
-(-767,96,o),
-(-794,96,qs),
-(-839,96,o),
-(-854,58,qs),
-(-868,30,o),
-(-847,-25,qs),
-(-833,-59,o)
+(-101,-196,q),
+(-98,-196,o),
+(-94,-192,q),
+(-101,-202,o),
+(-112,-220,qs),
+(-118,-230,ls),
+(-150,-275,o),
+(-157,-299,qs),
+(-178,-375,o),
+(-143,-420,q),
+(-115,-472,o),
+(-52,-472,q),
+(4,-479,o),
+(49,-434,qs),
+(59,-423,l),
+(63,-423,o),
+(63,-427,o),
+(66,-427,q),
+(101,-472,o),
+(164,-462,qs),
+(220,-455,o),
+(297,-354,o),
+(300,-289,q),
+(304,-282,o),
+(293,-237,q),
+(286,-223,l),
+(286,-220,o),
+(283,-217,qs),
+(279,-213,ls),
+(269,-202,o),
+(251,-202,qs),
+(238,-202,o),
+(223,-217,q),
+(217,-230,l),
+(217,-237,l),
+(213,-244,o),
+(213,-251,qs),
+(209,-272,o),
+(230,-285,q),
+(223,-386,o),
+(154,-393,q),
+(129,-399,o),
+(119,-382,q),
+(98,-362,o),
+(101,-306,qs),
+(101,-272,o),
+(32,-272,o),
+(32,-302,qs),
+(28,-354,o),
+(-17,-406,o),
+(-49,-403,qs),
+(-112,-403,o),
+(-91,-320,q),
+(-77,-293,o),
+(-63,-272,qs),
+(-59,-268,o),
+(-56,-261,qs),
+(-28,-223,o),
+(-21,-206,q),
+(-14,-209,o),
+(-4,-209,qs),
+(7,-209,l),
+(53,-209,ls),
+(108,-202,o),
+(129,-182,qs),
+(175,-144,o),
+(136,-85,q),
+(126,-57,o),
+(91,-72,qs),
+(59,-88,o),
+(77,-120,q),
+(80,-123,o),
+(80,-130,q),
+(84,-130,l),
+(80,-133,o),
+(45,-140,q),
+(7,-140,l),
+(-4,-140,l),
+(-4,-127,o),
+(-7,-120,q),
+(-10,-96,o),
+(-67,-54,o),
+(-94,-54,qs),
+(-139,-54,o),
+(-154,-92,qs),
+(-168,-120,o),
+(-147,-175,qs),
+(-133,-209,o)
 );
 }
 );
@@ -139079,7 +139132,7 @@ subCategory = Nonspacing;
 category = Mark;
 direction = LTR;
 glyphname = "ngavattu-kannada";
-lastChange = "2026-04-30 04:18:35 +0000";
+lastChange = "2026-05-04 01:16:22 +0000";
 layers = (
 {
 anchors = (
@@ -139089,11 +139142,11 @@ pos = (-183,0);
 },
 {
 name = bottom;
-pos = (-59,-549);
+pos = (388,-523);
 },
 {
 name = right;
-pos = (152,-302);
+pos = (436,-302);
 }
 );
 layerId = m01;
@@ -139101,98 +139154,98 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-42,-458,qs),
-(1,-494,o),
-(49,-479,qs),
-(104,-466,o),
-(152,-369,o),
-(131,-311,q),
-(125,-280,o),
-(95,-292,qs),
-(68,-301,o),
-(76,-332,qs),
-(101,-403,o),
-(37,-421,q),
-(16,-424,o),
-(-2,-411,q),
-(-23,-390,o),
-(-23,-341,qs),
-(-23,-311,o),
-(-84,-311,o),
-(-84,-341,qs),
-(-84,-400,o),
-(-111,-434,qs),
-(-129,-461,o),
-(-145,-461,q),
-(-151,-455,ls),
-(-160,-445,o),
-(-160,-419,q),
-(-169,-365,o),
-(-135,-253,q),
-(-123,-259,o),
-(-117,-255,q),
-(-84,-255,o),
-(-90,-225,q),
-(-90,-179,o),
-(-42,-151,qs),
-(-2,-129,o),
-(16,-169,qs),
-(28,-197,o),
-(56,-185,qs),
-(86,-173,o),
-(70,-145,qs),
-(49,-99,o),
-(-30,-75,o),
-(-69,-96,qs),
-(-102,-111,o),
-(-127,-148,q),
-(-133,-133,o),
-(-148,-126,qs),
-(-180,-108,o),
-(-223,-136,qs),
-(-269,-166,o),
-(-266,-200,qs),
-(-266,-230,o),
-(-233,-237,qs),
-(-214,-244,o),
-(-196,-240,q),
-(-230,-360,o),
-(-220,-424,qs),
-(-214,-510,o),
-(-154,-519,qs),
-(-105,-529,o),
-(-63,-470,qs),
-(-60,-466,o),
-(-48,-449,q),
-(-48,-451,o)
+(68,-418,qs),
+(111,-454,o),
+(159,-439,qs),
+(214,-426,o),
+(262,-329,o),
+(241,-271,q),
+(235,-240,o),
+(205,-252,qs),
+(178,-261,o),
+(186,-292,qs),
+(211,-363,o),
+(147,-381,q),
+(126,-384,o),
+(108,-371,q),
+(87,-350,o),
+(87,-301,qs),
+(87,-271,o),
+(26,-271,o),
+(26,-301,qs),
+(26,-360,o),
+(-1,-394,qs),
+(-19,-421,o),
+(-35,-421,q),
+(-41,-415,ls),
+(-50,-405,o),
+(-50,-379,q),
+(-59,-325,o),
+(-25,-213,q),
+(-13,-219,o),
+(-7,-215,q),
+(26,-215,o),
+(20,-185,q),
+(20,-139,o),
+(68,-111,qs),
+(108,-89,o),
+(126,-129,qs),
+(138,-157,o),
+(166,-145,qs),
+(196,-133,o),
+(180,-105,qs),
+(159,-59,o),
+(80,-35,o),
+(41,-56,qs),
+(8,-71,o),
+(-17,-108,q),
+(-23,-93,o),
+(-38,-86,qs),
+(-70,-68,o),
+(-113,-96,qs),
+(-159,-126,o),
+(-156,-160,qs),
+(-156,-190,o),
+(-123,-197,qs),
+(-104,-204,o),
+(-86,-200,q),
+(-120,-320,o),
+(-110,-384,qs),
+(-104,-470,o),
+(-44,-479,qs),
+(5,-489,o),
+(47,-430,qs),
+(50,-426,o),
+(62,-409,q),
+(62,-411,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(7,-237,q),
-(7,-228,o),
-(1,-215,q),
-(-2,-215,o),
-(-2,-213,q),
-(-15,-200,o),
-(-20,-200,q),
-(-23,-197,o),
-(-27,-197,qs),
-(-33,-197,l),
-(-38,-200,o),
-(-45,-200,o),
-(-48,-204,q),
-(-51,-204,ls),
-(-60,-206,o),
-(-63,-215,q),
-(-72,-230,o),
-(-63,-249,qs),
-(-56,-259,o),
-(-42,-265,q),
-(-38,-265,l),
-(-27,-265,ls),
-(1,-265,o)
+(117,-197,q),
+(117,-188,o),
+(111,-175,q),
+(108,-175,o),
+(108,-173,q),
+(95,-160,o),
+(90,-160,q),
+(87,-157,o),
+(83,-157,qs),
+(77,-157,l),
+(72,-160,o),
+(65,-160,o),
+(62,-164,q),
+(59,-164,ls),
+(50,-166,o),
+(47,-175,q),
+(38,-190,o),
+(47,-209,qs),
+(54,-219,o),
+(68,-225,q),
+(72,-225,l),
+(83,-225,ls),
+(111,-225,o)
 );
 }
 );
@@ -139306,7 +139359,7 @@ subCategory = Nonspacing;
 category = Mark;
 direction = LTR;
 glyphname = "nyavattu-kannada";
-lastChange = "2026-04-30 04:19:02 +0000";
+lastChange = "2026-05-04 01:12:59 +0000";
 layers = (
 {
 anchors = (
@@ -139316,11 +139369,11 @@ pos = (-183,0);
 },
 {
 name = bottom;
-pos = (-26,-565);
+pos = (459,-565);
 },
 {
 name = right;
-pos = (250,-316);
+pos = (487,-316);
 }
 );
 layerId = m01;
@@ -139328,105 +139381,105 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-40,-439,qs),
-(-45,-444,o),
-(-53,-441,q),
-(-64,-429,o),
-(-64,-421,q),
-(-67,-419,o),
-(-62,-413,q),
-(-34,-398,o),
-(-20,-406,qs),
-(-18,-409,l),
-(-36,-435,o)
+(170,-439,qs),
+(165,-444,o),
+(157,-441,q),
+(146,-429,o),
+(146,-421,q),
+(143,-419,o),
+(148,-413,q),
+(176,-398,o),
+(190,-406,qs),
+(192,-409,l),
+(174,-435,o)
 );
 },
 {
 closed = 1;
 nodes = (
-(-234,-256,qs),
-(-210,-241,o),
-(-223,-216,qs),
-(-239,-179,o),
-(-231,-170,q),
-(-228,-161,o),
-(-210,-161,qs),
-(-185,-161,o),
-(-168,-185,qs),
-(-146,-207,o),
-(-146,-248,qs),
-(-146,-277,o),
-(-122,-277,qs),
-(-119,-277,ls),
-(-97,-277,o),
-(-92,-251,q),
-(-92,-211,o),
-(-64,-173,q),
-(-40,-147,o),
-(-12,-147,qs),
-(7,-147,o),
-(15,-185,qs),
-(29,-241,o),
-(1,-352,q),
-(-36,-335,o),
-(-89,-363,qs),
-(-124,-384,o),
-(-116,-467,o),
-(-80,-490,qs),
-(-43,-513,o),
-(-4,-481,q),
-(-1,-481,o),
-(4,-476,q),
-(4,-479,l),
-(7,-481,o),
-(7,-485,qs),
-(7,-493,o),
-(10,-496,q),
-(12,-520,o),
-(21,-531,qs),
-(34,-545,o),
-(54,-542,qs),
-(67,-542,o),
-(76,-527,qs),
-(81,-520,o),
-(81,-493,o),
-(69,-487,q),
-(65,-481,o),
-(61,-481,q),
-(61,-476,o),
-(59,-464,qs),
-(54,-441,o),
-(54,-439,qs),
-(50,-429,o),
-(43,-409,o),
-(43,-404,q),
-(50,-378,ls),
-(76,-277,o),
-(76,-216,q),
-(127,-161,o),
-(188,-173,o),
-(195,-248,q),
-(195,-280,o),
-(226,-274,q),
-(250,-274,o),
-(250,-245,q),
-(236,-120,o),
-(166,-113,qs),
-(122,-104,o),
-(65,-150,q),
-(45,-95,o),
-(-10,-89,qs),
-(-69,-86,o),
-(-119,-155,q),
-(-124,-147,o),
-(-127,-144,qs),
-(-163,-109,o),
-(-206,-104,qs),
-(-253,-98,o),
-(-280,-141,qs),
-(-302,-181,o),
-(-272,-241,qs),
-(-259,-268,o)
+(-24,-256,qs),
+(0,-241,o),
+(-13,-216,qs),
+(-29,-179,o),
+(-21,-170,q),
+(-18,-161,o),
+(0,-161,qs),
+(25,-161,o),
+(42,-185,qs),
+(64,-207,o),
+(64,-248,qs),
+(64,-277,o),
+(88,-277,qs),
+(91,-277,ls),
+(113,-277,o),
+(118,-251,q),
+(118,-211,o),
+(146,-173,q),
+(170,-147,o),
+(198,-147,qs),
+(217,-147,o),
+(225,-185,qs),
+(239,-241,o),
+(211,-352,q),
+(174,-335,o),
+(121,-363,qs),
+(86,-384,o),
+(94,-467,o),
+(130,-490,qs),
+(167,-513,o),
+(206,-481,q),
+(209,-481,o),
+(214,-476,q),
+(214,-479,l),
+(217,-481,o),
+(217,-485,qs),
+(217,-493,o),
+(220,-496,q),
+(222,-520,o),
+(231,-531,qs),
+(244,-545,o),
+(264,-542,qs),
+(277,-542,o),
+(286,-527,qs),
+(291,-520,o),
+(291,-493,o),
+(279,-487,q),
+(275,-481,o),
+(271,-481,q),
+(271,-476,o),
+(269,-464,qs),
+(264,-441,o),
+(264,-439,qs),
+(260,-429,o),
+(253,-409,o),
+(253,-404,q),
+(260,-378,ls),
+(286,-277,o),
+(286,-216,q),
+(337,-161,o),
+(398,-173,o),
+(405,-248,q),
+(405,-280,o),
+(436,-274,q),
+(460,-274,o),
+(460,-245,q),
+(446,-120,o),
+(376,-113,qs),
+(332,-104,o),
+(275,-150,q),
+(255,-95,o),
+(200,-89,qs),
+(141,-86,o),
+(91,-155,q),
+(86,-147,o),
+(83,-144,qs),
+(47,-109,o),
+(4,-104,qs),
+(-43,-98,o),
+(-70,-141,qs),
+(-92,-181,o),
+(-62,-241,qs),
+(-49,-268,o)
 );
 }
 );
@@ -139728,6 +139781,1021 @@ width = 83;
 }
 );
 note = uni2460;
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "bavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-357,-210);
+},
+{
+name = right;
+pos = (89,-210);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "bavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "bhavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-322,-153);
+},
+{
+name = right;
+pos = (61,-153);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "bhavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "cavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-506,-274);
+},
+{
+name = right;
+pos = (70,-274);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "cavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "chavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-567,-375);
+},
+{
+name = right;
+pos = (102,-375);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "chavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "davattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-294,-271);
+},
+{
+name = right;
+pos = (187,-271);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "davattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ddavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-402,-101);
+},
+{
+name = right;
+pos = (16,-101);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ddavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ddhavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-430,-165);
+},
+{
+name = right;
+pos = (2,-165);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ddhavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "dhavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-301,-311);
+},
+{
+name = right;
+pos = (169,-311);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "dhavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "gavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-301,-253);
+},
+{
+name = right;
+pos = (124,-253);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "gavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ghavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-351,-340);
+},
+{
+name = right;
+pos = (242,-340);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ghavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "havattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-336,-108);
+},
+{
+name = right;
+pos = (75,-108);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "havattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "javattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-898,-117);
+},
+{
+name = right;
+pos = (-396,-117);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "javattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "jhavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-958,-212);
+},
+{
+name = right;
+pos = (-169,-212);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "jhavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "kavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-420,-258);
+},
+{
+name = right;
+pos = (-4,-258);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "kavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "khavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-336,-332);
+},
+{
+name = right;
+pos = (155,-332);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "khavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "lavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-362,-217);
+},
+{
+name = right;
+pos = (54,-217);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "lavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "llavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-242,-174);
+},
+{
+name = right;
+pos = (96,-174);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "llavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "lllavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-438,-278);
+},
+{
+name = right;
+pos = (160,-278);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "lllavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "mavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-305,-211);
+},
+{
+name = right;
+pos = (-12,-211);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "mavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "navattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-580,-191);
+},
+{
+name = right;
+pos = (-12,-191);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "navattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ngavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-289,-302);
+},
+{
+name = right;
+pos = (152,-302);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ngavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "nnavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-298,-268);
+},
+{
+name = right;
+pos = (134,-268);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "nnavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "nyavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-322,-316);
+},
+{
+name = right;
+pos = (250,-316);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "nyavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "pavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-332,-286);
+},
+{
+name = right;
+pos = (191,-286);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "pavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "phavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-368,-270);
+},
+{
+name = right;
+pos = (158,-270);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "phavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "rravattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-451,-363);
+},
+{
+name = right;
+pos = (275,-363);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "rravattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "savattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-259,-209);
+},
+{
+name = right;
+pos = (99,-209);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "savattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "shavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-214,-202);
+},
+{
+name = right;
+pos = (58,-202);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "shavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ssavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-332,-103);
+},
+{
+name = right;
+pos = (120,-103);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ssavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "tavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-427,-123);
+},
+{
+name = right;
+pos = (37,-123);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "tavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "thavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-326,-101);
+},
+{
+name = right;
+pos = (33,-101);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "thavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "ttavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-325,-255);
+},
+{
+name = right;
+pos = (207,-255);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "ttavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "tthavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-716,-200);
+},
+{
+name = right;
+pos = (-260,-200);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "tthavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "vavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-339,-66);
+},
+{
+name = right;
+pos = (120,-66);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "vavattu-kannada";
+}
+);
+width = 0;
+}
+);
+script = Kannada;
+subCategory = Nonspacing;
+},
+{
+category = Mark;
+direction = LTR;
+glyphname = "yavattu_r-kannada";
+lastChange = "2026-05-03 00:00:00 +0000";
+layers = (
+{
+anchors = (
+{
+name = _right;
+pos = (-252,-96);
+},
+{
+name = right;
+pos = (96,-96);
+}
+);
+layerId = m01;
+shapes = (
+{
+ref = "yavattu-kannada";
+}
+);
+width = 0;
+}
+);
 script = Kannada;
 subCategory = Nonspacing;
 },
@@ -141218,5 +142286,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 2;
+versionMinor = 3;
 }
