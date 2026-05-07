@@ -25,11 +25,11 @@ if source_glyph is None:
     print(f"ERROR: '{SOURCE}' not found in font.")
     raise SystemExit
 
-# All ka_*Matra-kannada ligature glyphs (excludes ka_halant-kannada etc.)
+# All ka_*Matra-kannada and ka_halant-kannada ligature glyphs
 targets = [
     g for g in font.glyphs
     if g.name.startswith("ka_")
-    and "Matra" in g.name
+    and ("Matra" in g.name or "halant" in g.name)
     and g.name.endswith("-kannada")
 ]
 

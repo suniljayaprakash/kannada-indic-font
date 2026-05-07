@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="lllavattu_rkannada" format="2">
+  <advance width="0"/>
+  <anchor x="-438" y="-278" name="_right"/>
+  <anchor x="160" y="-278" name="right"/>
+  <outline>
+    <component base="lllavattukannada"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-03 00:00:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>

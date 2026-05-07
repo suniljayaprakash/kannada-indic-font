@@ -87,6 +87,10 @@ code = "aaMatra-kannada aiMatra-kannada auMatra-kannada eMatra-kannada eeMatra-k
 name = Matras;
 },
 {
+code = "halant-kannada";
+name = HalantOnly;
+},
+{
 code = "ka-kannada kha-kannada ga-kannada gha-kannada nga-kannada ca-kannada cha-kannada ja-kannada jha-kannada nya-kannada tta-kannada ttha-kannada dda-kannada ddha-kannada nna-kannada ta-kannada tha-kannada da-kannada dha-kannada na-kannada pa-kannada pha-kannada ba-kannada bha-kannada ma-kannada ya-kannada ra-kannada la-kannada va-kannada sha-kannada ssa-kannada sa-kannada ha-kannada lla-kannada llla-kannada rra-kannada kavattu-kannada khavattu-kannada gavattu-kannada ghavattu-kannada ngavattu-kannada cavattu-kannada chavattu-kannada javattu-kannada jhavattu-kannada nyavattu-kannada ttavattu-kannada tthavattu-kannada ddavattu-kannada ddhavattu-kannada nnavattu-kannada tavattu-kannada thavattu-kannada davattu-kannada dhavattu-kannada navattu-kannada pavattu-kannada phavattu-kannada bavattu-kannada bhavattu-kannada mavattu-kannada yavattu-kannada rravattu-kannada lavattu-kannada vavattu-kannada shavattu-kannada ssavattu-kannada savattu-kannada havattu-kannada llavattu-kannada lllavattu-kannada aaMatra-kannada iMatra-kannada iiMatra-kannada uMatra-kannada uuMatra-kannada eMatra-kannada eeMatra-kannada aiMatra-kannada oMatra-kannada ooMatra-kannada auMatra-kannada vocalicRMatra-kannada vocalicRRMatra-kannada vocalicLMatra-kannada vocalicLLMatra-kannada
 ";
 name = KannadaAll;
@@ -650,7 +654,7 @@ uniE78D
 }
 );
 date = "2026-04-18 23:18:53 +0000";
-familyName = Nanni;
+familyName = Nanni10;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -809,48 +813,54 @@ sub halant-kannada zerowidthjoiner llla-kannada by lllavattu-kannada;
 tag = blwf;
 },
 {
-code = "lookup haln_explicit {
-  sub ba-kannada halant-kannada by ba_halant-kannada;
-  sub bha-kannada halant-kannada by bha_halant-kannada;
-  sub ca-kannada halant-kannada by ca_halant-kannada;
-  sub cha-kannada halant-kannada by cha_halant-kannada;
-  sub da-kannada halant-kannada by da_halant-kannada;
-  sub dda-kannada halant-kannada by dda_halant-kannada;
-  sub ddha-kannada halant-kannada by ddha_halant-kannada;
-  sub dha-kannada halant-kannada by dha_halant-kannada;
-  sub ga-kannada halant-kannada by ga_halant-kannada;
-  sub gha-kannada halant-kannada by gha_halant-kannada;
-  sub ha-kannada halant-kannada by ha_halant-kannada;
-  sub ja-kannada halant-kannada by ja_halant-kannada;
-  sub jha-kannada halant-kannada by jha_halant-kannada;
-  sub ka-kannada halant-kannada by ka_halant-kannada;
-  sub kha-kannada halant-kannada by kha_halant-kannada;
-  sub ra-kannada halant-kannada by ra_halant-kannada;
+code = "lookup haln_explicit_zwj {
   sub ra-kannada zerowidthjoiner halant-kannada by ra_halant_2-kannada;
   sub ra_halant-kannada zerowidthjoiner by ra_halant_2-kannada;
-  sub rra-kannada halant-kannada by rra_halant-kannada;
-  sub la-kannada halant-kannada by la_halant-kannada;
-  sub lla-kannada halant-kannada by lla_halant-kannada;
-  sub llla-kannada halant-kannada by llla_halant-kannada;
-  sub ma-kannada halant-kannada by ma_halant-kannada;
-  sub na-kannada halant-kannada by na_halant-kannada;
   sub na-kannada zerowidthjoiner halant-kannada by nakaara_pollu-kannada;
+} haln_explicit_zwj;
+
+lookup half_forms_fallback {
+  # This filtering set ensures we skip over Vattus (which are Marks)
+  # so consonant_1 and the final halant can combine successfully.
+  lookupflag UseMarkFilteringSet @HalantOnly;
+
+  sub ka-kannada halant-kannada by ka_halant-kannada;
+  sub kha-kannada halant-kannada by kha_halant-kannada;
+  sub ga-kannada halant-kannada by ga_halant-kannada;
+  sub gha-kannada halant-kannada by gha_halant-kannada;
   sub nga-kannada halant-kannada by nga_halant-kannada;
-  sub nna-kannada halant-kannada by nna_halant-kannada;
+  sub ca-kannada halant-kannada by ca_halant-kannada;
+  sub cha-kannada halant-kannada by cha_halant-kannada;
+  sub ja-kannada halant-kannada by ja_halant-kannada;
+  sub jha-kannada halant-kannada by jha_halant-kannada;
   sub nya-kannada halant-kannada by nya_halant-kannada;
+  sub tta-kannada halant-kannada by tta_halant-kannada;
+  sub ttha-kannada halant-kannada by ttha_halant-kannada;
+  sub dda-kannada halant-kannada by dda_halant-kannada;
+  sub ddha-kannada halant-kannada by ddha_halant-kannada;
+  sub nna-kannada halant-kannada by nna_halant-kannada;
+  sub ta-kannada halant-kannada by ta_halant-kannada;
+  sub tha-kannada halant-kannada by tha_halant-kannada;
+  sub da-kannada halant-kannada by da_halant-kannada;
+  sub dha-kannada halant-kannada by dha_halant-kannada;
+  sub na-kannada halant-kannada by na_halant-kannada;
   sub pa-kannada halant-kannada by pa_halant-kannada;
   sub pha-kannada halant-kannada by pha_halant-kannada;
+  sub ba-kannada halant-kannada by ba_halant-kannada;
+  sub bha-kannada halant-kannada by bha_halant-kannada;
+  sub ma-kannada halant-kannada by ma_halant-kannada;
+  sub ya-kannada halant-kannada by ya_halant-kannada;
+  sub ra-kannada halant-kannada by ra_halant-kannada;
+  sub rra-kannada halant-kannada by rra_halant-kannada;
+  sub la-kannada halant-kannada by la_halant-kannada;
+  sub va-kannada halant-kannada by va_halant-kannada;
   sub sha-kannada halant-kannada by sha_halant-kannada;
   sub ssa-kannada halant-kannada by ssa_halant-kannada;
   sub sa-kannada halant-kannada by sa_halant-kannada;
-  sub ta-kannada halant-kannada by ta_halant-kannada;
-  sub tha-kannada halant-kannada by tha_halant-kannada;
-  sub tta-kannada halant-kannada by tta_halant-kannada;
-  sub ttha-kannada halant-kannada by ttha_halant-kannada;
-  sub va-kannada halant-kannada by va_halant-kannada;
-  sub ya-kannada halant-kannada by ya_halant-kannada;
-
-} haln_explicit;
+  sub ha-kannada halant-kannada by ha_halant-kannada;
+  sub lla-kannada halant-kannada by lla_halant-kannada;
+  sub llla-kannada halant-kannada by llla_halant-kannada;
+} half_forms_fallback;
 ";
 tag = haln;
 },
@@ -1546,7 +1556,6 @@ script = Kannada;
 unicode = 32;
 },
 {
-direction = LTR;
 glyphname = A;
 lastChange = "2026-05-03 23:19:17 +0000";
 layers = (
@@ -1705,7 +1714,6 @@ script = latin;
 unicode = 65;
 },
 {
-direction = LTR;
 glyphname = B;
 lastChange = "2026-05-03 23:19:39 +0000";
 layers = (
@@ -1846,7 +1854,6 @@ script = latin;
 unicode = 66;
 },
 {
-direction = LTR;
 glyphname = C;
 lastChange = "2026-05-03 23:20:41 +0000";
 layers = (
@@ -1957,7 +1964,6 @@ script = latin;
 unicode = 67;
 },
 {
-direction = LTR;
 glyphname = D;
 lastChange = "2026-05-03 23:20:35 +0000";
 layers = (
@@ -142275,7 +142281,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = Nanni;
+value = Nanni10;
 }
 );
 }
@@ -142286,5 +142292,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 3;
+versionMinor = 6;
 }

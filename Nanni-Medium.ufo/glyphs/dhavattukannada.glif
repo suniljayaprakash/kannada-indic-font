@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="dhavattukannada" format="2">
+  <advance width="0"/>
+  <note>
+uni24E2
+</note>
+  <anchor x="-183" y="0" name="_bottom"/>
+  <anchor x="-56" y="-578" name="bottom"/>
+  <anchor x="169" y="-311" name="right"/>
+  <outline>
+    <contour>
+      <point x="-33" y="-437" type="qcurve"/>
+      <point x="-23" y="-440"/>
+      <point x="-6" y="-440" type="qcurve"/>
+      <point x="65" y="-434"/>
+      <point x="114" y="-371" type="qcurve"/>
+      <point x="169" y="-302"/>
+      <point x="156" y="-230" type="qcurve"/>
+      <point x="138" y="-140"/>
+      <point x="23" y="-98" type="qcurve"/>
+      <point x="-12" y="-77"/>
+      <point x="-47" y="-74" type="qcurve"/>
+      <point x="-107" y="-64"/>
+      <point x="-138" y="-92" type="qcurve"/>
+      <point x="-222" y="-95"/>
+      <point x="-253" y="-178" type="qcurve"/>
+      <point x="-281" y="-237"/>
+      <point x="-264" y="-323" type="qcurve"/>
+      <point x="-239" y="-409"/>
+      <point x="-190" y="-440" type="qcurve"/>
+      <point x="-145" y="-461"/>
+      <point x="-103" y="-440" type="qcurve"/>
+      <point x="-107" y="-479"/>
+      <point x="-103" y="-527" type="qcurve"/>
+      <point x="-103" y="-558"/>
+      <point x="-65" y="-558" type="qcurve"/>
+      <point x="-33" y="-558"/>
+      <point x="-33" y="-520" type="qcurve"/>
+      <point x="-37" y="-475"/>
+    </contour>
+    <contour>
+      <point x="-37" y="-334" type="qcurve"/>
+      <point x="-40" y="-302"/>
+      <point x="-78" y="-302" type="qcurve"/>
+      <point x="-114" y="-309"/>
+      <point x="-107" y="-343" type="qcurve"/>
+      <point x="-107" y="-347" type="line" smooth="yes"/>
+      <point x="-107" y="-354"/>
+      <point x="-114" y="-354" type="qcurve"/>
+      <point x="-124" y="-375"/>
+      <point x="-141" y="-382" type="qcurve"/>
+      <point x="-152" y="-382"/>
+      <point x="-156" y="-378" type="qcurve"/>
+      <point x="-183" y="-368"/>
+      <point x="-194" y="-309" type="qcurve"/>
+      <point x="-208" y="-254"/>
+      <point x="-190" y="-205" type="qcurve"/>
+      <point x="-169" y="-161"/>
+      <point x="-120" y="-157" type="qcurve"/>
+      <point x="-107" y="-157"/>
+      <point x="-96" y="-147" type="qcurve"/>
+      <point x="-89" y="-140" type="line"/>
+      <point x="-86" y="-140" type="line" smooth="yes"/>
+      <point x="-72" y="-140"/>
+      <point x="-61" y="-143" type="qcurve"/>
+      <point x="-27" y="-150"/>
+      <point x="-2" y="-161" type="qcurve"/>
+      <point x="78" y="-195"/>
+      <point x="89" y="-243" type="qcurve"/>
+      <point x="96" y="-285"/>
+      <point x="61" y="-330" type="qcurve"/>
+      <point x="26" y="-371"/>
+      <point x="-9" y="-371" type="qcurve"/>
+      <point x="-19" y="-371"/>
+      <point x="-23" y="-368" type="qcurve"/>
+      <point x="-37" y="-354"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-04-30 04:16:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>
