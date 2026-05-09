@@ -1,0 +1,4 @@
+# Python dependencies for Kannada Font project
+
+glyphsLib>=3.0
+fonttools>=4.0

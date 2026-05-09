@@ -1,0 +1,1107 @@
+	markClass [bavattukannada] <anchor -291 91> @mark_bottom;
+	markClass [bhavattukannada] <anchor -314 129> @mark_bottom;
+	markClass [cavattukannada] <anchor -349 75> @mark_bottom;
+	markClass [chavattukannada] <anchor -395 0> @mark_bottom;
+	markClass [davattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ddavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ddhavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [dhavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [gavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ghavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [havattukannada] <anchor -183 0> @mark_bottom;
+	markClass [javattukannada] <anchor -201 9> @mark_bottom;
+	markClass [jhavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [uni0CD6] <anchor -307 137> @mark_bottom;
+	markClass [khavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [lavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [llavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [lllavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [mavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [navattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ngavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [nnavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [nyavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [pavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [phavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ravattukannada] <anchor -297 0> @mark_bottom;
+	markClass [bavattu_rkannada] <anchor -357 -210> @mark_right;
+	markClass [bhavattu_rkannada] <anchor -322 -153> @mark_right;
+	markClass [cavattu_rkannada] <anchor -506 -274> @mark_right;
+	markClass [chavattu_rkannada] <anchor -567 -375> @mark_right;
+	markClass [davattu_rkannada] <anchor -294 -271> @mark_right;
+	markClass [ddavattu_rkannada] <anchor -402 -101> @mark_right;
+	markClass [ddhavattu_rkannada] <anchor -430 -165> @mark_right;
+	markClass [dhavattu_rkannada] <anchor -301 -311> @mark_right;
+	markClass [gavattu_rkannada] <anchor -301 -253> @mark_right;
+	markClass [ghavattu_rkannada] <anchor -351 -340> @mark_right;
+	markClass [havattu_rkannada] <anchor -336 -108> @mark_right;
+	markClass [javattu_rkannada] <anchor -898 -117> @mark_right;
+	markClass [jhavattu_rkannada] <anchor -958 -212> @mark_right;
+	markClass [kavattu_rkannada] <anchor -420 -258> @mark_right;
+	markClass [khavattu_rkannada] <anchor -336 -332> @mark_right;
+	markClass [lavattu_rkannada] <anchor -362 -217> @mark_right;
+	markClass [llavattu_rkannada] <anchor -242 -174> @mark_right;
+	markClass [lllavattu_rkannada] <anchor -438 -278> @mark_right;
+	markClass [mavattu_rkannada] <anchor -305 -211> @mark_right;
+	markClass [navattu_rkannada] <anchor -580 -191> @mark_right;
+	markClass [ngavattu_rkannada] <anchor -289 -302> @mark_right;
+	markClass [nnavattu_rkannada] <anchor -298 -268> @mark_right;
+	markClass [nyavattu_rkannada] <anchor -322 -316> @mark_right;
+	markClass [pavattu_rkannada] <anchor -332 -286> @mark_right;
+	markClass [phavattu_rkannada] <anchor -368 -270> @mark_right;
+	markClass [rravattu_rkannada] <anchor -451 -363> @mark_right;
+	markClass [savattu_rkannada] <anchor -259 -209> @mark_right;
+	markClass [shavattu_rkannada] <anchor -214 -202> @mark_right;
+	markClass [ssavattu_rkannada] <anchor -332 -103> @mark_right;
+	markClass [tavattu_rkannada] <anchor -427 -123> @mark_right;
+	markClass [thavattu_rkannada] <anchor -326 -101> @mark_right;
+	markClass [ttavattu_rkannada] <anchor -325 -255> @mark_right;
+	markClass [tthavattu_rkannada] <anchor -716 -200> @mark_right;
+	markClass [vavattu_rkannada] <anchor -339 -66> @mark_right;
+	markClass [yavattu_rkannada] <anchor -252 -96> @mark_right;
+	markClass [ravattu_rkannada] <anchor -384 -181> @mark_right;
+	markClass [rravattukannada] <anchor -183 0> @mark_bottom;
+	markClass [savattukannada] <anchor -183 0> @mark_bottom;
+	markClass [shavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ssavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [tavattukannada] <anchor -335 23> @mark_bottom;
+	markClass [thavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [ttavattukannada] <anchor -314 0> @mark_bottom;
+	markClass [tthavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [uniE78D] <anchor -374 -41> @mark_bottom;
+	markClass [vavattukannada] <anchor -183 0> @mark_bottom;
+	markClass [yavattukannada] <anchor -232 63> @mark_bottom;
+@anchor_bottom = [bavattukannada bhavattukannada cavattukannada chavattukannada davattukannada ddavattukannada ddhavattukannada dhavattukannada gavattukannada ghavattukannada havattukannada javattukannada jhavattukannada uni0CD6 khavattukannada lavattukannada llavattukannada lllavattukannada mavattukannada navattukannada ngavattukannada nnavattukannada nyavattukannada pavattukannada phavattukannada ravattukannada rravattukannada savattukannada shavattukannada ssavattukannada tavattukannada thavattukannada ttavattukannada tthavattukannada uniE78D vavattukannada yavattukannada];
+@anchor_right = [bavattu_rkannada bhavattu_rkannada cavattu_rkannada chavattu_rkannada davattu_rkannada ddavattu_rkannada ddhavattu_rkannada dhavattu_rkannada gavattu_rkannada ghavattu_rkannada havattu_rkannada javattu_rkannada jhavattu_rkannada kavattu_rkannada khavattu_rkannada lavattu_rkannada llavattu_rkannada lllavattu_rkannada mavattu_rkannada navattu_rkannada ngavattu_rkannada nnavattu_rkannada nyavattu_rkannada pavattu_rkannada phavattu_rkannada rravattu_rkannada savattu_rkannada shavattu_rkannada ssavattu_rkannada tavattu_rkannada thavattu_rkannada ttavattu_rkannada tthavattu_rkannada vavattu_rkannada yavattu_rkannada ravattu_rkannada];
+### class:0:VattuAll ###
+@VattuAll = [
+### open class 'VattuAll' ###
+bavattukannada bhavattukannada cavattukannada chavattukannada davattukannada ddavattukannada ddhavattukannada dhavattukannada gavattukannada ghavattukannada havattukannada javattukannada jhavattukannada uniE78D khavattukannada lavattukannada llavattukannada lllavattukannada mavattukannada navattukannada ngavattukannada nnavattukannada nyavattukannada pavattukannada phavattukannada ravattukannada rravattukannada savattukannada shavattukannada ssavattukannada tavattukannada thavattukannada ttavattukannada tthavattukannada vavattukannada yavattukannada
+### close class 'VattuAll' ###
+];
+
+### class:1:VattuRight ###
+@VattuRight = [
+### open class 'VattuRight' ###
+bavattu_rkannada bhavattu_rkannada cavattu_rkannada chavattu_rkannada davattu_rkannada ddavattu_rkannada ddhavattu_rkannada dhavattu_rkannada gavattu_rkannada ghavattu_rkannada havattu_rkannada javattu_rkannada jhavattu_rkannada kavattu_rkannada khavattu_rkannada lavattu_rkannada llavattu_rkannada lllavattu_rkannada mavattu_rkannada navattu_rkannada ngavattu_rkannada nnavattu_rkannada nyavattu_rkannada pavattu_rkannada phavattu_rkannada ravattu_rkannada rravattu_rkannada savattu_rkannada shavattu_rkannada ssavattu_rkannada tavattu_rkannada thavattu_rkannada ttavattu_rkannada tthavattu_rkannada vavattu_rkannada yavattu_rkannada
+### close class 'VattuRight' ###
+];
+
+### class:2:VattuAny ###
+@VattuAny = [
+### open class 'VattuAny' ###
+bavattukannada bhavattukannada cavattukannada chavattukannada davattukannada ddavattukannada ddhavattukannada dhavattukannada gavattukannada ghavattukannada havattukannada javattukannada jhavattukannada uniE78D khavattukannada lavattukannada llavattukannada lllavattukannada mavattukannada navattukannada ngavattukannada nnavattukannada nyavattukannada pavattukannada phavattukannada ravattukannada rravattukannada savattukannada shavattukannada ssavattukannada tavattukannada thavattukannada ttavattukannada tthavattukannada vavattukannada yavattukannada bavattu_rkannada bhavattu_rkannada cavattu_rkannada chavattu_rkannada davattu_rkannada ddavattu_rkannada ddhavattu_rkannada dhavattu_rkannada gavattu_rkannada ghavattu_rkannada havattu_rkannada javattu_rkannada jhavattu_rkannada kavattu_rkannada khavattu_rkannada lavattu_rkannada llavattu_rkannada lllavattu_rkannada mavattu_rkannada navattu_rkannada ngavattu_rkannada nnavattu_rkannada nyavattu_rkannada pavattu_rkannada phavattu_rkannada ravattu_rkannada rravattu_rkannada savattu_rkannada shavattu_rkannada ssavattu_rkannada tavattu_rkannada thavattu_rkannada ttavattu_rkannada tthavattu_rkannada vavattu_rkannada yavattu_rkannada
+### close class 'VattuAny' ###
+];
+
+### class:3:auLigatures ###
+@auLigatures = [
+### open class 'auLigatures' ###
+uniE621 uniE62C uniE636 uniE641 uniE64C uniE657 uniE662 uniE66D uniE678 uniE683 uniE68E uniE699 uniE6A4 uniE6AF uniE6BA uniE6C5 uniE6D0 uniE6DB uniE6E6 uniE6F1 uniE6FC uniE707 uniE712 uniE71D uniE728 uniE733 uniE73E uniE748 uniE753 uniE75E uniE769 uniE774 uniE77F uniE78A 
+### close class 'auLigatures' ###
+];
+
+### class:4:aaMatraClass ###
+@aaMatraClass = [
+### open class 'aaMatraClass' ###
+uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE uni0CBE
+### close class 'aaMatraClass' ###
+];
+
+### class:5:iMatraClass ###
+@iMatraClass = [
+### open class 'iMatraClass' ###
+uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF uni0CBF
+### close class 'iMatraClass' ###
+];
+
+### class:6:iiMatraClass ###
+@iiMatraClass = [
+### open class 'iiMatraClass' ###
+uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0 uni0CC0
+### close class 'iiMatraClass' ###
+];
+
+### class:7:uMatraClass ###
+@uMatraClass = [
+### open class 'uMatraClass' ###
+uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1 uni0CC1
+### close class 'uMatraClass' ###
+];
+
+### class:8:uuMatraClass ###
+@uuMatraClass = [
+### open class 'uuMatraClass' ###
+uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2 uni0CC2
+### close class 'uuMatraClass' ###
+];
+
+### class:9:vocalicRMatraClass ###
+@vocalicRMatraClass = [
+### open class 'vocalicRMatraClass' ###
+uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3 uni0CC3
+### close class 'vocalicRMatraClass' ###
+];
+
+### class:10:vocalicRRMatraClass ###
+@vocalicRRMatraClass = [
+### open class 'vocalicRRMatraClass' ###
+uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4 uni0CC4
+### close class 'vocalicRRMatraClass' ###
+];
+
+### class:11:vocalicLMatraClass ###
+@vocalicLMatraClass = [
+### open class 'vocalicLMatraClass' ###
+uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2 uni0CE2
+### close class 'vocalicLMatraClass' ###
+];
+
+### class:12:vocalicLLMatraClass ###
+@vocalicLLMatraClass = [
+### open class 'vocalicLLMatraClass' ###
+uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3 uni0CE3
+### close class 'vocalicLLMatraClass' ###
+];
+
+### class:13:eMatraClass ###
+@eMatraClass = [
+### open class 'eMatraClass' ###
+uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6 uni0CC6
+### close class 'eMatraClass' ###
+];
+
+### class:14:eeMatraClass ###
+@eeMatraClass = [
+### open class 'eeMatraClass' ###
+uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7 uni0CC7
+### close class 'eeMatraClass' ###
+];
+
+### class:15:aiMatraClass ###
+@aiMatraClass = [
+### open class 'aiMatraClass' ###
+uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8 uni0CC8
+### close class 'aiMatraClass' ###
+];
+
+### class:16:oMatraClass ###
+@oMatraClass = [
+### open class 'oMatraClass' ###
+uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA uni0CCA
+### close class 'oMatraClass' ###
+];
+
+### class:17:ooMatraClass ###
+@ooMatraClass = [
+### open class 'ooMatraClass' ###
+uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB uni0CCB
+### close class 'ooMatraClass' ###
+];
+
+### class:18:auMatraClass ###
+@auMatraClass = [
+### open class 'auMatraClass' ###
+uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC uni0CCC
+### close class 'auMatraClass' ###
+];
+
+### class:19:Matras ###
+@Matras = [
+### open class 'Matras' ###
+uni0CBE uni0CC8 uni0CCC uni0CC6 uni0CC7 uni0CBF uni0CC0 uni0CCA uni0CCB uni0CC1 uni0CC2 uni0CE3 uni0CE2 uni0CC3 uni0CC4
+### close class 'Matras' ###
+];
+
+### class:20:HalantOnly ###
+@HalantOnly = [
+### open class 'HalantOnly' ###
+uni0CCD
+### close class 'HalantOnly' ###
+];
+
+### class:21:KannadaAll ###
+@KannadaAll = [
+### open class 'KannadaAll' ###
+uni0C95 uni0C96 uni0C97 uni0C98 uni0C99 uni0C9A uni0C9B uni0C9C uni0C9D uni0C9E uni0C9F uni0CA0 uni0CA1 uni0CA2 uni0CA3 uni0CA4 uni0CA5 uni0CA6 uni0CA7 uni0CA8 uni0CAA uni0CAB uni0CAC uni0CAD uni0CAE uni0CAF uni0CB0 uni0CB2 uni0CB5 uni0CB6 uni0CB7 uni0CB8 uni0CB9 uni0CB3 uni0CDE uni0CB1 uniE78D khavattukannada gavattukannada ghavattukannada ngavattukannada cavattukannada chavattukannada javattukannada jhavattukannada nyavattukannada ttavattukannada tthavattukannada ddavattukannada ddhavattukannada nnavattukannada tavattukannada thavattukannada davattukannada dhavattukannada navattukannada pavattukannada phavattukannada bavattukannada bhavattukannada mavattukannada yavattukannada rravattukannada lavattukannada vavattukannada shavattukannada ssavattukannada savattukannada havattukannada llavattukannada lllavattukannada uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CC3 uni0CC4 uni0CE2 uni0CE3
+### close class 'KannadaAll' ###
+];
+
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+languagesystem DFLT dflt;
+languagesystem knda dflt;
+languagesystem knd2 dflt;
+### close prefix 'Languagesystems' ###
+
+### feature:0:blwf ###
+feature blwf {
+### open feature 'blwf' ###
+sub uni0CCD uni0C95 by uniE78D;
+sub uni200D uni0CCD uni0C95 by uniE78D;
+sub uni0CCD uni200D uni0C95 by uniE78D;
+
+sub uni0CCD uni0C96 by khavattukannada;
+sub uni200D uni0CCD uni0C96 by khavattukannada;
+sub uni0CCD uni200D uni0C96 by khavattukannada;
+
+sub uni0CCD uni0C97 by gavattukannada;
+sub uni200D uni0CCD uni0C97 by gavattukannada;
+sub uni0CCD uni200D uni0C97 by gavattukannada;
+
+sub uni0CCD uni0C98 by ghavattukannada;
+sub uni200D uni0CCD uni0C98 by ghavattukannada;
+sub uni0CCD uni200D uni0C98 by ghavattukannada;
+
+sub uni0CCD uni0C99 by ngavattukannada;
+sub uni200D uni0CCD uni0C99 by ngavattukannada;
+sub uni0CCD uni200D uni0C99 by ngavattukannada;
+
+sub uni0CCD uni0C9A by cavattukannada;
+sub uni200D uni0CCD uni0C9A by cavattukannada;
+sub uni0CCD uni200D uni0C9A by cavattukannada;
+
+sub uni0CCD uni0C9B by chavattukannada;
+sub uni200D uni0CCD uni0C9B by chavattukannada;
+sub uni0CCD uni200D uni0C9B by chavattukannada;
+
+sub uni0CCD uni0C9C by javattukannada;
+sub uni200D uni0CCD uni0C9C by javattukannada;
+sub uni0CCD uni200D uni0C9C by javattukannada;
+
+sub uni0CCD uni0C9D by jhavattukannada;
+sub uni200D uni0CCD uni0C9D by jhavattukannada;
+sub uni0CCD uni200D uni0C9D by jhavattukannada;
+
+sub uni0CCD uni0C9E by nyavattukannada;
+sub uni200D uni0CCD uni0C9E by nyavattukannada;
+sub uni0CCD uni200D uni0C9E by nyavattukannada;
+
+sub uni0CCD uni0C9F by ttavattukannada;
+sub uni200D uni0CCD uni0C9F by ttavattukannada;
+sub uni0CCD uni200D uni0C9F by ttavattukannada;
+
+sub uni0CCD uni0CA0 by tthavattukannada;
+sub uni200D uni0CCD uni0CA0 by tthavattukannada;
+sub uni0CCD uni200D uni0CA0 by tthavattukannada;
+
+sub uni0CCD uni0CA1 by ddavattukannada;
+sub uni200D uni0CCD uni0CA1 by ddavattukannada;
+sub uni0CCD uni200D uni0CA1 by ddavattukannada;
+
+sub uni0CCD uni0CA2 by ddhavattukannada;
+sub uni200D uni0CCD uni0CA2 by ddhavattukannada;
+sub uni0CCD uni200D uni0CA2 by ddhavattukannada;
+
+sub uni0CCD uni0CA3 by nnavattukannada;
+sub uni200D uni0CCD uni0CA3 by nnavattukannada;
+sub uni0CCD uni200D uni0CA3 by nnavattukannada;
+
+sub uni0CCD uni0CA4 by tavattukannada;
+sub uni200D uni0CCD uni0CA4 by tavattukannada;
+sub uni0CCD uni200D uni0CA4 by tavattukannada;
+
+sub uni0CCD uni0CA5 by thavattukannada;
+sub uni200D uni0CCD uni0CA5 by thavattukannada;
+sub uni0CCD uni200D uni0CA5 by thavattukannada;
+
+sub uni0CCD uni0CA6 by davattukannada;
+sub uni200D uni0CCD uni0CA6 by davattukannada;
+sub uni0CCD uni200D uni0CA6 by davattukannada;
+
+sub uni0CCD uni0CA7 by dhavattukannada;
+sub uni200D uni0CCD uni0CA7 by dhavattukannada;
+sub uni0CCD uni200D uni0CA7 by dhavattukannada;
+
+sub uni0CCD uni0CA8 by navattukannada;
+sub uni200D uni0CCD uni0CA8 by navattukannada;
+sub uni0CCD uni200D uni0CA8 by navattukannada;
+
+sub uni0CCD uni0CAA by pavattukannada;
+sub uni200D uni0CCD uni0CAA by pavattukannada;
+sub uni0CCD uni200D uni0CAA by pavattukannada;
+
+sub uni0CCD uni0CAB by phavattukannada;
+sub uni200D uni0CCD uni0CAB by phavattukannada;
+sub uni0CCD uni200D uni0CAB by phavattukannada;
+
+sub uni0CCD uni0CAC by bavattukannada;
+sub uni200D uni0CCD uni0CAC by bavattukannada;
+sub uni0CCD uni200D uni0CAC by bavattukannada;
+
+sub uni0CCD uni0CAD by bhavattukannada;
+sub uni200D uni0CCD uni0CAD by bhavattukannada;
+sub uni0CCD uni200D uni0CAD by bhavattukannada;
+
+sub uni0CCD uni0CAE by mavattukannada;
+sub uni200D uni0CCD uni0CAE by mavattukannada;
+sub uni0CCD uni200D uni0CAE by mavattukannada;
+
+sub uni0CCD uni0CAF by yavattukannada;
+sub uni200D uni0CCD uni0CAF by yavattukannada;
+sub uni0CCD uni200D uni0CAF by yavattukannada;
+
+sub uni0CCD uni0CB0 by ravattukannada;
+sub uni200D uni0CCD uni0CB0 by ravattukannada;
+sub uni0CCD uni200D uni0CB0 by ravattukannada;
+
+sub uni0CCD uni0CB1 by rravattukannada;
+sub uni200D uni0CCD uni0CB1 by rravattukannada;
+sub uni0CCD uni200D uni0CB1 by rravattukannada;
+
+sub uni0CCD uni0CB2 by lavattukannada;
+sub uni200D uni0CCD uni0CB2 by lavattukannada;
+sub uni0CCD uni200D uni0CB2 by lavattukannada;
+
+sub uni0CCD uni0CB5 by vavattukannada;
+sub uni200D uni0CCD uni0CB5 by vavattukannada;
+sub uni0CCD uni200D uni0CB5 by vavattukannada;
+
+sub uni0CCD uni0CB6 by shavattukannada;
+sub uni200D uni0CCD uni0CB6 by shavattukannada;
+sub uni0CCD uni200D uni0CB6 by shavattukannada;
+
+sub uni0CCD uni0CB7 by ssavattukannada;
+sub uni200D uni0CCD uni0CB7 by ssavattukannada;
+sub uni0CCD uni200D uni0CB7 by ssavattukannada;
+
+sub uni0CCD uni0CB8 by savattukannada;
+sub uni200D uni0CCD uni0CB8 by savattukannada;
+sub uni0CCD uni200D uni0CB8 by savattukannada;
+
+sub uni0CCD uni0CB9 by havattukannada;
+sub uni200D uni0CCD uni0CB9 by havattukannada;
+sub uni0CCD uni200D uni0CB9 by havattukannada;
+
+sub uni0CCD uni0CB3 by llavattukannada;
+sub uni200D uni0CCD uni0CB3 by llavattukannada;
+sub uni0CCD uni200D uni0CB3 by llavattukannada;
+
+sub uni0CCD uni0CDE by lllavattukannada;
+sub uni200D uni0CCD uni0CDE by lllavattukannada;
+sub uni0CCD uni200D uni0CDE by lllavattukannada;
+### close feature 'blwf' ###
+} blwf;
+
+### feature:1:haln ###
+feature haln {
+### open feature 'haln' ###
+lookup haln_explicit_zwj {
+  sub uni0CB0 uni200D uni0CCD by uni0CB00CCD_2kannada;
+  sub uniE7B2 uni200D by uni0CB00CCD_2kannada;
+  sub uni0CA8 uni200D uni0CCD by uni0CDD;
+} haln_explicit_zwj;
+
+lookup half_forms_fallback {
+  # This filtering set ensures we skip over Vattus (which are Marks)
+  # so consonant_1 and the final halant can combine successfully.
+  lookupflag UseMarkFilteringSet @HalantOnly;
+
+  sub uni0C95 uni0CCD by uniE622;
+  sub uni0C96 uni0CCD by uniE78C;
+  sub uni0C97 uni0CCD by uniE637;
+  sub uni0C98 uni0CCD by uniE642;
+  sub uni0C99 uni0CCD by uniE64D;
+  sub uni0C9A uni0CCD by uniE658;
+  sub uni0C9B uni0CCD by uniE663;
+  sub uni0C9C uni0CCD by uniE66E;
+  sub uni0C9D uni0CCD by uniE679;
+  sub uni0C9E uni0CCD by uniE684;
+  sub uni0C9F uni0CCD by uniE68F;
+  sub uni0CA0 uni0CCD by uniE69A;
+  sub uni0CA1 uni0CCD by uniE6A5;
+  sub uni0CA2 uni0CCD by uniE6B0;
+  sub uni0CA3 uni0CCD by uniE6BB;
+  sub uni0CA4 uni0CCD by uniE6C6;
+  sub uni0CA5 uni0CCD by uniE6D1;
+  sub uni0CA6 uni0CCD by uniE6DC;
+  sub uni0CA7 uni0CCD by uniE6E7;
+  sub uni0CA8 uni0CCD by uniE6F2;
+  sub uni0CAA uni0CCD by uniE6FD;
+  sub uni0CAB uni0CCD by uniE708;
+  sub uni0CAC uni0CCD by uniE713;
+  sub uni0CAD uni0CCD by uniE71E;
+  sub uni0CAE uni0CCD by uniE729;
+  sub uni0CAF uni0CCD by uniE734;
+  sub uni0CB0 uni0CCD by uniE7B2;
+  sub uni0CB1 uni0CCD by uniE616;
+  sub uni0CB2 uni0CCD by uniE749;
+  sub uni0CB5 uni0CCD by uniE754;
+  sub uni0CB6 uni0CCD by uniE75F;
+  sub uni0CB7 uni0CCD by uniE76A;
+  sub uni0CB8 uni0CCD by uniE775;
+  sub uni0CB9 uni0CCD by uniE780;
+  sub uni0CB3 uni0CCD by uniE78B;
+  sub uni0CDE uni0CCD by uniE60B;
+} half_forms_fallback;
+### close feature 'haln' ###
+} haln;
+
+### feature:2:akhn ###
+feature akhn {
+### open feature 'akhn' ###
+lookup akhn_matras {
+  # shrii ligature variants (simple rules that work)
+#  sub uni0CB6 uni200D by uniE7B1;
+#  sub uni0CB6 uni200C by uni0CDC;
+
+
+  # HarfBuzz decomposes split vowels before any feature fires:
+  #   U+0CCA (oMatra)  -> U+0CC6 (eMatra) + U+0CC2 (uuMatra)
+  #   U+0CCB (ooMatra) -> U+0CC6 (eMatra) + U+0CC2 (uuMatra) + U+0CD5 (uni0CD5)
+  # These 3-glyph and 4-glyph ligature rules match the decomposed sequences
+  # at akhn time (before reordering) and form the correct precomposed glyph.
+
+  # --- oMatra: consonant + uni0CC6 + uni0CC2 ---
+  sub uni0C95 uni0CC6 uni0CC2 by uniE61F;
+  sub uni0C96 uni0CC6 uni0CC2 by uniE62A;
+  sub uni0C97 uni0CC6 uni0CC2 by uniE634;
+  sub uni0C98 uni0CC6 uni0CC2 by uniE63F;
+  sub uni0C99 uni0CC6 uni0CC2 by uniE64A;
+  sub uni0C9A uni0CC6 uni0CC2 by uniE655;
+  sub uni0C9B uni0CC6 uni0CC2 by uniE660;
+  sub uni0C9C uni0CC6 uni0CC2 by uniE66B;
+  sub uni0C9D uni0CC6 uni0CC2 by uniE676;
+  sub uni0C9E uni0CC6 uni0CC2 by uniE681;
+  sub uni0C9F uni0CC6 uni0CC2 by uniE68C;
+  sub uni0CA0 uni0CC6 uni0CC2 by uniE697;
+  sub uni0CA1 uni0CC6 uni0CC2 by uniE6A2;
+  sub uni0CA2 uni0CC6 uni0CC2 by uniE6AD;
+  sub uni0CA3 uni0CC6 uni0CC2 by uniE6B8;
+  sub uni0CA4 uni0CC6 uni0CC2 by uniE6C3;
+  sub uni0CA5 uni0CC6 uni0CC2 by uniE6CE;
+  sub uni0CA6 uni0CC6 uni0CC2 by uniE6D9;
+  sub uni0CA7 uni0CC6 uni0CC2 by uniE6E4;
+  sub uni0CA8 uni0CC6 uni0CC2 by uniE6EF;
+  sub uni0CAA uni0CC6 uni0CC2 by uniE6FA;
+  sub uni0CAB uni0CC6 uni0CC2 by uniE705;
+  sub uni0CAC uni0CC6 uni0CC2 by uniE710;
+  sub uni0CAD uni0CC6 uni0CC2 by uniE71B;
+  sub uni0CAE uni0CC6 uni0CC2 by uniE726;
+  sub uni0CAF uni0CC6 uni0CC2 by uniE731;
+  sub uni0CB0 uni0CC6 uni0CC2 by uniE73C;
+  sub uni0CB2 uni0CC6 uni0CC2 by uniE746;
+  sub uni0CB5 uni0CC6 uni0CC2 by uniE751;
+  sub uni0CB6 uni0CC6 uni0CC2 by uniE75C;
+  sub uni0CB7 uni0CC6 uni0CC2 by uniE767;
+  sub uni0CB8 uni0CC6 uni0CC2 by uniE772;
+  sub uni0CB9 uni0CC6 uni0CC2 by uniE77D;
+  sub uni0CB3 uni0CC6 uni0CC2 by uniE788;
+  sub uni0CDE uni0CC6 uni0CC2 by uniE608;
+  sub uni0CB1 uni0CC6 uni0CC2 by uniE613;
+
+  # --- ooMatra: consonant + uni0CC6 + uni0CC2 + uni0CD5 ---
+  sub uni0C95 uni0CC6 uni0CC2 uni0CD5 by uniE620;
+  sub uni0C96 uni0CC6 uni0CC2 uni0CD5 by uniE62B;
+  sub uni0C97 uni0CC6 uni0CC2 uni0CD5 by uniE635;
+  sub uni0C98 uni0CC6 uni0CC2 uni0CD5 by uniE640;
+  sub uni0C99 uni0CC6 uni0CC2 uni0CD5 by uniE64B;
+  sub uni0C9A uni0CC6 uni0CC2 uni0CD5 by uniE656;
+  sub uni0C9B uni0CC6 uni0CC2 uni0CD5 by uniE661;
+  sub uni0C9C uni0CC6 uni0CC2 uni0CD5 by uniE66C;
+  sub uni0C9D uni0CC6 uni0CC2 uni0CD5 by uniE677;
+  sub uni0C9E uni0CC6 uni0CC2 uni0CD5 by uniE682;
+  sub uni0C9F uni0CC6 uni0CC2 uni0CD5 by uniE68D;
+  sub uni0CA0 uni0CC6 uni0CC2 uni0CD5 by uniE698;
+  sub uni0CA1 uni0CC6 uni0CC2 uni0CD5 by uniE6A3;
+  sub uni0CA2 uni0CC6 uni0CC2 uni0CD5 by uniE6AE;
+  sub uni0CA3 uni0CC6 uni0CC2 uni0CD5 by uniE6B9;
+  sub uni0CA4 uni0CC6 uni0CC2 uni0CD5 by uniE6C4;
+  sub uni0CA5 uni0CC6 uni0CC2 uni0CD5 by uniE6CF;
+  sub uni0CA6 uni0CC6 uni0CC2 uni0CD5 by uniE6DA;
+  sub uni0CA7 uni0CC6 uni0CC2 uni0CD5 by uniE6E5;
+  sub uni0CA8 uni0CC6 uni0CC2 uni0CD5 by uniE6F0;
+  sub uni0CAA uni0CC6 uni0CC2 uni0CD5 by uniE6FB;
+  sub uni0CAB uni0CC6 uni0CC2 uni0CD5 by uniE706;
+  sub uni0CAC uni0CC6 uni0CC2 uni0CD5 by uniE711;
+  sub uni0CAD uni0CC6 uni0CC2 uni0CD5 by uniE71C;
+  sub uni0CAE uni0CC6 uni0CC2 uni0CD5 by uniE727;
+  sub uni0CAF uni0CC6 uni0CC2 uni0CD5 by uniE732;
+  sub uni0CB0 uni0CC6 uni0CC2 uni0CD5 by uniE73D;
+  sub uni0CB2 uni0CC6 uni0CC2 uni0CD5 by uniE747;
+  sub uni0CB5 uni0CC6 uni0CC2 uni0CD5 by uniE752;
+  sub uni0CB6 uni0CC6 uni0CC2 uni0CD5 by uniE75D;
+  sub uni0CB7 uni0CC6 uni0CC2 uni0CD5 by uniE768;
+  sub uni0CB8 uni0CC6 uni0CC2 uni0CD5 by uniE773;
+  sub uni0CB9 uni0CC6 uni0CC2 uni0CD5 by uniE77E;
+  sub uni0CB3 uni0CC6 uni0CC2 uni0CD5 by uniE789;
+  sub uni0CDE uni0CC6 uni0CC2 uni0CD5 by uniE609;
+  sub uni0CB1 uni0CC6 uni0CC2 uni0CD5 by uniE614;
+
+  # --- aiMatra: consonant + uni0CC6 + uni0CD6 (U+0CD6) ---
+  # U+0CC8 (aiMatra) decomposes to U+0CC6 (eMatra) + U+0CD6 (uni0CD6)
+  # before any feature fires; match the decomposed sequence here in akhn.
+  sub uni0C95 uni0CC6 uni0CD6 by uniE600;
+  sub uni0C96 uni0CC6 uni0CD6 by uni0C960CC8;
+  sub uni0C97 uni0CC6 uni0CD6 by uni0C970CC8;
+  sub uni0C98 uni0CC6 uni0CD6 by uni0C980CC8;
+  sub uni0C99 uni0CC6 uni0CD6 by uni0C990CC8;
+  sub uni0C9A uni0CC6 uni0CD6 by uni0C9A0CC8;
+  sub uni0C9B uni0CC6 uni0CD6 by uni0C9B0CC8;
+  sub uni0C9C uni0CC6 uni0CD6 by uni0C9C0CC8;
+  sub uni0C9D uni0CC6 uni0CD6 by uni0C9D0CC8;
+  sub uni0C9E uni0CC6 uni0CD6 by uni0C9E0CC8;
+  sub uni0C9F uni0CC6 uni0CD6 by uni0C9F0CC8;
+  sub uni0CA0 uni0CC6 uni0CD6 by uni0CA00CC8;
+  sub uni0CA1 uni0CC6 uni0CD6 by uni0CA10CC8;
+  sub uni0CA2 uni0CC6 uni0CD6 by uni0CA20CC8;
+  sub uni0CA3 uni0CC6 uni0CD6 by uni0CA30CC8;
+  sub uni0CA4 uni0CC6 uni0CD6 by uni0CA40CC8;
+  sub uni0CA5 uni0CC6 uni0CD6 by uni0CA50CC8;
+  sub uni0CA6 uni0CC6 uni0CD6 by uni0CA60CC8;
+  sub uni0CA7 uni0CC6 uni0CD6 by uni0CA70CC8;
+  sub uni0CA8 uni0CC6 uni0CD6 by uni0CA80CC8;
+  sub uni0CAA uni0CC6 uni0CD6 by uni0CAA0CC8;
+  sub uni0CAB uni0CC6 uni0CD6 by uni0CAB0CC8;
+  sub uni0CAC uni0CC6 uni0CD6 by uni0CAC0CC8;
+  sub uni0CAD uni0CC6 uni0CD6 by uni0CAD0CC8;
+  sub uni0CAE uni0CC6 uni0CD6 by uni0CAE0CC8;
+  sub uni0CAF uni0CC6 uni0CD6 by uni0CAF0CC8;
+  sub uni0CB0 uni0CC6 uni0CD6 by uni0CB00CC8;
+  sub uni0CB2 uni0CC6 uni0CD6 by uni0CB20CC8;
+  sub uni0CB5 uni0CC6 uni0CD6 by uni0CB50CC8;
+  sub uni0CB6 uni0CC6 uni0CD6 by uni0CB60CC8;
+  sub uni0CB7 uni0CC6 uni0CD6 by uni0CB70CC8;
+  sub uni0CB8 uni0CC6 uni0CD6 by uni0CB80CC8;
+  sub uni0CB9 uni0CC6 uni0CD6 by uni0CB90CC8;
+  sub uni0CB3 uni0CC6 uni0CD6 by uni0CB30CC8;
+  sub uni0CDE uni0CC6 uni0CD6 by uni0CDE0CC8;
+  sub uni0CB1 uni0CC6 uni0CD6 by uni0CB10CC8;
+} akhn_matras;
+
+lookup akhn_matras;
+### close feature 'akhn' ###
+} akhn;
+
+### feature:3:psts ###
+feature psts {
+### open feature 'psts' ###
+lookup psts_matras {
+  lookupflag UseMarkFilteringSet @Matras;
+
+  # --- aaMatra ---
+  sub uni0C95 uni0CBE by uniE618;
+  sub uni0C96 uni0CBE by uniE623;
+  sub uni0C97 uni0CBE by uniE62D;
+  sub uni0C98 uni0CBE by uniE638;
+  sub uni0C99 uni0CBE by uniE643;
+  sub uni0C9A uni0CBE by uniE64E;
+  sub uni0C9B uni0CBE by uniE659;
+  sub uni0C9C uni0CBE by uniE664;
+  sub uni0C9D uni0CBE by uniE66F;
+  sub uni0C9E uni0CBE by uniE67A;
+  sub uni0C9F uni0CBE by uniE685;
+  sub uni0CA0 uni0CBE by uniE690;
+  sub uni0CA1 uni0CBE by uniE69B;
+  sub uni0CA2 uni0CBE by uniE6A6;
+  sub uni0CA3 uni0CBE by uniE6B1;
+  sub uni0CA4 uni0CBE by uniE6BC;
+  sub uni0CA5 uni0CBE by uniE6C7;
+  sub uni0CA6 uni0CBE by uniE6D2;
+  sub uni0CA7 uni0CBE by uniE6DD;
+  sub uni0CA8 uni0CBE by uniE6E8;
+  sub uni0CAA uni0CBE by uniE6F3;
+  sub uni0CAB uni0CBE by uniE6FE;
+  sub uni0CAC uni0CBE by uniE709;
+  sub uni0CAD uni0CBE by uniE714;
+  sub uni0CAE uni0CBE by uniE71F;
+  sub uni0CAF uni0CBE by uniE72A;
+  sub uni0CB0 uni0CBE by uniE735;
+  sub uni0CB2 uni0CBE by uniE73F;
+  sub uni0CB5 uni0CBE by uniE74A;
+  sub uni0CB6 uni0CBE by uniE755;
+  sub uni0CB7 uni0CBE by uniE760;
+  sub uni0CB8 uni0CBE by uniE76B;
+  sub uni0CB9 uni0CBE by uniE776;
+  sub uni0CB3 uni0CBE by uniE781;
+  sub uni0CDE uni0CBE by uniE601;
+  sub uni0CB1 uni0CBE by uniE60C;
+
+  # --- iMatra ---
+  sub uni0C95 uni0CBF by uniE619;
+  sub uni0C96 uni0CBF by uniE624;
+  sub uni0C97 uni0CBF by uniE62E;
+  sub uni0C98 uni0CBF by uniE639;
+  sub uni0C99 uni0CBF by uniE644;
+  sub uni0C9A uni0CBF by uniE64F;
+  sub uni0C9B uni0CBF by uniE65A;
+  sub uni0C9C uni0CBF by uniE665;
+  sub uni0C9D uni0CBF by uniE670;
+  sub uni0C9E uni0CBF by uniE67B;
+  sub uni0C9F uni0CBF by uniE686;
+  sub uni0CA0 uni0CBF by uniE691;
+  sub uni0CA1 uni0CBF by uniE69C;
+  sub uni0CA2 uni0CBF by uniE6A7;
+  sub uni0CA3 uni0CBF by uniE6B2;
+  sub uni0CA4 uni0CBF by uniE6BD;
+  sub uni0CA5 uni0CBF by uniE6C8;
+  sub uni0CA6 uni0CBF by uniE6D3;
+  sub uni0CA7 uni0CBF by uniE6DE;
+  sub uni0CA8 uni0CBF by uniE6E9;
+  sub uni0CAA uni0CBF by uniE6F4;
+  sub uni0CAB uni0CBF by uniE6FF;
+  sub uni0CAC uni0CBF by uniE70A;
+  sub uni0CAD uni0CBF by uniE715;
+  sub uni0CAE uni0CBF by uniE720;
+  sub uni0CAF uni0CBF by uniE72B;
+  sub uni0CB0 uni0CBF by uniE736;
+  sub uni0CB2 uni0CBF by uniE740;
+  sub uni0CB5 uni0CBF by uniE74B;
+  sub uni0CB6 uni0CBF by uniE756;
+  sub uni0CB7 uni0CBF by uniE761;
+  sub uni0CB8 uni0CBF by uniE76C;
+  sub uni0CB9 uni0CBF by uniE777;
+  sub uni0CB3 uni0CBF by uniE782;
+  sub uni0CDE uni0CBF by uniE602;
+  sub uni0CB1 uni0CBF by uniE60D;
+
+  # --- iiMatra ---
+  sub uni0C95 uni0CC0 by uniE61A;
+  sub uni0C96 uni0CC0 by uniE625;
+  sub uni0C97 uni0CC0 by uniE62F;
+  sub uni0C98 uni0CC0 by uniE63A;
+  sub uni0C99 uni0CC0 by uniE645;
+  sub uni0C9A uni0CC0 by uniE650;
+  sub uni0C9B uni0CC0 by uniE65B;
+  sub uni0C9C uni0CC0 by uniE666;
+  sub uni0C9D uni0CC0 by uniE671;
+  sub uni0C9E uni0CC0 by uniE67C;
+  sub uni0C9F uni0CC0 by uniE687;
+  sub uni0CA0 uni0CC0 by uniE692;
+  sub uni0CA1 uni0CC0 by uniE69D;
+  sub uni0CA2 uni0CC0 by uniE6A8;
+  sub uni0CA3 uni0CC0 by uniE6B3;
+  sub uni0CA4 uni0CC0 by uniE6BE;
+  sub uni0CA5 uni0CC0 by uniE6C9;
+  sub uni0CA6 uni0CC0 by uniE6D4;
+  sub uni0CA7 uni0CC0 by uniE6DF;
+  sub uni0CA8 uni0CC0 by uniE6EA;
+  sub uni0CAA uni0CC0 by uniE6F5;
+  sub uni0CAB uni0CC0 by uniE700;
+  sub uni0CAC uni0CC0 by uniE70B;
+  sub uni0CAD uni0CC0 by uniE716;
+  sub uni0CAE uni0CC0 by uniE721;
+  sub uni0CAF uni0CC0 by uniE72C;
+  sub uni0CB0 uni0CC0 by uniE737;
+  sub uni0CB2 uni0CC0 by uniE741;
+  sub uni0CB5 uni0CC0 by uniE74C;
+  sub uni0CB6 uni0CC0 by uniE757;
+  sub uni0CB7 uni0CC0 by uniE762;
+  sub uni0CB8 uni0CC0 by uniE76D;
+  sub uni0CB9 uni0CC0 by uniE778;
+  sub uni0CB3 uni0CC0 by uniE783;
+  sub uni0CDE uni0CC0 by uniE603;
+  sub uni0CB1 uni0CC0 by uniE60E;
+
+  # --- uMatra ---
+  sub uni0C95 uni0CC1 by uniE61B;
+  sub uni0C96 uni0CC1 by uniE626;
+  sub uni0C97 uni0CC1 by uniE630;
+  sub uni0C98 uni0CC1 by uniE63B;
+  sub uni0C99 uni0CC1 by uniE646;
+  sub uni0C9A uni0CC1 by uniE651;
+  sub uni0C9B uni0CC1 by uniE65C;
+  sub uni0C9C uni0CC1 by uniE667;
+  sub uni0C9D uni0CC1 by uniE672;
+  sub uni0C9E uni0CC1 by uniE67D;
+  sub uni0C9F uni0CC1 by uniE688;
+  sub uni0CA0 uni0CC1 by uniE693;
+  sub uni0CA1 uni0CC1 by uniE69E;
+  sub uni0CA2 uni0CC1 by uniE6A9;
+  sub uni0CA3 uni0CC1 by uniE6B4;
+  sub uni0CA4 uni0CC1 by uniE6BF;
+  sub uni0CA5 uni0CC1 by uniE6CA;
+  sub uni0CA6 uni0CC1 by uniE6D5;
+  sub uni0CA7 uni0CC1 by uniE6E0;
+  sub uni0CA8 uni0CC1 by uniE6EB;
+  sub uni0CAA uni0CC1 by uniE6F6;
+  sub uni0CAB uni0CC1 by uniE701;
+  sub uni0CAC uni0CC1 by uniE70C;
+  sub uni0CAD uni0CC1 by uniE717;
+  sub uni0CAE uni0CC1 by uniE722;
+  sub uni0CAF uni0CC1 by uniE72D;
+  sub uni0CB0 uni0CC1 by uniE738;
+  sub uni0CB2 uni0CC1 by uniE742;
+  sub uni0CB5 uni0CC1 by uniE74D;
+  sub uni0CB6 uni0CC1 by uniE758;
+  sub uni0CB7 uni0CC1 by uniE763;
+  sub uni0CB8 uni0CC1 by uniE76E;
+  sub uni0CB9 uni0CC1 by uniE779;
+  sub uni0CB3 uni0CC1 by uniE784;
+  sub uni0CDE uni0CC1 by uniE604;
+  sub uni0CB1 uni0CC1 by uniE60F;
+
+  # --- uuMatra ---
+  sub uni0C95 uni0CC2 by uniE61C;
+  sub uni0C96 uni0CC2 by uniE627;
+  sub uni0C97 uni0CC2 by uniE631;
+  sub uni0C98 uni0CC2 by uniE63C;
+  sub uni0C99 uni0CC2 by uniE647;
+  sub uni0C9A uni0CC2 by uniE652;
+  sub uni0C9B uni0CC2 by uniE65D;
+  sub uni0C9C uni0CC2 by uniE668;
+  sub uni0C9D uni0CC2 by uniE673;
+  sub uni0C9E uni0CC2 by uniE67E;
+  sub uni0C9F uni0CC2 by uniE689;
+  sub uni0CA0 uni0CC2 by uniE694;
+  sub uni0CA1 uni0CC2 by uniE69F;
+  sub uni0CA2 uni0CC2 by uniE6AA;
+  sub uni0CA3 uni0CC2 by uniE6B5;
+  sub uni0CA4 uni0CC2 by uniE6C0;
+  sub uni0CA5 uni0CC2 by uniE6CB;
+  sub uni0CA6 uni0CC2 by uniE6D6;
+  sub uni0CA7 uni0CC2 by uniE6E1;
+  sub uni0CA8 uni0CC2 by uniE6EC;
+  sub uni0CAA uni0CC2 by uniE6F7;
+  sub uni0CAB uni0CC2 by uniE702;
+  sub uni0CAC uni0CC2 by uniE70D;
+  sub uni0CAD uni0CC2 by uniE718;
+  sub uni0CAE uni0CC2 by uniE723;
+  sub uni0CAF uni0CC2 by uniE72E;
+  sub uni0CB0 uni0CC2 by uniE739;
+  sub uni0CB2 uni0CC2 by uniE743;
+  sub uni0CB5 uni0CC2 by uniE74E;
+  sub uni0CB6 uni0CC2 by uniE759;
+  sub uni0CB7 uni0CC2 by uniE764;
+  sub uni0CB8 uni0CC2 by uniE76F;
+  sub uni0CB9 uni0CC2 by uniE77A;
+  sub uni0CB3 uni0CC2 by uniE785;
+  sub uni0CDE uni0CC2 by uniE605;
+  sub uni0CB1 uni0CC2 by uniE610;
+
+  # --- eMatra ---
+  sub uni0C95 uni0CC6 by uniE61D;
+  sub uni0C96 uni0CC6 by uniE628;
+  sub uni0C97 uni0CC6 by uniE632;
+  sub uni0C98 uni0CC6 by uniE63D;
+  sub uni0C99 uni0CC6 by uniE648;
+  sub uni0C9A uni0CC6 by uniE653;
+  sub uni0C9B uni0CC6 by uniE65E;
+  sub uni0C9C uni0CC6 by uniE669;
+  sub uni0C9D uni0CC6 by uniE674;
+  sub uni0C9E uni0CC6 by uniE67F;
+  sub uni0C9F uni0CC6 by uniE68A;
+  sub uni0CA0 uni0CC6 by uniE695;
+  sub uni0CA1 uni0CC6 by uniE6A0;
+  sub uni0CA2 uni0CC6 by uniE6AB;
+  sub uni0CA3 uni0CC6 by uniE6B6;
+  sub uni0CA4 uni0CC6 by uniE6C1;
+  sub uni0CA5 uni0CC6 by uniE6CC;
+  sub uni0CA6 uni0CC6 by uniE6D7;
+  sub uni0CA7 uni0CC6 by uniE6E2;
+  sub uni0CA8 uni0CC6 by uniE6ED;
+  sub uni0CAA uni0CC6 by uniE6F8;
+  sub uni0CAB uni0CC6 by uniE703;
+  sub uni0CAC uni0CC6 by uniE70E;
+  sub uni0CAD uni0CC6 by uniE719;
+  sub uni0CAE uni0CC6 by uniE724;
+  sub uni0CAF uni0CC6 by uniE72F;
+  sub uni0CB0 uni0CC6 by uniE73A;
+  sub uni0CB2 uni0CC6 by uniE744;
+  sub uni0CB5 uni0CC6 by uniE74F;
+  sub uni0CB6 uni0CC6 by uniE75A;
+  sub uni0CB7 uni0CC6 by uniE765;
+  sub uni0CB8 uni0CC6 by uniE770;
+  sub uni0CB9 uni0CC6 by uniE77B;
+  sub uni0CB3 uni0CC6 by uniE786;
+  sub uni0CDE uni0CC6 by uniE606;
+  sub uni0CB1 uni0CC6 by uniE611;
+
+  # --- eeMatra ---
+  sub uni0C95 uni0CC7 by uniE61E;
+  sub uni0C96 uni0CC7 by uniE629;
+  sub uni0C97 uni0CC7 by uniE633;
+  sub uni0C98 uni0CC7 by uniE63E;
+  sub uni0C99 uni0CC7 by uniE649;
+  sub uni0C9A uni0CC7 by uniE654;
+  sub uni0C9B uni0CC7 by uniE65F;
+  sub uni0C9C uni0CC7 by uniE66A;
+  sub uni0C9D uni0CC7 by uniE675;
+  sub uni0C9E uni0CC7 by uniE680;
+  sub uni0C9F uni0CC7 by uniE68B;
+  sub uni0CA0 uni0CC7 by uniE696;
+  sub uni0CA1 uni0CC7 by uniE6A1;
+  sub uni0CA2 uni0CC7 by uniE6AC;
+  sub uni0CA3 uni0CC7 by uniE6B7;
+  sub uni0CA4 uni0CC7 by uniE6C2;
+  sub uni0CA5 uni0CC7 by uniE6CD;
+  sub uni0CA6 uni0CC7 by uniE6D8;
+  sub uni0CA7 uni0CC7 by uniE6E3;
+  sub uni0CA8 uni0CC7 by uniE6EE;
+  sub uni0CAA uni0CC7 by uniE6F9;
+  sub uni0CAB uni0CC7 by uniE704;
+  sub uni0CAC uni0CC7 by uniE70F;
+  sub uni0CAD uni0CC7 by uniE71A;
+  sub uni0CAE uni0CC7 by uniE725;
+  sub uni0CAF uni0CC7 by uniE730;
+  sub uni0CB0 uni0CC7 by uniE73B;
+  sub uni0CB2 uni0CC7 by uniE745;
+  sub uni0CB5 uni0CC7 by uniE750;
+  sub uni0CB6 uni0CC7 by uniE75B;
+  sub uni0CB7 uni0CC7 by uniE766;
+  sub uni0CB8 uni0CC7 by uniE771;
+  sub uni0CB9 uni0CC7 by uniE77C;
+  sub uni0CB3 uni0CC7 by uniE787;
+  sub uni0CDE uni0CC7 by uniE607;
+  sub uni0CB1 uni0CC7 by uniE612;
+
+  # --- auMatra ---
+  sub uni0C95 uni0CCC by uniE621;
+  sub uni0C96 uni0CCC by uniE62C;
+  sub uni0C97 uni0CCC by uniE636;
+  sub uni0C98 uni0CCC by uniE641;
+  sub uni0C99 uni0CCC by uniE64C;
+  sub uni0C9A uni0CCC by uniE657;
+  sub uni0C9B uni0CCC by uniE662;
+  sub uni0C9C uni0CCC by uniE66D;
+  sub uni0C9D uni0CCC by uniE678;
+  sub uni0C9E uni0CCC by uniE683;
+  sub uni0C9F uni0CCC by uniE68E;
+  sub uni0CA0 uni0CCC by uniE699;
+  sub uni0CA1 uni0CCC by uniE6A4;
+  sub uni0CA2 uni0CCC by uniE6AF;
+  sub uni0CA3 uni0CCC by uniE6BA;
+  sub uni0CA4 uni0CCC by uniE6C5;
+  sub uni0CA5 uni0CCC by uniE6D0;
+  sub uni0CA6 uni0CCC by uniE6DB;
+  sub uni0CA7 uni0CCC by uniE6E6;
+  sub uni0CA8 uni0CCC by uniE6F1;
+  sub uni0CAA uni0CCC by uniE6FC;
+  sub uni0CAB uni0CCC by uniE707;
+  sub uni0CAC uni0CCC by uniE712;
+  sub uni0CAD uni0CCC by uniE71D;
+  sub uni0CAE uni0CCC by uniE728;
+  sub uni0CAF uni0CCC by uniE733;
+  sub uni0CB0 uni0CCC by uniE73E;
+  sub uni0CB2 uni0CCC by uniE748;
+  sub uni0CB5 uni0CCC by uniE753;
+  sub uni0CB6 uni0CCC by uniE75E;
+  sub uni0CB7 uni0CCC by uniE769;
+  sub uni0CB8 uni0CCC by uniE774;
+  sub uni0CB9 uni0CCC by uniE77F;
+  sub uni0CB3 uni0CCC by uniE78A;
+  sub uni0CDE uni0CCC by uniE60A;
+  sub uni0CB1 uni0CCC by uniE615;
+  # --- aiMatra ---
+  sub uni0C95 uni0CC8 by uniE600;
+  sub uni0C96 uni0CC8 by uni0C960CC8;
+  sub uni0C97 uni0CC8 by uni0C970CC8;
+  sub uni0C98 uni0CC8 by uni0C980CC8;
+  sub uni0C99 uni0CC8 by uni0C990CC8;
+  sub uni0C9A uni0CC8 by uni0C9A0CC8;
+  sub uni0C9B uni0CC8 by uni0C9B0CC8;
+  sub uni0C9C uni0CC8 by uni0C9C0CC8;
+  sub uni0C9D uni0CC8 by uni0C9D0CC8;
+  sub uni0C9E uni0CC8 by uni0C9E0CC8;
+  sub uni0C9F uni0CC8 by uni0C9F0CC8;
+  sub uni0CA0 uni0CC8 by uni0CA00CC8;
+  sub uni0CA1 uni0CC8 by uni0CA10CC8;
+  sub uni0CA2 uni0CC8 by uni0CA20CC8;
+  sub uni0CA3 uni0CC8 by uni0CA30CC8;
+  sub uni0CA4 uni0CC8 by uni0CA40CC8;
+  sub uni0CA5 uni0CC8 by uni0CA50CC8;
+  sub uni0CA6 uni0CC8 by uni0CA60CC8;
+  sub uni0CA7 uni0CC8 by uni0CA70CC8;
+  sub uni0CA8 uni0CC8 by uni0CA80CC8;
+  sub uni0CAA uni0CC8 by uni0CAA0CC8;
+  sub uni0CAB uni0CC8 by uni0CAB0CC8;
+  sub uni0CAC uni0CC8 by uni0CAC0CC8;
+  sub uni0CAD uni0CC8 by uni0CAD0CC8;
+  sub uni0CAE uni0CC8 by uni0CAE0CC8;
+  sub uni0CAF uni0CC8 by uni0CAF0CC8;
+  sub uni0CB0 uni0CC8 by uni0CB00CC8;
+  sub uni0CB2 uni0CC8 by uni0CB20CC8;
+  sub uni0CB5 uni0CC8 by uni0CB50CC8;
+  sub uni0CB6 uni0CC8 by uni0CB60CC8;
+  sub uni0CB7 uni0CC8 by uni0CB70CC8;
+  sub uni0CB8 uni0CC8 by uni0CB80CC8;
+  sub uni0CB9 uni0CC8 by uni0CB90CC8;
+  sub uni0CB3 uni0CC8 by uni0CB30CC8;
+  sub uni0CDE uni0CC8 by uni0CDE0CC8;
+  sub uni0CB1 uni0CC8 by uni0CB10CC8;
+
+} psts_matras;
+
+lookup psts_matras;
+### close feature 'psts' ###
+} psts;
+
+### feature:4:ccmp ###
+feature ccmp {
+### open feature 'ccmp' ###
+lookup ccmp_knda_1 {
+	lookupflag 0;
+	sub uni0CCA by uni0CC6 uni0CC2;
+} ccmp_knda_1;
+
+script knda;
+lookup ccmp_knda_1;
+
+### close feature 'ccmp' ###
+} ccmp;
+
+### feature:6:rphf ###
+feature rphf {
+### open feature 'rphf' ###
+lookup reph_form {
+  sub uni0CB0 uni0CCD by uni0CEF;
+} reph_form;
+
+script knda;
+# Apply rephf, but exceptions can suppress it via ZWJ in shaping context
+sub @KannadaAll uni0CB0' lookup reph_form uni0CCD';
+### close feature 'rphf' ###
+} rphf;
+
+### feature:-1:blwm ###
+feature blwm {
+	lookup blwm_knd2 {
+		lookupflag 0;
+		pos base uni0C85 <anchor 607 0> mark @mark_bottom;
+		pos base uni0C95 <anchor 508 0> mark @mark_bottom;
+		pos base uni0CAC <anchor 616 0> mark @mark_bottom;
+		pos base uni0CB2 <anchor 493 -51> mark @mark_bottom;
+		pos base uni0CDE <anchor 737 0> mark @mark_bottom;
+		pos base uniE600 <anchor 336 0> mark @mark_bottom;
+		pos base uniE618 <anchor 523 0> mark @mark_bottom;
+		pos base uniE619 <anchor 336 0> mark @mark_bottom;
+		pos base uniE61A <anchor 336 0> mark @mark_bottom;
+		pos base uniE61B <anchor 573 -77> mark @mark_bottom;
+		pos base uniE61C <anchor 531 -16> mark @mark_bottom;
+		pos base uniE61D <anchor 336 0> mark @mark_bottom;
+		pos base uniE61E <anchor 336 0> mark @mark_bottom;
+		pos base uniE61F <anchor 710 0> mark @mark_bottom;
+		pos base uniE620 <anchor 336 0> mark @mark_bottom;
+		pos base uniE621 <anchor 336 0> mark @mark_bottom;
+		pos base uniE76F <anchor 625 -12> mark @mark_bottom;
+		pos base uniE773 <anchor 701 0> mark @mark_bottom;
+		pos base uniE775 <anchor 696 0> mark @mark_bottom;
+	} blwm_knd2;
+	lookupflag 0;
+	script knd2;
+	lookup blwm_knd2;
+	lookupflag 0;
+### open feature 'blwm' ###
+### close feature 'blwm' ###
+} blwm;
+
+### feature:-1:mkmk ###
+feature mkmk {
+### open feature 'mkmk' ###
+	lookup mkmk_Kann_bottom {
+		lookupflag 0;
+		pos mark bavattukannada <anchor -50 -322> mark @mark_bottom;
+		pos mark bhavattukannada <anchor -121 -363> mark @mark_bottom;
+		pos mark cavattukannada <anchor -208 -530> mark @mark_bottom;
+		pos mark chavattukannada <anchor -223 -716> mark @mark_bottom;
+		pos mark davattukannada <anchor -44 -525> mark @mark_bottom;
+		pos mark ddavattukannada <anchor -183 -284> mark @mark_bottom;
+		pos mark ddhavattukannada <anchor -204 -456> mark @mark_bottom;
+		pos mark dhavattukannada <anchor -56 -578> mark @mark_bottom;
+		pos mark gavattukannada <anchor -79 -473> mark @mark_bottom;
+		pos mark ghavattukannada <anchor -45 -656> mark @mark_bottom;
+		pos mark havattukannada <anchor -121 -256> mark @mark_bottom;
+		pos mark javattukannada <anchor 316 -475> mark @mark_bottom;
+		pos mark jhavattukannada <anchor -554 -463> mark @mark_bottom;
+		pos mark khavattukannada <anchor -81 -571> mark @mark_bottom;
+		pos mark lavattukannada <anchor -144 -385> mark @mark_bottom;
+		pos mark llavattukannada <anchor -63 -404> mark @mark_bottom;
+		pos mark lllavattukannada <anchor -129 -475> mark @mark_bottom;
+		pos mark mavattukannada <anchor -149 -394> mark @mark_bottom;
+		pos mark navattukannada <anchor -286 -368> mark @mark_bottom;
+		pos mark ngavattukannada <anchor 388 -523> mark @mark_bottom;
+		pos mark nnavattukannada <anchor -72 -468> mark @mark_bottom;
+		pos mark nyavattukannada <anchor 459 -565> mark @mark_bottom;
+		pos mark pavattukannada <anchor -61 -499> mark @mark_bottom;
+		pos mark phavattukannada <anchor -95 -551> mark @mark_bottom;
+		pos mark ravattukannada <anchor -236 -480> mark @mark_bottom;
+		pos mark rravattukannada <anchor -78 -602> mark @mark_bottom;
+		pos mark savattukannada <anchor -70 -395> mark @mark_bottom;
+		pos mark shavattukannada <anchor -68 -377> mark @mark_bottom;
+		pos mark ssavattukannada <anchor -96 -290> mark @mark_bottom;
+		pos mark tavattukannada <anchor -185 -255> mark @mark_bottom;
+		pos mark thavattukannada <anchor -137 -314> mark @mark_bottom;
+		pos mark ttavattukannada <anchor -49 -511> mark @mark_bottom;
+		pos mark tthavattukannada <anchor -478 -432> mark @mark_bottom;
+		pos mark uniE78D <anchor -176 -482> mark @mark_bottom;
+		pos mark vavattukannada <anchor -100 -290> mark @mark_bottom;
+		pos mark yavattukannada <anchor -68 -342> mark @mark_bottom;
+	} mkmk_Kann_bottom;
+	lookup mkmk_Kann_right {
+		lookupflag 0;
+		pos mark bavattukannada <anchor 89 -210> mark @mark_right;
+		pos mark bhavattukannada <anchor 61 -153> mark @mark_right;
+		pos mark cavattukannada <anchor 70 -274> mark @mark_right;
+		pos mark chavattukannada <anchor 102 -375> mark @mark_right;
+		pos mark davattukannada <anchor 187 -271> mark @mark_right;
+		pos mark ddavattukannada <anchor 16 -101> mark @mark_right;
+		pos mark ddhavattukannada <anchor 2 -165> mark @mark_right;
+		pos mark dhavattukannada <anchor 169 -311> mark @mark_right;
+		pos mark gavattukannada <anchor 124 -253> mark @mark_right;
+		pos mark ghavattukannada <anchor 242 -340> mark @mark_right;
+		pos mark havattukannada <anchor 75 -108> mark @mark_right;
+		pos mark javattukannada <anchor 343 -117> mark @mark_right;
+		pos mark jhavattukannada <anchor -169 -212> mark @mark_right;
+		pos mark khavattukannada <anchor 155 -332> mark @mark_right;
+		pos mark lavattukannada <anchor 54 -217> mark @mark_right;
+		pos mark llavattukannada <anchor 96 -174> mark @mark_right;
+		pos mark lllavattukannada <anchor 160 -278> mark @mark_right;
+		pos mark mavattukannada <anchor -12 -211> mark @mark_right;
+		pos mark navattukannada <anchor -12 -191> mark @mark_right;
+		pos mark ngavattukannada <anchor 436 -302> mark @mark_right;
+		pos mark nnavattukannada <anchor 134 -268> mark @mark_right;
+		pos mark nyavattukannada <anchor 487 -316> mark @mark_right;
+		pos mark pavattukannada <anchor 191 -286> mark @mark_right;
+		pos mark phavattukannada <anchor 158 -270> mark @mark_right;
+		pos mark ravattukannada <anchor 77 -259> mark @mark_right;
+		pos mark bavattu_rkannada <anchor 89 -210> mark @mark_right;
+		pos mark bhavattu_rkannada <anchor 61 -153> mark @mark_right;
+		pos mark cavattu_rkannada <anchor 70 -274> mark @mark_right;
+		pos mark chavattu_rkannada <anchor 102 -375> mark @mark_right;
+		pos mark davattu_rkannada <anchor 187 -271> mark @mark_right;
+		pos mark ddavattu_rkannada <anchor 16 -101> mark @mark_right;
+		pos mark ddhavattu_rkannada <anchor 2 -165> mark @mark_right;
+		pos mark dhavattu_rkannada <anchor 169 -311> mark @mark_right;
+		pos mark gavattu_rkannada <anchor 124 -253> mark @mark_right;
+		pos mark ghavattu_rkannada <anchor 242 -340> mark @mark_right;
+		pos mark havattu_rkannada <anchor 75 -108> mark @mark_right;
+		pos mark javattu_rkannada <anchor -396 -117> mark @mark_right;
+		pos mark jhavattu_rkannada <anchor -169 -212> mark @mark_right;
+		pos mark kavattu_rkannada <anchor -4 -258> mark @mark_right;
+		pos mark khavattu_rkannada <anchor 155 -332> mark @mark_right;
+		pos mark lavattu_rkannada <anchor 54 -217> mark @mark_right;
+		pos mark llavattu_rkannada <anchor 96 -174> mark @mark_right;
+		pos mark lllavattu_rkannada <anchor 160 -278> mark @mark_right;
+		pos mark mavattu_rkannada <anchor -12 -211> mark @mark_right;
+		pos mark navattu_rkannada <anchor -12 -191> mark @mark_right;
+		pos mark ngavattu_rkannada <anchor 152 -302> mark @mark_right;
+		pos mark nnavattu_rkannada <anchor 134 -268> mark @mark_right;
+		pos mark nyavattu_rkannada <anchor 250 -316> mark @mark_right;
+		pos mark pavattu_rkannada <anchor 191 -286> mark @mark_right;
+		pos mark phavattu_rkannada <anchor 158 -270> mark @mark_right;
+		pos mark rravattu_rkannada <anchor 275 -363> mark @mark_right;
+		pos mark savattu_rkannada <anchor 99 -209> mark @mark_right;
+		pos mark shavattu_rkannada <anchor 58 -202> mark @mark_right;
+		pos mark ssavattu_rkannada <anchor 120 -103> mark @mark_right;
+		pos mark tavattu_rkannada <anchor 37 -123> mark @mark_right;
+		pos mark thavattu_rkannada <anchor 33 -101> mark @mark_right;
+		pos mark ttavattu_rkannada <anchor 207 -255> mark @mark_right;
+		pos mark tthavattu_rkannada <anchor -260 -200> mark @mark_right;
+		pos mark vavattu_rkannada <anchor 120 -66> mark @mark_right;
+		pos mark yavattu_rkannada <anchor 96 -96> mark @mark_right;
+		pos mark ravattu_rkannada <anchor 54 -181> mark @mark_right;
+		pos mark rravattukannada <anchor 275 -363> mark @mark_right;
+		pos mark savattukannada <anchor 99 -209> mark @mark_right;
+		pos mark shavattukannada <anchor 58 -202> mark @mark_right;
+		pos mark ssavattukannada <anchor 120 -103> mark @mark_right;
+		pos mark tavattukannada <anchor 37 -123> mark @mark_right;
+		pos mark thavattukannada <anchor 33 -101> mark @mark_right;
+		pos mark ttavattukannada <anchor 207 -255> mark @mark_right;
+		pos mark tthavattukannada <anchor -260 -200> mark @mark_right;
+		pos mark uniE78D <anchor -4 -258> mark @mark_right;
+		pos mark vavattukannada <anchor 120 -66> mark @mark_right;
+		pos mark yavattukannada <anchor 96 -96> mark @mark_right;
+	} mkmk_Kann_right;
+### close feature 'mkmk' ###
+} mkmk;
+

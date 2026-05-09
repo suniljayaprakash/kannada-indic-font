@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ghavattu_rkannada" format="2">
+  <advance width="0"/>
+  <anchor x="-351" y="-340" name="_right"/>
+  <anchor x="242" y="-340" name="right"/>
+  <outline>
+    <component base="ghavattukannada"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-03 00:00:00 +0000</string>
+    </dict>
+  </lib>
+</glyph>

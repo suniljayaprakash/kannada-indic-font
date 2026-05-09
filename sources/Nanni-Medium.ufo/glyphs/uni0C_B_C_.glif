@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CBC" format="2">
+  <advance width="0"/>
+  <unicode hex="0CBC"/>
+  <note>
+uni0CBC
+</note>
+  <outline>
+    <contour>
+      <point x="-383" y="-57" type="qcurve"/>
+      <point x="-393" y="-55"/>
+      <point x="-401" y="-58" type="qcurve"/>
+      <point x="-425" y="-64"/>
+      <point x="-438" y="-75" type="qcurve"/>
+      <point x="-455" y="-86"/>
+      <point x="-463" y="-108" type="qcurve"/>
+      <point x="-469" y="-129"/>
+      <point x="-461" y="-149" type="qcurve"/>
+      <point x="-456" y="-162"/>
+      <point x="-442" y="-176" type="qcurve"/>
+      <point x="-415" y="-200"/>
+      <point x="-382" y="-195" type="qcurve"/>
+      <point x="-361" y="-192"/>
+      <point x="-331" y="-164"/>
+      <point x="-326" y="-142" type="qcurve"/>
+      <point x="-320" y="-119"/>
+      <point x="-324" y="-99" type="qcurve"/>
+      <point x="-329" y="-78"/>
+      <point x="-362" y="-55"/>
+    </contour>
+    <contour>
+      <point x="-147" y="-63" type="qcurve"/>
+      <point x="-150" y="-61"/>
+      <point x="-158" y="-57" type="qcurve"/>
+      <point x="-197" y="-44"/>
+      <point x="-256" y="-95"/>
+      <point x="-248" y="-137" type="qcurve"/>
+      <point x="-244" y="-163"/>
+      <point x="-207" y="-193"/>
+      <point x="-183" y="-192" type="qcurve"/>
+      <point x="-151" y="-192"/>
+      <point x="-129" y="-168" type="qcurve"/>
+      <point x="-117" y="-160"/>
+      <point x="-111" y="-147" type="qcurve"/>
+      <point x="-109" y="-141"/>
+      <point x="-107" y="-133" type="qcurve"/>
+      <point x="-105" y="-127"/>
+      <point x="-105" y="-124" type="qcurve"/>
+      <point x="-102" y="-112"/>
+      <point x="-105" y="-100" type="qcurve"/>
+      <point x="-108" y="-84"/>
+      <point x="-122" y="-73" type="qcurve"/>
+      <point x="-133" y="-65"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-01 14:59:05 +0000</string>
+    </dict>
+  </lib>
+</glyph>
