@@ -14,7 +14,7 @@ This repository contains the source files and tools for building a high-quality 
 ## Directory Structure
 
 ```
-kannada-indic-font/
+nanni-indic-font/
 ├── sources/                    # Source font files
 │   ├── Bilvafont-experiments.glyphs   # Primary Glyphs design file
 │   └── Nanni-Medium.ufo/       # UFO (Unified Font Object) format
@@ -57,7 +57,7 @@ kannada-indic-font/
 Export the font with auto-versioning:
 
 ```bash
-cd kannada-indic-font/scripts
+cd nanni-indic-font/scripts
 python3 export_ttf.py
 ```
 
@@ -107,7 +107,7 @@ See `docs/KANNADA_FONT_CONTEXT.md` for detailed documentation.
 ### Running Utility Scripts
 
 ```bash
-cd kannada-indic-font/scripts
+cd nanni-indic-font/scripts
 
 # Check glyph classes
 python3 check_classes.py

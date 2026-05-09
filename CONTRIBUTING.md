@@ -7,8 +7,8 @@ Thank you for your interest in contributing! This document provides guidelines f
 1. **Fork** the repository on GitHub
 2. **Clone** your fork locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/kannada-indic-font.git
-   cd kannada-indic-font
+   git clone https://github.com/YOUR-USERNAME/nanni-indic-font.git
+   cd nanni-indic-font
    ```
 3. **Create a feature branch**:
    ```bash
@@ -27,8 +27,8 @@ Thank you for your interest in contributing! This document provides guidelines f
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/kannada-indic-font.git
-cd kannada-indic-font
+git clone https://github.com/yourusername/nanni-indic-font.git
+cd nanni-indic-font
 
 # Create Python virtual environment
 python3 -m venv venv
