@@ -940,52 +940,6 @@ lookup ccmp_knda_1;
 ### close feature 'ccmp' ###
 } ccmp;
 
-### feature:5:calt ###
-feature calt {
-### open feature 'calt' ###
-lookup vattu_to_right {
-  sub bavattukannada by bavattu_rkannada;
-  sub bhavattukannada by bhavattu_rkannada;
-  sub cavattukannada by cavattu_rkannada;
-  sub chavattukannada by chavattu_rkannada;
-  sub davattukannada by davattu_rkannada;
-  sub ddavattukannada by ddavattu_rkannada;
-  sub ddhavattukannada by ddhavattu_rkannada;
-  sub dhavattukannada by dhavattu_rkannada;
-  sub gavattukannada by gavattu_rkannada;
-  sub ghavattukannada by ghavattu_rkannada;
-  sub havattukannada by havattu_rkannada;
-  sub javattukannada by javattu_rkannada;
-  sub jhavattukannada by jhavattu_rkannada;
-  sub uniE78D by kavattu_rkannada;
-  sub khavattukannada by khavattu_rkannada;
-  sub lavattukannada by lavattu_rkannada;
-  sub llavattukannada by llavattu_rkannada;
-  sub lllavattukannada by lllavattu_rkannada;
-  sub mavattukannada by mavattu_rkannada;
-  sub navattukannada by navattu_rkannada;
-  sub ngavattukannada by ngavattu_rkannada;
-  sub nnavattukannada by nnavattu_rkannada;
-  sub nyavattukannada by nyavattu_rkannada;
-  sub pavattukannada by pavattu_rkannada;
-  sub phavattukannada by phavattu_rkannada;
-  sub ravattukannada by ravattu_rkannada;
-  sub rravattukannada by rravattu_rkannada;
-  sub savattukannada by savattu_rkannada;
-  sub shavattukannada by shavattu_rkannada;
-  sub ssavattukannada by ssavattu_rkannada;
-  sub tavattukannada by tavattu_rkannada;
-  sub thavattukannada by thavattu_rkannada;
-  sub ttavattukannada by ttavattu_rkannada;
-  sub tthavattukannada by tthavattu_rkannada;
-  sub vavattukannada by vavattu_rkannada;
-  sub yavattukannada by yavattu_rkannada;
-} vattu_to_right;
-
-sub @VattuAny @VattuAll' lookup vattu_to_right;
-### close feature 'calt' ###
-} calt;
-
 ### feature:6:rphf ###
 feature rphf {
 ### open feature 'rphf' ###

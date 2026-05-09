@@ -654,7 +654,7 @@ uniE78D
 }
 );
 date = "2026-04-18 23:18:53 +0000";
-familyName = Nanni10;
+familyName = Nanni;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -1403,6 +1403,7 @@ code = "lookup vattu_to_right {
 
 sub @VattuAny @VattuAll' lookup vattu_to_right;
 ";
+disabled = 1;
 tag = calt;
 },
 {
@@ -142281,7 +142282,7 @@ key = familyNames;
 values = (
 {
 language = ENG;
-value = Nanni10;
+value = Nanni;
 }
 );
 }
@@ -142292,5 +142293,5 @@ disablesNiceNames = 1;
 };
 unitsPerEm = 1000;
 versionMajor = 1;
-versionMinor = 6;
+versionMinor = 8;
 }
