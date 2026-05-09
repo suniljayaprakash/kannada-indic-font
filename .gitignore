@@ -1,3 +1,38 @@
-Bilvafont-experiments (Autosaved).glyphs
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+*~
+
+# Glyphs backups and autosaves
+*.(Autosaved).glyphs
+Bilvafont-experiments (Autosaved).glyphs
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build artifacts
+builds/*.ttf
+builds/*.otf
+builds/*.woff
+builds/*.woff2
+
+# Temporary files
+*.tmp
+*.temp
 
