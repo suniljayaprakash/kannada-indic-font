@@ -1,4 +1,4 @@
-# Kannada Indic Font
+# Nanni Indic Font
 
 A comprehensive OpenType font project for the Kannada script with advanced typographic features including ligatures, vattus (conjuncts), and matra substitutions.
 

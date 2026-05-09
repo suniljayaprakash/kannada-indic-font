@@ -1,4 +1,4 @@
-# Contributing to Kannada Indic Font
+# Contributing to Nanni Indic Font
 
 Thank you for your interest in contributing! This document provides guidelines for contributing to the project.
 
