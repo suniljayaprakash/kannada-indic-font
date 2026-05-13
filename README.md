@@ -151,6 +151,8 @@ For questions or issues, please open a GitHub issue or discussion.
 ## Resources
 
 - [Unicode Kannada Characters](https://en.wikipedia.org/wiki/Kannada_script)
+- [Unicode Kannada Block (U+0C80–U+0CFF)](https://unicode.org/charts/PDF/U0C80.pdf)
+- [Unicode Vedic Extensions (U+1CD0–U+1CF9)](https://unicode.org/charts/PDF/U1CD0.pdf)
 - [OpenType Specification](https://docs.microsoft.com/en-us/typography/opentype/)
 - [Glyphs 3 Documentation](https://glyphsapp.com/learn)
 - [glyphsLib Documentation](https://glyphslib.readthedocs.io/)
