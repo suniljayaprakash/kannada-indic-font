@@ -653,7 +653,7 @@ uniE78D
 );
 }
 );
-date = "2026-04-18 23:18:53 +0000";
+date = "2026-05-17 16:40:58 +0000";
 familyName = Nanni;
 featurePrefixes = (
 {
@@ -1545,11 +1545,11 @@ script = Kannada;
 {
 direction = LTR;
 glyphname = space;
-lastChange = "2026-04-26 17:58:03 +0000";
+lastChange = "2026-05-17 16:40:58 +0000";
 layers = (
 {
 layerId = m01;
-width = 300;
+width = 600;
 }
 );
 note = space;
