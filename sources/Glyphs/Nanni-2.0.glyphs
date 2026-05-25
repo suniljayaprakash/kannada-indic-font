@@ -50,6 +50,8 @@ value = (
 name = glyphOrder;
 value = (
 .notdef,
+zeroWidthJoiner,
+zeroWidthNonJoiner,
 .null,
 uni000D,
 space,
@@ -941,6 +943,10 @@ lookup SUB_1 {
 	sub uni0CB0 uni0CC6 by uniE73A;
 	sub uni0CB0 uni0CCC by uniE73E;
 	sub uni0CB0 uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD zeroWidthJoiner by r-kannada;
+	sub uni0CB0 zeroWidthJoiner uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD zeroWidthNonJoiner by r-kannada;
+	sub uni0CB0 zeroWidthNonJoiner uni0CCD by r-kannada;
 	sub uni0CB2 uni0CC6 uni0CC2 by uniE746;
 	sub uni0CB2 uni0CBE by uniE73F;
 	sub uni0CB2 uni0CBF by uniE740;
@@ -1166,6 +1172,10 @@ lookup half_forms_fallback {
 	sub uni0CAE uni0CCD by uniE734;
 	sub uni0CAF uni0CCD by y-kannada;
 	sub uni0CB0 uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD zeroWidthJoiner by r-kannada;
+	sub uni0CB0 zeroWidthJoiner uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD zeroWidthNonJoiner by r-kannada;
+	sub uni0CB0 zeroWidthNonJoiner uni0CCD by r-kannada;
 	sub uni0CB1 uni0CCD by rra_halant-kannada;
 	sub uni0CB2 uni0CCD by uniE749;
 	sub uni0CB3 uni0CCD by uniE78B;
@@ -1293,8 +1303,12 @@ tag = blwf;
 {
 code = "script DFLT;
 language dflt;
-lookup SUB_4 {
+lookup reph_sub {
 	sub uni0CB0 uni0CCD by reph-kannada;
+} reph_sub;
+lookup SUB_4 {
+	ignore sub uni0CB0' uni0CCD' [zeroWidthJoiner zeroWidthNonJoiner];
+	sub uni0CB0' lookup reph_sub uni0CCD';
 } SUB_4;
 script knd2;
 language dflt;
@@ -1881,6 +1895,26 @@ width = 500;
 }
 );
 note = .notdef;
+},
+{
+	glyphname = zeroWidthJoiner;
+	layers = (
+		{
+			layerId = m01;
+			width = 0;
+		}
+	);
+	unicode = 8205;
+},
+{
+	glyphname = zeroWidthNonJoiner;
+	layers = (
+		{
+			layerId = m01;
+			width = 0;
+		}
+	);
+	unicode = 8204;
 },
 {
 glyphname = .null;
