@@ -2,9 +2,8 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"/uni0CB0.below.following",
-"/uni0CA1.below",
-"/uni0C9F.below"
+"/uni0CB1.below",
+"/uni0CDE.below"
 );
 customParameters = (
 {
@@ -584,6 +583,9 @@ uni0CAF.below.following,
 uni0CB0.base,
 uni0CB0.below,
 uni0CB0.below.following,
+uni0CB1.base,
+uni0CB1.below,
+uni0CB1.below.following,
 uni0CB2.base,
 uni0CB2.below,
 uni0CB2.below.following,
@@ -606,6 +608,9 @@ uni0CB8.below.following,
 uni0CB9.base,
 uni0CB9.below,
 uni0CB9.below.following,
+uni0CDE.base,
+uni0CDE.below,
+uni0CDE.below.following,
 uni0CC1.alt,
 uni0CC1.base,
 uni0CC2.alt,
@@ -677,6 +682,7 @@ code = "lookup SUB_7 {
 	sub uni0CAE.below by uni0CAE.below.following;
 	sub uni0CAF.below by uni0CAF.below.following;
 	sub uni0CB0.below by uni0CB0.below.following;
+	sub uni0CB1.below by uni0CB1.below.following;
 	sub uni0CB2.below by uni0CB3.below.following;
 	sub uni0CB3.below by uni0CB2.below.following;
 	sub uni0CB5.below by uni0CB5.below.following;
@@ -684,6 +690,7 @@ code = "lookup SUB_7 {
 	sub uni0CB7.below by uni0CB7.below.following;
 	sub uni0CB8.below by uni0CB8.below.following;
 	sub uni0CB9.below by uni0CB9.below.following;
+	sub uni0CDE.below by uni0CDE.below.following;
 } SUB_7;
 ";
 name = Prefix;
@@ -696,7 +703,7 @@ code = "";
 tag = aalt;
 },
 {
-code = "@InterveningGlyphs = [uni0C95.below uni0C95.below.following uni0C96.below uni0C96.below.following uni0C97.below uni0C97.below.following uni0C98.below uni0C98.below.following uni0C99.below uni0C99.below.following uni0C9A.below uni0C9A.below.following uni0C9B.below uni0C9B.below.following uni0C9C.below uni0C9C.below.following uni0C9D.below uni0C9D.below.following uni0C9E.below uni0C9E.below.alt uni0C9E.below.following uni0C9F.below uni0C9F.below.following uni0CA0.below uni0CA0.below.following uni0CA1.below uni0CA1.below.following uni0CA2.below uni0CA2.below.following uni0CA3.below uni0CA3.below.following uni0CA4.below uni0CA4.below.following uni0CA5.below uni0CA5.below.following uni0CA6.below uni0CA6.below.following uni0CA7.below uni0CA7.below.following uni0CA8.below uni0CA8.below.following uni0CAA.below uni0CAA.below.following uni0CAB.below uni0CAB.below.following uni0CAC.below uni0CAC.below.following uni0CAD.below uni0CAD.below.following uni0CAE.below uni0CAE.below.following uni0CAF.below uni0CAF.below.following uni0CB0.below uni0CB0.below.following uni0CB2.below uni0CB2.below.following uni0CB3.below uni0CB3.below.following uni0CB5.below uni0CB5.below.following uni0CB6.below uni0CB6.below.following uni0CB7.below uni0CB7.below.alt uni0CB7.below.following uni0CB8.below uni0CB8.below.following uni0CB9.below uni0CB9.below.following llla_aaMatra-kannada llla_aiMatra-kannada llla_auMatra-kannada llla_eMatra-kannada llla_eeMatra-kannada llla_iMatra-kannada llla_iiMatra-kannada llla_oMatra-kannada llla_ooMatra-kannada llla_uMatra-kannada llla_uuMatra-kannada rra_aaMatra-kannada rra_aiMatra-kannada rra_auMatra-kannada rra_eMatra-kannada rra_eeMatra-kannada rra_iMatra-kannada rra_iiMatra-kannada rra_oMatra-kannada rra_ooMatra-kannada rra_uMatra-kannada rra_uuMatra-kannada uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CD5 uni0CD6 vocalicLLMatra-kannada vocalicLMatra-kannada uni0CCD];
+code = "@InterveningGlyphs = [uni0C95.below uni0C95.below.following uni0C96.below uni0C96.below.following uni0C97.below uni0C97.below.following uni0C98.below uni0C98.below.following uni0C99.below uni0C99.below.following uni0C9A.below uni0C9A.below.following uni0C9B.below uni0C9B.below.following uni0C9C.below uni0C9C.below.following uni0C9D.below uni0C9D.below.following uni0C9E.below uni0C9E.below.alt uni0C9E.below.following uni0C9F.below uni0C9F.below.following uni0CA0.below uni0CA0.below.following uni0CA1.below uni0CA1.below.following uni0CA2.below uni0CA2.below.following uni0CA3.below uni0CA3.below.following uni0CA4.below uni0CA4.below.following uni0CA5.below uni0CA5.below.following uni0CA6.below uni0CA6.below.following uni0CA7.below uni0CA7.below.following uni0CA8.below uni0CA8.below.following uni0CAA.below uni0CAA.below.following uni0CAB.below uni0CAB.below.following uni0CAC.below uni0CAC.below.following uni0CAD.below uni0CAD.below.following uni0CAE.below uni0CAE.below.following uni0CAF.below uni0CAF.below.following uni0CB0.below uni0CB0.below.following uni0CB1.below uni0CB1.below.following uni0CB2.below uni0CB2.below.following uni0CB3.below uni0CB3.below.following uni0CB5.below uni0CB5.below.following uni0CB6.below uni0CB6.below.following uni0CB7.below uni0CB7.below.alt uni0CB7.below.following uni0CB8.below uni0CB8.below.following uni0CB9.below uni0CB9.below.following uni0CDE.below uni0CDE.below.following llla_aaMatra-kannada llla_aiMatra-kannada llla_auMatra-kannada llla_eMatra-kannada llla_eeMatra-kannada llla_iMatra-kannada llla_iiMatra-kannada llla_oMatra-kannada llla_ooMatra-kannada llla_uMatra-kannada llla_uuMatra-kannada rra_aaMatra-kannada rra_aiMatra-kannada rra_auMatra-kannada rra_eMatra-kannada rra_eeMatra-kannada rra_iMatra-kannada rra_iiMatra-kannada rra_oMatra-kannada rra_ooMatra-kannada rra_uMatra-kannada rra_uuMatra-kannada uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CD5 uni0CD6 vocalicLLMatra-kannada vocalicLMatra-kannada uni0CCD];
 
 lookup insert_uni0C81 {
 	sub @InterveningGlyphs by uni0C81 @InterveningGlyphs;
@@ -1097,6 +1104,7 @@ lookup SUB_2 {
 	sub uni0CCD uni0CAE by uni0CAE.below;
 	sub uni0CCD uni0CAF by uni0CAF.below;
 	sub uni0CCD uni0CB0 by uni0CB0.below;
+	sub uni0CCD uni0CB1 by uni0CB1.below;
 	sub uni0CCD uni0CB2 by uni0CB2.below;
 	sub uni0CCD uni0CB3 by uni0CB3.below;
 	sub uni0CCD uni0CB5 by uni0CB5.below;
@@ -1104,6 +1112,7 @@ lookup SUB_2 {
 	sub uni0CCD uni0CB7 by uni0CB7.below;
 	sub uni0CCD uni0CB8 by uni0CB8.below;
 	sub uni0CCD uni0CB9 by uni0CB9.below;
+	sub uni0CCD uni0CDE by uni0CDE.below;
 } SUB_2;
 script knd2;
 language dflt;
@@ -1148,6 +1157,7 @@ lookup SUB_3 {
 	sub uni0CAE uni0CCD by uni0CAE.below;
 	sub uni0CAF uni0CCD by uni0CAF.below;
 	sub uni0CB0 uni0CCD by uni0CB0.below;
+	sub uni0CB1 uni0CCD by uni0CB1.below;
 	sub uni0CB2 uni0CCD by uni0CB2.below;
 	sub uni0CB3 uni0CCD by uni0CB3.below;
 	sub uni0CB5 uni0CCD by uni0CB5.below;
@@ -1155,6 +1165,7 @@ lookup SUB_3 {
 	sub uni0CB7 uni0CCD by uni0CB7.below;
 	sub uni0CB8 uni0CCD by uni0CB8.below;
 	sub uni0CB9 uni0CCD by uni0CB9.below;
+	sub uni0CDE uni0CCD by uni0CDE.below;
 	sub uni0CCD uni0C95 by uni0C95.below;
 	sub uni0CCD uni0C96 by uni0C96.below;
 	sub uni0CCD uni0C97 by uni0C97.below;
@@ -1182,6 +1193,7 @@ lookup SUB_3 {
 	sub uni0CCD uni0CAE by uni0CAE.below;
 	sub uni0CCD uni0CAF by uni0CAF.below;
 	sub uni0CCD uni0CB0 by uni0CB0.below;
+	sub uni0CCD uni0CB1 by uni0CB1.below;
 	sub uni0CCD uni0CB2 by uni0CB2.below;
 	sub uni0CCD uni0CB3 by uni0CB3.below;
 	sub uni0CCD uni0CB5 by uni0CB5.below;
@@ -1189,6 +1201,7 @@ lookup SUB_3 {
 	sub uni0CCD uni0CB7 by uni0CB7.below;
 	sub uni0CCD uni0CB8 by uni0CB8.below;
 	sub uni0CCD uni0CB9 by uni0CB9.below;
+	sub uni0CCD uni0CDE by uni0CDE.below;
 	sub uni0C95.below uni0CCD by uni0C95.below.following;
 	sub uni0C96.below uni0CCD by uni0C96.below.following;
 	sub uni0C97.below uni0CCD by uni0C97.below.following;
@@ -1216,6 +1229,7 @@ lookup SUB_3 {
 	sub uni0CAE.below uni0CCD by uni0CAE.below.following;
 	sub uni0CAF.below uni0CCD by uni0CAF.below.following;
 	sub uni0CB0.below uni0CCD by uni0CB0.below.following;
+	sub uni0CB1.below uni0CCD by uni0CB1.below.following;
 	sub uni0CB2.below uni0CCD by uni0CB2.below.following;
 	sub uni0CB3.below uni0CCD by uni0CB3.below.following;
 	sub uni0CB5.below uni0CCD by uni0CB5.below.following;
@@ -1223,6 +1237,7 @@ lookup SUB_3 {
 	sub uni0CB7.below uni0CCD by uni0CB7.below.following;
 	sub uni0CB8.below uni0CCD by uni0CB8.below.following;
 	sub uni0CB9.below uni0CCD by uni0CB9.below.following;
+	sub uni0CDE.below uni0CCD by uni0CDE.below.following;
 } SUB_3;
 script knd2;
 language dflt;
@@ -1293,26 +1308,26 @@ tag = akhn;
 code = "script DFLT;
 language dflt;
 lookup SUB_6 {
-	@SUB_6_0_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
-	@SUB_6_0_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
+	@SUB_6_0_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
+	@SUB_6_0_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	@SUB_6_0_LA_2 = [uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CC1.alt uni0CC1.base uni0CC2.alt vocalicLMatra-kannada vocalicLLMatra-kannada];
 	sub @SUB_6_0_BT_0 @SUB_6_0_1' lookup SUB_7 @SUB_6_0_LA_2;
-	@SUB_6_1_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
-	@SUB_6_1_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
+	@SUB_6_1_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
+	@SUB_6_1_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	sub @SUB_6_1_BT_0 @SUB_6_1_1' lookup SUB_7;
-	@SUB_6_2_BT_0 = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following];
-	@SUB_6_2_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
+	@SUB_6_2_BT_0 = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CDE.below.following];
+	@SUB_6_2_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	sub @SUB_6_2_BT_0 @SUB_6_2_1' lookup SUB_7;
 } SUB_6;
 
 lookup vocalic_matra_following {
-	@BelowForms = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
-	@BelowFollowingForms = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following];
+	@BelowForms = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
+	@BelowFollowingForms = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CDE.below.following];
 	@AllVattus = [@BelowForms @BelowFollowingForms];
 	sub @AllVattus uni0CC3' by uni0CC3.following;
 	sub @AllVattus uni0CC4' by uni0CC4.following;
-	sub @AllVattus vocalicLMatra-kannada' by vocalicLMatra-kannada.following;
-	sub @AllVattus vocalicLLMatra-kannada' by vocalicLLMatra-kannada.following;
+	sub @AllVattus vocalicLMatra-kannada' by vocalicLMatra-kannada.below.following;
+	sub @AllVattus vocalicLLMatra-kannada' by vocalicLLMatra-kannada.below.following;
 } vocalic_matra_following;
 script knd2;
 language dflt;
@@ -176261,6 +176276,326 @@ unicode = 3297;
 },
 {
 category = Letter;
+glyphname = uni0CB1.base;
+lastChange = "2026-05-25 16:04:16 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(225,482,qs),
+(288,521,o),
+(320,505,qs),
+(334,500,o),
+(340,477,qs),
+(347,454,o),
+(345,427,qs),
+(338,385,o),
+(306,375,qs),
+(271,364,o),
+(212,380,qs),
+(178,388,l),
+(171,398,o),
+(162,405,q),
+(160,405,o),
+(156,408,o),
+(156,408,q),
+(180,454,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(440,41,qs),
+(485,-1,o),
+(550,-4,qs),
+(600,-8,o),
+(655,13,qs),
+(710,36,o),
+(808,134,o),
+(839,201,qs),
+(872,274,o),
+(882,424,o),
+(855,490,qs),
+(837,535,o),
+(752,598,o),
+(704,604,qs),
+(652,608,o),
+(614,577,qs),
+(569,542,o),
+(567,471,qs),
+(565,420,o),
+(583,351,q),
+(576,351,ls),
+(516,357,o),
+(474,334,qs),
+(460,328,o),
+(447,293,o),
+(453,277,qs),
+(459,257,o),
+(485,244,o),
+(502,250,qs),
+(529,266,o),
+(575,264,qs),
+(597,264,o),
+(613,256,qs),
+(614,256,o),
+(621,251,o),
+(621,251,q),
+(624,250,l),
+(624,250,l),
+(638,230,o),
+(656,230,qs),
+(668,230,o),
+(679,237,qs),
+(694,248,o),
+(694,274,qs),
+(694,287,o),
+(689,297,qs),
+(640,391,o),
+(644,467,q),
+(644,490,o),
+(656,504,qs),
+(670,514,o),
+(698,512,qs),
+(728,511,o),
+(778,475,o),
+(787,454,qs),
+(825,360,o),
+(774,244,qs),
+(749,191,o),
+(676,111,o),
+(634,99,qs),
+(537,61,o),
+(487,107,qs),
+(473,127,o),
+(469,139,q),
+(476,187,o),
+(470,206,q),
+(467,217,o),
+(464,223,qs),
+(459,230,o),
+(447,237,qs),
+(433,243,o),
+(419,237,qs),
+(412,234,o),
+(405,228,qs),
+(393,216,o),
+(389,194,qs),
+(384,168,o),
+(389,136,q),
+(379,99,o),
+(345,73,qs),
+(309,46,o),
+(264,49,qs),
+(218,51,o),
+(181,101,qs),
+(143,148,o),
+(132,228,qs),
+(125,273,o),
+(131,315,q),
+(162,297,o),
+(195,290,qs),
+(271,271,o),
+(326,287,qs),
+(363,298,o),
+(414,365,o),
+(419,415,qs),
+(425,462,o),
+(412,510,qs),
+(391,565,o),
+(351,587,qs),
+(309,608,o),
+(262,598,qs),
+(225,584,o),
+(190,562,qs),
+(104,508,o),
+(73,408,qs),
+(41,314,o),
+(58,210,qs),
+(75,109,o),
+(125,43,qs),
+(181,-36,o),
+(260,-43,qs),
+(330,-47,o),
+(386,-1,qs),
+(412,16,o),
+(433,49,q),
+(438,43,o)
+);
+}
+);
+width = 901;
+}
+);
+note = uni0CB1.base;
+script = kannada;
+subCategory = Other;
+},
+{
+category = Letter;
+glyphname = uni0CB1.below;
+lastChange = "2026-05-25 17:35:03 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-383,-117,qs),
+(-339,-89,o),
+(-317,-100,qs),
+(-307,-104,o),
+(-303,-120,qs),
+(-298,-136,o),
+(-300,-155,qs),
+(-304,-184,o),
+(-327,-192,qs),
+(-351,-199,o),
+(-393,-188,qs),
+(-416,-182,l),
+(-421,-175,o),
+(-428,-170,q),
+(-429,-170,o),
+(-432,-168,o),
+(-432,-168,q),
+(-415,-136,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(-233,-425,qs),
+(-201,-455,o),
+(-156,-457,qs),
+(-121,-460,o),
+(-83,-445,qs),
+(-44,-429,o),
+(25,-360,o),
+(46,-313,qs),
+(69,-262,o),
+(76,-157,o),
+(57,-111,qs),
+(45,-80,o),
+(-15,-35,o),
+(-48,-31,qs),
+(-85,-28,o),
+(-111,-50,qs),
+(-143,-75,o),
+(-144,-124,qs),
+(-145,-160,o),
+(-133,-208,q),
+(-138,-208,ls),
+(-180,-204,o),
+(-209,-220,qs),
+(-219,-224,o),
+(-228,-249,o),
+(-224,-260,qs),
+(-220,-274,o),
+(-201,-283,o),
+(-190,-279,qs),
+(-171,-268,o),
+(-139,-269,qs),
+(-123,-269,o),
+(-112,-275,qs),
+(-111,-275,o),
+(-106,-278,o),
+(-106,-278,q),
+(-104,-279,l),
+(-104,-279,l),
+(-94,-293,o),
+(-82,-293,qs),
+(-73,-293,o),
+(-66,-288,qs),
+(-55,-280,o),
+(-55,-262,qs),
+(-55,-253,o),
+(-59,-246,qs),
+(-93,-180,o),
+(-90,-127,q),
+(-90,-111,o),
+(-82,-101,qs),
+(-72,-94,o),
+(-52,-96,qs),
+(-31,-96,o),
+(4,-122,o),
+(10,-136,qs),
+(37,-202,o),
+(1,-283,qs),
+(-17,-320,o),
+(-68,-376,o),
+(-97,-385,qs),
+(-165,-411,o),
+(-200,-379,qs),
+(-210,-365,o),
+(-213,-357,q),
+(-208,-323,o),
+(-212,-310,q),
+(-214,-302,o),
+(-216,-298,qs),
+(-220,-293,o),
+(-228,-288,qs),
+(-238,-284,o),
+(-248,-288,qs),
+(-253,-290,o),
+(-257,-294,qs),
+(-266,-303,o),
+(-269,-318,qs),
+(-272,-336,o),
+(-269,-359,q),
+(-276,-385,o),
+(-300,-403,qs),
+(-325,-422,o),
+(-356,-420,qs),
+(-388,-418,o),
+(-414,-383,qs),
+(-441,-350,o),
+(-449,-294,qs),
+(-453,-263,o),
+(-449,-234,q),
+(-428,-246,o),
+(-405,-251,qs),
+(-351,-264,o),
+(-313,-253,qs),
+(-287,-245,o),
+(-251,-199,o),
+(-248,-164,qs),
+(-243,-131,o),
+(-253,-97,qs),
+(-267,-58,o),
+(-295,-43,qs),
+(-325,-28,o),
+(-358,-35,qs),
+(-383,-45,o),
+(-408,-61,qs),
+(-468,-98,o),
+(-490,-168,qs),
+(-512,-234,o),
+(-500,-307,qs),
+(-489,-378,o),
+(-453,-424,qs),
+(-414,-479,o),
+(-359,-484,qs),
+(-310,-487,o),
+(-271,-455,qs),
+(-253,-443,o),
+(-238,-420,q),
+(-234,-424,o)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0CB1.below;
+script = kannada;
+subCategory = Other;
+},
+{
+category = Letter;
 glyphname = "rra_aiMatra-kannada";
 layers = (
 {
@@ -176549,6 +176884,292 @@ width = 998;
 }
 );
 note = uniE7A9;
+script = kannada;
+subCategory = Other;
+},
+{
+category = Letter;
+glyphname = uni0CDE.base;
+lastChange = "2026-05-25 16:04:58 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(157,426,qs),
+(172,461,o),
+(195,478,qs),
+(233,507,o),
+(283,486,qs),
+(304,476,o),
+(337,443,o),
+(340,426,qs),
+(344,413,o),
+(340,404,qs),
+(333,391,o),
+(309,378,qs),
+(287,370,o),
+(265,367,qs),
+(257,366,o),
+(213,363,qs),
+(207,363,o),
+(188,362,o),
+(178,362,o),
+(172,362,qs),
+(157,360,o),
+(136,356,q),
+(143,391,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(456,40,qs),
+(536,-8,o),
+(629,1,qs),
+(740,12,o),
+(806,94,qs),
+(882,188,o),
+(872,355,qs),
+(870,422,o),
+(846,472,qs),
+(817,546,o),
+(753,567,qs),
+(645,601,o),
+(572,560,qs),
+(500,523,o),
+(495,443,qs),
+(493,405,o),
+(527,341,o),
+(560,322,qs),
+(632,285,o),
+(738,329,qs),
+(753,336,o),
+(767,370,o),
+(762,385,qs),
+(753,402,o),
+(724,416,o),
+(708,409,qs),
+(665,392,o),
+(636,392,qs),
+(612,391,o),
+(598,399,qs),
+(575,412,o),
+(578,437,qs),
+(580,468,o),
+(610,486,qs),
+(655,509,o),
+(728,486,qs),
+(753,475,o),
+(771,437,qs),
+(785,402,o),
+(789,350,qs),
+(795,216,o),
+(741,149,qs),
+(698,94,o),
+(622,86,qs),
+(553,82,o),
+(499,114,qs),
+(455,142,o),
+(457,176,qs),
+(457,181,ls),
+(457,197,o),
+(435,222,o),
+(419,223,q),
+(417,225,o),
+(416,225,qs),
+(399,225,o),
+(376,201,o),
+(373,184,qs),
+(369,139,o),
+(323,72,o),
+(287,58,qs),
+(255,43,o),
+(193,58,o),
+(175,85,qs),
+(125,150,o),
+(130,269,q),
+(132,268,o),
+(146,271,qs),
+(171,276,o),
+(217,278,qs),
+(261,280,o),
+(276,282,qs),
+(313,286,o),
+(343,300,qs),
+(392,325,o),
+(414,364,qs),
+(432,405,o),
+(420,450,qs),
+(412,486,o),
+(354,548,o),
+(315,566,qs),
+(222,608,o),
+(146,548,qs),
+(62,486,o),
+(48,315,qs),
+(41,237,o),
+(52,171,qs),
+(66,90,o),
+(107,31,qs),
+(145,-19,o),
+(261,-47,o),
+(319,-22,qs),
+(384,5,o),
+(421,68,q),
+(431,58,o)
+);
+}
+);
+width = 901;
+}
+);
+note = uni0CDE.base;
+script = kannada;
+subCategory = Other;
+},
+{
+category = Letter;
+glyphname = uni0CDE.below;
+lastChange = "2026-05-25 17:35:20 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+closed = 1;
+nodes = (
+(-451,-146,qs),
+(-441,-121,o),
+(-425,-109,qs),
+(-398,-89,o),
+(-363,-104,qs),
+(-348,-111,o),
+(-325,-134,o),
+(-323,-146,qs),
+(-320,-155,o),
+(-323,-161,qs),
+(-328,-170,o),
+(-345,-179,qs),
+(-360,-185,o),
+(-375,-187,qs),
+(-381,-188,o),
+(-412,-190,qs),
+(-416,-190,o),
+(-429,-191,o),
+(-436,-191,o),
+(-441,-191,qs),
+(-451,-192,o),
+(-466,-195,q),
+(-461,-170,o)
+);
+},
+{
+closed = 1;
+nodes = (
+(-242,-416,qs),
+(-186,-450,o),
+(-121,-443,qs),
+(-43,-436,o),
+(3,-378,qs),
+(56,-312,o),
+(49,-196,qs),
+(48,-149,o),
+(31,-114,qs),
+(11,-62,o),
+(-34,-47,qs),
+(-110,-23,o),
+(-161,-52,qs),
+(-211,-78,o),
+(-215,-134,qs),
+(-216,-160,o),
+(-192,-205,o),
+(-169,-219,qs),
+(-119,-244,o),
+(-44,-214,qs),
+(-34,-209,o),
+(-24,-185,o),
+(-28,-174,qs),
+(-34,-163,o),
+(-54,-153,o),
+(-65,-158,qs),
+(-96,-170,o),
+(-116,-170,qs),
+(-133,-170,o),
+(-142,-165,qs),
+(-159,-156,o),
+(-156,-138,qs),
+(-155,-116,o),
+(-134,-104,qs),
+(-103,-88,o),
+(-51,-104,qs),
+(-34,-112,o),
+(-21,-138,qs),
+(-11,-163,o),
+(-9,-199,qs),
+(-5,-293,o),
+(-42,-340,qs),
+(-72,-378,o),
+(-126,-384,qs),
+(-174,-387,o),
+(-212,-364,qs),
+(-243,-345,o),
+(-241,-321,qs),
+(-241,-317,ls),
+(-241,-306,o),
+(-257,-289,o),
+(-268,-288,q),
+(-269,-286,o),
+(-270,-286,qs),
+(-282,-286,o),
+(-298,-303,o),
+(-300,-315,qs),
+(-303,-347,o),
+(-335,-394,o),
+(-360,-403,qs),
+(-383,-414,o),
+(-426,-403,o),
+(-439,-385,qs),
+(-473,-339,o),
+(-470,-256,q),
+(-469,-256,o),
+(-459,-254,qs),
+(-441,-251,o),
+(-409,-249,qs),
+(-378,-248,o),
+(-368,-247,qs),
+(-342,-244,o),
+(-321,-234,qs),
+(-287,-217,o),
+(-271,-189,qs),
+(-259,-160,o),
+(-267,-129,qs),
+(-273,-104,o),
+(-313,-60,o),
+(-341,-48,qs),
+(-406,-18,o),
+(-459,-60,qs),
+(-518,-104,o),
+(-527,-224,qs),
+(-532,-278,o),
+(-525,-324,qs),
+(-515,-381,o),
+(-486,-422,qs),
+(-459,-457,o),
+(-378,-477,o),
+(-338,-459,qs),
+(-292,-440,o),
+(-266,-396,q),
+(-259,-403,o)
+);
+}
+);
+width = 0;
+}
+);
+note = uni0CDE.below;
 script = kannada;
 subCategory = Other;
 },
@@ -179152,6 +179773,48 @@ subCategory = Other;
 unicode = 59313;
 },
 {
+category = Letter;
+glyphname = uni0CB1.below.following;
+lastChange = "2026-05-25 16:04:29 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = uni0CB1.below;
+}
+);
+width = 726;
+}
+);
+note = uni0CB1.below.following;
+script = kannada;
+subCategory = Other;
+},
+{
+category = Letter;
+glyphname = uni0CDE.below.following;
+lastChange = "2026-05-25 16:05:12 +0000";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = uni0CDE.below;
+}
+);
+width = 726;
+}
+);
+note = uni0CDE.below.following;
+script = kannada;
+subCategory = Other;
+},
+{
 glyphname = uni0CBD;
 layers = (
 {
@@ -180366,8 +181029,8 @@ subCategory = "Spacing Combining";
 unicode = 3315;
 },
 {
-glyphname = "vocalicLLMatra-kannada.following";
-lastChange = "2026-05-25 14:22:10 +0000";
+glyphname = "vocalicLLMatra-kannada.below.following";
+lastChange = "2026-05-25 16:06:48 +0000";
 layers = (
 {
 layerId = m01;
@@ -180381,11 +181044,12 @@ ref = "vocalicLLMatra-kannada";
 width = 610;
 }
 );
-note = "vocalicLLMatra-kannada.following";
+note = "vocalicLLMatra-kannada.below.following";
+production = "vocalicLLMatra-kannada.below.following";
 },
 {
-glyphname = "vocalicLMatra-kannada.following";
-lastChange = "2026-05-25 14:22:19 +0000";
+glyphname = "vocalicLMatra-kannada.below.following";
+lastChange = "2026-05-25 16:06:39 +0000";
 layers = (
 {
 layerId = m01;
@@ -180399,7 +181063,8 @@ ref = "vocalicLMatra-kannada";
 width = 580;
 }
 );
-note = "vocalicLMatra-kannada.following";
+note = "vocalicLMatra-kannada.below.following";
+production = 0CE2.following;
 }
 );
 instances = (
