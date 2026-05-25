@@ -34952,7 +34952,7 @@ DELTAP1[ ]	/* DeltaExceptionP1 */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */";
 };
-width = 0;
+width = 700;
 }
 );
 note = uni0CC2;
