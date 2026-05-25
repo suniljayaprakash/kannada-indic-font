@@ -1,0 +1,1 @@
+Keep track of lessons learnt and brief minimal prompts in .tasks/lessons.md

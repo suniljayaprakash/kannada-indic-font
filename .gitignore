@@ -17,6 +17,7 @@ __pycache__/
 .Python
 env/
 venv/
+venv
 ENV/
 .venv
 
@@ -36,3 +37,5 @@ builds/*.woff2
 *.tmp
 *.temp
 
+venv312/
+.tasks/
