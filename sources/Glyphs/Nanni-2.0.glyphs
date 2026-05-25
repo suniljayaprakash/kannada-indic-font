@@ -1,6 +1,16 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+axes = (
+{
+name = Weight;
+tag = wght;
+},
+{
+name = Width;
+tag = wdth;
+}
+);
 customParameters = (
 {
 name = vendorID;
@@ -1072,6 +1082,9 @@ tag = psts;
 {
 code = "script DFLT;
 language dflt;
+
+@HalantOnly = [uni0CCD];
+
 lookup SUB_2 {
 	sub uni0CCD uni0C95 by uni0C95.below;
 	sub uni0CCD uni0C96 by uni0C96.below;
@@ -1110,15 +1123,81 @@ lookup SUB_2 {
 	sub uni0CCD uni0CB9 by uni0CB9.below;
 	sub uni0CCD uni0CDE by uni0CDE.below;
 } SUB_2;
+
+lookup DECOMPOSE_KSHA {
+	sub k_uni0CB7 by uniE622;
+} DECOMPOSE_KSHA;
+
+lookup REPLACE_WITH_SSABFLOW {
+	sub uni0CCD by uni0CB7.below;
+} REPLACE_WITH_SSABFLOW;
+
+lookup ksha_halant_fallback {
+	lookupflag UseMarkFilteringSet @HalantOnly;
+	sub k_uni0CB7' lookup DECOMPOSE_KSHA uni0CCD' lookup REPLACE_WITH_SSABFLOW;
+} ksha_halant_fallback;
+
+lookup half_forms_fallback {
+	lookupflag UseMarkFilteringSet @HalantOnly;
+	sub uni0C95 uni0CCD by uniE622;
+	sub uni0C96 uni0CCD by kh-kannada;
+	sub uni0C97 uni0CCD by uniE637;
+	sub uni0C98 uni0CCD by uniE642;
+	sub uni0C99 uni0CCD by uniE64D;
+	sub uni0C9A uni0CCD by uniE658;
+	sub uni0C9B uni0CCD by uniE663;
+	sub uni0C9C uni0CCD by uniE66E;
+	sub uni0C9D uni0CCD by uniE679;
+	sub uni0C9E uni0CCD by uniE684;
+	sub uni0C9F uni0CCD by uniE68F;
+	sub uni0CA0 uni0CCD by uniE69A;
+	sub uni0CA1 uni0CCD by uniE6A5;
+	sub uni0CA2 uni0CCD by uniE6B0;
+	sub uni0CA3 uni0CCD by uniE6BB;
+	sub uni0CA4 uni0CCD by uniE6C6;
+	sub uni0CA5 uni0CCD by uniE6D1;
+	sub uni0CA6 uni0CCD by uniE6DC;
+	sub uni0CA7 uni0CCD by uniE6E7;
+	sub uni0CA8 uni0CCD by uniE6F2;
+	sub uni0CAA uni0CCD by uniE708;
+	sub uni0CAB uni0CCD by uniE713;
+	sub uni0CAC uni0CCD by uniE71E;
+	sub uni0CAD uni0CCD by uniE729;
+	sub uni0CAE uni0CCD by uniE734;
+	sub uni0CAF uni0CCD by y-kannada;
+	sub uni0CB0 uni0CCD by r-kannada;
+	sub uni0CB1 uni0CCD by rra_halant-kannada;
+	sub uni0CB2 uni0CCD by uniE749;
+	sub uni0CB3 uni0CCD by uniE78B;
+	sub uni0CB5 uni0CCD by uniE754;
+	sub uni0CB6 uni0CCD by uniE75F;
+	sub uni0CB7 uni0CCD by uniE76A;
+	sub uni0CB8 uni0CCD by uniE775;
+	sub uni0CB9 uni0CCD by uniE780;
+	sub uni0CDE uni0CCD by llla_halant-kannada;
+} half_forms_fallback;
+
+script DFLT;
+language dflt;
+lookup SUB_2;
+lookup ksha_halant_fallback;
+lookup half_forms_fallback;
+
 script knd2;
 language dflt;
 lookup SUB_2;
+lookup ksha_halant_fallback;
+lookup half_forms_fallback;
 script knda;
 language dflt;
 lookup SUB_2;
+lookup ksha_halant_fallback;
+lookup half_forms_fallback;
 script latn;
 language dflt;
 lookup SUB_2;
+lookup ksha_halant_fallback;
+lookup half_forms_fallback;
 ";
 tag = haln;
 },
@@ -1126,42 +1205,6 @@ tag = haln;
 code = "script DFLT;
 language dflt;
 lookup SUB_3 {
-	sub uni0C95 uni0CCD by uni0C95.below;
-	sub uni0C96 uni0CCD by uni0C96.below;
-	sub uni0C97 uni0CCD by uni0C97.below;
-	sub uni0C98 uni0CCD by uni0C98.below;
-	sub uni0C99 uni0CCD by uni0C99.below;
-	sub uni0C9A uni0CCD by uni0C9A.below;
-	sub uni0C9B uni0CCD by uni0C9B.below;
-	sub uni0C9C uni0CCD by uni0C9C.below;
-	sub uni0C9D uni0CCD by uni0C9D.below;
-	sub uni0C9E uni0CCD by uni0C9E.below;
-	sub uni0C9F uni0CCD by uni0C9F.below;
-	sub uni0CA0 uni0CCD by uni0CA0.below;
-	sub uni0CA1 uni0CCD by uni0CA1.below;
-	sub uni0CA2 uni0CCD by uni0CA2.below;
-	sub uni0CA3 uni0CCD by uni0CA3.below;
-	sub uni0CA4 uni0CCD by uni0CA4.below;
-	sub uni0CA5 uni0CCD by uni0CA5.below;
-	sub uni0CA6 uni0CCD by uni0CA6.below;
-	sub uni0CA7 uni0CCD by uni0CA7.below;
-	sub uni0CA8 uni0CCD by uni0CA8.below;
-	sub uni0CAA uni0CCD by uni0CAA.below;
-	sub uni0CAB uni0CCD by uni0CAB.below;
-	sub uni0CAC uni0CCD by uni0CAC.below;
-	sub uni0CAD uni0CCD by uni0CAD.below;
-	sub uni0CAE uni0CCD by uni0CAE.below;
-	sub uni0CAF uni0CCD by uni0CAF.below;
-	sub uni0CB0 uni0CCD by uni0CB0.below;
-	sub uni0CB1 uni0CCD by uni0CB1.below;
-	sub uni0CB2 uni0CCD by uni0CB2.below;
-	sub uni0CB3 uni0CCD by uni0CB3.below;
-	sub uni0CB5 uni0CCD by uni0CB5.below;
-	sub uni0CB6 uni0CCD by uni0CB6.below;
-	sub uni0CB7 uni0CCD by uni0CB7.below;
-	sub uni0CB8 uni0CCD by uni0CB8.below;
-	sub uni0CB9 uni0CCD by uni0CB9.below;
-	sub uni0CDE uni0CCD by uni0CDE.below;
 	sub uni0CCD uni0C95 by uni0C95.below;
 	sub uni0CCD uni0C96 by uni0C96.below;
 	sub uni0CCD uni0C97 by uni0C97.below;
@@ -1343,6 +1386,10 @@ tag = blws;
 );
 fontMaster = (
 {
+axesValues = (
+100,
+100
+);
 customParameters = (
 {
 name = typoAscender;
@@ -1799,20 +1846,26 @@ value = "(
 id = m01;
 metricValues = (
 {
+over = 0;
 pos = 1000;
 },
 {
+over = 0;
 pos = 700;
 },
 {
+over = 0;
 pos = 500;
 },
 {
+over = 0;
 },
 {
+over = 0;
 pos = -600;
 },
 {
+over = 0;
 }
 );
 name = Regular;
@@ -150621,6 +150674,7 @@ width = 715;
 note = uni0C95.base;
 },
 {
+category = Mark;
 glyphname = uni0C95.below;
 layers = (
 {
@@ -150812,8 +150866,10 @@ width = 0;
 }
 );
 note = uni0C95.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C95.below.following;
 layers = (
 {
@@ -150829,6 +150885,7 @@ width = 485;
 }
 );
 note = uni0C95.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C96.base;
@@ -151047,6 +151104,7 @@ width = 772;
 note = uni0C96.base;
 },
 {
+category = Mark;
 glyphname = uni0C96.below;
 layers = (
 {
@@ -151169,8 +151227,10 @@ width = 0;
 }
 );
 note = uni0C96.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C96.below.following;
 layers = (
 {
@@ -151186,6 +151246,7 @@ width = 694;
 }
 );
 note = uni0C96.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C97.base;
@@ -151370,6 +151431,7 @@ width = 671;
 note = uni0C97.base;
 },
 {
+category = Mark;
 glyphname = uni0C97.below;
 layers = (
 {
@@ -151409,8 +151471,10 @@ width = 0;
 }
 );
 note = uni0C97.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C97.below.following;
 layers = (
 {
@@ -151426,6 +151490,7 @@ width = 469;
 }
 );
 note = uni0C97.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C98.base;
@@ -151980,6 +152045,7 @@ width = 891;
 note = uni0C98.base;
 },
 {
+category = Mark;
 glyphname = uni0C98.below;
 layers = (
 {
@@ -152233,8 +152299,10 @@ width = 0;
 }
 );
 note = uni0C98.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C98.below.following;
 layers = (
 {
@@ -152250,6 +152318,7 @@ width = 745;
 }
 );
 note = uni0C98.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C99.base;
@@ -152611,6 +152680,7 @@ width = 783;
 note = uni0C99.base;
 },
 {
+category = Mark;
 glyphname = uni0C99.below;
 layers = (
 {
@@ -152834,8 +152904,10 @@ width = 0;
 }
 );
 note = uni0C99.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C99.below.following;
 layers = (
 {
@@ -152851,6 +152923,7 @@ width = 603;
 }
 );
 note = uni0C99.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9A.base;
@@ -153211,6 +153284,7 @@ width = 815;
 note = uni0C9A.base;
 },
 {
+category = Mark;
 glyphname = uni0C9A.below;
 layers = (
 {
@@ -153466,8 +153540,10 @@ width = 0;
 }
 );
 note = uni0C9A.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C9A.below.following;
 layers = (
 {
@@ -153483,6 +153559,7 @@ width = 648;
 }
 );
 note = uni0C9A.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9B.base;
@@ -153891,6 +153968,7 @@ width = 827;
 note = uni0C9B.base;
 },
 {
+category = Mark;
 glyphname = uni0C9B.below;
 layers = (
 {
@@ -154271,8 +154349,10 @@ width = 0;
 }
 );
 note = uni0C9B.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C9B.below.following;
 layers = (
 {
@@ -154288,6 +154368,7 @@ width = 704;
 }
 );
 note = uni0C9B.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9C.base;
@@ -154514,6 +154595,7 @@ width = 711;
 note = uni0C9C.base;
 },
 {
+category = Mark;
 glyphname = uni0C9C.below;
 layers = (
 {
@@ -154764,8 +154846,10 @@ width = 0;
 }
 );
 note = uni0C9C.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C9C.below.following;
 layers = (
 {
@@ -154781,6 +154865,7 @@ width = 603;
 }
 );
 note = uni0C9C.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9D.base;
@@ -155040,6 +155125,7 @@ width = 732;
 note = uni0C9D.base.e;
 },
 {
+category = Mark;
 glyphname = uni0C9D.below;
 layers = (
 {
@@ -155249,8 +155335,10 @@ width = 0;
 }
 );
 note = uni0C9D.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C9D.below.following;
 layers = (
 {
@@ -155266,6 +155354,7 @@ width = 952;
 }
 );
 note = uni0C9D.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9E.base;
@@ -155618,6 +155707,7 @@ width = 1029;
 note = uni0C9E.base;
 },
 {
+category = Mark;
 glyphname = uni0C9E.below;
 layers = (
 {
@@ -155851,6 +155941,7 @@ width = 0;
 }
 );
 note = uni0C9E.below;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9E.below.alt;
@@ -156088,6 +156179,7 @@ width = 0;
 note = uni0C9E.below.alt;
 },
 {
+category = Mark;
 glyphname = uni0C9E.below.following;
 layers = (
 {
@@ -156103,6 +156195,7 @@ width = 789;
 }
 );
 note = uni0C9E.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0C9F.base;
@@ -156425,6 +156518,7 @@ width = 763;
 note = uni0C9F.base;
 },
 {
+category = Mark;
 glyphname = uni0C9F.below;
 layers = (
 {
@@ -156538,8 +156632,10 @@ width = 0;
 }
 );
 note = uni0C9F.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0C9F.below.following;
 layers = (
 {
@@ -156555,6 +156651,7 @@ width = 726;
 }
 );
 note = uni0C9F.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA0.base;
@@ -156801,6 +156898,7 @@ width = 688;
 note = uni0CA0.base;
 },
 {
+category = Mark;
 glyphname = uni0CA0.below;
 layers = (
 {
@@ -156904,8 +157002,10 @@ width = 0;
 }
 );
 note = uni0CA0.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA0.below.following;
 layers = (
 {
@@ -156921,6 +157021,7 @@ width = 541;
 }
 );
 note = uni0CA0.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA1.base;
@@ -157212,6 +157313,7 @@ width = 744;
 note = uni0CA1.base;
 },
 {
+category = Mark;
 glyphname = uni0CA1.below;
 lastChange = "2026-05-25 15:15:52 +0000";
 layers = (
@@ -157496,8 +157598,10 @@ width = 0;
 }
 );
 note = uni0CA1.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA1.below.following;
 layers = (
 {
@@ -157513,6 +157617,7 @@ width = 625;
 }
 );
 note = uni0CA1.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA2.base;
@@ -157971,6 +158076,7 @@ width = 781;
 note = uni0CA2.base;
 },
 {
+category = Mark;
 glyphname = uni0CA2.below;
 layers = (
 {
@@ -158140,8 +158246,10 @@ width = 0;
 }
 );
 note = uni0CA2.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA2.below.following;
 layers = (
 {
@@ -158157,6 +158265,7 @@ width = 625;
 }
 );
 note = uni0CA2.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA3.base;
@@ -158392,6 +158501,7 @@ width = 865;
 note = uni0CA3.base;
 },
 {
+category = Mark;
 glyphname = uni0CA3.below;
 layers = (
 {
@@ -158511,8 +158621,10 @@ width = 0;
 }
 );
 note = uni0CA3.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA3.below.following;
 layers = (
 {
@@ -158528,6 +158640,7 @@ width = 695;
 }
 );
 note = uni0CA3.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA4.base;
@@ -158724,6 +158837,7 @@ width = 470;
 note = uni0CA4.base;
 },
 {
+category = Mark;
 glyphname = uni0CA4.below;
 layers = (
 {
@@ -158834,8 +158948,10 @@ width = 0;
 }
 );
 note = uni0CA4.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA4.below.following;
 layers = (
 {
@@ -158851,6 +158967,7 @@ width = 428;
 }
 );
 note = uni0CA4.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA5.base;
@@ -159276,6 +159393,7 @@ width = 797;
 note = uni0CA5.base;
 },
 {
+category = Mark;
 glyphname = uni0CA5.below;
 layers = (
 {
@@ -159417,8 +159535,10 @@ width = 0;
 }
 );
 note = uni0CA5.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA5.below.following;
 layers = (
 {
@@ -159434,6 +159554,7 @@ width = 566;
 }
 );
 note = uni0CA5.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA6.base;
@@ -159874,6 +159995,7 @@ width = 775;
 note = uni0CA6.base;
 },
 {
+category = Mark;
 glyphname = uni0CA6.below;
 layers = (
 {
@@ -159971,8 +160093,10 @@ width = 0;
 }
 );
 note = uni0CA6.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA6.below.following;
 layers = (
 {
@@ -159988,6 +160112,7 @@ width = 566;
 }
 );
 note = uni0CA6.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA7.base;
@@ -160386,6 +160511,7 @@ width = 777;
 note = uni0CA7.base;
 },
 {
+category = Mark;
 glyphname = uni0CA7.below;
 layers = (
 {
@@ -160535,8 +160661,10 @@ width = 0;
 }
 );
 note = uni0CA7.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA7.below.following;
 layers = (
 {
@@ -160552,6 +160680,7 @@ width = 566;
 }
 );
 note = uni0CA7.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CA8.base;
@@ -160844,6 +160973,7 @@ width = 772;
 note = uni0CA8.base;
 },
 {
+category = Mark;
 glyphname = uni0CA8.below;
 layers = (
 {
@@ -160908,8 +161038,10 @@ width = 0;
 }
 );
 note = uni0CA8.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CA8.below.following;
 layers = (
 {
@@ -160925,6 +161057,7 @@ width = 556;
 }
 );
 note = uni0CA8.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAA.base;
@@ -161337,6 +161470,7 @@ width = 849;
 note = uni0CAA.base;
 },
 {
+category = Mark;
 glyphname = uni0CAA.below;
 layers = (
 {
@@ -161502,8 +161636,10 @@ width = 0;
 }
 );
 note = uni0CAA.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAA.below.following;
 layers = (
 {
@@ -161519,6 +161655,7 @@ width = 637;
 }
 );
 note = uni0CAA.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAB.base;
@@ -161962,6 +162099,7 @@ width = 763;
 note = uni0CAB.base;
 },
 {
+category = Mark;
 glyphname = uni0CAB.below;
 layers = (
 {
@@ -162182,8 +162320,10 @@ width = 0;
 }
 );
 note = uni0CAB.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAB.below.following;
 layers = (
 {
@@ -162199,6 +162339,7 @@ width = 637;
 }
 );
 note = uni0CAB.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAC.base;
@@ -162352,6 +162493,7 @@ width = 808;
 note = uni0CAC.base;
 },
 {
+category = Mark;
 glyphname = uni0CAC.below;
 layers = (
 {
@@ -162462,8 +162604,10 @@ width = 0;
 }
 );
 note = uni0CAC.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAC.below.following;
 layers = (
 {
@@ -162479,6 +162623,7 @@ width = 617;
 }
 );
 note = uni0CAC.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAD.base;
@@ -162809,6 +162954,7 @@ width = 819;
 note = uni0CAD.base;
 },
 {
+category = Mark;
 glyphname = uni0CAD.below;
 layers = (
 {
@@ -162916,8 +163062,10 @@ width = 0;
 }
 );
 note = uni0CAD.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAD.below.following;
 layers = (
 {
@@ -162933,6 +163081,7 @@ width = 617;
 }
 );
 note = uni0CAD.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAE.base;
@@ -163428,6 +163577,7 @@ width = 1293;
 note = uni0CAE.base.e;
 },
 {
+category = Mark;
 glyphname = uni0CAE.below;
 layers = (
 {
@@ -163498,8 +163648,10 @@ width = 0;
 }
 );
 note = uni0CAE.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAE.below.following;
 layers = (
 {
@@ -163515,6 +163667,7 @@ width = 472;
 }
 );
 note = uni0CAE.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CAF.base;
@@ -163909,6 +164062,7 @@ width = 732;
 note = uni0CAF.base.e;
 },
 {
+category = Mark;
 glyphname = uni0CAF.below;
 layers = (
 {
@@ -164012,8 +164166,10 @@ width = 0;
 }
 );
 note = uni0CAF.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CAF.below.following;
 layers = (
 {
@@ -164029,6 +164185,7 @@ width = 483;
 }
 );
 note = uni0CAF.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB0.base;
@@ -164223,6 +164380,7 @@ width = 699;
 note = uni0CB0.base;
 },
 {
+category = Mark;
 glyphname = uni0CB0.below;
 layers = (
 {
@@ -164278,8 +164436,10 @@ width = 0;
 }
 );
 note = uni0CB0.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB0.below.following;
 lastChange = "2026-05-25 15:16:44 +0000";
 layers = (
@@ -164288,16 +164448,17 @@ layerId = m01;
 shapes = (
 {
 alignment = -1;
-angle = 15;
+angle = 15.04738;
 pos = (310,-312);
 ref = uni0CB0.below;
-scale = (0.9475,0.879);
+scale = (0.948,0.879);
 }
 );
 width = 275;
 }
 );
 note = uni0CB0.below.following;
+subCategory = Nonspacing;
 },
 {
 category = Letter;
@@ -164460,7 +164621,7 @@ script = kannada;
 subCategory = Other;
 },
 {
-category = Letter;
+category = Mark;
 glyphname = uni0CB1.below;
 lastChange = "2026-05-25 17:35:03 +0000";
 layers = (
@@ -164617,10 +164778,10 @@ width = 0;
 );
 note = uni0CB1.below;
 script = kannada;
-subCategory = Other;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 glyphname = uni0CB1.below.following;
 lastChange = "2026-05-25 16:04:29 +0000";
 layers = (
@@ -164638,7 +164799,7 @@ width = 726;
 );
 note = uni0CB1.below.following;
 script = kannada;
-subCategory = Other;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB2.base;
@@ -164731,6 +164892,7 @@ width = 729;
 note = uni0CB2.base;
 },
 {
+category = Mark;
 glyphname = uni0CB2.below;
 layers = (
 {
@@ -164802,8 +164964,10 @@ width = 0;
 }
 );
 note = uni0CB2.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB2.below.following;
 layers = (
 {
@@ -164819,6 +164983,7 @@ width = 695;
 }
 );
 note = uni0CB2.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB3.base;
@@ -165180,6 +165345,7 @@ width = 723;
 note = uni0CB3.base;
 },
 {
+category = Mark;
 glyphname = uni0CB3.below;
 layers = (
 {
@@ -165263,8 +165429,10 @@ width = 0;
 }
 );
 note = uni0CB3.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB3.below.following;
 layers = (
 {
@@ -165280,6 +165448,7 @@ width = 585;
 }
 );
 note = uni0CB3.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB5.base;
@@ -165523,6 +165692,7 @@ width = 763;
 note = uni0CB5.base;
 },
 {
+category = Mark;
 glyphname = uni0CB5.below;
 layers = (
 {
@@ -165803,8 +165973,10 @@ width = 0;
 }
 );
 note = uni0CB5.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB5.below.following;
 layers = (
 {
@@ -165820,6 +165992,7 @@ width = 637;
 }
 );
 note = uni0CB5.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB6.base;
@@ -166080,6 +166253,7 @@ width = 540;
 note = uni0CB6.base;
 },
 {
+category = Mark;
 glyphname = uni0CB6.below;
 layers = (
 {
@@ -166154,8 +166328,10 @@ width = 0;
 }
 );
 note = uni0CB6.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB6.below.following;
 layers = (
 {
@@ -166171,6 +166347,7 @@ width = 453;
 }
 );
 note = uni0CB6.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB7.base;
@@ -166532,6 +166709,7 @@ width = 849;
 note = uni0CB7.base;
 },
 {
+category = Mark;
 glyphname = uni0CB7.below;
 layers = (
 {
@@ -166741,6 +166919,7 @@ width = 0;
 }
 );
 note = uni0CB7.below;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB7.below.alt;
@@ -166954,6 +167133,7 @@ width = 0;
 note = uni0CB7.below.alt;
 },
 {
+category = Mark;
 glyphname = uni0CB7.below.following;
 layers = (
 {
@@ -166969,6 +167149,7 @@ width = 629;
 }
 );
 note = uni0CB7.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB8.base;
@@ -167319,6 +167500,7 @@ width = 720;
 note = uni0CB8.base;
 },
 {
+category = Mark;
 glyphname = uni0CB8.below;
 layers = (
 {
@@ -167462,8 +167644,10 @@ width = 0;
 }
 );
 note = uni0CB8.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB8.below.following;
 layers = (
 {
@@ -167479,6 +167663,7 @@ width = 250;
 }
 );
 note = uni0CB8.below.following;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CB9.base;
@@ -167992,6 +168177,7 @@ width = 811;
 note = uni0CB9.base;
 },
 {
+category = Mark;
 glyphname = uni0CB9.below;
 layers = (
 {
@@ -168082,8 +168268,10 @@ width = 0;
 }
 );
 note = uni0CB9.below;
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = uni0CB9.below.following;
 layers = (
 {
@@ -168099,6 +168287,7 @@ width = 589;
 }
 );
 note = uni0CB9.below.following;
+subCategory = Nonspacing;
 },
 {
 category = Letter;
@@ -168244,7 +168433,7 @@ script = kannada;
 subCategory = Other;
 },
 {
-category = Letter;
+category = Mark;
 glyphname = uni0CDE.below;
 lastChange = "2026-05-25 17:35:20 +0000";
 layers = (
@@ -168384,10 +168573,10 @@ width = 0;
 );
 note = uni0CDE.below;
 script = kannada;
-subCategory = Other;
+subCategory = Nonspacing;
 },
 {
-category = Letter;
+category = Mark;
 glyphname = uni0CDE.below.following;
 lastChange = "2026-05-25 16:05:12 +0000";
 layers = (
@@ -168405,7 +168594,7 @@ width = 726;
 );
 note = uni0CDE.below.following;
 script = kannada;
-subCategory = Other;
+subCategory = Nonspacing;
 },
 {
 glyphname = uni0CC1.alt;
@@ -169698,7 +169887,7 @@ ref = uni0CB2.base;
 alignment = -1;
 pos = (945,28);
 ref = uni0CC6;
-scale = (0.9187,1);
+scale = (0.919,1);
 }
 );
 width = 1018;
@@ -181169,6 +181358,7 @@ subCategory = "Spacing Combining";
 unicode = 3315;
 },
 {
+category = Mark;
 glyphname = "vocalicLLMatra-kannada.below.following";
 lastChange = "2026-05-25 16:06:48 +0000";
 layers = (
@@ -181186,8 +181376,10 @@ width = 610;
 );
 note = "vocalicLLMatra-kannada.below.following";
 production = "vocalicLLMatra-kannada.below.following";
+subCategory = Nonspacing;
 },
 {
+category = Mark;
 glyphname = "vocalicLMatra-kannada.below.following";
 lastChange = "2026-05-25 16:06:39 +0000";
 layers = (
@@ -181205,10 +181397,15 @@ width = 580;
 );
 note = "vocalicLMatra-kannada.below.following";
 production = 0CE2.following;
+subCategory = Nonspacing;
 }
 );
 instances = (
 {
+axesValues = (
+100,
+100
+);
 instanceInterpolations = {
 m01 = 1;
 };
@@ -181318,6 +181515,8 @@ settings = {
 disablesAutomaticAlignment = 1;
 disablesNiceNames = 1;
 };
+stems = (
+);
 unitsPerEm = 1000;
 versionMajor = 1;
 versionMinor = 2;
