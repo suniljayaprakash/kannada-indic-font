@@ -13,24 +13,11 @@ Fixes # (issue)
 
 ## Testing
 
-Describe the testing you've done:
-
-- [ ] Tested font export
-- [ ] Tested in Glyphs preview
-- [ ] Tested exported TTF in design application
-- [ ] Tested with complex Kannada scripts
-
 ## Screenshots (if applicable)
 
 Add before/after screenshots for visual changes.
 
 ## Checklist
-
-- [ ] My code follows the contributing guidelines
-- [ ] I have updated documentation (KANNADA_FONT_CONTEXT.md, AGENTS.md)
-- [ ] I have added/updated comments for complex code
-- [ ] My changes generate no new errors/warnings
-- [ ] I have tested the exported font
 
 ## Notes
 
