@@ -1294,7 +1294,7 @@ language dflt;
 lookup SUB_6 {
 	@SUB_6_0_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
 	@SUB_6_0_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
-	@SUB_6_0_LA_2 = [uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CC1.alt uni0CC1.base uni0CC2.alt];
+	@SUB_6_0_LA_2 = [uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CC1.alt uni0CC1.base uni0CC2.alt vocalicLMatra-kannada vocalicLLMatra-kannada];
 	sub @SUB_6_0_BT_0 @SUB_6_0_1' lookup SUB_7 @SUB_6_0_LA_2;
 	@SUB_6_1_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
 	@SUB_6_1_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
@@ -1303,15 +1303,28 @@ lookup SUB_6 {
 	@SUB_6_2_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
 	sub @SUB_6_2_BT_0 @SUB_6_2_1' lookup SUB_7;
 } SUB_6;
+
+lookup vocalic_matra_following {
+	@BelowForms = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below];
+	@BelowFollowingForms = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following];
+	@AllVattus = [@BelowForms @BelowFollowingForms];
+	sub @AllVattus uni0CC3' by uni0CC3.following;
+	sub @AllVattus uni0CC4' by uni0CC4.following;
+	sub @AllVattus vocalicLMatra-kannada' by vocalicLMatra-kannada.following;
+	sub @AllVattus vocalicLLMatra-kannada' by vocalicLLMatra-kannada.following;
+} vocalic_matra_following;
 script knd2;
 language dflt;
 lookup SUB_6;
+lookup vocalic_matra_following;
 script knda;
 language dflt;
 lookup SUB_6;
+lookup vocalic_matra_following;
 script latn;
 language dflt;
 lookup SUB_6;
+lookup vocalic_matra_following;
 ";
 tag = blws;
 }
@@ -167820,95 +167833,12 @@ layers = (
 layerId = m01;
 shapes = (
 {
-closed = 1;
-nodes = (
-(-234,-162,qs),
-(-227,-135,o),
-(-201,-127,qs),
-(-179,-120,o),
-(-156,-137,q),
-(-135,-157,o),
-(-133,-181,qs),
-(-132,-197,o),
-(-156,-209,o),
-(-179,-209,qs),
-(-204,-209,o),
-(-237,-200,q),
-(-239,-179,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(-108,-278,qs),
-(-78,-263,o),
-(-47,-207,o),
-(-50,-174,qs),
-(-55,-115,o),
-(-102,-74,qs),
-(-158,-27,o),
-(-224,-47,qs),
-(-294,-66,o),
-(-315,-140,qs),
-(-330,-196,o),
-(-309,-268,qs),
-(-290,-331,o),
-(-247,-385,qs),
-(-200,-442,o),
-(-140,-453,qs),
-(-50,-466,o),
-(25,-422,qs),
-(91,-382,o),
-(125,-306,qs),
-(142,-270,o),
-(154,-189,o),
-(146,-110,o),
-(118,-34,o),
-(94,-2,qs),
-(83,12,o),
-(49,16,o),
-(35,6,qs),
-(21,-5,o),
-(17,-38,o),
-(27,-52,qs),
-(44,-75,o),
-(64,-129,o),
-(70,-187,o),
-(61,-245,o),
-(49,-272,qs),
-(27,-324,o),
-(-18,-351,qs),
-(-65,-380,o),
-(-128,-371,qs),
-(-149,-367,o),
-(-194,-323,o),
-(-211,-290,q),
-(-149,-298,o)
-);
+alignment = -1;
+pos = (410,0);
+ref = uni0CC3;
 }
 );
-userData = {
-assembly = "PUSHW[ ]	/* 1 value pushed */
-0
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 1 value pushed */
-2
-MDAP[1]	/* MoveDirectAbsPt */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 3 values pushed */
-52 5 3
-CALL[ ]	/* CallFunction */
-NPUSHW[ ]	/* 27 values pushed */
-6 52 22 52 38 52 54 52 70 52 86 52 102 52 118 52 134 52 150 52 166 52 182 52 198 52 13
-DELTAP1[ ]	/* DeltaExceptionP1 */
-NPUSHW[ ]	/* 5 values pushed */
-213 52 229 52 2
-DELTAP1[ ]	/* DeltaExceptionP1 */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */";
-};
-width = 0;
+width = 585;
 }
 );
 note = uni0CC3.following;
@@ -180198,6 +180128,58 @@ note = uni0CF3;
 script = Kannada;
 subCategory = "Spacing Combining";
 unicode = 3315;
+}
+,
+{
+glyphname = uni0CC4.following;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = uni0CC4;
+}
+);
+width = 750;
+}
+);
+note = uni0CC4.following;
+},
+{
+glyphname = "vocalicLMatra-kannada.following";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = "vocalicLMatra-kannada";
+}
+);
+width = 580;
+}
+);
+note = "vocalicLMatra-kannada.following";
+},
+{
+glyphname = "vocalicLLMatra-kannada.following";
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+alignment = -1;
+pos = (410,0);
+ref = "vocalicLLMatra-kannada";
+}
+);
+width = 610;
+}
+);
+note = "vocalicLLMatra-kannada.following";
 }
 );
 instances = (
