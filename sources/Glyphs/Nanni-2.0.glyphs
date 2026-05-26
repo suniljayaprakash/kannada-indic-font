@@ -1,6 +1,9 @@
 {
 .appVersion = "3436";
 .formatVersion = 3;
+DisplayStrings = (
+"/uni0C95.below.following"
+);
 axes = (
 {
 name = Weight;
@@ -623,7 +626,7 @@ uni0CDE.below.following,
 uni0CC1.alt,
 uni0CC1.base,
 uni0CC2.alt,
-uni0CC3.following,
+uni0CC3.below.following,
 "bhu-kannada",
 "dot-kannada",
 "drop-kannada",
@@ -1368,30 +1371,33 @@ lookup SUB_6 {
 	@SUB_6_1_BT_0 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	@SUB_6_1_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	sub @SUB_6_1_BT_0 @SUB_6_1_1' lookup SUB_7;
-	@SUB_6_2_BT_0 = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CDE.below.following];
+	@SUB_6_2_BT_0 = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CC3.below.following uni0CC4.below.following uni0CDE.below.following vocalicLLMatra-kannada.below.following vocalicLMatra-kannada.below.following];
 	@SUB_6_2_1 = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
 	sub @SUB_6_2_BT_0 @SUB_6_2_1' lookup SUB_7;
 } SUB_6;
 
 lookup vocalic_matra_following {
 	@BelowForms = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB0.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
-	@BelowFollowingForms = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CDE.below.following];
+	@BelowFollowingForms = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB0.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CC3.below.following uni0CC4.below.following uni0CDE.below.following vocalicLLMatra-kannada.below.following vocalicLMatra-kannada.below.following];
 	@AllVattus = [@BelowForms @BelowFollowingForms];
-	sub @AllVattus uni0CC3' by uni0CC3.following;
-	sub @AllVattus uni0CC4' by uni0CC4.following;
+	sub @AllVattus uni0CC3' by uni0CC3.below.following;
+	sub @AllVattus uni0CC4' by uni0CC4.below.following;
 	sub @AllVattus vocalicLMatra-kannada' by vocalicLMatra-kannada.below.following;
 	sub @AllVattus vocalicLLMatra-kannada' by vocalicLLMatra-kannada.below.following;
 } vocalic_matra_following;
 script knd2;
 language dflt;
 lookup SUB_6;
+lookup SUB_6;
 lookup vocalic_matra_following;
 script knda;
 language dflt;
 lookup SUB_6;
+lookup SUB_6;
 lookup vocalic_matra_following;
 script latn;
 language dflt;
+lookup SUB_6;
 lookup SUB_6;
 lookup vocalic_matra_following;
 ";
@@ -1897,24 +1903,24 @@ width = 500;
 note = .notdef;
 },
 {
-	glyphname = zeroWidthJoiner;
-	layers = (
-		{
-			layerId = m01;
-			width = 0;
-		}
-	);
-	unicode = 8205;
+glyphname = zeroWidthJoiner;
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 8205;
 },
 {
-	glyphname = zeroWidthNonJoiner;
-	layers = (
-		{
-			layerId = m01;
-			width = 0;
-		}
-	);
-	unicode = 8204;
+glyphname = zeroWidthNonJoiner;
+layers = (
+{
+layerId = m01;
+width = 0;
+}
+);
+unicode = 8204;
 },
 {
 glyphname = .null;
@@ -150712,6 +150718,16 @@ category = Mark;
 glyphname = uni0C95.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (56,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -150905,21 +150921,32 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = uni0C95.below.following;
+lastChange = "2026-05-26 00:40:35 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (372,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (327,-280);
 ref = uni0C95.below;
+scale = (0.8,0.8);
 }
 );
-width = 485;
+width = 377;
 }
 );
 note = uni0C95.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C96.base;
@@ -151142,6 +151169,16 @@ category = Mark;
 glyphname = uni0C96.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (155,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -151268,19 +151305,29 @@ category = Mark;
 glyphname = uni0C96.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (384,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (260,-280);
 ref = uni0C96.below;
+scale = (0.8,0.8);
 }
 );
-width = 694;
+width = 389;
 }
 );
 note = uni0C96.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C97.base;
@@ -151469,6 +151516,16 @@ category = Mark;
 glyphname = uni0C97.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (124,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -151512,19 +151569,29 @@ category = Mark;
 glyphname = uni0C97.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (331,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (232,-280);
 ref = uni0C97.below;
+scale = (0.8,0.8);
 }
 );
-width = 469;
+width = 336;
 }
 );
 note = uni0C97.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C98.base;
@@ -152083,6 +152150,16 @@ category = Mark;
 glyphname = uni0C98.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (241,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -152340,19 +152417,29 @@ category = Mark;
 glyphname = uni0C98.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (465,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (272,-280);
 ref = uni0C98.below;
+scale = (0.8,0.8);
 }
 );
-width = 745;
+width = 470;
 }
 );
 note = uni0C98.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C99.base;
@@ -152718,6 +152805,16 @@ category = Mark;
 glyphname = uni0C99.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (252,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -152945,19 +153042,29 @@ category = Mark;
 glyphname = uni0C99.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (134,-280);
 ref = uni0C99.below;
+scale = (0.8,0.8);
 }
 );
-width = 603;
+width = 341;
 }
 );
 note = uni0C99.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9A.base;
@@ -153322,6 +153429,16 @@ category = Mark;
 glyphname = uni0C9A.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (70,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -153581,19 +153698,29 @@ category = Mark;
 glyphname = uni0C9A.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (452,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (396,-280);
 ref = uni0C9A.below;
+scale = (0.8,0.8);
 }
 );
-width = 648;
+width = 457;
 }
 );
 note = uni0C9A.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9B.base;
@@ -154006,6 +154133,16 @@ category = Mark;
 glyphname = uni0C9B.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (102,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -154390,19 +154527,29 @@ category = Mark;
 glyphname = uni0C9B.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (527,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (445,-280);
 ref = uni0C9B.below;
+scale = (0.8,0.8);
 }
 );
-width = 704;
+width = 532;
 }
 );
 note = uni0C9B.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9C.base;
@@ -154633,6 +154780,16 @@ category = Mark;
 glyphname = uni0C9C.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (304,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -154887,19 +155044,29 @@ category = Mark;
 glyphname = uni0C9C.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (392,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (149,-280);
 ref = uni0C9C.below;
+scale = (0.8,0.8);
 }
 );
-width = 603;
+width = 397;
 }
 );
 note = uni0C9C.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9D.base;
@@ -155163,6 +155330,16 @@ category = Mark;
 glyphname = uni0C9D.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (-173,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -155376,19 +155553,29 @@ category = Mark;
 glyphname = uni0C9D.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (619,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (757,-280);
 ref = uni0C9D.below;
+scale = (0.8,0.8);
 }
 );
-width = 952;
+width = 624;
 }
 );
 note = uni0C9D.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9E.base;
@@ -155745,6 +155932,16 @@ category = Mark;
 glyphname = uni0C9E.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (460,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -156217,19 +156414,29 @@ category = Mark;
 glyphname = uni0C9E.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (449,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (81,-280);
 ref = uni0C9E.below;
+scale = (0.8,0.8);
 }
 );
-width = 789;
+width = 454;
 }
 );
 note = uni0C9E.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0C9F.base;
@@ -156556,6 +156763,16 @@ category = Mark;
 glyphname = uni0C9F.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (206,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -156673,19 +156890,29 @@ category = Mark;
 glyphname = uni0C9F.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (416,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (251,-280);
 ref = uni0C9F.below;
+scale = (0.8,0.8);
 }
 );
-width = 726;
+width = 421;
 }
 );
 note = uni0C9F.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA0.base;
@@ -156936,6 +157163,16 @@ category = Mark;
 glyphname = uni0CA0.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (-259,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -157043,19 +157280,29 @@ category = Mark;
 glyphname = uni0CA0.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (314,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (521,-280);
 ref = uni0CA0.below;
+scale = (0.8,0.8);
 }
 );
-width = 541;
+width = 319;
 }
 );
 note = uni0CA0.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA1.base;
@@ -157352,6 +157599,16 @@ glyphname = uni0CA1.below;
 lastChange = "2026-05-25 15:15:52 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (122,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -157639,19 +157896,29 @@ category = Mark;
 glyphname = uni0CA1.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (411,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (313,-280);
 ref = uni0CA1.below;
+scale = (0.8,0.8);
 }
 );
-width = 625;
+width = 416;
 }
 );
 note = uni0CA1.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA2.base;
@@ -158114,6 +158381,16 @@ category = Mark;
 glyphname = uni0CA2.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (2,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -158287,19 +158564,29 @@ category = Mark;
 glyphname = uni0CA2.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (337,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (335,-280);
 ref = uni0CA2.below;
+scale = (0.8,0.8);
 }
 );
-width = 625;
+width = 342;
 }
 );
 note = uni0CA2.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA3.base;
@@ -158539,6 +158826,16 @@ category = Mark;
 glyphname = uni0CA3.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (134,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -158662,19 +158959,29 @@ category = Mark;
 glyphname = uni0CA3.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (336,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (229,-280);
 ref = uni0CA3.below;
+scale = (0.8,0.8);
 }
 );
-width = 695;
+width = 341;
 }
 );
 note = uni0CA3.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA4.base;
@@ -158875,6 +159182,16 @@ category = Mark;
 glyphname = uni0CA4.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (37,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -158989,19 +159306,29 @@ category = Mark;
 glyphname = uni0CA4.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (363,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (130,-210);
+pos = (333,-280);
 ref = uni0CA4.below;
+scale = (0.8,0.8);
 }
 );
-width = 428;
+width = 368;
 }
 );
 note = uni0CA4.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA5.base;
@@ -159431,6 +159758,16 @@ category = Mark;
 glyphname = uni0CA5.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (33,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -159576,19 +159913,29 @@ category = Mark;
 glyphname = uni0CA5.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (272,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (246,-280);
 ref = uni0CA5.below;
+scale = (0.8,0.8);
 }
 );
-width = 566;
+width = 277;
 }
 );
 note = uni0CA5.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA6.base;
@@ -160033,6 +160380,16 @@ category = Mark;
 glyphname = uni0CA6.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (187,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -160134,19 +160491,29 @@ category = Mark;
 glyphname = uni0CA6.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (376,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (226,-280);
 ref = uni0CA6.below;
+scale = (0.8,0.8);
 }
 );
-width = 566;
+width = 381;
 }
 );
 note = uni0CA6.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA7.base;
@@ -160549,6 +160916,16 @@ category = Mark;
 glyphname = uni0CA7.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (170,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -160702,19 +161079,29 @@ category = Mark;
 glyphname = uni0CA7.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (368,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (232,-280);
 ref = uni0CA7.below;
+scale = (0.8,0.8);
 }
 );
-width = 566;
+width = 373;
 }
 );
 note = uni0CA7.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CA8.base;
@@ -161011,6 +161398,16 @@ category = Mark;
 glyphname = uni0CA8.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (-12,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -161079,19 +161476,29 @@ category = Mark;
 glyphname = uni0CA8.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (445,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,-220);
+pos = (455,-280);
 ref = uni0CA8.below;
+scale = (0.8,0.8);
 }
 );
-width = 556;
+width = 450;
 }
 );
 note = uni0CA8.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAA.base;
@@ -161508,6 +161915,16 @@ category = Mark;
 glyphname = uni0CAA.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (191,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -161677,19 +162094,29 @@ category = Mark;
 glyphname = uni0CAA.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (410,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (257,-280);
 ref = uni0CAA.below;
+scale = (0.8,0.8);
 }
 );
-width = 637;
+width = 415;
 }
 );
 note = uni0CAA.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAB.base;
@@ -162137,6 +162564,16 @@ category = Mark;
 glyphname = uni0CAB.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (158,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -162361,19 +162798,29 @@ category = Mark;
 glyphname = uni0CAB.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (411,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (285,-280);
 ref = uni0CAB.below;
+scale = (0.8,0.8);
 }
 );
-width = 637;
+width = 416;
 }
 );
 note = uni0CAB.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAC.base;
@@ -162531,6 +162978,16 @@ category = Mark;
 glyphname = uni0CAC.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (89,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -162645,19 +163102,29 @@ category = Mark;
 glyphname = uni0CAC.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (348,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (277,-280);
 ref = uni0CAC.below;
+scale = (0.8,0.8);
 }
 );
-width = 617;
+width = 353;
 }
 );
 note = uni0CAC.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAD.base;
@@ -162992,6 +163459,16 @@ category = Mark;
 glyphname = uni0CAD.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (62,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -163103,19 +163580,29 @@ category = Mark;
 glyphname = uni0CAD.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (299,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (249,-280);
 ref = uni0CAD.below;
+scale = (0.8,0.8);
 }
 );
-width = 617;
+width = 304;
 }
 );
 note = uni0CAD.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAE.base;
@@ -163615,6 +164102,16 @@ category = Mark;
 glyphname = uni0CAE.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (-13,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -163689,19 +164186,29 @@ category = Mark;
 glyphname = uni0CAE.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (225,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,-131);
+pos = (235,-280);
 ref = uni0CAE.below;
+scale = (0.8,0.8);
 }
 );
-width = 472;
+width = 230;
 }
 );
 note = uni0CAE.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CAF.base;
@@ -164100,6 +164607,16 @@ category = Mark;
 glyphname = uni0CAF.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (177,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -164207,19 +164724,29 @@ category = Mark;
 glyphname = uni0CAF.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (335,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,-151);
+pos = (193,-280);
 ref = uni0CAF.below;
+scale = (0.8,0.8);
 }
 );
-width = 483;
+width = 340;
 }
 );
 note = uni0CAF.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB0.base;
@@ -164418,6 +164945,16 @@ category = Mark;
 glyphname = uni0CB0.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (77,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -164478,21 +165015,29 @@ glyphname = uni0CB0.below.following;
 lastChange = "2026-05-25 15:16:44 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (507,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-angle = 15.04738;
-pos = (310,-312);
+pos = (445,-280);
 ref = uni0CB0.below;
-scale = (0.948,0.879);
+scale = (0.8,0.8);
 }
 );
-width = 275;
+width = 512;
 }
 );
 note = uni0CB0.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 category = Letter;
@@ -164660,6 +165205,16 @@ glyphname = uni0CB1.below;
 lastChange = "2026-05-25 17:35:03 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (76,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -164820,20 +165375,30 @@ glyphname = uni0CB1.below.following;
 lastChange = "2026-05-25 16:04:29 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (478,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (417,-280);
 ref = uni0CB1.below;
+scale = (0.8,0.8);
 }
 );
-width = 726;
+width = 483;
 }
 );
 note = uni0CB1.below.following;
 script = kannada;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB2.base;
@@ -164930,6 +165495,16 @@ category = Mark;
 glyphname = uni0CB2.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (54,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -165005,19 +165580,29 @@ category = Mark;
 glyphname = uni0CB2.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (316,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,-110);
+pos = (273,-280);
 ref = uni0CB2.below;
+scale = (0.8,0.8);
 }
 );
-width = 695;
+width = 321;
 }
 );
 note = uni0CB2.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB3.base;
@@ -165383,6 +165968,16 @@ category = Mark;
 glyphname = uni0CB3.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (89,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -165470,19 +166065,29 @@ category = Mark;
 glyphname = uni0CB3.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (256,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (185,-280);
 ref = uni0CB3.below;
+scale = (0.8,0.8);
 }
 );
-width = 585;
+width = 261;
 }
 );
 note = uni0CB3.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB5.base;
@@ -165730,6 +166335,16 @@ category = Mark;
 glyphname = uni0CB5.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (120,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -166014,19 +166629,29 @@ category = Mark;
 glyphname = uni0CB5.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (359,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (263,-280);
 ref = uni0CB5.below;
+scale = (0.8,0.8);
 }
 );
-width = 637;
+width = 364;
 }
 );
 note = uni0CB5.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB6.base;
@@ -166291,6 +166916,16 @@ category = Mark;
 glyphname = uni0CB6.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (59,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -166369,19 +167004,29 @@ category = Mark;
 glyphname = uni0CB6.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (209,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (162,-280);
 ref = uni0CB6.below;
+scale = (0.8,0.8);
 }
 );
-width = 453;
+width = 214;
 }
 );
 note = uni0CB6.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB7.base;
@@ -166747,6 +167392,16 @@ category = Mark;
 glyphname = uni0CB7.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (120,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -167171,19 +167826,29 @@ category = Mark;
 glyphname = uni0CB7.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (353,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (257,-280);
 ref = uni0CB7.below;
+scale = (0.8,0.8);
 }
 );
-width = 629;
+width = 358;
 }
 );
 note = uni0CB7.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB8.base;
@@ -167538,6 +168203,16 @@ category = Mark;
 glyphname = uni0CB8.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (99,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -167685,6 +168360,16 @@ category = Mark;
 glyphname = uni0CB8.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (-219,0);
+},
+{
+name = vattu;
+pos = (119,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -167693,11 +168378,11 @@ pos = (20,-280);
 ref = uni0CB8.below;
 }
 );
-width = 250;
+width = 124;
 }
 );
 note = uni0CB8.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CB9.base;
@@ -168215,6 +168900,16 @@ category = Mark;
 glyphname = uni0CB9.below;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (75,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -168309,6 +169004,16 @@ category = Mark;
 glyphname = uni0CB9.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (-16,0);
+},
+{
+name = vattu;
+pos = (375,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -168317,11 +169022,11 @@ pos = (300,-360);
 ref = uni0CB9.below;
 }
 );
-width = 589;
+width = 380;
 }
 );
 note = uni0CB9.below.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 category = Letter;
@@ -168472,6 +169177,16 @@ glyphname = uni0CDE.below;
 lastChange = "2026-05-25 17:35:20 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (0,0);
+},
+{
+name = vattu;
+pos = (56,0);
+}
+);
 layerId = m01;
 shapes = (
 {
@@ -168615,20 +169330,30 @@ glyphname = uni0CDE.below.following;
 lastChange = "2026-05-25 16:05:12 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (478,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (433,-280);
 ref = uni0CDE.below;
+scale = (0.8,0.8);
 }
 );
-width = 726;
+width = 483;
 }
 );
 note = uni0CDE.below.following;
 script = kannada;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = uni0CC1.alt;
@@ -168881,21 +169606,33 @@ width = 0;
 note = uni0CC2.alt;
 },
 {
-glyphname = uni0CC3.following;
+category = Mark;
+glyphname = uni0CC3.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (394,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (281,-280);
 ref = uni0CC3;
+scale = (0.8,0.8);
 }
 );
-width = 585;
+width = 399;
 }
 );
-note = uni0CC3.following;
+note = uni0CC3.below.following;
+subCategory = "Spacing Combining";
 },
 {
 glyphname = "bhu-kannada";
@@ -180708,21 +181445,33 @@ script = Kannada;
 unicode = 3204;
 },
 {
-glyphname = uni0CC4.following;
+category = Mark;
+glyphname = uni0CC4.below.following;
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (628,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (410,0);
+pos = (325,-280);
 ref = uni0CC4;
+scale = (0.8,0.8);
 }
 );
-width = 750;
+width = 633;
 }
 );
-note = uni0CC4.following;
+note = uni0CC4.below.following;
+subCategory = "Spacing Combining";
 },
 {
 category = Mark;
@@ -181397,20 +182146,30 @@ glyphname = "vocalicLLMatra-kannada.below.following";
 lastChange = "2026-05-25 16:06:48 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (451,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (366,0);
+pos = (201,-280);
 ref = "vocalicLLMatra-kannada";
+scale = (0.8,0.8);
 }
 );
-width = 610;
+width = 456;
 }
 );
 note = "vocalicLLMatra-kannada.below.following";
 production = "vocalicLLMatra-kannada.below.following";
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 },
 {
 category = Mark;
@@ -181418,20 +182177,30 @@ glyphname = "vocalicLMatra-kannada.below.following";
 lastChange = "2026-05-25 16:06:39 +0000";
 layers = (
 {
+anchors = (
+{
+name = _vattu;
+pos = (7,0);
+},
+{
+name = vattu;
+pos = (416,0);
+}
+);
 layerId = m01;
 shapes = (
 {
-alignment = -1;
-pos = (370,0);
+pos = (185,-280);
 ref = "vocalicLMatra-kannada";
+scale = (0.8,0.8);
 }
 );
-width = 580;
+width = 421;
 }
 );
 note = "vocalicLMatra-kannada.below.following";
 production = 0CE2.following;
-subCategory = Nonspacing;
+subCategory = "Spacing Combining";
 }
 );
 instances = (
