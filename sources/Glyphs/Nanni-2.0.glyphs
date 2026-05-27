@@ -2,16 +2,9 @@
 .appVersion = "3436";
 .formatVersion = 3;
 DisplayStrings = (
-"᳤",
-"᳷",
-"᳡",
-"᳸",
-"᳧",
-"᳨",
-"᳦",
-"᳣",
-"᳥",
-"᳭"
+"᳕",
+"/uni0CB2.below",
+"/uni0CB2.below.following"
 );
 axes = (
 {
@@ -703,8 +696,8 @@ code = "lookup SUB_7 {
 	sub uni0CAF.below by uni0CAF.below.following;
 	sub uni0CB0.below by uni0CB0.below.following;
 	sub uni0CB1.below by uni0CB1.below.following;
-	sub uni0CB2.below by uni0CB3.below.following;
-	sub uni0CB3.below by uni0CB2.below.following;
+	sub uni0CB2.below by uni0CB2.below.following;
+	sub uni0CB3.below by uni0CB3.below.following;
 	sub uni0CB5.below by uni0CB5.below.following;
 	sub uni0CB6.below by uni0CB6.below.following;
 	sub uni0CB7.below by uni0CB7.below.following;
@@ -721,6 +714,66 @@ features = (
 automatic = 1;
 code = "";
 tag = aalt;
+},
+{
+code = "script DFLT;
+language dflt;
+lookup ccmp_below {
+	@Consonants = [uni0C95 uni0C96 uni0C97 uni0C98 uni0C99 uni0C9A uni0C9B uni0C9C uni0C9D uni0C9E uni0C9F uni0CA0 uni0CA1 uni0CA2 uni0CA3 uni0CA4 uni0CA5 uni0CA6 uni0CA7 uni0CA8 uni0CAA uni0CAB uni0CAC uni0CAD uni0CAE uni0CAF uni0CB0 uni0CB1 uni0CB2 uni0CB3 uni0CB5 uni0CB6 uni0CB7 uni0CB8 uni0CB9 uni0CDE];
+	
+	ignore sub @Consonants uni0CCD' @Consonants';
+	
+	sub uni0CCD' uni0C95' by uni0C95.below;
+	sub uni0CCD' uni0C96' by uni0C96.below;
+	sub uni0CCD' uni0C97' by uni0C97.below;
+	sub uni0CCD' uni0C98' by uni0C98.below;
+	sub uni0CCD' uni0C99' by uni0C99.below;
+	sub uni0CCD' uni0C9A' by uni0C9A.below;
+	sub uni0CCD' uni0C9B' by uni0C9B.below;
+	sub uni0CCD' uni0C9C' by uni0C9C.below;
+	sub uni0CCD' uni0C9D' by uni0C9D.below;
+	sub uni0CCD' uni0C9E' by uni0C9E.below;
+	sub uni0CCD' uni0C9F' by uni0C9F.below;
+	sub uni0CCD' uni0CA0' by uni0CA0.below;
+	sub uni0CCD' uni0CA1' by uni0CA1.below;
+	sub uni0CCD' uni0CA2' by uni0CA2.below;
+	sub uni0CCD' uni0CA3' by uni0CA3.below;
+	sub uni0CCD' uni0CA4' by uni0CA4.below;
+	sub uni0CCD' uni0CA5' by uni0CA5.below;
+	sub uni0CCD' uni0CA6' by uni0CA6.below;
+	sub uni0CCD' uni0CA7' by uni0CA7.below;
+	sub uni0CCD' uni0CA8' by uni0CA8.below;
+	sub uni0CCD' uni0CAA' by uni0CAA.below;
+	sub uni0CCD' uni0CAB' by uni0CAB.below;
+	sub uni0CCD' uni0CAC' by uni0CAC.below;
+	sub uni0CCD' uni0CAD' by uni0CAD.below;
+	sub uni0CCD' uni0CAE' by uni0CAE.below;
+	sub uni0CCD' uni0CAF' by uni0CAF.below;
+	sub uni0CCD' uni0CB0' by uni0CB0.below;
+	sub uni0CCD' uni0CB1' by uni0CB1.below;
+	sub uni0CCD' uni0CB2' by uni0CB2.below;
+	sub uni0CCD' uni0CB3' by uni0CB3.below;
+	sub uni0CCD' uni0CB5' by uni0CB5.below;
+	sub uni0CCD' uni0CB6' by uni0CB6.below;
+	sub uni0CCD' uni0CB7' by uni0CB7.below;
+	sub uni0CCD' uni0CB8' by uni0CB8.below;
+	sub uni0CCD' uni0CB9' by uni0CB9.below;
+	sub uni0CCD' uni0CDE' by uni0CDE.below;
+} ccmp_below;
+
+script knd2;
+language dflt;
+lookup ccmp_below;
+
+script knda;
+language dflt;
+lookup ccmp_below;
+
+script latn;
+language dflt;
+lookup ccmp_below;
+";
+tag = ccmp;
 },
 {
 code = "@InterveningGlyphs = [uni0C95.below uni0C95.below.following uni0C96.below uni0C96.below.following uni0C97.below uni0C97.below.following uni0C98.below uni0C98.below.following uni0C99.below uni0C99.below.following uni0C9A.below uni0C9A.below.following uni0C9B.below uni0C9B.below.following uni0C9C.below uni0C9C.below.following uni0C9D.below uni0C9D.below.following uni0C9E.below uni0C9E.below.alt uni0C9E.below.following uni0C9F.below uni0C9F.below.following uni0CA0.below uni0CA0.below.following uni0CA1.below uni0CA1.below.following uni0CA2.below uni0CA2.below.following uni0CA3.below uni0CA3.below.following uni0CA4.below uni0CA4.below.following uni0CA5.below uni0CA5.below.following uni0CA6.below uni0CA6.below.following uni0CA7.below uni0CA7.below.following uni0CA8.below uni0CA8.below.following uni0CAA.below uni0CAA.below.following uni0CAB.below uni0CAB.below.following uni0CAC.below uni0CAC.below.following uni0CAD.below uni0CAD.below.following uni0CAE.below uni0CAE.below.following uni0CAF.below uni0CAF.below.following uni0CB0.below uni0CB0.below.following uni0CB1.below uni0CB1.below.following uni0CB2.below uni0CB2.below.following uni0CB3.below uni0CB3.below.following uni0CB5.below uni0CB5.below.following uni0CB6.below uni0CB6.below.following uni0CB7.below uni0CB7.below.alt uni0CB7.below.following uni0CB8.below uni0CB8.below.following uni0CB9.below uni0CB9.below.following uni0CDE.below uni0CDE.below.following llla_aaMatra-kannada llla_aiMatra-kannada llla_auMatra-kannada llla_eMatra-kannada llla_eeMatra-kannada llla_iMatra-kannada llla_iiMatra-kannada llla_oMatra-kannada llla_ooMatra-kannada llla_uMatra-kannada llla_uuMatra-kannada rra_aaMatra-kannada rra_aiMatra-kannada rra_auMatra-kannada rra_eMatra-kannada rra_eeMatra-kannada rra_iMatra-kannada rra_iiMatra-kannada rra_oMatra-kannada rra_ooMatra-kannada rra_uMatra-kannada rra_uuMatra-kannada uni0CBE uni0CBF uni0CC0 uni0CC1 uni0CC2 uni0CC3 uni0CC4 uni0CC6 uni0CC7 uni0CC8 uni0CCA uni0CCB uni0CCC uni0CD5 uni0CD6 vocalicLLMatra-kannada vocalicLMatra-kannada uni0CCD];
@@ -164833,6 +164886,7 @@ note = uni0CB0.base;
 {
 category = Mark;
 glyphname = uni0CB0.below;
+lastChange = "2026-05-27 05:42:38 +0000";
 layers = (
 {
 anchors = (
@@ -164849,25 +164903,25 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-478,-197,q),
-(-548,-219,o),
-(-520,-270,qs),
-(-489,-326,o),
-(-402,-402,o),
-(-302,-440,o),
-(-195,-438,o),
-(-142,-415,qs),
-(77,-326,o),
-(56,-108,q),
-(56,-57,o),
-(-15,-57,qs),
-(-86,-57,o),
-(-86,-119,q),
-(-65,-264,o),
-(-205,-315,q),
-(-318,-365,o),
-(-388,-225,qs),
-(-417,-169,o)
+(-494,-278,q),
+(-562,-306,o),
+(-529,-355,qs),
+(-494,-408,o),
+(-400,-476,o),
+(-297,-505,o),
+(-191,-494,o),
+(-140,-466,qs),
+(70,-358,o),
+(30,-143,q),
+(26,-92,o),
+(-45,-98,qs),
+(-116,-105,o),
+(-110,-166,q),
+(-77,-309,o),
+(-212,-372,q),
+(-320,-432,o),
+(-402,-298,qs),
+(-436,-245,o)
 );
 }
 );
@@ -164901,7 +164955,7 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = uni0CB0.below.following;
-lastChange = "2026-05-25 15:16:44 +0000";
+lastChange = "2026-05-27 05:43:03 +0000";
 layers = (
 {
 anchors = (
@@ -164917,7 +164971,8 @@ pos = (507,0);
 layerId = m01;
 shapes = (
 {
-pos = (445,-280);
+angle = 10;
+pos = (427,-280);
 ref = uni0CB0.below;
 scale = (0.8,0.8);
 }
@@ -165381,7 +165436,7 @@ note = uni0CB2.base;
 {
 category = Mark;
 glyphname = uni0CB2.below;
-lastChange = "2026-05-27 04:09:55 +0000";
+lastChange = "2026-05-27 05:46:18 +0000";
 layers = (
 {
 anchors = (
@@ -165398,43 +165453,57 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(-302,-379,q),
-(-234,-361,o),
-(-262,-296,q),
-(-275,-252,o),
-(-269,-239,q),
-(-255,-252,o),
-(-255,-270,q),
-(-243,-328,o),
-(-188,-328,qs),
-(-174,-328,l),
-(-120,-316,o),
-(-120,-265,qs),
-(-120,-258,ls),
-(-120,-220,o),
-(-113,-214,q),
-(-113,-207,o),
-(-107,-207,q),
-(-99,-215,o),
-(-87,-265,q),
-(-87,-321,o),
-(-14,-321,q),
-(54,-310,o),
-(41,-245,q),
-(34,-169,o),
-(-14,-119,qs),
-(-67,-68,o),
-(-132,-82,qs),
-(-188,-94,o),
-(-214,-126,q),
-(-263,-106,o),
-(-302,-113,qs),
-(-339,-120,o),
-(-386,-164,o),
-(-405,-227,o),
-(-399,-303,o),
-(-383,-340,q),
-(-369,-405,o)
+(-24,-290,o),
+(9,-284,o),
+(28,-258,o),
+(25,-241,qs),
+(13,-171,o),
+(-31,-131,qs),
+(-74,-91,o),
+(-129,-96,qs),
+(-185,-102,o),
+(-218,-151,qs),
+(-222,-156,o),
+(-223,-159,q),
+(-233,-152,l),
+(-286,-121,o),
+(-355,-142,qs),
+(-422,-164,o),
+(-458,-220,qs),
+(-501,-284,o),
+(-487,-367,qs),
+(-484,-383,o),
+(-457,-402,o),
+(-424,-396,o),
+(-405,-369,o),
+(-408,-353,qs),
+(-417,-303,o),
+(-391,-264,qs),
+(-371,-231,o),
+(-331,-219,qs),
+(-297,-207,o),
+(-274,-221,qs),
+(-249,-234,o),
+(-249,-273,q),
+(-248,-279,ls),
+(-245,-293,o),
+(-222,-312,o),
+(-207,-311,qs),
+(-206,-311,o),
+(-202,-312,o),
+(-201,-311,qs),
+(-186,-309,o),
+(-167,-285,o),
+(-169,-270,q),
+(-169,-221,o),
+(-152,-196,qs),
+(-139,-176,o),
+(-121,-175,qs),
+(-102,-174,o),
+(-86,-189,qs),
+(-61,-213,o),
+(-54,-255,qs),
+(-51,-272,o)
 );
 }
 );
@@ -165466,6 +165535,7 @@ subCategory = Nonspacing;
 {
 category = Mark;
 glyphname = uni0CB2.below.following;
+lastChange = "2026-05-27 05:59:11 +0000";
 layers = (
 {
 anchors = (
@@ -165481,12 +165551,12 @@ pos = (316,0);
 layerId = m01;
 shapes = (
 {
-pos = (273,-280);
+pos = (401,-271);
 ref = uni0CB2.below;
 scale = (0.8,0.8);
 }
 );
-width = 321;
+width = 431;
 }
 );
 note = uni0CB2.below.following;
