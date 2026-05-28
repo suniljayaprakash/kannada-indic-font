@@ -628,10 +628,9 @@ uni0CC1.alt,
 uni0CC1.base,
 uni0CC2.alt,
 uni0CC3.below.following,
-"bhu-kannada",
 "dot-kannada",
 "drop-kannada",
-"huu-kannada",
+uniE77A,
 "kh-kannada",
 "khuu-kannada",
 "le-kannada",
@@ -978,7 +977,7 @@ lookup SUB_1 {
 	sub uni0CAD uni0CC6 uni0CC2 by uniE71B;
 	sub uni0CAD uni0CBE by uniE714;
 	sub uni0CAD uni0CBF by uniE715;
-	sub uni0CAD uni0CC1 by bhu-kannada;
+	sub uni0CAD uni0CC1 by uniE717;
 	sub uni0CAD uni0CC2 by uniE718;
 	sub uni0CAD uni0CC6 by uniE719;
 	sub uni0CAD uni0CCC by uniE71D;
@@ -1063,7 +1062,7 @@ lookup SUB_1 {
 	sub uni0CB9 uni0CBE by uniE776;
 	sub uni0CB9 uni0CBF by uniE777;
 	sub uni0CB9 uni0CC1 by uniE779;
-	sub uni0CB9 uni0CC2 by huu-kannada;
+	sub uni0CB9 uni0CC2 by uniE77A;
 	sub uni0CB9 uni0CC6 by uniE77B;
 	sub uni0CB9 uni0CCC by uniE77F;
 	sub uni0CB9 uni0CCD by uniE780;
@@ -118163,6 +118162,7 @@ unicode = 59157;
 },
 {
 glyphname = uniE717;
+lastChange = "2026-05-28 03:26:31 +0000";
 layers = (
 {
 layerId = m01;
@@ -118170,291 +118170,227 @@ shapes = (
 {
 closed = 1;
 nodes = (
-(163,265,o),
-(165,264,qs),
-(166,263,o),
-(168,263,o),
-(169,262,qs),
-(171,260,o),
-(172,260,q),
-(168,254,o),
-(160,248,q),
-(159,248,o),
-(155,244,qs),
-(151,240,o),
-(147,238,q),
-(150,261,o),
-(156,268,q),
-(159,267,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(367,420,o),
-(371,422,q),
-(377,427,o),
-(386,431,qs),
-(390,433,o),
-(402,438,o),
-(410,441,q),
-(452,416,o),
-(453,395,qs),
-(453,385,l),
-(452,384,o),
-(452,383,q),
-(448,381,l),
-(428,376,o),
-(397,391,qs),
-(382,399,o),
-(374,407,qs),
-(372,409,o),
-(369,413,o),
-(368,414,qs),
-(366,416,l)
-);
-},
-{
-closed = 1;
-nodes = (
-(383,-12,o),
-(382,-10,q),
-(382,-2,o),
-(381,1,q),
-(381,4,ls),
-(380,8,o),
-(378,17,o),
-(378,19,q),
-(373,43,o),
-(372,54,q),
-(382,64,l),
-(425,42,o),
-(474,37,qs),
-(539,31,o),
-(592,50,qs),
-(600,53,o),
-(618,60,o),
-(626,65,q),
-(628,60,o),
-(633,52,o),
-(637,48,q),
-(668,5,o),
-(729,-1,qs),
-(778,-6,o),
-(829,13,qs),
-(883,31,o),
-(961,100,o),
-(974,139,qs),
-(991,198,o),
-(977,286,qs),
-(970,323,o),
-(948,390,o),
-(934,420,qs),
-(926,435,o),
-(894,446,o),
-(878,438,qs),
-(863,431,o),
-(852,398,o),
-(860,383,qs),
-(873,357,o),
-(890,301,o),
-(895,272,qs),
-(906,203,o),
-(895,164,qs),
-(889,145,o),
-(836,104,o),
-(802,91,qs),
-(766,79,o),
-(738,82,qs),
-(714,85,o),
-(703,99,qs),
-(694,110,o),
-(688,128,q),
-(724,199,o),
-(711,282,qs),
-(699,363,o),
-(646,428,qs),
-(602,482,o),
-(552,505,q),
-(576,515,o),
-(596,534,qs),
-(649,584,o),
-(623,657,q),
-(622,658,o),
-(621,665,o),
-(621,666,qs),
-(621,668,l),
-(619,671,o),
-(617,676,o),
-(617,679,q),
-(611,700,o),
-(603,717,q),
-(593,733,o),
-(579,739,qs),
-(560,749,o),
-(537,743,q),
-(516,735,o),
-(508,715,qs),
-(502,703,o),
-(504,687,qs),
-(505,679,o),
-(510,664,o),
-(514,656,qs),
-(515,653,o),
-(517,648,o),
-(518,646,qs),
-(519,644,o),
-(522,638,o),
-(524,633,q),
-(526,631,o),
-(526,630,qs),
-(526,629,l),
-(532,613,o),
-(547,606,q),
-(545,600,o),
-(540,595,qs),
-(522,578,o),
-(476,565,qs),
-(468,563,o),
-(441,549,o),
-(413,549,q),
-(398,546,o),
-(386,543,q),
-(345,557,o),
-(310,558,qs),
-(292,559,o),
-(253,553,o),
-(233,548,qs),
-(225,546,o),
-(210,541,o),
-(203,537,qs),
-(191,530,o),
-(184,521,qs),
-(172,504,o),
-(182,466,o),
-(200,457,qs),
-(227,444,o),
-(263,443,qs),
-(275,442,o),
-(287,443,q),
-(280,421,o),
-(286,396,qs),
-(300,346,o),
-(360,317,qs),
-(417,289,o),
-(467,301,qs),
-(502,309,o),
-(539,362,o),
-(536,400,qs),
-(535,406,o),
-(533,416,o),
-(532,421,q),
-(556,407,o),
-(581,377,qs),
-(620,328,o),
-(629,269,qs),
-(635,236,o),
-(627,200,q),
-(621,200,o),
-(616,197,qs),
-(600,190,o),
-(587,159,o),
-(594,143,q),
-(555,112,o),
-(482,120,qs),
-(442,123,o),
-(413,143,q),
-(413,148,o),
-(412,163,o),
-(411,174,qs),
-(406,199,o),
-(404,204,qs),
-(402,209,o),
-(396,219,o),
-(394,223,q),
-(379,241,o),
-(357,241,qs),
-(337,241,o),
-(324,228,qs),
-(318,222,o),
-(312,210,qs),
-(308,201,o),
-(308,185,qs),
-(308,164,o),
-(314,144,q),
-(298,140,o),
-(280,113,o),
-(282,97,qs),
-(282,96,l),
-(277,94,o),
-(270,92,o),
-(266,91,qs),
-(239,85,o),
-(191,90,o),
-(179,100,q),
-(164,116,o),
-(156,147,q),
-(172,155,o),
-(200,174,o),
-(213,184,qs),
-(234,203,o),
-(240,212,qs),
-(254,234,o),
-(257,253,qs),
-(262,279,o),
-(245,303,qs),
-(233,322,o),
-(205,337,qs),
-(139,372,o),
-(95,325,qs),
-(66,291,o),
-(63,230,qs),
-(63,218,o),
-(63,200,o),
-(64,193,q),
-(44,173,o),
-(53,149,q),
-(57,133,o),
-(76,124,q),
-(92,68,o),
-(124,39,qs),
-(183,-15,o),
-(285,10,qs),
-(291,12,o),
-(295,13,q),
-(297,3,o),
-(299,-13,o),
-(300,-20,qs),
-(300,-23,ls),
-(300,-32,o),
-(301,-34,q),
-(301,-52,o),
-(304,-94,qs),
-(304,-107,l),
-(304,-113,ls),
-(304,-120,o),
-(305,-135,o),
-(306,-143,qs),
-(309,-155,ls),
-(313,-168,o),
-(326,-176,qs),
-(346,-190,o),
-(370,-178,qs),
-(379,-173,o),
-(386,-164,qs),
-(395,-152,o),
-(412,-120,qs),
-(414,-116,l),
-(416,-112,ls),
-(420,-105,o),
-(424,-95,o),
-(426,-93,q),
-(434,-79,o),
-(426,-45,o),
-(411,-36,qs),
-(402,-29,o),
-(383,-31,q),
-(383,-20,ls)
+(183,360,o),
+(207,380,o),
+(213,413,o),
+(200,428,qs),
+(198,430,o),
+(183,446,o),
+(170,459,qs),
+(146,482,o),
+(137,495,q),
+(149,507,o),
+(172,509,qs),
+(191,512,o),
+(206,500,qs),
+(225,484,o),
+(228,439,qs),
+(230,409,o),
+(217,380,qs),
+(213,371,o),
+(197,338,o),
+(184,313,qs),
+(179,305,o),
+(179,304,q),
+(150,248,o),
+(141,224,qs),
+(124,171,o),
+(131,126,qs),
+(143,53,o),
+(189,25,qs),
+(238,-4,o),
+(288,27,q),
+(289,25,o),
+(291,18,o),
+(291,16,q),
+(293,8,o),
+(301,-12,qs),
+(306,-22,l),
+(308,-28,ls),
+(312,-41,o),
+(317,-58,o),
+(319,-63,qs),
+(323,-73,o),
+(326,-77,qs),
+(334,-91,o),
+(343,-96,qs),
+(358,-105,o),
+(377,-102,q),
+(386,-99,o),
+(398,-91,q),
+(408,-82,o),
+(412,-74,qs),
+(422,-59,ls),
+(434,-44,o),
+(435,-43,qs),
+(446,-30,o),
+(443,4,o),
+(430,15,qs),
+(420,25,o),
+(405,25,qs),
+(390,25,o),
+(379,17,q),
+(379,19,o),
+(377,21,q),
+(373,32,o),
+(371,39,q),
+(370,40,o),
+(370,43,qs),
+(370,44,ls),
+(372,55,o),
+(390,79,qs),
+(391,80,o),
+(391,81,qs),
+(391,82,o),
+(392,82,q),
+(445,46,o),
+(505,43,qs),
+(591,38,o),
+(643,96,qs),
+(646,99,ls),
+(647,100,o),
+(647,101,o),
+(648,102,q),
+(691,47,o),
+(751,32,qs),
+(846,8,o),
+(946,98,qs),
+(1002,149,o),
+(1000,247,qs),
+(999,286,o),
+(982,358,o),
+(966,390,qs),
+(964,394,o),
+(960,400,o),
+(958,402,qs),
+(950,410,o),
+(938,413,qs),
+(915,419,o),
+(898,403,qs),
+(892,397,o),
+(887,385,qs),
+(886,383,o),
+(886,377,q),
+(885,375,o),
+(885,368,qs),
+(886,361,o),
+(888,345,qs),
+(894,315,o),
+(905,294,qs),
+(909,288,o),
+(914,284,q),
+(917,265,o),
+(917,246,qs),
+(918,185,o),
+(890,160,qs),
+(823,99,o),
+(771,112,qs),
+(724,126,o),
+(688,193,q),
+(694,232,o),
+(691,278,qs),
+(685,351,o),
+(641,398,qs),
+(636,403,l),
+(647,406,o),
+(666,415,o),
+(676,420,qs),
+(708,437,o),
+(741,487,o),
+(743,547,o),
+(710,615,o),
+(675,651,qs),
+(663,663,o),
+(646,663,qs),
+(630,663,o),
+(616,651,q),
+(604,638,o),
+(604,621,qs),
+(604,604,o),
+(616,592,qs),
+(641,567,o),
+(652,546,qs),
+(661,530,o),
+(659,521,q),
+(659,506,o),
+(635,492,qs),
+(605,476,o),
+(561,474,qs),
+(520,471,o),
+(497,483,qs),
+(490,487,o),
+(478,487,qs),
+(451,487,o),
+(441,465,qs),
+(436,453,o),
+(436,446,qs),
+(436,420,o),
+(459,409,qs),
+(466,406,o),
+(479,399,o),
+(487,395,qs),
+(513,383,ls),
+(562,360,o),
+(581,341,qs),
+(603,316,o),
+(608,271,qs),
+(615,189,o),
+(581,152,qs),
+(555,123,o),
+(510,126,qs),
+(463,128,o),
+(425,161,qs),
+(389,193,o),
+(389,234,qs),
+(389,251,o),
+(364,275,o),
+(347,275,qs),
+(331,275,o),
+(306,250,o),
+(306,234,qs),
+(306,186,o),
+(286,144,qs),
+(271,111,o),
+(249,100,qs),
+(241,95,o),
+(237,95,qs),
+(233,95,o),
+(232,96,qs),
+(230,97,o),
+(223,107,q),
+(221,112,o),
+(215,129,o),
+(213,140,qs),
+(209,165,o),
+(220,197,qs),
+(224,210,o),
+(240,243,o),
+(251,264,q),
+(252,265,o),
+(254,269,o),
+(256,273,qs),
+(284,321,o),
+(295,350,qs),
+(314,401,o),
+(311,445,qs),
+(305,525,o),
+(260,562,q),
+(223,597,o),
+(164,592,qs),
+(116,588,o),
+(83,559,qs),
+(62,540,o),
+(56,523,qs),
+(44,495,o),
+(56,470,qs),
+(66,449,o),
+(83,429,qs),
+(88,424,o),
+(102,409,o),
+(113,398,qs),
+(130,383,o),
+(137,374,qs),
+(150,358,o)
 );
 }
 );
@@ -118464,219 +118400,87 @@ assembly = "PUSHW[ ]	/* 1 value pushed */
 CALL[ ]	/* CallFunction */
 SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
 PUSHW[ ]	/* 1 value pushed */
-225
+34
 MDAP[1]	/* MoveDirectAbsPt */
 PUSHW[ ]	/* 1 value pushed */
-0
-RCVT[ ]	/* ReadCVT */
-IF[ ]	/* If */
-PUSHW[ ]	/* 1 value pushed */
-215
+36
 MDAP[1]	/* MoveDirectAbsPt */
-ELSE[ ]	/* Else */
-PUSHW[ ]	/* 2 values pushed */
-215 12
-MIAP[0]	/* MoveIndirectAbsPt */
-EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 1 value pushed */
-0
-RCVT[ ]	/* ReadCVT */
-IF[ ]	/* If */
-PUSHW[ ]	/* 1 value pushed */
-251
+38
 MDAP[1]	/* MoveDirectAbsPt */
-ELSE[ ]	/* Else */
-PUSHW[ ]	/* 2 values pushed */
-251 4
-MIAP[0]	/* MoveIndirectAbsPt */
-EIF[ ]	/* EndIf */
 PUSHW[ ]	/* 1 value pushed */
-0
-RCVT[ ]	/* ReadCVT */
-IF[ ]	/* If */
-PUSHW[ ]	/* 1 value pushed */
-269
+135
 MDAP[1]	/* MoveDirectAbsPt */
-ELSE[ ]	/* Else */
-PUSHW[ ]	/* 2 values pushed */
-269 4
-MIAP[0]	/* MoveIndirectAbsPt */
-EIF[ ]	/* EndIf */
+PUSHW[ ]	/* 1 value pushed */
+139
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+142
+MDAP[1]	/* MoveDirectAbsPt */
 PUSHW[ ]	/* 3 values pushed */
-169 29 3
+13 209 3
 CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 1 value pushed */
-29
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-154
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-154
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-29
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-156
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-156
-MDAP[1]	/* MoveDirectAbsPt */
 SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
 PUSHW[ ]	/* 3 values pushed */
-2 82 3
+48 42 3
 CALL[ ]	/* CallFunction */
 PUSHW[ ]	/* 3 values pushed */
-274 66 3
+133 109 3
 CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 3 values pushed */
-198 27 3
-CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 1 value pushed */
+42
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+17
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+17
+MDAP[1]	/* MoveDirectAbsPt */
 NPUSHW[ ]	/* 27 values pushed */
-6 2 22 2 38 2 54 2 70 2 86 2 102 2 118 2 134 2 150 2 166 2 182 2 198 2 13
+6 48 22 48 38 48 54 48 70 48 86 48 102 48 118 48 134 48 150 48 166 48 182 48 198 48 13
 DELTAP1[ ]	/* DeltaExceptionP1 */
 NPUSHW[ ]	/* 5 values pushed */
-213 2 229 2 2
+213 48 229 48 2
 DELTAP1[ ]	/* DeltaExceptionP1 */
 PUSHW[ ]	/* 1 value pushed */
-27
+42
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
-24
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-24
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-66
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-56
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-56
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-66
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-59
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-59
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-111
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-60
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-60
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-66
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-61
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-61
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-66
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-63
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-63
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-66
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-69
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-69
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-82
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-79
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-79
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-56
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-124
+205
 MDRP[11100]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-127
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-127
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-198
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-142
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-142
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-198
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-145
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-145
-MDAP[1]	/* MoveDirectAbsPt */
 PUSHW[ ]	/* 3 values pushed */
-154 82 198
+98 205 133
 SRP1[ ]	/* SetRefPoint1 */
 SRP2[ ]	/* SetRefPoint2 */
 IP[ ]	/* InterpolatePts */
+NPUSHW[ ]	/* 5 values pushed */
+218 109 234 109 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 109 25 109 41 109 57 109 73 109 89 109 105 109 121 109 137 109 153 109 169 109 185 109 201 109 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
 PUSHW[ ]	/* 1 value pushed */
-274
+109
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
-266
+111
 MDRP[10000]	/* MoveDirectRelPt */
 PUSHW[ ]	/* 1 value pushed */
-266
+111
 MDAP[1]	/* MoveDirectAbsPt */
 PUSHW[ ]	/* 1 value pushed */
-274
+48
 SRP0[ ]	/* SetRefPoint0 */
 PUSHW[ ]	/* 1 value pushed */
-269
+149
 MDRP[10000]	/* MoveDirectRelPt */
 PUSHW[ ]	/* 1 value pushed */
-269
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-274
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-272
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-272
+149
 MDAP[1]	/* MoveDirectAbsPt */
 IUP[0]	/* InterpolateUntPts */
 IUP[1]	/* InterpolateUntPts */";
 };
-width = 1034;
+width = 1051;
 }
 );
 note = uniE717;
@@ -169585,330 +169389,6 @@ note = uni0CC3.below.following;
 subCategory = "Spacing Combining";
 },
 {
-glyphname = "bhu-kannada";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(183,360,o),
-(207,380,o),
-(213,413,o),
-(200,428,qs),
-(198,430,o),
-(183,446,o),
-(170,459,qs),
-(146,482,o),
-(137,495,q),
-(149,507,o),
-(172,509,qs),
-(191,512,o),
-(206,500,qs),
-(225,484,o),
-(228,439,qs),
-(230,409,o),
-(217,380,qs),
-(213,371,o),
-(197,338,o),
-(184,313,qs),
-(179,305,o),
-(179,304,q),
-(150,248,o),
-(141,224,qs),
-(124,171,o),
-(131,126,qs),
-(143,53,o),
-(189,25,qs),
-(238,-4,o),
-(288,27,q),
-(289,25,o),
-(291,18,o),
-(291,16,q),
-(293,8,o),
-(301,-12,qs),
-(306,-22,l),
-(308,-28,ls),
-(312,-41,o),
-(317,-58,o),
-(319,-63,qs),
-(323,-73,o),
-(326,-77,qs),
-(334,-91,o),
-(343,-96,qs),
-(358,-105,o),
-(377,-102,q),
-(386,-99,o),
-(398,-91,q),
-(408,-82,o),
-(412,-74,qs),
-(422,-59,ls),
-(434,-44,o),
-(435,-43,qs),
-(446,-30,o),
-(443,4,o),
-(430,15,qs),
-(420,25,o),
-(405,25,qs),
-(390,25,o),
-(379,17,q),
-(379,19,o),
-(377,21,q),
-(373,32,o),
-(371,39,q),
-(370,40,o),
-(370,43,qs),
-(370,44,ls),
-(372,55,o),
-(390,79,qs),
-(391,80,o),
-(391,81,qs),
-(391,82,o),
-(392,82,q),
-(445,46,o),
-(505,43,qs),
-(591,38,o),
-(643,96,qs),
-(646,99,ls),
-(647,100,o),
-(647,101,o),
-(648,102,q),
-(691,47,o),
-(751,32,qs),
-(846,8,o),
-(946,98,qs),
-(1002,149,o),
-(1000,247,qs),
-(999,286,o),
-(982,358,o),
-(966,390,qs),
-(964,394,o),
-(960,400,o),
-(958,402,qs),
-(950,410,o),
-(938,413,qs),
-(915,419,o),
-(898,403,qs),
-(892,397,o),
-(887,385,qs),
-(886,383,o),
-(886,377,q),
-(885,375,o),
-(885,368,qs),
-(886,361,o),
-(888,345,qs),
-(894,315,o),
-(905,294,qs),
-(909,288,o),
-(914,284,q),
-(917,265,o),
-(917,246,qs),
-(918,185,o),
-(890,160,qs),
-(823,99,o),
-(771,112,qs),
-(724,126,o),
-(688,193,q),
-(694,232,o),
-(691,278,qs),
-(685,351,o),
-(641,398,qs),
-(636,403,l),
-(647,406,o),
-(666,415,o),
-(676,420,qs),
-(708,437,o),
-(741,487,o),
-(743,547,o),
-(710,615,o),
-(675,651,qs),
-(663,663,o),
-(646,663,qs),
-(630,663,o),
-(616,651,q),
-(604,638,o),
-(604,621,qs),
-(604,604,o),
-(616,592,qs),
-(641,567,o),
-(652,546,qs),
-(661,530,o),
-(659,521,q),
-(659,506,o),
-(635,492,qs),
-(605,476,o),
-(561,474,qs),
-(520,471,o),
-(497,483,qs),
-(490,487,o),
-(478,487,qs),
-(451,487,o),
-(441,465,qs),
-(436,453,o),
-(436,446,qs),
-(436,420,o),
-(459,409,qs),
-(466,406,o),
-(479,399,o),
-(487,395,qs),
-(513,383,ls),
-(562,360,o),
-(581,341,qs),
-(603,316,o),
-(608,271,qs),
-(615,189,o),
-(581,152,qs),
-(555,123,o),
-(510,126,qs),
-(463,128,o),
-(425,161,qs),
-(389,193,o),
-(389,234,qs),
-(389,251,o),
-(364,275,o),
-(347,275,qs),
-(331,275,o),
-(306,250,o),
-(306,234,qs),
-(306,186,o),
-(286,144,qs),
-(271,111,o),
-(249,100,qs),
-(241,95,o),
-(237,95,qs),
-(233,95,o),
-(232,96,qs),
-(230,97,o),
-(223,107,q),
-(221,112,o),
-(215,129,o),
-(213,140,qs),
-(209,165,o),
-(220,197,qs),
-(224,210,o),
-(240,243,o),
-(251,264,q),
-(252,265,o),
-(254,269,o),
-(256,273,qs),
-(284,321,o),
-(295,350,qs),
-(314,401,o),
-(311,445,qs),
-(305,525,o),
-(260,562,q),
-(223,597,o),
-(164,592,qs),
-(116,588,o),
-(83,559,qs),
-(62,540,o),
-(56,523,qs),
-(44,495,o),
-(56,470,qs),
-(66,449,o),
-(83,429,qs),
-(88,424,o),
-(102,409,o),
-(113,398,qs),
-(130,383,o),
-(137,374,qs),
-(150,358,o)
-);
-}
-);
-userData = {
-assembly = "PUSHW[ ]	/* 1 value pushed */
-0
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 1 value pushed */
-34
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-36
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-38
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-135
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-139
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-142
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 3 values pushed */
-13 209 3
-CALL[ ]	/* CallFunction */
-SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 3 values pushed */
-48 42 3
-CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 3 values pushed */
-133 109 3
-CALL[ ]	/* CallFunction */
-PUSHW[ ]	/* 1 value pushed */
-42
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-17
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-17
-MDAP[1]	/* MoveDirectAbsPt */
-NPUSHW[ ]	/* 27 values pushed */
-6 48 22 48 38 48 54 48 70 48 86 48 102 48 118 48 134 48 150 48 166 48 182 48 198 48 13
-DELTAP1[ ]	/* DeltaExceptionP1 */
-NPUSHW[ ]	/* 5 values pushed */
-213 48 229 48 2
-DELTAP1[ ]	/* DeltaExceptionP1 */
-PUSHW[ ]	/* 1 value pushed */
-42
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-205
-MDRP[11100]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 3 values pushed */
-98 205 133
-SRP1[ ]	/* SetRefPoint1 */
-SRP2[ ]	/* SetRefPoint2 */
-IP[ ]	/* InterpolatePts */
-NPUSHW[ ]	/* 5 values pushed */
-218 109 234 109 2
-DELTAP1[ ]	/* DeltaExceptionP1 */
-NPUSHW[ ]	/* 27 values pushed */
-9 109 25 109 41 109 57 109 73 109 89 109 105 109 121 109 137 109 153 109 169 109 185 109 201 109 13
-DELTAP1[ ]	/* DeltaExceptionP1 */
-PUSHW[ ]	/* 1 value pushed */
-109
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-111
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-111
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-48
-SRP0[ ]	/* SetRefPoint0 */
-PUSHW[ ]	/* 1 value pushed */
-149
-MDRP[10000]	/* MoveDirectRelPt */
-PUSHW[ ]	/* 1 value pushed */
-149
-MDAP[1]	/* MoveDirectAbsPt */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */";
-};
-width = 1051;
-}
-);
-note = "bhu-kannada";
-},
-{
 glyphname = "dot-kannada";
 layers = (
 {
@@ -170017,243 +169497,6 @@ width = 318;
 }
 );
 note = "drop-kannada";
-},
-{
-glyphname = "huu-kannada";
-layers = (
-{
-layerId = m01;
-shapes = (
-{
-closed = 1;
-nodes = (
-(475,278,o),
-(477,280,qs),
-(499,304,o),
-(518,311,qs),
-(560,328,o),
-(591,307,qs),
-(623,288,o),
-(639,241,qs),
-(654,197,o),
-(641,162,qs),
-(631,131,o),
-(595,125,qs),
-(567,121,o),
-(536,145,qs),
-(506,172,o),
-(470,229,q),
-(469,230,o),
-(458,248,o),
-(455,253,q),
-(463,264,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(1027,294,qs),
-(988,271,o),
-(967,221,qs),
-(944,171,o),
-(958,124,qs),
-(974,64,o),
-(1041,52,qs),
-(1080,43,o),
-(1121,66,qs),
-(1149,81,o),
-(1173,112,qs),
-(1222,174,o),
-(1205,260,qs),
-(1188,334,o),
-(1134,393,qs),
-(1079,455,o),
-(1009,475,qs),
-(926,500,o),
-(859,456,qs),
-(810,424,o),
-(781,361,qs),
-(764,324,o),
-(748,255,q),
-(747,254,o),
-(747,251,q),
-(746,250,o),
-(746,246,q),
-(742,230,o),
-(734,201,o),
-(730,186,q),
-(732,227,o),
-(718,268,qs),
-(692,342,o),
-(635,378,qs),
-(565,421,o),
-(486,388,qs),
-(449,371,o),
-(417,336,qs),
-(406,325,l),
-(404,327,ls),
-(403,328,o),
-(403,329,o),
-(402,330,qs),
-(381,359,o),
-(366,374,q),
-(442,385,o),
-(488,408,qs),
-(555,442,o),
-(567,500,qs),
-(581,562,o),
-(525,635,qs),
-(515,649,o),
-(480,654,o),
-(467,644,qs),
-(453,634,o),
-(448,599,o),
-(458,585,qs),
-(490,542,o),
-(486,517,qs),
-(482,499,o),
-(450,482,qs),
-(372,442,o),
-(215,452,qs),
-(213,452,l),
-(212,453,l),
-(195,453,o),
-(172,430,o),
-(171,414,qs),
-(171,411,ls),
-(171,393,o),
-(183,382,q),
-(177,380,o),
-(177,380,q),
-(102,356,o),
-(69,281,qs),
-(38,215,o),
-(58,144,qs),
-(81,66,o),
-(156,43,qs),
-(239,18,o),
-(312,76,qs),
-(337,97,o),
-(366,131,qs),
-(367,132,o),
-(379,148,o),
-(382,153,q),
-(402,95,o),
-(470,16,o),
-(558,-18,o),
-(661,-6,o),
-(715,26,qs),
-(765,58,o),
-(793,119,qs),
-(800,136,o),
-(810,163,o),
-(812,173,qs),
-(814,181,o),
-(821,207,o),
-(826,227,q),
-(827,228,o),
-(827,231,q),
-(828,232,o),
-(828,235,q),
-(843,297,o),
-(857,327,qs),
-(875,368,o),
-(905,387,qs),
-(940,410,o),
-(985,396,qs),
-(1032,383,o),
-(1073,337,qs),
-(1080,330,o),
-(1092,313,o),
-(1099,303,q),
-(1065,315,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(1108,163,qs),
-(1080,129,o),
-(1056,133,qs),
-(1041,136,o),
-(1038,147,qs),
-(1033,165,o),
-(1043,189,qs),
-(1053,214,o),
-(1069,222,q),
-(1074,227,o),
-(1079,221,q),
-(1103,202,o),
-(1126,217,q),
-(1126,187,o)
-);
-},
-{
-closed = 1;
-nodes = (
-(333,280,o),
-(337,279,q),
-(342,272,o),
-(350,261,o),
-(353,257,q),
-(353,253,l),
-(349,249,o),
-(343,240,qs),
-(321,207,o),
-(301,183,qs),
-(290,169,o),
-(269,148,o),
-(260,140,qs),
-(221,109,o),
-(181,122,qs),
-(148,133,o),
-(137,168,qs),
-(126,207,o),
-(144,247,qs),
-(164,288,o),
-(203,301,qs),
-(254,318,o),
-(323,283,q),
-(326,282,o)
-);
-}
-);
-userData = {
-assembly = "PUSHW[ ]	/* 1 value pushed */
-0
-CALL[ ]	/* CallFunction */
-SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
-PUSHW[ ]	/* 1 value pushed */
-70
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-115
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-65
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-87
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-61
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-63
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-89
-MDAP[1]	/* MoveDirectAbsPt */
-PUSHW[ ]	/* 1 value pushed */
-100
-MDAP[1]	/* MoveDirectAbsPt */
-IUP[0]	/* InterpolateUntPts */
-IUP[1]	/* InterpolateUntPts */";
-};
-width = 1260;
-}
-);
-note = "huu-kannada";
 },
 {
 glyphname = "kh-kannada";
