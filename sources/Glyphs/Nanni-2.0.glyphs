@@ -440,7 +440,8 @@ uniE739,
 uniE73A,
 uniE73C,
 uniE73E,
-"r-kannada",
+"ra_halant-kannada",
+"ra_halant_2-kannada",
 uniE73F,
 uniE740,
 uniE742,
@@ -785,16 +786,6 @@ lookup BUBBLE_ONCE {
 } BUBBLE_ONCE;
 
 
-lookup eyelash_ra_fallback {
-	@BelowFormsEyelash = [uni0C95.below uni0C96.below uni0C97.below uni0C98.below uni0C99.below uni0C9A.below uni0C9B.below uni0C9C.below uni0C9D.below uni0C9E.below uni0C9F.below uni0CA0.below uni0CA1.below uni0CA2.below uni0CA3.below uni0CA4.below uni0CA5.below uni0CA6.below uni0CA7.below uni0CA8.below uni0CAA.below uni0CAB.below uni0CAC.below uni0CAD.below uni0CAE.below uni0CAF.below uni0CB1.below uni0CB2.below uni0CB3.below uni0CB5.below uni0CB6.below uni0CB7.below uni0CB8.below uni0CB9.below uni0CDE.below];
-	@BelowFollowingFormsEyelash = [uni0C95.below.following uni0C96.below.following uni0C97.below.following uni0C98.below.following uni0C99.below.following uni0C9A.below.following uni0C9B.below.following uni0C9C.below.following uni0C9D.below.following uni0C9E.below.following uni0C9F.below.following uni0CA0.below.following uni0CA1.below.following uni0CA2.below.following uni0CA3.below.following uni0CA4.below.following uni0CA5.below.following uni0CA6.below.following uni0CA7.below.following uni0CA8.below.following uni0CAA.below.following uni0CAB.below.following uni0CAC.below.following uni0CAD.below.following uni0CAE.below.following uni0CAF.below.following uni0CB1.below.following uni0CB2.below.following uni0CB3.below.following uni0CB5.below.following uni0CB6.below.following uni0CB7.below.following uni0CB8.below.following uni0CB9.below.following uni0CC3.below.following uni0CC4.below.following uni0CDE.below.following vocalicLLMatra-kannada.below.following vocalicLMatra-kannada.below.following];
-	sub uni0CB0' zeroWidthJoiner @BelowFormsEyelash by r-kannada;
-	sub uni0CB0' zeroWidthJoiner @BelowFollowingFormsEyelash by r-kannada;
-	sub uni0CB0' @BelowFormsEyelash by r-kannada;
-	sub uni0CB0' @BelowFollowingFormsEyelash by r-kannada;
-	sub uni0CB0' @BelowFormsEyelash zeroWidthJoiner by r-kannada;
-	sub uni0CB0' @BelowFollowingFormsEyelash zeroWidthJoiner by r-kannada;
-} eyelash_ra_fallback;
 
 script DFLT;
 language dflt;
@@ -1013,11 +1004,6 @@ lookup SUB_1 {
 	sub uni0CB0 uni0CC2 by uniE739;
 	sub uni0CB0 uni0CC6 by uniE73A;
 	sub uni0CB0 uni0CCC by uniE73E;
-	sub uni0CB0 uni0CCD by r-kannada;
-	sub uni0CB0 uni0CCD zeroWidthJoiner by r-kannada;
-	sub uni0CB0 zeroWidthJoiner uni0CCD by r-kannada;
-	sub uni0CB0 uni0CCD zeroWidthNonJoiner by r-kannada;
-	sub uni0CB0 zeroWidthNonJoiner uni0CCD by r-kannada;
 	sub uni0CB2 uni0CC6 uni0CC2 by uniE746;
 	sub uni0CB2 uni0CBE by uniE73F;
 	sub uni0CB2 uni0CBF by uniE740;
@@ -1128,7 +1114,6 @@ lookup SUB_1 {
 	sub uniE745 uni0CC2 by uniE746;
 	sub uniE648 uni0CC2 by uniE64A;
 } SUB_1;
-lookup eyelash_ra_fallback;
 lookup BUBBLE_ONCE;
 lookup BUBBLE_ONCE;
 lookup BUBBLE_ONCE;
@@ -1136,7 +1121,6 @@ lookup BUBBLE_ONCE;
 script knd2;
 language dflt;
 lookup SUB_1;
-	lookup eyelash_ra_fallback;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
@@ -1144,7 +1128,6 @@ lookup SUB_1;
 script knda;
 language dflt;
 lookup SUB_1;
-	lookup eyelash_ra_fallback;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
@@ -1152,7 +1135,6 @@ lookup SUB_1;
 script latn;
 language dflt;
 lookup SUB_1;
-	lookup eyelash_ra_fallback;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
 	lookup BUBBLE_ONCE;
@@ -1219,10 +1201,14 @@ lookup ksha_halant_fallback {
 } ksha_halant_fallback;
 
 lookup eyelash_ra_zwj_no_filtering {
-	sub uni0CB0 uni0CCD zeroWidthJoiner by r-kannada;
-	sub uni0CB0 zeroWidthJoiner uni0CCD by r-kannada;
-	sub uni0CB0 uni0CCD zeroWidthNonJoiner by r-kannada;
-	sub uni0CB0 zeroWidthNonJoiner uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD zeroWidthJoiner by ra_halant_2-kannada;
+	sub uni0CB0 zeroWidthJoiner uni0CCD by ra_halant_2-kannada;
+	sub uni0CB0 uni0CCD zeroWidthNonJoiner by ra_halant-kannada;
+	sub uni0CB0 zeroWidthNonJoiner uni0CCD by ra_halant-kannada;
+	sub ra_halant-kannada zeroWidthJoiner by ra_halant_2-kannada;
+	sub uni0CA8 zeroWidthJoiner uni0CCD by nakaara_pollu-kannada;
+	sub uni0CA8 uni0CCD zeroWidthJoiner by nakaara_pollu-kannada;
+	sub uniE6F2 zeroWidthJoiner by nakaara_pollu-kannada;
 } eyelash_ra_zwj_no_filtering;
 
 lookup half_forms_fallback {
@@ -1253,7 +1239,7 @@ lookup half_forms_fallback {
 	sub uni0CAD uni0CCD by uniE71E;
 	sub uni0CAE uni0CCD by uniE729;
 	sub uni0CAF uni0CCD by uniE734;
-	sub uni0CB0 uni0CCD by r-kannada;
+	sub uni0CB0 uni0CCD by ra_halant-kannada;
 	sub uni0CB1 uni0CCD by rra_halant-kannada;
 	sub uni0CB2 uni0CCD by uniE749;
 	sub uni0CB3 uni0CCD by uniE78B;
@@ -1301,77 +1287,113 @@ code = "script DFLT;
 language dflt;
 lookup SUB_3 {
 	sub uni0CCD uni0C95 by uni0C95.below;
+	sub zeroWidthJoiner uni0CCD uni0C95 by uni0C95.below;
+	sub uni0CCD zeroWidthJoiner uni0C95 by uni0C95.below;
 	sub uni0CCD uni0C96 by uni0C96.below;
+	sub zeroWidthJoiner uni0CCD uni0C96 by uni0C96.below;
+	sub uni0CCD zeroWidthJoiner uni0C96 by uni0C96.below;
 	sub uni0CCD uni0C97 by uni0C97.below;
+	sub zeroWidthJoiner uni0CCD uni0C97 by uni0C97.below;
+	sub uni0CCD zeroWidthJoiner uni0C97 by uni0C97.below;
 	sub uni0CCD uni0C98 by uni0C98.below;
+	sub zeroWidthJoiner uni0CCD uni0C98 by uni0C98.below;
+	sub uni0CCD zeroWidthJoiner uni0C98 by uni0C98.below;
 	sub uni0CCD uni0C99 by uni0C99.below;
+	sub zeroWidthJoiner uni0CCD uni0C99 by uni0C99.below;
+	sub uni0CCD zeroWidthJoiner uni0C99 by uni0C99.below;
 	sub uni0CCD uni0C9A by uni0C9A.below;
+	sub zeroWidthJoiner uni0CCD uni0C9A by uni0C9A.below;
+	sub uni0CCD zeroWidthJoiner uni0C9A by uni0C9A.below;
 	sub uni0CCD uni0C9B by uni0C9B.below;
+	sub zeroWidthJoiner uni0CCD uni0C9B by uni0C9B.below;
+	sub uni0CCD zeroWidthJoiner uni0C9B by uni0C9B.below;
 	sub uni0CCD uni0C9C by uni0C9C.below;
+	sub zeroWidthJoiner uni0CCD uni0C9C by uni0C9C.below;
+	sub uni0CCD zeroWidthJoiner uni0C9C by uni0C9C.below;
 	sub uni0CCD uni0C9D by uni0C9D.below;
+	sub zeroWidthJoiner uni0CCD uni0C9D by uni0C9D.below;
+	sub uni0CCD zeroWidthJoiner uni0C9D by uni0C9D.below;
 	sub uni0CCD uni0C9E by uni0C9E.below;
+	sub zeroWidthJoiner uni0CCD uni0C9E by uni0C9E.below;
+	sub uni0CCD zeroWidthJoiner uni0C9E by uni0C9E.below;
 	sub uni0CCD uni0C9F by uni0C9F.below;
+	sub zeroWidthJoiner uni0CCD uni0C9F by uni0C9F.below;
+	sub uni0CCD zeroWidthJoiner uni0C9F by uni0C9F.below;
 	sub uni0CCD uni0CA0 by uni0CA0.below;
+	sub zeroWidthJoiner uni0CCD uni0CA0 by uni0CA0.below;
+	sub uni0CCD zeroWidthJoiner uni0CA0 by uni0CA0.below;
 	sub uni0CCD uni0CA1 by uni0CA1.below;
+	sub zeroWidthJoiner uni0CCD uni0CA1 by uni0CA1.below;
+	sub uni0CCD zeroWidthJoiner uni0CA1 by uni0CA1.below;
 	sub uni0CCD uni0CA2 by uni0CA2.below;
+	sub zeroWidthJoiner uni0CCD uni0CA2 by uni0CA2.below;
+	sub uni0CCD zeroWidthJoiner uni0CA2 by uni0CA2.below;
 	sub uni0CCD uni0CA3 by uni0CA3.below;
+	sub zeroWidthJoiner uni0CCD uni0CA3 by uni0CA3.below;
+	sub uni0CCD zeroWidthJoiner uni0CA3 by uni0CA3.below;
 	sub uni0CCD uni0CA4 by uni0CA4.below;
+	sub zeroWidthJoiner uni0CCD uni0CA4 by uni0CA4.below;
+	sub uni0CCD zeroWidthJoiner uni0CA4 by uni0CA4.below;
 	sub uni0CCD uni0CA5 by uni0CA5.below;
+	sub zeroWidthJoiner uni0CCD uni0CA5 by uni0CA5.below;
+	sub uni0CCD zeroWidthJoiner uni0CA5 by uni0CA5.below;
 	sub uni0CCD uni0CA6 by uni0CA6.below;
+	sub zeroWidthJoiner uni0CCD uni0CA6 by uni0CA6.below;
+	sub uni0CCD zeroWidthJoiner uni0CA6 by uni0CA6.below;
 	sub uni0CCD uni0CA7 by uni0CA7.below;
+	sub zeroWidthJoiner uni0CCD uni0CA7 by uni0CA7.below;
+	sub uni0CCD zeroWidthJoiner uni0CA7 by uni0CA7.below;
 	sub uni0CCD uni0CA8 by uni0CA8.below;
+	sub zeroWidthJoiner uni0CCD uni0CA8 by uni0CA8.below;
+	sub uni0CCD zeroWidthJoiner uni0CA8 by uni0CA8.below;
 	sub uni0CCD uni0CAA by uni0CAA.below;
+	sub zeroWidthJoiner uni0CCD uni0CAA by uni0CAA.below;
+	sub uni0CCD zeroWidthJoiner uni0CAA by uni0CAA.below;
 	sub uni0CCD uni0CAB by uni0CAB.below;
+	sub zeroWidthJoiner uni0CCD uni0CAB by uni0CAB.below;
+	sub uni0CCD zeroWidthJoiner uni0CAB by uni0CAB.below;
 	sub uni0CCD uni0CAC by uni0CAC.below;
+	sub zeroWidthJoiner uni0CCD uni0CAC by uni0CAC.below;
+	sub uni0CCD zeroWidthJoiner uni0CAC by uni0CAC.below;
 	sub uni0CCD uni0CAD by uni0CAD.below;
+	sub zeroWidthJoiner uni0CCD uni0CAD by uni0CAD.below;
+	sub uni0CCD zeroWidthJoiner uni0CAD by uni0CAD.below;
 	sub uni0CCD uni0CAE by uni0CAE.below;
+	sub zeroWidthJoiner uni0CCD uni0CAE by uni0CAE.below;
+	sub uni0CCD zeroWidthJoiner uni0CAE by uni0CAE.below;
 	sub uni0CCD uni0CAF by uni0CAF.below;
+	sub zeroWidthJoiner uni0CCD uni0CAF by uni0CAF.below;
+	sub uni0CCD zeroWidthJoiner uni0CAF by uni0CAF.below;
 	sub uni0CCD uni0CB0 by uni0CB0.below;
+	sub zeroWidthJoiner uni0CCD uni0CB0 by uni0CB0.below;
+	sub uni0CCD zeroWidthJoiner uni0CB0 by uni0CB0.below;
 	sub uni0CCD uni0CB1 by uni0CB1.below;
+	sub zeroWidthJoiner uni0CCD uni0CB1 by uni0CB1.below;
+	sub uni0CCD zeroWidthJoiner uni0CB1 by uni0CB1.below;
 	sub uni0CCD uni0CB2 by uni0CB2.below;
+	sub zeroWidthJoiner uni0CCD uni0CB2 by uni0CB2.below;
+	sub uni0CCD zeroWidthJoiner uni0CB2 by uni0CB2.below;
 	sub uni0CCD uni0CB3 by uni0CB3.below;
+	sub zeroWidthJoiner uni0CCD uni0CB3 by uni0CB3.below;
+	sub uni0CCD zeroWidthJoiner uni0CB3 by uni0CB3.below;
 	sub uni0CCD uni0CB5 by uni0CB5.below;
+	sub zeroWidthJoiner uni0CCD uni0CB5 by uni0CB5.below;
+	sub uni0CCD zeroWidthJoiner uni0CB5 by uni0CB5.below;
 	sub uni0CCD uni0CB6 by uni0CB6.below;
+	sub zeroWidthJoiner uni0CCD uni0CB6 by uni0CB6.below;
+	sub uni0CCD zeroWidthJoiner uni0CB6 by uni0CB6.below;
 	sub uni0CCD uni0CB7 by uni0CB7.below;
+	sub zeroWidthJoiner uni0CCD uni0CB7 by uni0CB7.below;
+	sub uni0CCD zeroWidthJoiner uni0CB7 by uni0CB7.below;
 	sub uni0CCD uni0CB8 by uni0CB8.below;
+	sub zeroWidthJoiner uni0CCD uni0CB8 by uni0CB8.below;
+	sub uni0CCD zeroWidthJoiner uni0CB8 by uni0CB8.below;
 	sub uni0CCD uni0CB9 by uni0CB9.below;
+	sub zeroWidthJoiner uni0CCD uni0CB9 by uni0CB9.below;
+	sub uni0CCD zeroWidthJoiner uni0CB9 by uni0CB9.below;
 	sub uni0CCD uni0CDE by uni0CDE.below;
-	sub uni0C95.below uni0CCD by uni0C95.below.following;
-	sub uni0C96.below uni0CCD by uni0C96.below.following;
-	sub uni0C97.below uni0CCD by uni0C97.below.following;
-	sub uni0C98.below uni0CCD by uni0C98.below.following;
-	sub uni0C99.below uni0CCD by uni0C99.below.following;
-	sub uni0C9A.below uni0CCD by uni0C9A.below.following;
-	sub uni0C9B.below uni0CCD by uni0C9B.below.following;
-	sub uni0C9C.below uni0CCD by uni0C9C.below.following;
-	sub uni0C9D.below uni0CCD by uni0C9D.below.following;
-	sub uni0C9E.below uni0CCD by uni0C9E.below.following;
-	sub uni0C9F.below uni0CCD by uni0C9F.below.following;
-	sub uni0CA0.below uni0CCD by uni0CA0.below.following;
-	sub uni0CA1.below uni0CCD by uni0CA1.below.following;
-	sub uni0CA2.below uni0CCD by uni0CA2.below.following;
-	sub uni0CA3.below uni0CCD by uni0CA3.below.following;
-	sub uni0CA4.below uni0CCD by uni0CA4.below.following;
-	sub uni0CA5.below uni0CCD by uni0CA5.below.following;
-	sub uni0CA6.below uni0CCD by uni0CA6.below.following;
-	sub uni0CA7.below uni0CCD by uni0CA7.below.following;
-	sub uni0CA8.below uni0CCD by uni0CA8.below.following;
-	sub uni0CAA.below uni0CCD by uni0CAA.below.following;
-	sub uni0CAB.below uni0CCD by uni0CAB.below.following;
-	sub uni0CAC.below uni0CCD by uni0CAC.below.following;
-	sub uni0CAD.below uni0CCD by uni0CAD.below.following;
-	sub uni0CAE.below uni0CCD by uni0CAE.below.following;
-	sub uni0CAF.below uni0CCD by uni0CAF.below.following;
-	sub uni0CB0.below uni0CCD by uni0CB0.below.following;
-	sub uni0CB1.below uni0CCD by uni0CB1.below.following;
-	sub uni0CB2.below uni0CCD by uni0CB2.below.following;
-	sub uni0CB3.below uni0CCD by uni0CB3.below.following;
-	sub uni0CB5.below uni0CCD by uni0CB5.below.following;
-	sub uni0CB6.below uni0CCD by uni0CB6.below.following;
-	sub uni0CB7.below uni0CCD by uni0CB7.below.following;
-	sub uni0CB8.below uni0CCD by uni0CB8.below.following;
-	sub uni0CB9.below uni0CCD by uni0CB9.below.following;
-	sub uni0CDE.below uni0CCD by uni0CDE.below.following;
+	sub zeroWidthJoiner uni0CCD uni0CDE by uni0CDE.below;
+	sub uni0CCD zeroWidthJoiner uni0CDE by uni0CDE.below;
 } SUB_3;
 script knd2;
 language dflt;
@@ -130830,7 +130852,9 @@ note = uniE73E;
 unicode = 59198;
 },
 {
-glyphname = "r-kannada";
+category = Letter;
+glyphname = "ra_halant-kannada";
+subCategory = Other;
 layers = (
 {
 anchors = (
@@ -131121,7 +131145,24 @@ IUP[1]	/* InterpolateUntPts */";
 width = 968;
 }
 );
-note = "r-kannada";
+note = "ra_halant-kannada";
+},
+{
+category = Letter;
+glyphname = "ra_halant_2-kannada";
+subCategory = Other;
+layers = (
+{
+layerId = m01;
+shapes = (
+{
+ref = "ra_halant-kannada";
+}
+);
+width = 968;
+}
+);
+note = "ra_halant_2-kannada";
 },
 {
 glyphname = uniE73F;
