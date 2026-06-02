@@ -1,54 +1,99 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nanni Indic Font Showcase</title>
-    <link rel="stylesheet" href="css/styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <header>
-            <h1>Nanni Indic Font</h1>
-            <p class="subtitle">A beautiful open-source font for Indic scripts</p>
-        </header>
+      <header>
+        <h1>Nanni Indic Font</h1>
+        <p class="subtitle">A beautiful open-source font for Indic scripts</p>
+      </header>
 
-        <section class="showcase">
-            <h2>Font Showcase</h2>
-            <div class="sample-box">
-                <p class="sample-text">The quick brown fox jumps over the lazy dog.</p>
-            </div>
-        </section>
+      <section class="showcase">
+        <h2>Font Showcase</h2>
+        <div class="sample-box">
+          <p class="sample-text">
+            "ಸಾಧುಗೆ ಸಾಧು ಮಾಧುರ್ಯಂಗೆ ಮಾಧುರ್ಯಂ" ಬಾಧಿಪ್ಪ ಕಲಿಗೆ ಕಲಿಯುಗವಿಪರೀತೝ
+            ಮಾಧವನೀತೝ ಪೆಱನಲ್ಲ"
+          </p>
+        </div>
+      </section>
 
-        <section class="features">
-            <h2>Features</h2>
-            <ul>
-                <li>Open-source under SIL Open Font License</li>
-                <li>Available in multiple formats (TTF, OTF, WOFF)</li>
-                <li>Supports Indic scripts</li>
-                <li>Clean and modern design</li>
-            </ul>
-        </section>
+      <section class="text-preview">
+        <h2>Try the Font</h2>
+        <p>Paste any content below to see how it looks in the Nanni font:</p>
+        <textarea
+          id="userText"
+          class="input-textarea"
+          placeholder="Paste your text here..."
+        ></textarea>
+        <div class="preview-box">
+          <p id="previewText" class="sample-text">
+            Your text will appear here...
+          </p>
+        </div>
+      </section>
 
-        <section class="download">
-            <h2>Download</h2>
-            <p>Get the font from the <a href="https://github.com/suniljayaprakash/nanni-indic-font" target="_blank">GitHub repository</a></p>
-            <div class="download-links">
-                <a href="../builds/Nanni-Regular.ttf" download class="btn">TTF</a>
-                <a href="../builds/Nanni-Regular.otf" download class="btn">OTF</a>
-                <a href="../builds/Nanni-Regular.woff" download class="btn">WOFF</a>
-            </div>
-        </section>
+      <section class="features">
+        <h2>Features</h2>
+        <ul>
+          <li>Open-source under SIL Open Font License</li>
+          <li>Available in multiple formats (TTF, OTF, WOFF)</li>
+          <li>Supports Indic scripts</li>
+          <li>Clean and modern design</li>
+        </ul>
+      </section>
 
-        <section class="support">
-            <h2>Support & Feedback</h2>
-            <p>If you find this font useful and would like to support the project, please reach out:</p>
-            <p><strong>Email:</strong> <a href="mailto:sunil.jayaprakash@gmail.com">sunil.jayaprakash@gmail.com</a></p>
-        </section>
+      <section class="download">
+        <h2>Download</h2>
+        <p>
+          Get the font from the
+          <a
+            href="https://github.com/suniljayaprakash/nanni-indic-font"
+            target="_blank"
+            >GitHub repository</a
+          >
+        </p>
+        <div class="download-links">
+          <a href="../builds/Nanni-Regular.ttf" download class="btn">TTF</a>
+          <a href="../builds/Nanni-Regular.otf" download class="btn">OTF</a>
+          <a href="../builds/Nanni-Regular.woff" download class="btn">WOFF</a>
+        </div>
+      </section>
 
-        <footer>
-            <p>&copy; 2026 Sunil Jayaprakash. Licensed under SIL Open Font License v1.1</p>
-        </footer>
+      <section class="support">
+        <h2>Support & Feedback</h2>
+        <p>
+          If you find this font useful and would like to support the project,
+          please reach out:
+        </p>
+        <p>
+          <strong>Email:</strong>
+          <a href="mailto:sunil.jayaprakash@gmail.com"
+            >sunil.jayaprakash@gmail.com</a
+          >
+        </p>
+      </section>
+
+      <footer>
+        <p>
+          &copy; 2026 Sunil Jayaprakash. Licensed under SIL Open Font License
+          v1.1
+        </p>
+      </footer>
     </div>
-</body>
+
+    <script>
+      const userTextarea = document.getElementById("userText");
+      const previewText = document.getElementById("previewText");
+
+      userTextarea.addEventListener("input", function () {
+        previewText.textContent = this.value || "Your text will appear here...";
+      });
+    </script>
+  </body>
 </html>
