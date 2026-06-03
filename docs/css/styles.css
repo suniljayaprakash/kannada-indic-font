@@ -2,8 +2,8 @@
 @font-face {
   font-family: "Nanni";
   src:
-    url("../../builds/Nanni-Regular.woff") format("woff"),
-    url("../../builds/Nanni-Regular.ttf") format("truetype");
+    url("../builds/Nanni-Regular.woff") format("woff"),
+    url("../builds/Nanni-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
