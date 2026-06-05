@@ -61,7 +61,7 @@ This license is copied below, and is also available with a FAQ at:
 
 ## 💬 Support & Feedback
 
-If you find this font useful, run into rendering issues, have suggestions for improvements, or want to make donations I'd love to hear from you!
+If you find this font useful, run into rendering issues, or have suggestions for improvements, please don't hesitate to reach out. Love to hear from you!
 
 - **Author:** Sunil Jayaprakash
 - **Email:** [sunil.jayaprakash@gmail.com](mailto:sunil.jayaprakash@gmail.com)
