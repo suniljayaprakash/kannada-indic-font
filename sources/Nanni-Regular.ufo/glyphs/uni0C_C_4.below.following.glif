@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CC4.below.following" format="2">
+  <advance width="633"/>
+  <note>
+uni0CC4.below.following
+</note>
+  <anchor x="7" y="0" name="_vattu"/>
+  <anchor x="628" y="0" name="vattu"/>
+  <outline>
+    <component base="uni0CC4" xScale="0.8" yScale="0.8" xOffset="325" yOffset="-280"/>
+  </outline>
+</glyph>

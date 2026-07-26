@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="circumflexnosp" format="2">
+  <advance width="0"/>
+  <unicode hex="0302"/>
+  <outline>
+    <component base="circumflex" xOffset="-1059"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.openTypeCategories</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>

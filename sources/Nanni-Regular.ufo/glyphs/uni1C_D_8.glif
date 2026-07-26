@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1CD8" format="2">
+  <advance width="0"/>
+  <unicode hex="1CD8"/>
+  <note>
+uni24C2
+</note>
+  <anchor x="0" y="-336" name="_lowervedictone"/>
+  <outline>
+    <contour>
+      <point x="-260" y="-438" type="qcurve"/>
+      <point x="-269" y="-424"/>
+      <point x="-301" y="-416"/>
+      <point x="-315" y="-424" type="qcurve"/>
+      <point x="-329" y="-433"/>
+      <point x="-337" y="-465"/>
+      <point x="-328" y="-479" type="qcurve"/>
+      <point x="-272" y="-573"/>
+      <point x="-176" y="-612" type="qcurve"/>
+      <point x="-90" y="-645"/>
+      <point x="10" y="-627" type="qcurve"/>
+      <point x="101" y="-611"/>
+      <point x="271" y="-504"/>
+      <point x="328" y="-428" type="qcurve"/>
+      <point x="338" y="-414"/>
+      <point x="333" y="-382"/>
+      <point x="307" y="-362"/>
+      <point x="274" y="-367"/>
+      <point x="264" y="-380" type="qcurve"/>
+      <point x="216" y="-444"/>
+      <point x="71" y="-534"/>
+      <point x="-4" y="-548" type="qcurve"/>
+      <point x="-84" y="-562"/>
+      <point x="-147" y="-537" type="qcurve"/>
+      <point x="-216" y="-509"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-06-06 01:53:17 +0000</string>
+      <key>public.openTypeCategories</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>
