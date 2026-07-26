@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0C9C0CCD0C9E0CCA" format="2">
+  <advance width="1266"/>
+  <note>
+j_nyo-kannada
+</note>
+  <anchor x="1114" y="-211" name="aiMatra"/>
+  <anchor x="1248" y="650" name="exponent"/>
+  <anchor x="636" y="-550" name="lowervedictone"/>
+  <anchor x="636" y="878" name="uppervedictone"/>
+  <outline>
+    <component base="uniE66B" identifier="DD89AE4D"/>
+    <component base="uni0CCD0C9E.alt" xOffset="501" identifier="C1EAC84A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>C1EAC84A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>DD89AE4D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

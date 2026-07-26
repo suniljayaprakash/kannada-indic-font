@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniE745" format="2">
+  <advance width="1018"/>
+  <note>
+uniE745
+</note>
+  <anchor x="867" y="0" name="aiMatra"/>
+  <anchor x="1001" y="650" name="exponent"/>
+  <anchor x="511" y="-64" name="lowervedictone"/>
+  <anchor x="511" y="878" name="uppervedictone"/>
+  <outline>
+    <component base="uni0CB2.base" identifier="8CEB7E7E"/>
+    <component base="uni0CC6" xScale="0.919" xOffset="945" yOffset="28" identifier="D6FA1D8B"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-25 06:08:29 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8CEB7E7E</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>D6FA1D8B</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

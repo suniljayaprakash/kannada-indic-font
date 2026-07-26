@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CCD0CB3" format="2">
+  <advance width="0"/>
+  <note>
+uni0CB3.below
+</note>
+  <anchor x="0" y="0" name="_vattu"/>
+  <anchor x="28" y="-445" name="aiMatra"/>
+  <anchor x="150" y="0" name="vattu"/>
+  <outline>
+    <contour>
+      <point x="-123" y="-260" type="qcurve"/>
+      <point x="-150" y="-298"/>
+      <point x="-161" y="-330" type="qcurve"/>
+      <point x="-186" y="-388"/>
+      <point x="-150" y="-423" type="qcurve"/>
+      <point x="-94" y="-495"/>
+      <point x="-24" y="-440" type="qcurve"/>
+      <point x="56" y="-382"/>
+      <point x="21" y="-305" type="qcurve"/>
+      <point x="11" y="-285"/>
+      <point x="-21" y="-250" type="qcurve"/>
+      <point x="-18" y="-246" type="line"/>
+      <point x="-3" y="-233" type="line"/>
+      <point x="-3" y="-229"/>
+      <point x="3" y="-226" type="qcurve"/>
+      <point x="3" y="-222"/>
+      <point x="7" y="-219" type="qcurve"/>
+      <point x="28" y="-199"/>
+      <point x="35" y="-188" type="qcurve"/>
+      <point x="62" y="-161"/>
+      <point x="73" y="-133" type="qcurve"/>
+      <point x="80" y="-117"/>
+      <point x="68" y="-93"/>
+      <point x="44" y="-82"/>
+      <point x="17" y="-90"/>
+      <point x="10" y="-105" type="qcurve"/>
+      <point x="7" y="-115"/>
+      <point x="-18" y="-143" type="qcurve"/>
+      <point x="-20" y="-145"/>
+      <point x="-24" y="-150"/>
+      <point x="-28" y="-155" type="qcurve"/>
+      <point x="-32" y="-159"/>
+      <point x="-38" y="-166"/>
+      <point x="-42" y="-170" type="qcurve"/>
+      <point x="-49" y="-178" type="line"/>
+      <point x="-56" y="-188" type="line"/>
+      <point x="-70" y="-202" type="line"/>
+      <point x="-77" y="-209" type="line"/>
+      <point x="-108" y="-188" type="line"/>
+      <point x="-74" y="-151"/>
+      <point x="-84" y="-122" type="qcurve"/>
+      <point x="-87" y="-98"/>
+      <point x="-112" y="-88" type="qcurve"/>
+      <point x="-129" y="-80"/>
+      <point x="-147" y="-88" type="qcurve"/>
+      <point x="-190" y="-94"/>
+      <point x="-203" y="-122" type="qcurve"/>
+      <point x="-231" y="-159"/>
+      <point x="-196" y="-202" type="qcurve"/>
+      <point x="-187" y="-212"/>
+      <point x="-168" y="-229"/>
+      <point x="-157" y="-236" type="qcurve"/>
+      <point x="-153" y="-240"/>
+    </contour>
+    <contour>
+      <point x="-66" y="-305" type="qcurve"/>
+      <point x="-45" y="-326"/>
+      <point x="-42" y="-336" type="qcurve"/>
+      <point x="-35" y="-347"/>
+      <point x="-42" y="-354" type="qcurve"/>
+      <point x="-42" y="-368"/>
+      <point x="-66" y="-384" type="qcurve"/>
+      <point x="-84" y="-395"/>
+      <point x="-98" y="-381" type="qcurve"/>
+      <point x="-112" y="-363"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.openTypeCategories</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>

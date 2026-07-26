@@ -1,0 +1,149 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CD5" format="2">
+  <advance width="0"/>
+  <unicode hex="0CD5"/>
+  <note>
+uni0CD5
+</note>
+  <outline>
+    <contour>
+      <point x="167" y="363" type="line"/>
+      <point x="167" y="411"/>
+      <point x="177" y="447" type="qcurve"/>
+      <point x="185" y="481"/>
+      <point x="200" y="499" type="qcurve"/>
+      <point x="214" y="513"/>
+      <point x="226" y="516" type="qcurve"/>
+      <point x="255" y="526"/>
+      <point x="290" y="500" type="qcurve"/>
+      <point x="324" y="474"/>
+      <point x="325" y="441" type="qcurve"/>
+      <point x="325" y="426"/>
+      <point x="316" y="411" type="qcurve"/>
+      <point x="303" y="393"/>
+      <point x="276" y="376" type="qcurve"/>
+      <point x="230" y="349"/>
+      <point x="203" y="352" type="qcurve"/>
+      <point x="196" y="353"/>
+      <point x="179" y="358"/>
+      <point x="168" y="362" type="qcurve"/>
+    </contour>
+    <contour>
+      <point x="85" y="393" type="qcurve"/>
+      <point x="64" y="388"/>
+      <point x="56" y="371" type="qcurve"/>
+      <point x="48" y="355"/>
+      <point x="59" y="322"/>
+      <point x="75" y="315" type="qcurve"/>
+      <point x="87" y="309" type="line"/>
+      <point x="88" y="301"/>
+      <point x="91" y="272"/>
+      <point x="94" y="252" type="qcurve"/>
+      <point x="96" y="235"/>
+      <point x="106" y="183"/>
+      <point x="113" y="149" type="qcurve"/>
+      <point x="121" y="109"/>
+      <point x="131" y="54"/>
+      <point x="133" y="38" type="qcurve"/>
+      <point x="135" y="17"/>
+      <point x="164" y="1"/>
+      <point x="195" y="6"/>
+      <point x="218" y="31"/>
+      <point x="215" y="50" type="qcurve"/>
+      <point x="210" y="89"/>
+      <point x="194" y="166" type="qcurve"/>
+      <point x="181" y="240"/>
+      <point x="176" y="265" type="qcurve"/>
+      <point x="175" y="266"/>
+      <point x="175" y="273" type="qcurve"/>
+      <point x="177" y="272"/>
+      <point x="187" y="270"/>
+      <point x="194" y="269" type="qcurve"/>
+      <point x="249" y="263"/>
+      <point x="319" y="305" type="qcurve"/>
+      <point x="410" y="358"/>
+      <point x="408" y="444" type="qcurve"/>
+      <point x="405" y="516"/>
+      <point x="340" y="566" type="qcurve"/>
+      <point x="273" y="615"/>
+      <point x="203" y="596" type="qcurve"/>
+      <point x="122" y="573"/>
+      <point x="96" y="466" type="qcurve"/>
+      <point x="92" y="451"/>
+      <point x="87" y="415"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+3
+MDAP[1]	/* MoveDirectAbsPt */
+SVTCA[1]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 1 value pushed */
+62
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+9
+MDAP[1]	/* MoveDirectAbsPt */
+NPUSHW[ ]	/* 5 values pushed */
+218 9 234 9 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 9 25 9 41 9 57 9 73 9 89 9 105 9 121 9 137 9 153 9 169 9 185 9 201 9 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+62
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+19
+MDRP[11100]	/* MoveDirectRelPt */
+NPUSHW[ ]	/* 27 values pushed */
+6 19 22 19 38 19 54 19 70 19 86 19 102 19 118 19 134 19 150 19 166 19 182 19 198 19 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 5 values pushed */
+213 19 229 19 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+PUSHW[ ]	/* 1 value pushed */
+9
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+29
+MDRP[11100]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+9
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+31
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+31
+MDAP[1]	/* MoveDirectAbsPt */
+PUSHW[ ]	/* 1 value pushed */
+20
+SRP0[ ]	/* SetRefPoint0 */
+PUSHW[ ]	/* 1 value pushed */
+56
+MDRP[10000]	/* MoveDirectRelPt */
+PUSHW[ ]	/* 1 value pushed */
+56
+MDAP[1]	/* MoveDirectAbsPt */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-06-05 15:50:28 +0000</string>
+      <key>public.openTypeCategories</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>

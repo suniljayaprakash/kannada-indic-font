@@ -1,0 +1,78 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CCD0CB6" format="2">
+  <advance width="0"/>
+  <note>
+uni0CB6.below
+</note>
+  <anchor x="0" y="0" name="_vattu"/>
+  <anchor x="28" y="-357" name="aiMatra"/>
+  <anchor x="150" y="0" name="vattu"/>
+  <outline>
+    <contour>
+      <point x="-75" y="-201" type="qcurve"/>
+      <point x="-64" y="-193"/>
+      <point x="-57" y="-176" type="qcurve"/>
+      <point x="-51" y="-183"/>
+      <point x="-50" y="-194"/>
+      <point x="-53" y="-203"/>
+      <point x="-57" y="-212"/>
+      <point x="-57" y="-218" type="qcurve"/>
+      <point x="-98" y="-278"/>
+      <point x="-106" y="-325" type="qcurve"/>
+      <point x="-108" y="-343"/>
+      <point x="-97" y="-368"/>
+      <point x="-77" y="-383"/>
+      <point x="-50" y="-387"/>
+      <point x="-36" y="-384" type="qcurve"/>
+      <point x="7" y="-367"/>
+      <point x="23" y="-318" type="qcurve"/>
+      <point x="34" y="-280"/>
+      <point x="23" y="-232" type="qcurve"/>
+      <point x="27" y="-225" type="line"/>
+      <point x="37" y="-215" type="line" smooth="yes"/>
+      <point x="59" y="-193"/>
+      <point x="69" y="-173" type="qcurve"/>
+      <point x="80" y="-146"/>
+      <point x="75" y="-111" type="qcurve"/>
+      <point x="75" y="-97"/>
+      <point x="51" y="-80"/>
+      <point x="37" y="-83" type="qcurve"/>
+      <point x="2" y="-91"/>
+      <point x="9" y="-122" type="qcurve"/>
+      <point x="9" y="-139"/>
+      <point x="6" y="-146" type="qcurve"/>
+      <point x="-9" y="-121"/>
+      <point x="-40" y="-101" type="qcurve"/>
+      <point x="-82" y="-88"/>
+      <point x="-131" y="-122" type="qcurve"/>
+      <point x="-173" y="-152"/>
+      <point x="-173" y="-187" type="qcurve"/>
+      <point x="-165" y="-212"/>
+      <point x="-148" y="-222" type="qcurve"/>
+      <point x="-138" y="-225"/>
+      <point x="-117" y="-225" type="qcurve"/>
+      <point x="-114" y="-225"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0
+CALL[ ]	/* CallFunction */
+PUSHW[ ]	/* 3 values pushed */
+19 14 3
+CALL[ ]	/* CallFunction */
+NPUSHW[ ]	/* 5 values pushed */
+218 14 234 14 2
+DELTAP1[ ]	/* DeltaExceptionP1 */
+NPUSHW[ ]	/* 27 values pushed */
+9 14 25 14 41 14 57 14 73 14 89 14 105 14 121 14 137 14 153 14 169 14 185 14 201 14 13
+DELTAP1[ ]	/* DeltaExceptionP1 */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+      <key>public.openTypeCategories</key>
+      <string>mark</string>
+    </dict>
+  </lib>
+</glyph>

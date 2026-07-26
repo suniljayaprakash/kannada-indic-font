@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CC3.below.following" format="2">
+  <advance width="355"/>
+  <note>
+uni0CC3.below.following
+</note>
+  <anchor x="7" y="0" name="_vattu"/>
+  <anchor x="356" y="0" name="vattu"/>
+  <outline>
+    <component base="uni0CC3" xScale="0.8" yScale="0.8" xOffset="228" yOffset="-230"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-06-02 20:12:23 +0000</string>
+    </dict>
+  </lib>
+</glyph>

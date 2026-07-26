@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0C960CCD" format="2">
+  <advance width="1048"/>
+  <note>
+kh-kannada
+</note>
+  <anchor x="918" y="0" name="aiMatra"/>
+  <anchor x="1052" y="650" name="exponent"/>
+  <anchor x="534" y="-21" name="lowervedictone"/>
+  <anchor x="534" y="878" name="uppervedictone"/>
+  <outline>
+    <component base="uni0C96.base" identifier="C5871A8D"/>
+    <component base="uni0CCD" xOffset="1044" yOffset="20" identifier="C1A6721A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-25 06:07:45 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>C1A6721A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>C5871A8D</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

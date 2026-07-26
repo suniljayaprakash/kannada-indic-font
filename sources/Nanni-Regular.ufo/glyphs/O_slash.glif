@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Oslash" format="2">
+  <advance width="1408"/>
+  <unicode hex="00D8"/>
+  <outline>
+    <contour>
+      <point x="1289" y="681" type="line" smooth="yes"/>
+      <point x="1289" y="467"/>
+      <point x="1145" y="148"/>
+      <point x="881" y="-20"/>
+      <point x="705" y="-20" type="qcurve" smooth="yes"/>
+      <point x="534" y="-20"/>
+      <point x="403" y="62" type="qcurve"/>
+      <point x="306" y="-93" type="line"/>
+      <point x="164" y="-93" type="line"/>
+      <point x="308" y="138" type="line"/>
+      <point x="118" y="330"/>
+      <point x="118" y="690" type="qcurve" smooth="yes"/>
+      <point x="118" y="773" type="line" smooth="yes"/>
+      <point x="118" y="983"/>
+      <point x="264" y="1305"/>
+      <point x="531" y="1476"/>
+      <point x="703" y="1476" type="qcurve" smooth="yes"/>
+      <point x="917" y="1476"/>
+      <point x="1065" y="1351" type="qcurve"/>
+      <point x="1168" y="1516" type="line"/>
+      <point x="1309" y="1516" type="line"/>
+      <point x="1150" y="1261" type="line"/>
+      <point x="1287" y="1074"/>
+      <point x="1289" y="780" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="309" y="681" type="line" smooth="yes"/>
+      <point x="309" y="437"/>
+      <point x="407" y="296" type="qcurve"/>
+      <point x="971" y="1200" type="line"/>
+      <point x="869" y="1311"/>
+      <point x="703" y="1311" type="qcurve" smooth="yes"/>
+      <point x="521" y="1311"/>
+      <point x="312" y="1034"/>
+      <point x="309" y="788" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1098" y="775" type="line" smooth="yes"/>
+      <point x="1098" y="957"/>
+      <point x="1042" y="1088" type="qcurve"/>
+      <point x="493" y="207" type="line"/>
+      <point x="584" y="143"/>
+      <point x="705" y="143" type="qcurve" smooth="yes"/>
+      <point x="891" y="143"/>
+      <point x="1095" y="414"/>
+      <point x="1098" y="667" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+</glyph>

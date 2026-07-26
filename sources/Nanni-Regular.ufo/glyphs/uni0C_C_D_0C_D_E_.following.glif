@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CCD0CDE.following" format="2">
+  <advance width="483"/>
+  <note>
+uni0CDE.below.following
+</note>
+  <anchor x="7" y="0" name="_vattu"/>
+  <anchor x="445" y="-662" name="aiMatra"/>
+  <anchor x="478" y="0" name="vattu"/>
+  <outline>
+    <component base="uni0CCD0CDE" xScale="0.8" yScale="0.8" xOffset="433" yOffset="-280"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2026-05-25 16:05:12 +0000</string>
+    </dict>
+  </lib>
+</glyph>

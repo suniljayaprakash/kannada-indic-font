@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CCD0CB9.following" format="2">
+  <advance width="380"/>
+  <note>
+uni0CB9.below.following
+</note>
+  <anchor x="-16" y="0" name="_vattu"/>
+  <anchor x="328" y="-791" name="aiMatra"/>
+  <anchor x="375" y="0" name="vattu"/>
+  <outline>
+    <component base="uni0CCD0CB9" xOffset="300" yOffset="-360" identifier="8372E073"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>8372E073</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
