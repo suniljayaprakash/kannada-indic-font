@@ -50,6 +50,10 @@ if "GDEF" in ttf_font and ttf_font["GDEF"].table and ttf_font["GDEF"].table.Glyp
         print(f"  Set TTF GDEF class for {gn} to 3 (Mark)")
 else:
     print("  Warning: GDEF table or GlyphClassDef not found in built TTF!")
+if "OS/2" in ttf_font:
+    ttf_font["OS/2"].fsSelection |= (1 << 7)
+    print("  Set OS/2.fsSelection bit 7 (USE_TYPO_METRICS) on TTF")
+
 ttf_font.save(ttf_path)
 
 print("3. GENERATING WOFF AND WOFF2...")
@@ -79,6 +83,11 @@ if "GDEF" in otf_font and otf_font["GDEF"].table and otf_font["GDEF"].table.Glyp
         print(f"  Set OTF GDEF class for {gn} to 3 (Mark)")
 else:
     print("  Warning: GDEF table or GlyphClassDef not found in built OTF!")
+
+if "OS/2" in otf_font:
+    otf_font["OS/2"].fsSelection |= (1 << 7)
+    print("  Set OS/2.fsSelection bit 7 (USE_TYPO_METRICS) on OTF")
+
 otf_font.save(otf_path)
 
 print("ALL FORMATS REBUILT SUCCESSFULLY!")

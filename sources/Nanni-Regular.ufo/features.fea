@@ -1,12 +1,15 @@
 @anchor_vattu = [ uni0CCD0C95 uni0CCD0C95.following uni0CCD0C96 uni0CCD0C96.following uni0CCD0C97 uni0CCD0C97.following uni0CCD0C98 uni0CCD0C98.following uni0CCD0C99 uni0CCD0C99.following uni0CCD0C9A uni0CCD0C9A.following uni0CCD0C9B uni0CCD0C9B.following uni0CCD0C9C uni0CCD0C9C.following uni0CCD0C9D uni0CCD0C9D.following uni0CCD0C9E uni0CCD0C9E.following uni0CCD0C9F uni0CCD0C9F.following uni0CCD0CA0 uni0CCD0CA0.following uni0CCD0CA1 uni0CCD0CA1.following uni0CCD0CA2 uni0CCD0CA2.following uni0CCD0CA3 uni0CCD0CA3.following uni0CCD0CA4 uni0CCD0CA4.following uni0CCD0CA5 uni0CCD0CA5.following uni0CCD0CA6 uni0CCD0CA6.following uni0CCD0CA7 uni0CCD0CA7.following uni0CCD0CA8 uni0CCD0CA8.following uni0CCD0CAA uni0CCD0CAA.following uni0CCD0CAB uni0CCD0CAB.following uni0CCD0CAC uni0CCD0CAC.following uni0CCD0CAD uni0CCD0CAD.following uni0CCD0CAE uni0CCD0CAE.following uni0CCD0CAF uni0CCD0CAF.following uni0CCD0CB0 uni0CCD0CB0.following uni0CCD0CB1 uni0CCD0CB1.following uni0CCD0CB2 uni0CCD0CB2.following uni0CCD0CB3 uni0CCD0CB3.following uni0CCD0CB5 uni0CCD0CB5.following uni0CCD0CB6 uni0CCD0CB6.following uni0CCD0CB7 uni0CCD0CB7.following uni0CCD0CB8 uni0CCD0CB8.following uni0CCD0CB9 uni0CCD0CB9.following uni0CCD0CDE uni0CCD0CDE.following uni0CC3.below.following uni0CD6.below.following uni0CC4.below.following uni0CE2 vocalicLLMatra_kannada.below.following uni0CE2.following ];
-
 @anchor_aiMatra = [ uni0CC3 uni0CC4 uni0CD6 ];
-
 @anchor_lowervedictone = [ uni0CBC uni0952 uni1CD5 uni1CD6 uni1CD7 uni1CD8 uni1CD9 uni1CDC uni1CDD uni1CDE uni1CDF ];
-
 @anchor_exponent = [ uni0CF3 ];
-
 @anchor_uppervedictone = [ uni0C81 uni0951 uni1CD0 uni1CD1 uni1CD2 uni1CD4 uni1CDA uni1CDB uni1CE0 uni1CF4 uni1CF8 uni1CF9 ];
+
+markClass @anchor_vattu <anchor 0 0> @mark_vattu;
+markClass @anchor_aiMatra <anchor 0 0> @mark_aiMatra;
+markClass @anchor_lowervedictone <anchor 0 0> @mark_lowervedictone;
+markClass @anchor_exponent <anchor 0 0> @mark_exponent;
+markClass @anchor_uppervedictone <anchor 0 0> @mark_uppervedictone;
+markClass [ acutedblnosp brevenosp circumflexnosp dieresisnosp dotnosp ringnosp macroncomb ] <anchor 0 0> @LATIN_TOP;
 
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
