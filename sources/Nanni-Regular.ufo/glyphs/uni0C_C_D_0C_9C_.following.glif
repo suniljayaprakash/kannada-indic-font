@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CCD0C9C.following" format="2">
+  <advance width="397"/>
+  <note>
+uni0C9C.below.following
+</note>
+  <anchor x="7" y="0" name="_vattu"/>
+  <anchor x="161" y="-651" name="aiMatra"/>
+  <anchor x="392" y="0" name="vattu"/>
+  <outline>
+    <component base="uni0CCD0C9C" xScale="0.8" yScale="0.8" xOffset="149" yOffset="-280"/>
+  </outline>
+</glyph>

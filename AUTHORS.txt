@@ -1,0 +1,4 @@
+# This is the list of people who have copyright ownership in this
+# Font Software. All contributors are listed in the CONTRIBUTORS.txt file.
+
+Sunil Jayaprakash <sunil.jayaprakash@gmail.com>

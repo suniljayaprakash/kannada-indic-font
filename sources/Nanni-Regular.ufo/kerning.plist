@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>uni0CB7</key>
+    <dict>
+      <key>uni0CCD0C9F</key>
+      <integer>-88</integer>
+    </dict>
+    <key>uni0CCD0C95</key>
+    <dict>
+      <key>uni0CC3</key>
+      <integer>338</integer>
+    </dict>
+    <key>uni0CCD0CA4</key>
+    <dict>
+      <key>uni0CC3</key>
+      <integer>308</integer>
+    </dict>
+    <key>uni0CCD0CAE</key>
+    <dict>
+      <key>uni0CC3</key>
+      <integer>201</integer>
+    </dict>
+    <key>uni0CCD0CAE.following</key>
+    <dict>
+      <key>uni0CC3</key>
+      <integer>227</integer>
+    </dict>
+    <key>uniE76A</key>
+    <dict>
+      <key>uni0CCD0C9F</key>
+      <integer>-277</integer>
+    </dict>
+  </dict>
+</plist>

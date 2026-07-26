@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni0CB00CCD_2kannada" format="2">
+  <advance width="968"/>
+  <note>
+ra_halant_2-kannada
+</note>
+  <anchor x="815" y="0" name="aiMatra"/>
+  <anchor x="949" y="650" name="exponent"/>
+  <anchor x="486" y="-11" name="lowervedictone"/>
+  <anchor x="486" y="878" name="uppervedictone"/>
+  <outline>
+    <component base="uni0CB00CCD"/>
+  </outline>
+</glyph>

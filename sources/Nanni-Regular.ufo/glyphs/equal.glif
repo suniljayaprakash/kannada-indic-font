@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="equal" format="2">
+  <advance width="586"/>
+  <unicode hex="003D"/>
+  <note>
+equal
+</note>
+  <outline>
+    <contour>
+      <point x="74" y="417" type="qcurve"/>
+      <point x="57" y="413"/>
+      <point x="40" y="383"/>
+      <point x="45" y="366" type="qcurve"/>
+      <point x="49" y="350"/>
+      <point x="79" y="332"/>
+      <point x="96" y="337" type="qcurve"/>
+      <point x="190" y="364"/>
+      <point x="263" y="370" type="qcurve"/>
+      <point x="358" y="378"/>
+      <point x="416" y="348" type="qcurve"/>
+      <point x="431" y="340"/>
+      <point x="464" y="351"/>
+      <point x="471" y="367" type="qcurve"/>
+      <point x="479" y="382"/>
+      <point x="468" y="414"/>
+      <point x="453" y="422" type="qcurve"/>
+      <point x="377" y="461"/>
+      <point x="257" y="453" type="qcurve"/>
+      <point x="176" y="446"/>
+    </contour>
+    <contour>
+      <point x="114" y="150" type="qcurve"/>
+      <point x="97" y="146"/>
+      <point x="78" y="117"/>
+      <point x="82" y="100" type="qcurve"/>
+      <point x="86" y="84"/>
+      <point x="114" y="65"/>
+      <point x="131" y="68" type="qcurve"/>
+      <point x="185" y="79"/>
+      <point x="271" y="95"/>
+      <point x="304" y="100" type="qcurve"/>
+      <point x="351" y="107"/>
+      <point x="436" y="114"/>
+      <point x="475" y="114" type="qcurve"/>
+      <point x="495" y="114"/>
+      <point x="516" y="140"/>
+      <point x="516" y="171"/>
+      <point x="495" y="197"/>
+      <point x="475" y="197" type="qcurve"/>
+      <point x="433" y="197"/>
+      <point x="343" y="190"/>
+      <point x="292" y="183" type="qcurve"/>
+      <point x="257" y="178"/>
+      <point x="168" y="161"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>assembly</key>
+      <string>PUSHW[ ]	/* 1 value pushed */
+0
+CALL[ ]	/* CallFunction */
+SVTCA[0]	/* SetFreedomAndProjectionVectorToAxis */
+PUSHW[ ]	/* 3 values pushed */
+26 31 3
+CALL[ ]	/* CallFunction */
+IUP[0]	/* InterpolateUntPts */
+IUP[1]	/* InterpolateUntPts */</string>
+    </dict>
+  </lib>
+</glyph>

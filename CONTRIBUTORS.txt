@@ -1,0 +1,5 @@
+# This is the list of people who have contributed to this Font Software.
+# For copyright ownership, see the AUTHORS.txt file.
+
+Sunil Jayaprakash <sunil.jayaprakash@gmail.com>
+Arun C K <https://type.arunck.com/>
