@@ -1,4 +1,26 @@
+# OS files
 .DS_Store
-reports/
+Thumbs.db
+.DS_Store?
+*~
+
+# Python Virtual Environment
 .venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Temporary scripts & reports
+fontbakery-report*.txt
+parse_fails_*.py
+*temp*
+reports/
+
+# Font build directories
+build/
+dist/
 

@@ -11,9 +11,6 @@ markClass @anchor_exponent <anchor 0 0> @mark_exponent;
 markClass @anchor_uppervedictone <anchor 0 0> @mark_uppervedictone;
 markClass [ acutedblnosp brevenosp circumflexnosp dieresisnosp dotnosp ringnosp macroncomb ] <anchor 0 0> @LATIN_TOP;
 
-
-
-
 # Prefix: Languagesystems
 languagesystem DFLT dflt;
 languagesystem knd2 dflt;

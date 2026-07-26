@@ -50,7 +50,6 @@ if "GDEF" in ttf_font and ttf_font["GDEF"].table and ttf_font["GDEF"].table.Glyp
         print(f"  Set TTF GDEF class for {gn} to 3 (Mark)")
 else:
     print("  Warning: GDEF table or GlyphClassDef not found in built TTF!")
-
 if "OS/2" in ttf_font:
     ttf_font["OS/2"].fsSelection |= (1 << 7)
     print("  Set OS/2.fsSelection bit 7 (USE_TYPO_METRICS) on TTF")
